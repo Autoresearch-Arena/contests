@@ -129,6 +129,85 @@
       "note": null
     },
     {
+      "slug": "credit-card-fraud",
+      "title": "Predicting Credit Card Fraud",
+      "state": "live",
+      "source": "fresh",
+      "page": "credit-card-fraud/",
+      "status": {
+        "schema": "contest-status/1",
+        "contest": "credit-card-fraud",
+        "title": "Predicting Credit Card Fraud",
+        "state": "live",
+        "updated": "2026-11-12",
+        "headline": "We are in the top few hundred of about a thousand teams on the public board and our best entry scores about as well as the leaders. We are widening the set of models we blend and have until the end of November to send final entries.",
+        "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
+        "deadline": "2026-11-30",
+        "board": {
+          "rank": 219,
+          "of": 960,
+          "best_score": 0.95267,
+          "metric": "AUC (area under the ROC curve)",
+          "higher_is_better": true,
+          "observed": "2026-11-07",
+          "note": "The place was read on 7 November before our later entries; the best score is from our ninth entry the same day, so today's place is likely better than the one shown."
+        },
+        "entries": {
+          "used_today": null,
+          "daily_limit": 10,
+          "total": 9,
+          "observed": "2026-11-07",
+          "note": "Count is the entries logged in the ledger on main as of 7 November; entries used today are not recorded there. The daily limit of ten is from the contest rules page read on 1 November."
+        },
+        "running": [],
+        "next": [
+          "Run the full-recipe language-model member on one fold of rented cards to see if it adds to the blend.",
+          "Keep scouting public notebooks and prediction banks and blend in any that check out on our own validation split."
+        ]
+      },
+      "note": null
+    },
+    {
+      "slug": "gemma-4-developer-agent",
+      "title": "Gemma 4 Developer Agent",
+      "state": "live",
+      "source": "fresh",
+      "page": "gemma-4-developer-agent/",
+      "status": {
+        "schema": "contest-status/1",
+        "contest": "gemma-4-developer-agent",
+        "title": "Gemma 4 Developer Agent",
+        "state": "live",
+        "updated": "2026-11-12",
+        "headline": "Our best public score is 0.18, about 0.11 behind the leader at last count. We are training a small Gemma model with reinforcement learning on fresh tasks, and two entries are still waiting for their scores.",
+        "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
+        "deadline": "2026-12-02",
+        "board": {
+          "rank": null,
+          "of": null,
+          "best_score": 0.18,
+          "metric": "Public score (share of issues fixed)",
+          "higher_is_better": true,
+          "observed": "2026-11-04",
+          "note": "Rank is not recorded anywhere in the repo; the best score is from the 4 November ledger snapshot (leader then 0.29)."
+        },
+        "entries": {
+          "used_today": null,
+          "daily_limit": 1,
+          "total": 13,
+          "observed": "2026-11-09",
+          "note": "Entries sent today not recorded; the limit is one per day (AGENTS.md, 4 November). Total is the ledger count; two entries were still pending."
+        },
+        "running": [],
+        "next": [
+          "Read the scores of the two entries still pending",
+          "Evaluate the finished reinforcement-learning run on the golden task set",
+          "Entry and merger deadline is 25 November; final submission 2 December"
+        ]
+      },
+      "note": null
+    },
+    {
       "slug": "rsna-knee",
       "title": "RSNA knee abnormality detection",
       "state": "closed",
