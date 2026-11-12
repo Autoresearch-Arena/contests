@@ -1,6 +1,42 @@
 {
  "days": [
   {
+   "date": "2026-11-12",
+   "headline": "Best unchanged; the field moved ahead. Costs remain cached, not a fresh bill.",
+   "items": [
+    {
+     "tried": "Checked the public leaderboard.",
+     "outcome": "Best 0.682; rank 614 of 5,669 at 16:30 EST. Leader 0.769.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/board/2026-11-12.json"
+    },
+    {
+     "tried": "Reviewed the completed three-pass Qwen experiment.",
+     "outcome": "Standalone 0.609 versus one-pass 0.621; no new board improvement saved.",
+     "verdict": "lost",
+     "evidence": "research/comparison-2026-11-03/full-pool-e3-standalone-folds-20261111.json"
+    },
+    {
+     "tried": "Reconciled selected rental charges by exact project instance.",
+     "outcome": "Cached $19.499: Qwen 11 Nov 08:58 EST; GLM 10 Nov 14:25 EST. Later charges unknown.",
+     "verdict": "built",
+     "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+    },
+    {
+     "tried": "Checked new forum metadata and two changed threads.",
+     "outcome": "Two title-only questions; three thread reads deferred. Notebook listing cached 11 Nov 20:32 EST.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/community/2026-11-12.json"
+    },
+    {
+     "tried": "Checked local process state.",
+     "outcome": "Expansion watcher and file sync observed; remote training unverified. No research started.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-12-scorecard.md"
+    }
+   ]
+  },
+  {
    "date": "2026-11-11",
    "headline": "The three-pass Qwen model finished and was picked for the next Kaggle test run. The public 0.684 recipe is confirmed real. The style and GPT-correction ideas added nothing.",
    "items": [

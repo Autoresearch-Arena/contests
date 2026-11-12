@@ -1,13 +1,13 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "11 November 2026",
-  "snapshot_utc": "2026-11-11T23:01:50.927705+00:00",
+  "date": "12 November 2026",
+  "snapshot_utc": "2026-11-12T21:32:12.400857+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
     "qwen_cap_usd": 24,
     "glm_cap_usd": 10,
-    "unbilled": "Saved Qwen posted charges: 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Provider settlement and later GLM charges unknown.",
+    "unbilled": "Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt.",
     "items": [
       {
         "title": "Qwen one-pass model",
@@ -49,14 +49,15 @@
       "cap_usd": 18,
       "evidence": "reports/2026-10-30-router-expansion.md",
       "note": "Separate historical API project; not included in the rental subtotal. Earlier pilot, local electricity, subscriptions, free Kaggle quota and other older rentals are not reconciled here."
-    }
+    },
+    "observed_date": "2026-11-10"
   },
   "leaderboard": {
     "score": 0.682,
-    "rank": 334,
-    "teams": null,
-    "leader": 0.765,
-    "asof": "11 Nov 12:07 EST",
+    "rank": 614,
+    "teams": 5669,
+    "leader": 0.769,
+    "asof": "12 Nov 16:30 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,7 +106,7 @@
       }
     ],
     "pending": "Saved 11 Nov 03:00 EST receipts: 0.683-title control scored 0.679; full-pool Qwen 0.675, down 0.004 versus matched control. Best unchanged 0.682. Three-pass and newer CPU proxies are not board scores.",
-    "asof_short": "11 Nov 06:25 EST"
+    "asof_short": "12 Nov 16:30 EST"
   },
   "results": [
     {
@@ -211,8 +212,9 @@
     "New saved receipts reviewed 11 Nov: Qwen campaign $18.961 posted by instance, replacing (not adding to) prior $8.047 campaign snapshot; separate GLM $0.538 cached 10 Nov. Selected rental subtotal $19.499; Qwen cap $24, GLM cap $10. Not all-time spend or settled invoice.",
     "Creative wave two summary adds $2.727149 usage-or-reserve to wave one $6.226423, combined $8.953572 under $10 cap. New itemized actual/reserve split was not reconciled; preserve wave-one actual $6.051409 and reserve $0.175014 as cached 10 Nov, not a new total.",
     "Padding-dependent creative results superseded: corrected joint specialists gained 0.001111 on older reference; validation only, not a leaderboard gain.",
-    "Source gap: fresh provider billing and remote process state not queried. Local process list checked at review; no relevant local research process matched. Saved shutdown evidence is dated, not a fresh provider query. No Kaggle or paid calls.",
-    "Current status and submission ledger lag newer original receipts: best remains 0.682, board rank and completed three-pass model use the dated receipts linked here."
+    "Current status and submission ledger lag newer original receipts: best remains 0.682, board rank and completed three-pass model use the dated receipts linked here.",
+    "12 Nov review: local expansion watcher and rsync observed at 16:30 EST; this verifies monitoring only, not remote training. Remote process state and current provider billing were not queried.",
+    "12 Nov community coverage: newest-topic listing and two title-only threads read; three changed threads deferred. Public notebook listing remains cached 11 Nov 20:32 EST. Four Kaggle read requests total; no retries, experiments or paid calls."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -222,14 +224,14 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "research/comparison-2026-11-03/public-0684-second-scored-reproduction-20261111.json",
+    "board": "reports/scorecard/board/2026-11-12.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "We trail the leader by 0.083 on the public board. The public recipe run as it comes is still our best score, and every one of our own additions to it so far scored lower.",
+  "status_line": "Best unchanged at 0.682; rank 614 of 5,669 at 16:30 EST. Leader 0.769. No new scored improvement.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
-  "spending_line": "Spend figures are posted charges",
+  "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
     {
       "date": "2026-11-11",

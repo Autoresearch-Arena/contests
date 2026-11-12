@@ -103,12 +103,12 @@
  ],
  "headline": {
   "best": 0.682,
-  "rank": 334,
-  "teams": null,
-  "leader": 0.765,
-  "leader_name": "James Liebel",
-  "as_of": "2026-11-11 12:07 EST",
-  "source": "research/comparison-2026-11-03/public-titan-score-audit-20261111.json",
+  "rank": 614,
+  "teams": 5669,
+  "leader": 0.769,
+  "leader_name": "NguyenThanhNhan",
+  "as_of": "2026-11-12 16:30 EST",
+  "source": "reports/scorecard/board/2026-11-12.json",
   "best_evidence": "reports/2026-11-10-scored-0682-control.md"
  }
 }

@@ -1,0 +1,114 @@
+{
+ "entries": [
+  {
+   "id": "58217579",
+   "date": "2026-11-10 19:00 EST",
+   "label": "Full-pool Qwen added to the 0.683 recipe",
+   "what": "The public 0.683 recipe with our new full-pool Qwen model mixed in at ten percent. It lost to the same recipe without it.",
+   "score": 0.675,
+   "vs_control": -0.004,
+   "evidence": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json"
+  },
+  {
+   "id": "58217555",
+   "date": "2026-11-10 19:00 EST",
+   "label": "Public 0.683 recipe, control",
+   "what": "The public 0.683 recipe run unchanged on our account. The author reported 0.683 and we got 0.679, 0.003 under our best.",
+   "score": 0.679,
+   "evidence": "research/comparison-2026-11-03/submission-58217555-scored-20261111.json"
+  },
+  {
+   "id": "58200564",
+   "date": "2026-11-10 07:21 EST",
+   "label": "Tokenizer and byte models on the 0.682 recipe",
+   "what": "The public 0.682 recipe with ten percent tokenizer models and twenty percent raw-byte models mixed in. It lost.",
+   "score": 0.669,
+   "vs_control": -0.013,
+   "evidence": "research/comparison-2026-11-03/submission-58200564-result-20261110.json"
+  },
+  {
+   "id": "58197287",
+   "date": "2026-11-10 05:35 EST",
+   "label": "Public 0.682 recipe, control (our best)",
+   "what": "The public 0.682 recipe run unchanged on our account. It matched the author's score and is our best entry.",
+   "score": 0.682,
+   "evidence": "reports/2026-11-10-scored-0682-control.md"
+  },
+  {
+   "id": "58194318",
+   "date": "2026-11-10 03:54 EST",
+   "label": "Earlier Qwen added to the 0.682 recipe",
+   "what": "The public 0.682 recipe with ten percent of our earlier Qwen3-8B model mixed in. It lost.",
+   "score": 0.678,
+   "vs_control": -0.004,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58192462",
+   "date": "2026-11-10 02:58 EST",
+   "label": "Tokenizer model added to the 0.682 recipe",
+   "what": "The public 0.682 recipe with ten percent of our tokenizer model mixed in. It lost.",
+   "score": 0.675,
+   "vs_control": -0.007,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58185216",
+   "date": "2026-11-09 22:51 EST",
+   "label": "Public 0.681 ensemble run",
+   "what": "A full run of the public 0.681 ensemble on our account. It beat our old best of 0.651 by 0.030.",
+   "score": 0.681,
+   "evidence": "reports/2026-11-10-scored-0681-reproduction.md"
+  },
+  {
+   "id": "57828218",
+   "date": "2026-10-31 01:47 EDT",
+   "label": "Our own Qwen model alone",
+   "what": "Our own trained Qwen3-8B model submitted by itself to test the pipeline end to end. It scored 0.585, close to its 0.588 local score and well below the public ensemble.",
+   "score": 0.585,
+   "evidence": "reports/2026-10-31-own-scored.json"
+  },
+  {
+   "id": "57707993",
+   "date": "2026-10-27 12:58 EDT",
+   "label": "First public neural ensemble",
+   "what": "The public neural ensemble, the 0.651 recipe, run in full on our account. Our first strong board score.",
+   "score": 0.651,
+   "evidence": "reports/2026-10-29-live-review.json"
+  },
+  {
+   "id": "57702972",
+   "date": "2026-10-27 09:47 EDT",
+   "label": "Our own CPU classifier",
+   "what": "Our own character, word and style classifier, trained on the official labels, to prove an entry of ours runs on the hidden test.",
+   "score": 0.348,
+   "evidence": "reports/2026-10-27-scored-cpu.json"
+  },
+  {
+   "id": "57663783",
+   "date": "2026-10-26 06:59 EDT",
+   "label": "Public baseline, second try",
+   "what": "A second try at the public 0.651 notebook, still with our extra wrapper code. It crashed on the hidden test and earned no score.",
+   "score": null,
+   "evidence": "reports/2026-10-26-submissions.json"
+  },
+  {
+   "id": "57653024",
+   "date": "2026-10-26 00:07 EDT",
+   "label": "Public baseline, first try",
+   "what": "The first try at the public 0.651 notebook, with our extra wrapper code. It crashed on the hidden test and earned no score.",
+   "score": null,
+   "evidence": "reports/2026-10-26-submissions.json"
+  }
+ ],
+ "headline": {
+  "best": 0.682,
+  "rank": 614,
+  "teams": 5669,
+  "leader": 0.769,
+  "leader_name": "NguyenThanhNhan",
+  "as_of": "2026-11-12 16:30 EST",
+  "source": "reports/scorecard/board/2026-11-12.json",
+  "best_evidence": "reports/2026-11-10-scored-0682-control.md"
+ }
+}

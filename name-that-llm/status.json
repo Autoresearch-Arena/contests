@@ -4,31 +4,31 @@
   "title": "Name That LLM",
   "state": "live",
   "updated": "2026-11-12",
-  "headline": "We trail the leader by 0.083 on the public board. The public recipe run as it comes is still our best score, and every one of our own additions to it so far scored lower.",
+  "headline": "Best unchanged at 0.682; rank 614 of 5,669 at 16:30 EST. Leader 0.769. No new scored improvement.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 437,
-    "of": 5558,
+    "rank": 614,
+    "of": 5669,
     "best_score": 0.682,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-11"
+    "observed": "2026-11-12"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 9,
-    "observed": "2026-11-10",
+    "total": 12,
+    "observed": "2026-11-12",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
-    "spent": 25.549,
+    "spent": 19.499,
     "approved_cap": null,
     "currency": "USD",
     "kind": "provisional",
-    "observed": "2026-11-11",
-    "note": "posted charges of the three tracked campaigns (Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative data cap 6.05 of 10); some billing is cached, so this is provisional; each campaign has its own cap"
+    "observed": "2026-11-10",
+    "note": "Selected rental subtotal only; Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative data cap 6.05 of 10. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
   },
   "running": [],
   "next": [
