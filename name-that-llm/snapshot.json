@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
   "date": "12 November 2026",
-  "snapshot_utc": "2026-11-12T21:32:12.400857+00:00",
+  "snapshot_utc": "2026-11-12T23:01:29.465155+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -213,8 +213,8 @@
     "Creative wave two summary adds $2.727149 usage-or-reserve to wave one $6.226423, combined $8.953572 under $10 cap. New itemized actual/reserve split was not reconciled; preserve wave-one actual $6.051409 and reserve $0.175014 as cached 10 Nov, not a new total.",
     "Padding-dependent creative results superseded: corrected joint specialists gained 0.001111 on older reference; validation only, not a leaderboard gain.",
     "Current status and submission ledger lag newer original receipts: best remains 0.682, board rank and completed three-pass model use the dated receipts linked here.",
-    "12 Nov review: local expansion watcher and rsync observed at 16:30 EST; this verifies monitoring only, not remote training. Remote process state and current provider billing were not queried.",
-    "12 Nov community coverage: newest-topic listing and two title-only threads read; three changed threads deferred. Public notebook listing remains cached 11 Nov 20:32 EST. Four Kaggle read requests total; no retries, experiments or paid calls."
+    "12 Nov community coverage: newest-topic listing and two title-only threads read; three changed threads deferred. Public notebook listing remains cached 11 Nov 20:32 EST. Four Kaggle read requests total; no retries, experiments or paid calls.",
+    "12 Nov scheduled review at 18:01 EST: no matching local expansion watcher or research rsync process observed in the process list; remote training state and current provider billing unverified. Earlier board and community reads retained; no new Kaggle requests."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -311,8 +311,8 @@
       "cap": 10
     },
     {
-      "name": "Creative data cap",
-      "used": 6.05,
+      "name": "Creative usage + reserve exposure",
+      "used": 8.953572,
       "cap": 10
     }
   ]

@@ -28,7 +28,7 @@
     "currency": "USD",
     "kind": "provisional",
     "observed": "2026-11-10",
-    "note": "Selected rental subtotal only; Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative data cap 6.05 of 10. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
+    "note": "Selected rental subtotal only; Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative usage + reserve exposure 8.953572 of 10. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
   },
   "running": [],
   "next": [

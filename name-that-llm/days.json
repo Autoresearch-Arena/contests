@@ -30,7 +30,7 @@
     },
     {
      "tried": "Checked local process state.",
-     "outcome": "Expansion watcher and file sync observed; remote training unverified. No research started.",
+     "outcome": "18:01 EST: no local watcher or research file sync found; remote training unverified. No jobs started.",
      "verdict": "built",
      "evidence": "reports/2026-11-12-scorecard.md"
     }
