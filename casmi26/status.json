@@ -1,0 +1,31 @@
+{
+  "schema": "contest-status/1",
+  "contest": "casmi26",
+  "title": "CASMI 2026: Molecule ID From Mass Spectra",
+  "state": "live",
+  "updated": "2026-11-12",
+  "headline": "We are in the middle of the pack: about 600th of over five thousand teams, level with hundreds of others who run the same public method. We are now working out where that method's first answers go wrong, so we can pull clear of the tie.",
+  "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
+  "deadline": "2026-12-14",
+  "board": {
+    "rank": 597,
+    "of": 5189,
+    "best_score": 0.487,
+    "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
+    "higher_is_better": true,
+    "observed": "2026-11-12"
+  },
+  "entries": {
+    "used_today": null,
+    "daily_limit": 5,
+    "total": 55,
+    "observed": "2026-11-12",
+    "note": "total is the submission count on the board read of 12 November; how many were sent today is not recorded in the repository"
+  },
+  "running": [],
+  "next": [
+    "Measure the hidden test set with two controlled copies of the best public notebook",
+    "Build one fair held-out test so we can judge ideas without the board",
+    "Try a stricter rule for the first answer on molecules with no library match"
+  ]
+}

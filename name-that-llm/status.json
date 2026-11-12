@@ -1,0 +1,39 @@
+{
+  "schema": "contest-status/1",
+  "contest": "name-that-llm",
+  "title": "Name That LLM",
+  "state": "live",
+  "updated": "2026-11-12",
+  "headline": "We trail the leader by 0.083 on the public board. The public recipe run as it comes is still our best score, and every one of our own additions to it so far scored lower.",
+  "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
+  "deadline": "2027-01-13",
+  "board": {
+    "rank": 437,
+    "of": 5558,
+    "best_score": 0.682,
+    "metric": "balanced accuracy",
+    "higher_is_better": true,
+    "observed": "2026-11-11"
+  },
+  "entries": {
+    "used_today": null,
+    "daily_limit": null,
+    "total": 9,
+    "observed": "2026-11-10",
+    "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
+  },
+  "spend": {
+    "spent": 25.549,
+    "approved_cap": null,
+    "currency": "USD",
+    "kind": "provisional",
+    "observed": "2026-11-11",
+    "note": "posted charges of the three tracked campaigns (Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative data cap 6.05 of 10); some billing is cached, so this is provisional; each campaign has its own cap"
+  },
+  "running": [],
+  "next": [
+    "Submit the three-pass Qwen on top of the public 0.684 recipe, against the plain recipe.",
+    "Train our own Mistral model, the strongest different-model idea so far.",
+    "Build our own pruned GLM and fine-tune it (paused for now)."
+  ]
+}

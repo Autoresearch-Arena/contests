@@ -1,0 +1,159 @@
+{
+  "schema": "contest-feed/1",
+  "built": "2026-11-12",
+  "contests": [
+    {
+      "slug": "name-that-llm",
+      "title": "Name That LLM",
+      "state": "live",
+      "source": "fresh",
+      "page": "name-that-llm/",
+      "status": {
+        "schema": "contest-status/1",
+        "contest": "name-that-llm",
+        "title": "Name That LLM",
+        "state": "live",
+        "updated": "2026-11-12",
+        "headline": "We trail the leader by 0.083 on the public board. The public recipe run as it comes is still our best score, and every one of our own additions to it so far scored lower.",
+        "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
+        "deadline": "2027-01-13",
+        "board": {
+          "rank": 437,
+          "of": 5558,
+          "best_score": 0.682,
+          "metric": "balanced accuracy",
+          "higher_is_better": true,
+          "observed": "2026-11-11"
+        },
+        "entries": {
+          "used_today": null,
+          "daily_limit": null,
+          "total": 9,
+          "observed": "2026-11-10",
+          "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
+        },
+        "spend": {
+          "spent": 25.549,
+          "approved_cap": null,
+          "currency": "USD",
+          "kind": "provisional",
+          "observed": "2026-11-11",
+          "note": "posted charges of the three tracked campaigns (Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative data cap 6.05 of 10); some billing is cached, so this is provisional; each campaign has its own cap"
+        },
+        "running": [],
+        "next": [
+          "Submit the three-pass Qwen on top of the public 0.684 recipe, against the plain recipe.",
+          "Train our own Mistral model, the strongest different-model idea so far.",
+          "Build our own pruned GLM and fine-tune it (paused for now)."
+        ]
+      },
+      "note": null
+    },
+    {
+      "slug": "casmi26",
+      "title": "CASMI 2026: Molecule ID From Mass Spectra",
+      "state": "live",
+      "source": "fresh",
+      "page": "casmi26/",
+      "status": {
+        "schema": "contest-status/1",
+        "contest": "casmi26",
+        "title": "CASMI 2026: Molecule ID From Mass Spectra",
+        "state": "live",
+        "updated": "2026-11-12",
+        "headline": "We are in the middle of the pack: about 600th of over five thousand teams, level with hundreds of others who run the same public method. We are now working out where that method's first answers go wrong, so we can pull clear of the tie.",
+        "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
+        "deadline": "2026-12-14",
+        "board": {
+          "rank": 597,
+          "of": 5189,
+          "best_score": 0.487,
+          "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
+          "higher_is_better": true,
+          "observed": "2026-11-12"
+        },
+        "entries": {
+          "used_today": null,
+          "daily_limit": 5,
+          "total": 55,
+          "observed": "2026-11-12",
+          "note": "total is the submission count on the board read of 12 November; how many were sent today is not recorded in the repository"
+        },
+        "running": [],
+        "next": [
+          "Measure the hidden test set with two controlled copies of the best public notebook",
+          "Build one fair held-out test so we can judge ideas without the board",
+          "Try a stricter rule for the first answer on molecules with no library match"
+        ]
+      },
+      "note": null
+    },
+    {
+      "slug": "quantum-circuits",
+      "title": "Google Quantum AI: Verifiable Quantum Circuit Compilation",
+      "state": "live",
+      "source": "fresh",
+      "page": "quantum-circuits/",
+      "status": {
+        "schema": "contest-status/1",
+        "contest": "quantum-circuits",
+        "title": "Google Quantum AI: Verifiable Quantum Circuit Compilation",
+        "state": "live",
+        "updated": "2026-11-12",
+        "headline": "We are building the cheapest quantum circuits we can for three tasks, and our best graded entry so far scored 24.77234 on 5 November. We are now checking public ideas for further savings and have not sent a newer entry since.",
+        "kaggle_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation",
+        "deadline": "2027-01-20",
+        "board": {
+          "rank": null,
+          "of": null,
+          "best_score": 24.77234,
+          "metric": "Public score (higher means cheaper circuits)",
+          "higher_is_better": true,
+          "observed": "2026-11-05",
+          "note": "Score is Kaggle's graded result for our 5 November entry. No board place has been read since 24 October, when we were 56th of 723 teams at a score of 8.87, so the current place is not known."
+        },
+        "entries": {
+          "used_today": 3,
+          "daily_limit": 5,
+          "total": 42,
+          "observed": "2026-11-05",
+          "note": "Counts read from Kaggle just before our 5 November entry (2 used that day, 41 in all, 3 still allowed) plus that one entry. Nothing newer is recorded."
+        },
+        "running": [],
+        "next": [
+          "Keep reading the public discussions and notebooks for cheaper circuit ideas.",
+          "Test any promising idea against the contest's own checking programs before sending it.",
+          "Close the open safety checks on our best entry before choosing the two final entries."
+        ]
+      },
+      "note": null
+    },
+    {
+      "slug": "rsna-knee",
+      "title": "RSNA knee abnormality detection",
+      "state": "closed",
+      "source": "none",
+      "page": "https://arena.sonpham.net/data/rsna_knee",
+      "status": null,
+      "note": "Closed. Final submissions were due 22 October 2026. Work was done in the arena repository, not an organisation repository."
+    },
+    {
+      "slug": "rogii",
+      "title": "ROGII wellbore geology prediction",
+      "state": "closed",
+      "source": "none",
+      "page": "https://arena.sonpham.net/data/rogii",
+      "status": null,
+      "note": "Closed. Final submissions were due around 5 August 2026. Work was done in the arena repository."
+    },
+    {
+      "slug": "birdclef-2026",
+      "title": "BirdCLEF 2026",
+      "state": "closed",
+      "source": "none",
+      "page": "https://arena.sonpham.net/data/birdclef",
+      "status": null,
+      "note": "Closed. This contest normally ends in June; the exact date was not recorded."
+    }
+  ]
+}

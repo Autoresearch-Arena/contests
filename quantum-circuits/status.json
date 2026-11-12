@@ -1,0 +1,32 @@
+{
+  "schema": "contest-status/1",
+  "contest": "quantum-circuits",
+  "title": "Google Quantum AI: Verifiable Quantum Circuit Compilation",
+  "state": "live",
+  "updated": "2026-11-12",
+  "headline": "We are building the cheapest quantum circuits we can for three tasks, and our best graded entry so far scored 24.77234 on 5 November. We are now checking public ideas for further savings and have not sent a newer entry since.",
+  "kaggle_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation",
+  "deadline": "2027-01-20",
+  "board": {
+    "rank": null,
+    "of": null,
+    "best_score": 24.77234,
+    "metric": "Public score (higher means cheaper circuits)",
+    "higher_is_better": true,
+    "observed": "2026-11-05",
+    "note": "Score is Kaggle's graded result for our 5 November entry. No board place has been read since 24 October, when we were 56th of 723 teams at a score of 8.87, so the current place is not known."
+  },
+  "entries": {
+    "used_today": 3,
+    "daily_limit": 5,
+    "total": 42,
+    "observed": "2026-11-05",
+    "note": "Counts read from Kaggle just before our 5 November entry (2 used that day, 41 in all, 3 still allowed) plus that one entry. Nothing newer is recorded."
+  },
+  "running": [],
+  "next": [
+    "Keep reading the public discussions and notebooks for cheaper circuit ideas.",
+    "Test any promising idea against the contest's own checking programs before sending it.",
+    "Close the open safety checks on our best entry before choosing the two final entries."
+  ]
+}

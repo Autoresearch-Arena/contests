@@ -1,0 +1,188 @@
+{
+  "title": "The research notebook, at a glance",
+  "date": "10 November 2026",
+  "snapshot_utc": "2026-11-10T20:37:54.099322+00:00",
+  "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
+  "spending": {
+    "observed_rental_usd": 8.585,
+    "qwen_cap_usd": 24,
+    "glm_cap_usd": 10,
+    "unbilled": "Active Qwen charges after 14:05 EST are not included. Provider settlement remains open.",
+    "items": [
+      {
+        "title": "Qwen one-pass model",
+        "usd": 4.856,
+        "group": "Qwen",
+        "asof": "14:05 EST",
+        "status": "Completed; provisional invoice rows",
+        "evidence": "reports/scorecard/qwen-charges.json"
+      },
+      {
+        "title": "Qwen failed hosts",
+        "usd": 0.899,
+        "group": "Qwen",
+        "asof": "14:05 EST",
+        "status": "Two failures included, not added again",
+        "evidence": "reports/scorecard/qwen-charges.json"
+      },
+      {
+        "title": "Qwen three-pass run",
+        "usd": 2.292,
+        "group": "Qwen",
+        "asof": "14:05 EST",
+        "status": "Accumulating; unbilled remainder unknown",
+        "evidence": "reports/scorecard/qwen-charges.json"
+      },
+      {
+        "title": "GLM CUDA pilot",
+        "usd": 0.538,
+        "group": "GLM",
+        "asof": "14:25 EST",
+        "status": "Four attempts; rentals destroyed; provisional",
+        "evidence": "reports/glm-gpu/pilot-charges.json"
+      }
+    ],
+    "historical_api": {
+      "title": "30 October: 6,000 generated passages",
+      "usage_usd": 6.9033435075,
+      "reserve_usd": 0.19628235,
+      "cap_usd": 18,
+      "evidence": "reports/2026-10-30-router-expansion.md",
+      "note": "Separate historical API project; not included in the rental subtotal. Earlier pilot, local electricity, subscriptions, free Kaggle quota and other older rentals are not reconciled here."
+    }
+  },
+  "leaderboard": {
+    "score": 0.682,
+    "rank": 185,
+    "teams": 5391,
+    "leader": 0.765,
+    "asof": "15:32 EST / 20:32 UTC",
+    "history": [
+      {
+        "label": "Previous public ensemble",
+        "score": 0.651,
+        "date": "27 Oct",
+        "evidence": "reports/2026-10-29-live-review.json"
+      },
+      {
+        "label": "Public reproduction",
+        "score": 0.681,
+        "date": "10 Nov",
+        "evidence": "reports/2026-11-10-scored-0681-reproduction.md"
+      },
+      {
+        "label": "Matched public-only control",
+        "score": 0.682,
+        "date": "10 Nov",
+        "evidence": "reports/2026-11-10-scored-0682-control.md"
+      }
+    ],
+    "comparisons": [
+      {
+        "label": "+10% old Qwen",
+        "score": 0.678,
+        "delta": -0.004
+      },
+      {
+        "label": "+10% tokenizer",
+        "score": 0.675,
+        "delta": -0.007
+      }
+    ],
+    "pending": "Token + byte entry pending at last receipt. Public 0.683 control and new full-pool blend passed visible offline T4 execution; neither has our hidden score.",
+    "asof_short": "15:32 EST"
+  },
+  "results": [
+    {
+      "title": "Full-pool Qwen",
+      "kind": "validation",
+      "value": "+3.37 pp",
+      "delta": 0.033714,
+      "baseline": 0.587169,
+      "score": 0.620882,
+      "detail": "Standalone: five prompt folds, one seed. Trainer and exposure changed together.",
+      "evidence": "reports/2026-11-10-full-pool-onepass-folds.md",
+      "brief": "Own model \u00b7 one seed; trainer + exposure changed"
+    },
+    {
+      "title": "Mistral diversity lead",
+      "kind": "validation",
+      "value": "+1.78 pp",
+      "delta": 0.017805,
+      "baseline": 0.622322,
+      "score": 0.640127,
+      "detail": "Older full-stack reference, cross-fitted blend weight; author-supplied predictions, not fully nested. Own full training staged.",
+      "evidence": "reports/2026-11-10-public-mistral-olmo-oof.md",
+      "brief": "Public predictions \u00b7 older stack; own training next"
+    },
+    {
+      "title": "OLMo diversity lead",
+      "kind": "validation",
+      "value": "+0.89 pp",
+      "delta": 0.008906,
+      "baseline": 0.622322,
+      "score": 0.631228,
+      "detail": "Same older reference; author-supplied predictions and cross-fitted weight. Interval crosses zero; own weights not reproduced.",
+      "evidence": "reports/2026-11-10-public-mistral-olmo-oof.md",
+      "brief": "Public predictions \u00b7 older stack; interval spans zero"
+    },
+    {
+      "title": "Liquid frozen encoder",
+      "kind": "validation",
+      "value": "\u22120.74 pp",
+      "delta": -0.007409893,
+      "baseline": 0.5430599055,
+      "score": 0.5356500124,
+      "detail": "5% blend on old public reference; exact checkpoint and all 2,699 rows. Full-backbone training is a separate experiment.",
+      "evidence": "research/comparison-2026-11-03/liquid-frozen-result-20261110.json",
+      "brief": "Frozen features only; supervised training continues"
+    },
+    {
+      "title": "Pruned GLM",
+      "kind": "engineering",
+      "value": "CUDA works",
+      "detail": "45 layers, 62 exact shard hashes. Three passages at 0.743\u20130.794 seconds; 36.80 GiB peak reserved. First eight experts, not calibrated. No classifier accuracy yet.",
+      "evidence": "reports/2026-11-10-glm-cuda-pilot.md",
+      "measured": {
+        "layers": 45,
+        "passages": 3,
+        "min_seconds": 0.743,
+        "max_seconds": 0.794,
+        "peak_reserved_gib": 36.8
+      }
+    },
+    {
+      "title": "Qwen three-pass",
+      "kind": "progress",
+      "value": "9,000 / 44,851",
+      "detail": "Latest committed queue snapshot: step 9,000. Newer recovery file received 15:10 EST; its step is not asserted here. No completed validation score.",
+      "evidence": "QUEUE.md"
+    },
+    {
+      "title": "Liquid full-backbone",
+      "kind": "progress",
+      "value": "Training started",
+      "detail": "15:24 EST queue receipt: one held-out pilot plus sequential five-fold / three-seed continuation. No completed fold evaluation in inspected output. CPU; no incremental rental.",
+      "evidence": "reports/scorecard/liquid-queue-receipt.json"
+    }
+  ],
+  "next_bets": [
+    "Score the matched 0.683 control and new full-pool Qwen blend after runtime and quota checks.",
+    "Train our own Mistral on the corrected 309,365-row pool; retain OLMo as a complementary lead.",
+    "Prove GLM on dual T4, then select experts using competition prose.",
+    "Finish Liquid supervised folds before choosing whether to scale that architecture."
+  ],
+  "notes": [
+    "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
+    "Validation shares explored on shared prompts; public-model training exposure not independently established.",
+    "No all-time spend total is claimed. Historical API usage is separate; other older work is not reconciled.",
+    "Project budget caps are separate limits, not money spent or a fungible account balance."
+  ],
+  "evidence": {
+    "leaderboard": "status.json",
+    "queue": "QUEUE.md",
+    "qwen": "reports/2026-11-10-full-pool-onepass-folds.md",
+    "glm": "reports/2026-11-10-glm-cuda-pilot.md",
+    "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md"
+  }
+}

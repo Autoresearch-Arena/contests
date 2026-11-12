@@ -1,0 +1,300 @@
+{
+  "title": "The research notebook, at a glance",
+  "date": "11 November 2026",
+  "snapshot_utc": "2026-11-11T23:01:50.927705+00:00",
+  "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
+  "spending": {
+    "observed_rental_usd": 19.499,
+    "qwen_cap_usd": 24,
+    "glm_cap_usd": 10,
+    "unbilled": "Saved Qwen posted charges: 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Provider settlement and later GLM charges unknown.",
+    "items": [
+      {
+        "title": "Qwen one-pass model",
+        "usd": 4.856,
+        "group": "Qwen",
+        "asof": "11 Nov 08:58 EST",
+        "status": "Completed; posted charges by exact instance",
+        "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+      },
+      {
+        "title": "Qwen failed hosts",
+        "usd": 0.899,
+        "group": "Qwen",
+        "asof": "11 Nov 08:58 EST",
+        "status": "Two failed hosts; included once by exact instance",
+        "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+      },
+      {
+        "title": "Qwen three-pass run",
+        "usd": 13.206,
+        "group": "Qwen",
+        "asof": "11 Nov 08:58 EST",
+        "status": "Completed; instance absent in saved shutdown receipt; posted charges may settle",
+        "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+      },
+      {
+        "title": "GLM CUDA pilot",
+        "usd": 0.538,
+        "group": "GLM",
+        "asof": "10 Nov 14:25 EST",
+        "status": "Four attempts; rentals destroyed; provisional",
+        "evidence": "reports/glm-gpu/pilot-charges.json"
+      }
+    ],
+    "historical_api": {
+      "title": "30 October: 6,000 generated passages",
+      "usage_usd": 6.9033435075,
+      "reserve_usd": 0.19628235,
+      "cap_usd": 18,
+      "evidence": "reports/2026-10-30-router-expansion.md",
+      "note": "Separate historical API project; not included in the rental subtotal. Earlier pilot, local electricity, subscriptions, free Kaggle quota and other older rentals are not reconciled here."
+    }
+  },
+  "leaderboard": {
+    "score": 0.682,
+    "rank": 334,
+    "teams": null,
+    "leader": 0.765,
+    "asof": "11 Nov 12:07 EST",
+    "history": [
+      {
+        "label": "Previous public ensemble",
+        "score": 0.651,
+        "date": "27 Oct",
+        "evidence": "reports/2026-10-29-live-review.json"
+      },
+      {
+        "label": "Public reproduction",
+        "score": 0.681,
+        "date": "10 Nov",
+        "evidence": "reports/2026-11-10-scored-0681-reproduction.md"
+      },
+      {
+        "label": "Matched public-only control",
+        "score": 0.682,
+        "date": "10 Nov",
+        "evidence": "reports/2026-11-10-scored-0682-control.md"
+      }
+    ],
+    "comparisons": [
+      {
+        "label": "+10% old Qwen",
+        "score": 0.678,
+        "delta": -0.004
+      },
+      {
+        "label": "+10% tokenizer",
+        "score": 0.675,
+        "delta": -0.007
+      },
+      {
+        "label": "+ token and byte",
+        "score": 0.669,
+        "delta": -0.013
+      },
+      {
+        "label": "0.683 recipe control",
+        "score": 0.679,
+        "delta": -0.003
+      },
+      {
+        "label": "+10% full-pool Qwen",
+        "score": 0.675,
+        "delta": -0.004
+      }
+    ],
+    "pending": "Saved 11 Nov 03:00 EST receipts: 0.683-title control scored 0.679; full-pool Qwen 0.675, down 0.004 versus matched control. Best unchanged 0.682. Three-pass and newer CPU proxies are not board scores.",
+    "asof_short": "11 Nov 06:25 EST"
+  },
+  "results": [
+    {
+      "title": "Full-pool Qwen",
+      "kind": "validation",
+      "value": "+3.37 pp",
+      "delta": 0.033714,
+      "baseline": 0.587169,
+      "score": 0.620882,
+      "detail": "Standalone: five prompt folds, one seed. Trainer and exposure changed together.",
+      "evidence": "reports/2026-11-10-full-pool-onepass-folds.md",
+      "brief": "Own model \u00b7 one seed; trainer + exposure changed"
+    },
+    {
+      "title": "Mistral diversity lead",
+      "kind": "validation",
+      "value": "+1.78 pp",
+      "delta": 0.017805,
+      "baseline": 0.622322,
+      "score": 0.640127,
+      "detail": "Older full-stack reference, cross-fitted blend weight; author-supplied predictions, not fully nested. Own full training staged.",
+      "evidence": "reports/2026-11-10-public-mistral-olmo-oof.md",
+      "brief": "Public predictions \u00b7 older stack; own training next"
+    },
+    {
+      "title": "OLMo diversity lead",
+      "kind": "validation",
+      "value": "+0.89 pp",
+      "delta": 0.008906,
+      "baseline": 0.622322,
+      "score": 0.631228,
+      "detail": "Same older reference; author-supplied predictions and cross-fitted weight. Interval crosses zero; own weights not reproduced.",
+      "evidence": "reports/2026-11-10-public-mistral-olmo-oof.md",
+      "brief": "Public predictions \u00b7 older stack; interval spans zero"
+    },
+    {
+      "title": "Liquid frozen encoder",
+      "kind": "validation",
+      "value": "\u22120.74 pp",
+      "delta": -0.007409893,
+      "baseline": 0.5430599055,
+      "score": 0.5356500124,
+      "detail": "5% blend on old public reference; exact checkpoint and all 2,699 rows. Full-backbone training is a separate experiment.",
+      "evidence": "research/comparison-2026-11-03/liquid-frozen-result-20261110.json",
+      "brief": "Frozen features only; supervised training continues"
+    },
+    {
+      "title": "Pruned GLM",
+      "kind": "engineering",
+      "value": "CUDA works",
+      "detail": "45 layers, 62 exact shard hashes. Three passages at 0.743\u20130.794 seconds; 36.80 GiB peak reserved. First eight experts, not calibrated. No classifier accuracy yet.",
+      "evidence": "reports/2026-11-10-glm-cuda-pilot.md",
+      "measured": {
+        "layers": 45,
+        "passages": 3,
+        "min_seconds": 0.743,
+        "max_seconds": 0.794,
+        "peak_reserved_gib": 36.8
+      }
+    },
+    {
+      "title": "Qwen three-pass",
+      "kind": "validation",
+      "value": "\u22121.19 pp",
+      "detail": "Completed five folds and final model, saved 11 Nov 08:52 EST. Standalone declined versus one-pass; 10% replacement gained 0.003341 on learned-group proxy. Not a leaderboard result; interval spans zero.",
+      "evidence": "research/comparison-2026-11-03/full-pool-e3-matched-result-20261111.json",
+      "baseline": 0.6208824260502113,
+      "score": 0.6090206313696247,
+      "delta": -0.011861794680586629
+    },
+    {
+      "title": "Liquid supervised encoder",
+      "kind": "validation",
+      "value": "+0.44 pp",
+      "baseline": 0.5430599055431269,
+      "score": 0.5475018642803877,
+      "delta": 0.004441958737260832,
+      "detail": "Three seeds, five prompt folds; 5% blend on older public reference gained 0.004442. Explored share, not a board score. No active-job claim.",
+      "evidence": "research/comparison-2026-11-03/liquid-three-seed-ensemble-result-20261111.json"
+    },
+    {
+      "title": "Complementary CPU corrections",
+      "kind": "validation",
+      "value": "+0.15 pp",
+      "baseline": 0.7576186925180214,
+      "score": 0.7591001739995029,
+      "delta": 0.0014814814814814816,
+      "detail": "Saved 11 Nov proxy: combined Qwen/GPT and byte corrections, complete layout; interval spans zero. CPU replay ready; exact dual-T4 and board pending. Paired-source style also replayed, no board score.",
+      "evidence": "research/comparison-2026-11-03/qwen-gpt-disjoint-replay-20261111.json"
+    }
+  ],
+  "next_bets": [
+    "Submit the three-pass Qwen on top of the public 0.684 recipe, against the plain recipe.",
+    "Train our own Mistral model, the strongest different-model idea so far.",
+    "Build our own pruned GLM and fine-tune it (paused for now)."
+  ],
+  "notes": [
+    "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
+    "Validation shares explored on shared prompts; public-model training exposure not independently established.",
+    "No all-time spend total is claimed. Historical API usage is separate; other older work is not reconciled.",
+    "Project budget caps are separate limits, not money spent or a fungible account balance.",
+    "Creative collection saved receipts as of 2026-11-10T23:00:18.157862+00:00: returned usage $6.051409, unknown-charge reserve $0.175014, separate $10 cap. Includes failed attempts; not in rental subtotal and not a settled invoice. See reports/scorecard/creative-usage.json.",
+    "New saved receipts reviewed 11 Nov: Qwen campaign $18.961 posted by instance, replacing (not adding to) prior $8.047 campaign snapshot; separate GLM $0.538 cached 10 Nov. Selected rental subtotal $19.499; Qwen cap $24, GLM cap $10. Not all-time spend or settled invoice.",
+    "Creative wave two summary adds $2.727149 usage-or-reserve to wave one $6.226423, combined $8.953572 under $10 cap. New itemized actual/reserve split was not reconciled; preserve wave-one actual $6.051409 and reserve $0.175014 as cached 10 Nov, not a new total.",
+    "Padding-dependent creative results superseded: corrected joint specialists gained 0.001111 on older reference; validation only, not a leaderboard gain.",
+    "Source gap: fresh provider billing and remote process state not queried. Local process list checked at review; no relevant local research process matched. Saved shutdown evidence is dated, not a fresh provider query. No Kaggle or paid calls.",
+    "Current status and submission ledger lag newer original receipts: best remains 0.682, board rank and completed three-pass model use the dated receipts linked here."
+  ],
+  "evidence": {
+    "leaderboard": "status.json",
+    "queue": "QUEUE.md",
+    "qwen": "reports/2026-11-10-full-pool-onepass-folds.md",
+    "glm": "reports/2026-11-10-glm-cuda-pilot.md",
+    "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
+    "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
+    "creative_cost": "reports/scorecard/creative-usage.json",
+    "board": "research/comparison-2026-11-03/public-0684-second-scored-reproduction-20261111.json",
+    "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
+    "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
+    "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
+  },
+  "status_line": "We trail the leader by 0.083 on the public board. The public recipe run as it comes is still our best score, and every one of our own additions to it so far scored lower.",
+  "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
+  "spending_line": "Spend figures are posted charges",
+  "spend_log": [
+    {
+      "date": "2026-11-11",
+      "what": "Qwen three-pass training run",
+      "kind": "GPU rental",
+      "usd": 13.206,
+      "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+    },
+    {
+      "date": "2026-11-10",
+      "what": "Qwen one-pass training run",
+      "kind": "GPU rental",
+      "usd": 4.856,
+      "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+    },
+    {
+      "date": "2026-11-10",
+      "what": "Two Qwen hosts that failed",
+      "kind": "GPU rental",
+      "usd": 0.899,
+      "evidence": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json"
+    },
+    {
+      "date": "2026-11-10",
+      "what": "GLM test on a rented card, four attempts",
+      "kind": "GPU rental",
+      "usd": 0.538,
+      "evidence": "reports/glm-gpu/pilot-charges.json"
+    },
+    {
+      "date": "2026-11-10",
+      "what": "Creative-writing passages from other models",
+      "kind": "Data generation",
+      "usd": 6.05,
+      "evidence": "reports/scorecard/creative-usage.json"
+    },
+    {
+      "date": "2026-10-30",
+      "what": "6,000 generated passages",
+      "kind": "Data generation",
+      "usd": 6.9,
+      "evidence": "reports/2026-10-30-router-expansion.md"
+    }
+  ],
+  "chapters": [
+    {
+      "when": "26 to 31 October: getting on the board",
+      "text": "We split out our own repository, found both early Kaggle tries had crashed, then scored 0.651 with the public ensemble. Our own classifier scored 0.348 and our own Qwen model 0.585."
+    },
+    {
+      "when": "1 to 5 November: checking everything",
+      "text": "We repaired the memory crash, tested 6,000 bought passages three times, and watched their small gain disappear. An outside review said ten days of checks had not moved the board."
+    },
+    {
+      "when": "9 to 10 November: run the public recipe",
+      "text": "We reproduced the public 0.681 notebook, then reached 0.682, our best. Every model we mixed into it scored lower on the board."
+    },
+    {
+      "when": "11 November: the next round",
+      "text": "The three-pass Qwen model finished training and was picked for the next test. The public 0.684 recipe is real. Style and GPT-correction ideas added nothing."
+    }
+  ],
+  "contact": {
+    "label": "Contact Mark on X:",
+    "handle": "@82deutschmark",
+    "url": "https://x.com/82deutschmark"
+  }
+}
