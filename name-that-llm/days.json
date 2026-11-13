@@ -1,6 +1,36 @@
 {
  "days": [
   {
+   "date": "2026-11-13",
+   "headline": "Prepared matched passages and submitted a newer public recipe; no verified board improvement.",
+   "items": [
+    {
+     "tried": "Screened model routes on reconstructed contest prompts.",
+     "outcome": "Six models passed the stop rule; Gemini 3.6 Flash failed. Pilot usage $6.460424, no trained-model score.",
+     "verdict": "worked",
+     "evidence": "reports/2026-11-13-scorecard.md"
+    },
+    {
+     "tried": "Expanded the winning settings to all 150 prompts.",
+     "outcome": "895/900 usable; $7.190144 includes reused calls, $5.656731 additional. Prepared only; no training gain.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-13-scorecard.md"
+    },
+    {
+     "tried": "Copied the public 0.689-title notebook.",
+     "outcome": "First preview failed input paths; repaired second preview submitted. Saved receipt pending; author score is not ours.",
+     "verdict": "built",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Reviewed today\u2019s public board.",
+     "outcome": "Our best still 0.682; rank 802 of 5792. No scored improvement.",
+     "verdict": "no gain",
+     "evidence": "reports/scorecard/board/2026-11-13.json"
+    }
+   ]
+  },
+  {
    "date": "2026-11-12",
    "headline": "Best unchanged; the field moved ahead. Costs remain cached, not a fresh bill.",
    "items": [

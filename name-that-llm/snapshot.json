@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "12 November 2026",
-  "snapshot_utc": "2026-11-12T23:01:29.465155+00:00",
+  "date": "13 November 2026",
+  "snapshot_utc": "2026-11-13T23:02:36.904484+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -54,10 +54,10 @@
   },
   "leaderboard": {
     "score": 0.682,
-    "rank": 614,
-    "teams": 5669,
+    "rank": 802,
+    "teams": 5792,
     "leader": 0.769,
-    "asof": "12 Nov 16:30 EST",
+    "asof": "2026-11-13 18:00 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,8 +105,8 @@
         "delta": -0.004
       }
     ],
-    "pending": "Saved 11 Nov 03:00 EST receipts: 0.683-title control scored 0.679; full-pool Qwen 0.675, down 0.004 versus matched control. Best unchanged 0.682. Three-pass and newer CPU proxies are not board scores.",
-    "asof_short": "12 Nov 16:30 EST"
+    "pending": "Public 0.689-title recipe copy submitted 13 Nov 16:37 UTC; saved submission ledger says pending. No fresh scoring-status request. Our best remains 0.682; author title is not our score.",
+    "asof_short": "2026-11-13 18:00 EST"
   },
   "results": [
     {
@@ -199,9 +199,9 @@
     }
   ],
   "next_bets": [
-    "Submit the three-pass Qwen on top of the public 0.684 recipe, against the plain recipe.",
-    "Train our own Mistral model, the strongest different-model idea so far.",
-    "Build our own pruned GLM and fine-tune it (paused for now)."
+    "Read the scored result of the unchanged public 0.689 recipe copy before selecting the next entry.",
+    "Compare the prepared matched passages in a controlled trained-member test only under separate research authorization.",
+    "Real GLM author-model features remain a proposed gated plan, not a completed run."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -214,7 +214,10 @@
     "Padding-dependent creative results superseded: corrected joint specialists gained 0.001111 on older reference; validation only, not a leaderboard gain.",
     "Current status and submission ledger lag newer original receipts: best remains 0.682, board rank and completed three-pass model use the dated receipts linked here.",
     "12 Nov community coverage: newest-topic listing and two title-only threads read; three changed threads deferred. Public notebook listing remains cached 11 Nov 20:32 EST. Four Kaggle read requests total; no retries, experiments or paid calls.",
-    "12 Nov scheduled review at 18:01 EST: no matching local expansion watcher or research rsync process observed in the process list; remote training state and current provider billing unverified. Earlier board and community reads retained; no new Kaggle requests."
+    "12 Nov scheduled review at 18:01 EST: no matching local expansion watcher or research rsync process observed in the process list; remote training state and current provider billing unverified. Earlier board and community reads retained; no new Kaggle requests.",
+    "13 Nov review: matched pilot 570 saved receipts total $6.4604236554; release 900 saved receipts total $7.1901436959 includes 178 reused pilot answers. Deduplicated additional release charges $5.6567308050; combined $12.1171544604, no unknown-charge reserve in these saved receipts. Usage returned by provider, not settled invoice. Separate pilot cap $8 and release cap $10.",
+    "13 Nov 18:02 EST: no matching local matched-data collector, expansion watcher or research rsync process observed (excluding the inspection command). Remote training state and live billing unverified.",
+    "13 Nov community: four Kaggle requests total (board, newest topics, two new thread snapshots), no retries or notebook fetch. Other new/changed bodies deferred; notebooks remain cached 11 Nov 20:32 EST."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -224,12 +227,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-12.json",
+    "board": "reports/scorecard/board/2026-11-13.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best unchanged at 0.682; rank 614 of 5,669 at 16:30 EST. Leader 0.769. No new scored improvement.",
+  "status_line": "Best unchanged at 0.682; rank 802 of 5792 at 2026-11-13 18:00 EST. Public 0.689 recipe copy submitted; score unverified. Matched data prepared, not a trained-model gain.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
@@ -274,6 +277,20 @@
       "kind": "Data generation",
       "usd": 6.9,
       "evidence": "reports/2026-10-30-router-expansion.md"
+    },
+    {
+      "date": "2026-11-13",
+      "what": "Matched-data pilot, all settings including failed screening",
+      "kind": "Data generation",
+      "usd": 6.4604236554,
+      "evidence": "reports/2026-11-13-scorecard.md"
+    },
+    {
+      "date": "2026-11-13",
+      "what": "Matched-data release, additional charges only; reused pilot calls excluded",
+      "kind": "Data generation",
+      "usd": 5.656730805,
+      "evidence": "reports/2026-11-13-scorecard.md"
     }
   ],
   "chapters": [
@@ -313,6 +330,16 @@
     {
       "name": "Creative usage + reserve exposure",
       "used": 8.953572,
+      "cap": 10
+    },
+    {
+      "name": "Matched pilot usage (separate cap)",
+      "used": 6.4604236554,
+      "cap": 8
+    },
+    {
+      "name": "Matched release usage (includes reused pilot)",
+      "used": 7.1901436959,
       "cap": 10
     }
   ]

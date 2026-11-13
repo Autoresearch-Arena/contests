@@ -1,0 +1,79 @@
+{
+ "points": [
+  {
+   "when": "2026-10-29 12:00",
+   "leader": 0.73,
+   "rank": null,
+   "teams": null,
+   "evidence": "reports/2026-10-29-live-review.json"
+  },
+  {
+   "when": "2026-11-05 12:00",
+   "leader": 0.73,
+   "rank": null,
+   "teams": null,
+   "evidence": "plans/2026-11-05-better-ideas-plan.md"
+  },
+  {
+   "when": "2026-11-10 06:43",
+   "leader": 0.755,
+   "rank": 248,
+   "teams": 5369,
+   "evidence": "reports/2026-11-10-scored-0681-reproduction.md"
+  },
+  {
+   "when": "2026-11-10 13:23",
+   "leader": 0.755,
+   "rank": 176,
+   "teams": 5385,
+   "evidence": "reports/2026-11-10-scored-0682-control.md"
+  },
+  {
+   "when": "2026-11-11 06:25",
+   "leader": 0.765,
+   "rank": 251,
+   "teams": 5463,
+   "evidence": "reports/2026-11-11-scorecard.md"
+  },
+  {
+   "when": "2026-11-11 12:07",
+   "leader": 0.765,
+   "rank": 334,
+   "teams": null,
+   "evidence": "research/comparison-2026-11-03/public-titan-score-audit-20261111.json"
+  },
+  {
+   "when": "2026-11-11 20:25",
+   "leader": 0.768,
+   "leader_team": "NguyenThanhNhan",
+   "top10": 0.747,
+   "top1pct": 0.705,
+   "top10pct": 0.682,
+   "rank": 437,
+   "teams": 5558,
+   "evidence": "reports/scorecard/board/2026-11-11.json"
+  },
+  {
+   "when": "2026-11-12 16:30",
+   "leader": 0.769,
+   "leader_team": "NguyenThanhNhan",
+   "top10": 0.747,
+   "top1pct": 0.706,
+   "top10pct": 0.683,
+   "rank": 614,
+   "teams": 5669,
+   "evidence": "reports/scorecard/board/2026-11-12.json"
+  },
+  {
+   "when": "2026-11-13 18:00",
+   "leader": 0.769,
+   "leader_team": "NguyenThanhNhan",
+   "top10": 0.749,
+   "top1pct": 0.711,
+   "top10pct": 0.684,
+   "rank": 802,
+   "teams": 5792,
+   "evidence": "reports/scorecard/board/2026-11-13.json"
+  }
+ ]
+}

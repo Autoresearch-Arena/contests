@@ -1,6 +1,15 @@
 {
  "entries": [
   {
+   "id": "58315347",
+   "date": "2026-11-13 11:37 EST",
+   "label": "Public 0.689 recipe copy",
+   "what": "Unchanged public recipe, mount paths repaired after failed first preview. Submitted; saved status pending, no score receipt.",
+   "score": null,
+   "evidence": "SUBMISSIONS.md",
+   "state": "pending"
+  },
+  {
    "id": "58217579",
    "date": "2026-11-10 19:00 EST",
    "label": "Full-pool Qwen added to the 0.683 recipe",
@@ -103,12 +112,12 @@
  ],
  "headline": {
   "best": 0.682,
-  "rank": 614,
-  "teams": 5669,
+  "rank": 802,
+  "teams": 5792,
   "leader": 0.769,
   "leader_name": "NguyenThanhNhan",
-  "as_of": "2026-11-12 16:30 EST",
-  "source": "reports/scorecard/board/2026-11-12.json",
+  "as_of": "2026-11-13 18:00 EST",
+  "source": "reports/scorecard/board/2026-11-13.json",
   "best_evidence": "reports/2026-11-10-scored-0682-control.md"
  }
 }

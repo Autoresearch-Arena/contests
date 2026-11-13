@@ -63,6 +63,17 @@
    "rank": 614,
    "teams": 5669,
    "evidence": "reports/scorecard/board/2026-11-12.json"
+  },
+  {
+   "when": "2026-11-13 18:00",
+   "leader": 0.769,
+   "leader_team": "NguyenThanhNhan",
+   "top10": 0.749,
+   "top1pct": 0.711,
+   "top10pct": 0.684,
+   "rank": 802,
+   "teams": 5792,
+   "evidence": "reports/scorecard/board/2026-11-13.json"
   }
  ]
 }
