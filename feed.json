@@ -178,8 +178,8 @@
         "contest": "gemma-4-developer-agent",
         "title": "Gemma 4 Developer Agent",
         "state": "live",
-        "updated": "2026-11-12",
-        "headline": "Our best public score is 0.18, about 0.11 behind the leader at last count. We are training a small Gemma model with reinforcement learning on fresh tasks, and two entries are still waiting for their scores.",
+        "updated": "2026-11-13",
+        "headline": "Best verified public score remains 0.18. Latest team entry completed at 0.13; public prompt changes remain unverified. Daily review made no submissions or compute changes.",
         "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
         "deadline": "2026-12-02",
         "board": {
@@ -188,21 +188,19 @@
           "best_score": 0.18,
           "metric": "Public score (share of issues fixed)",
           "higher_is_better": true,
-          "observed": "2026-11-04",
-          "note": "Rank is not recorded anywhere in the repo; the best score is from the 4 November ledger snapshot (leader then 0.29)."
+          "observed": "2026-11-13",
+          "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
         },
         "entries": {
           "used_today": null,
           "daily_limit": 1,
           "total": 13,
           "observed": "2026-11-09",
-          "note": "Entries sent today not recorded; the limit is one per day (AGENTS.md, 4 November). Total is the ledger count; two entries were still pending."
+          "note": "Previous ledger count retained, not a current total; latest returned team entries are complete as of the November 13 review."
         },
         "running": [],
         "next": [
-          "Read the scores of the two entries still pending",
-          "Evaluate the finished reinforcement-learning run on the golden task set",
-          "Entry and merger deadline is 25 November; final submission 2 December"
+          "Read official queue updates and verify public Patchsmith score evidence before further evaluation"
         ]
       },
       "note": null
