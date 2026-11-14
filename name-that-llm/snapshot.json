@@ -57,7 +57,7 @@
     "rank": 228,
     "teams": 5887,
     "leader": 0.771,
-    "asof": "2026-11-14 18:02 EST",
+    "asof": "2026-11-14 18:00 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -106,7 +106,7 @@
       }
     ],
     "pending": "Team board now verifies 0.693; individual scoring receipt not requested. The saved public 0.689-title recipe-copy submission remains individually unverified; no attribution inferred.",
-    "asof_short": "2026-11-14 18:02 EST"
+    "asof_short": "2026-11-14 18:00 EST"
   },
   "results": [
     {
@@ -233,7 +233,7 @@
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Team board improved from 0.682 to 0.693; rank 228 of 5887 at 2026-11-14 18:02 EST. Individual submission attribution unverified. Costs unchanged/cached.",
+  "status_line": "Team board improved from 0.682 to 0.693; rank 228 of 5887 at 2026-11-14 18:00 EST. Individual submission attribution unverified. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
