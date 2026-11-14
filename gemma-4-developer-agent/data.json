@@ -1,0 +1,349 @@
+{
+  "schema": "gemma-iterations/1",
+  "source_revision": "d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3",
+  "observed": "2026-11-13 19:00:05 EST",
+  "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/paper/recomputed.json",
+  "protocol_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/README.md",
+  "bars": {
+    "ctrl_margin": 5.0,
+    "s1_harmful": -6.0,
+    "s1_promote": 3.0,
+    "s2_min": 4.0,
+    "total_harmful": -10.0,
+    "total_pass": 10.0
+  },
+  "champion_generation": 0,
+  "confirmation_note": "This export contains screening aggregates, not final-confirmation or golden evidence. Consult the protocol history for confirmation results.",
+  "pending_batches": [
+    {
+      "batch": "b005",
+      "scored": false
+    }
+  ],
+  "experiments": [
+    {
+      "id": "0007",
+      "date": "2026-11-12",
+      "author": "claude",
+      "title": "Deep-thought gate (dose 0.1) plus the model s own end-of-thought neurons at 9 times their write",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0007-claude-deep-gate-b01-end-neurons-x9.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0008",
+      "date": "2026-11-12",
+      "author": "claude",
+      "title": "Deep-thought gate: one neuron per layer 30-48 detects depth >= 800 inside a thought and writes the end-of-thought state (dose 0.3)",
+      "status": "done",
+      "verdict": "harmful",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0008-claude-deep-thought-gate-g3-b03.md",
+      "results": [
+        {
+          "batch": "b002",
+          "arm": "e0008",
+          "stage": 1,
+          "tasks": 120,
+          "solved": 51,
+          "base_solved": 60,
+          "repeat_solved": 62,
+          "gain": -10.0,
+          "gain_pp": -8.333,
+          "corrected": false,
+          "provisional": true,
+          "clock": "450-second session limit",
+          "task_set": "Stage 1 historical list",
+          "decision": "Harmful screen"
+        }
+      ],
+      "batches": [
+        "b002"
+      ]
+    },
+    {
+      "id": "0009",
+      "date": "2026-11-12",
+      "author": "claude",
+      "title": "Own end-of-thought neurons x25: scale the write of the 20 late-layer MLP neurons whose write lens is the end-of-thought token (weights only)",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0009-claude-end-neurons-x25.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0010",
+      "date": "2026-11-12",
+      "author": "claude",
+      "title": "Early deep-thought gate (fitted on depth >= 400, dose 0.1) plus own end-of-thought neurons x9: the strong dose of the gated family",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0010-claude-early-gate-b01-end-neurons-x9.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0011",
+      "date": "2026-11-12",
+      "author": "gpt",
+      "title": "Amplify natural thought-ending writes across all layers at 0.33 percent",
+      "status": "done",
+      "verdict": "harmful",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0011-gpt-writer-close-amplify-033.md",
+      "results": [
+        {
+          "batch": "b002",
+          "arm": "e0011",
+          "stage": 1,
+          "tasks": 120,
+          "solved": 51,
+          "base_solved": 60,
+          "repeat_solved": 62,
+          "gain": -10.0,
+          "gain_pp": -8.333,
+          "corrected": false,
+          "provisional": true,
+          "clock": "450-second session limit",
+          "task_set": "Stage 1 historical list",
+          "decision": "Harmful screen"
+        }
+      ],
+      "batches": [
+        "b002"
+      ]
+    },
+    {
+      "id": "0012",
+      "date": "2026-11-12",
+      "author": "gpt",
+      "title": "Amplify natural thought-ending writes across all layers at 0.50 percent",
+      "status": "done",
+      "verdict": "harmful",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0012-gpt-writer-close-amplify-050.md",
+      "results": [
+        {
+          "batch": "b003",
+          "arm": "e0012",
+          "stage": 1,
+          "tasks": 120,
+          "solved": 44,
+          "base_solved": 72,
+          "repeat_solved": 67,
+          "gain": -25.5,
+          "gain_pp": -21.25,
+          "corrected": true,
+          "provisional": false,
+          "clock": "450-second session limit",
+          "task_set": "Stage 1 final list v2",
+          "decision": "Harmful screen"
+        }
+      ],
+      "batches": [
+        "b003"
+      ]
+    },
+    {
+      "id": "0013",
+      "date": "2026-11-12",
+      "author": "gpt",
+      "title": "Shift common writer output toward thought endings across all layers at 0.11 percent",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0013-gpt-writer-close-shift-011.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0015",
+      "date": "2026-11-12",
+      "author": "gemini",
+      "title": "Spectral rank-4 exact-context within-call thought-close writer subspace across all 60 layers (0.38%)",
+      "status": "queued_s2",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0015-gemini-exact-close-r4-subspace.md",
+      "results": [
+        {
+          "batch": "b003",
+          "arm": "e0015",
+          "stage": 1,
+          "tasks": 120,
+          "solved": 74,
+          "base_solved": 72,
+          "repeat_solved": 67,
+          "gain": 4.5,
+          "gain_pp": 3.75,
+          "corrected": true,
+          "provisional": false,
+          "clock": "450-second session limit",
+          "task_set": "Stage 1 final list v2",
+          "decision": "Advance to stage 2"
+        }
+      ],
+      "batches": [
+        "b003",
+        "b005"
+      ]
+    },
+    {
+      "id": "0016",
+      "date": "2026-11-12",
+      "author": "gemini",
+      "title": "Subtractive rank-2 deep-rumination attractor damping across all 280 mid-to-late modules (0.36%)",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0016-gemini-rumination-damp-r2-net.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0017",
+      "date": "2026-11-12",
+      "author": "gemini",
+      "title": "Coordinate-whitened GeGLU late pre-edit commit gate across 13 high-signal layers (dose 1.20)",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0017-gemini-late-preedit-commit-gate.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0018",
+      "date": "2026-11-12",
+      "author": "gemini",
+      "title": "Dual-cap rescue stack: rank-4 exact-close writer subspace (0.38%) plus 13-layer late pre-edit commit gate",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0018-gemini-dual-budget-rescue-r5.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0020",
+      "date": "2026-11-13",
+      "author": "claude",
+      "title": "Deep-thought gate in all 60 layers: one neuron per layer detects depth >= 800 in a thought and writes the end-of-thought state (per-layer do",
+      "status": "done",
+      "verdict": "harmful",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0020-claude-net-deep-gate-close-b05.md",
+      "results": [
+        {
+          "batch": "b004",
+          "arm": "e0020",
+          "stage": 1,
+          "tasks": 102,
+          "solved": 47,
+          "base_solved": 56,
+          "repeat_solved": 59,
+          "gain": -10.5,
+          "gain_pp": -10.294,
+          "corrected": false,
+          "provisional": true,
+          "clock": "450-second session limit",
+          "task_set": "Stage 1 historical list",
+          "decision": "Harmful screen"
+        }
+      ],
+      "batches": [
+        "b004"
+      ]
+    },
+    {
+      "id": "0021",
+      "date": "2026-11-13",
+      "author": "claude",
+      "title": "Deep-thought gate in all 60 layers: one neuron per layer detects depth >= 800 in a thought and writes the end-of-thought state (per-layer do",
+      "status": "done",
+      "verdict": "harmful",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0021-claude-net-deep-gate-close-b12.md",
+      "results": [
+        {
+          "batch": "b004",
+          "arm": "e0021",
+          "stage": 1,
+          "tasks": 102,
+          "solved": 50,
+          "base_solved": 56,
+          "repeat_solved": 59,
+          "gain": -7.5,
+          "gain_pp": -7.353,
+          "corrected": false,
+          "provisional": true,
+          "clock": "450-second session limit",
+          "task_set": "Stage 1 historical list",
+          "decision": "Harmful screen"
+        }
+      ],
+      "batches": [
+        "b004"
+      ]
+    },
+    {
+      "id": "0022",
+      "date": "2026-11-13",
+      "author": "claude",
+      "title": "Pre-edit commit gate in all 60 layers: deep in a thought with no edit made yet, write the first-edit thought state only (per-layer dose 0.12",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0022-claude-net-preedit-commit-b12.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0023",
+      "date": "2026-11-13",
+      "author": "claude",
+      "title": "Pre-edit rumination gate in all 60 layers: deep in a thought with no edit made yet, write end-of-thought plus first-edit state (per-layer do",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0023-claude-net-preedit-commit-close-b05.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0025",
+      "date": "2026-11-13",
+      "author": "gpt",
+      "title": "Damp the code-versus-prose style contrast in writers in all layers at 0.33 percent",
+      "status": "queued_s1",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0025-gpt-code-writer-damp-r4-033.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0026",
+      "date": "2026-11-13",
+      "author": "gpt",
+      "title": "Damp the code-versus-prose style contrast in writers in all layers at 0.11 percent",
+      "status": "queued_s1",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0026-gpt-code-writer-damp-r4-011.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0027",
+      "date": "2026-11-13",
+      "author": "gpt",
+      "title": "Damp the code-versus-prose style contrast in readers in all layers at 0.33 percent",
+      "status": "parked",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0027-gpt-code-reader-damp-r4-033.md",
+      "results": [],
+      "batches": []
+    },
+    {
+      "id": "0028",
+      "date": "2026-11-13",
+      "author": "gemini",
+      "title": "Protocol-nullspace rank-4 exact thought-close writer subspace across L10-59 (0.48%)",
+      "status": "queued_s1",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/d8d4a4d6a0997d30c3fbf11dce32d288acbea5b3/research/wsp31/ledger/0028-gemini-nullspace-close-r4-midlate.md",
+      "results": [],
+      "batches": []
+    }
+  ]
+}
