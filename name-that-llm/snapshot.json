@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "13 November 2026",
-  "snapshot_utc": "2026-11-13T23:02:36.904484+00:00",
+  "date": "14 November 2026",
+  "snapshot_utc": "2026-11-14T23:02:37.743026+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -53,11 +53,11 @@
     "observed_date": "2026-11-10"
   },
   "leaderboard": {
-    "score": 0.682,
-    "rank": 802,
-    "teams": 5792,
-    "leader": 0.769,
-    "asof": "2026-11-13 18:00 EST",
+    "score": 0.693,
+    "rank": 228,
+    "teams": 5887,
+    "leader": 0.771,
+    "asof": "2026-11-14 18:02 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,8 +105,8 @@
         "delta": -0.004
       }
     ],
-    "pending": "Public 0.689-title recipe copy submitted 13 Nov 16:37 UTC; saved submission ledger says pending. No fresh scoring-status request. Our best remains 0.682; author title is not our score.",
-    "asof_short": "2026-11-13 18:00 EST"
+    "pending": "Team board now verifies 0.693; individual scoring receipt not requested. The saved public 0.689-title recipe-copy submission remains individually unverified; no attribution inferred.",
+    "asof_short": "2026-11-14 18:02 EST"
   },
   "results": [
     {
@@ -199,7 +199,7 @@
     }
   ],
   "next_bets": [
-    "Read the scored result of the unchanged public 0.689 recipe copy before selecting the next entry.",
+    "Reconcile the individual scored submission receipt with the verified team 0.693 under separate research review; do not infer the entry from the board alone.",
     "Compare the prepared matched passages in a controlled trained-member test only under separate research authorization.",
     "Real GLM author-model features remain a proposed gated plan, not a completed run."
   ],
@@ -217,7 +217,8 @@
     "12 Nov scheduled review at 18:01 EST: no matching local expansion watcher or research rsync process observed in the process list; remote training state and current provider billing unverified. Earlier board and community reads retained; no new Kaggle requests.",
     "13 Nov review: matched pilot 570 saved receipts total $6.4604236554; release 900 saved receipts total $7.1901436959 includes 178 reused pilot answers. Deduplicated additional release charges $5.6567308050; combined $12.1171544604, no unknown-charge reserve in these saved receipts. Usage returned by provider, not settled invoice. Separate pilot cap $8 and release cap $10.",
     "13 Nov 18:02 EST: no matching local matched-data collector, expansion watcher or research rsync process observed (excluding the inspection command). Remote training state and live billing unverified.",
-    "13 Nov community: four Kaggle requests total (board, newest topics, two new thread snapshots), no retries or notebook fetch. Other new/changed bodies deferred; notebooks remain cached 11 Nov 20:32 EST."
+    "13 Nov community: four Kaggle requests total (board, newest topics, two new thread snapshots), no retries or notebook fetch. Other new/changed bodies deferred; notebooks remain cached 11 Nov 20:32 EST.",
+    "14 Nov daily review 2026-11-14 18:02 EST: four sequential Kaggle reads; board score 0.693 verified, individual attribution not fetched. Other new/changed forum bodies deferred; notebook listing cached 11 Nov. Saved costs rechecked, no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote process state unverified."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -227,12 +228,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-13.json",
+    "board": "reports/scorecard/board/2026-11-14.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best unchanged at 0.682; rank 802 of 5792 at 2026-11-13 18:00 EST. Public 0.689 recipe copy submitted; score unverified. Matched data prepared, not a trained-model gain.",
+  "status_line": "Team board improved from 0.682 to 0.693; rank 228 of 5887 at 2026-11-14 18:02 EST. Individual submission attribution unverified. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [

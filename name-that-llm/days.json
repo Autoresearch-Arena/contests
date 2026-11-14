@@ -1,6 +1,30 @@
 {
  "days": [
   {
+   "date": "2026-11-14",
+   "headline": "Team board improves to 0.693; individual entry attribution unverified, spending cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "0.693, up 0.011; rank 228 of 5887. Individual receipt not fetched.",
+     "verdict": "worked",
+     "evidence": "reports/scorecard/board/2026-11-14.json"
+    },
+    {
+     "tried": "Rechecked saved project charges and matched-data receipts.",
+     "outcome": "Rentals $19.499 cached; matched-data usage $12.117154 unique. Reused calls excluded; no fresh bill.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-14-scorecard.md"
+    },
+    {
+     "tried": "Reviewed changed forum comments and local process state.",
+     "outcome": "Four Kaggle reads; other bodies deferred, notebook list cached. Remote jobs unverified; no research started.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-14-scorecard.md"
+    }
+   ]
+  },
+  {
    "date": "2026-11-13",
    "headline": "Prepared matched passages and submitted a newer public recipe; no verified board improvement.",
    "items": [

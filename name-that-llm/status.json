@@ -3,23 +3,23 @@
   "contest": "name-that-llm",
   "title": "Name That LLM",
   "state": "live",
-  "updated": "2026-11-13",
-  "headline": "Best unchanged at 0.682; rank 802 of 5792 at 2026-11-13 18:00 EST. Public 0.689 recipe copy submitted; score unverified. Matched data prepared, not a trained-model gain.",
+  "updated": "2026-11-14",
+  "headline": "Team board improved from 0.682 to 0.693; rank 228 of 5887 at 2026-11-14 18:02 EST. Individual submission attribution unverified. Costs unchanged/cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 802,
-    "of": 5792,
-    "best_score": 0.682,
+    "rank": 228,
+    "of": 5887,
+    "best_score": 0.693,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-13"
+    "observed": "2026-11-14"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 12,
-    "observed": "2026-11-13",
+    "total": 13,
+    "observed": "2026-11-14",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
@@ -32,7 +32,7 @@
   },
   "running": [],
   "next": [
-    "Read the scored result of the unchanged public 0.689 recipe copy before selecting the next entry.",
+    "Reconcile the individual scored submission receipt with the verified team 0.693 under separate research review; do not infer the entry from the board alone.",
     "Compare the prepared matched passages in a controlled trained-member test only under separate research authorization.",
     "Real GLM author-model features remain a proposed gated plan, not a completed run."
   ]
