@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "14 November 2026",
-  "snapshot_utc": "2026-11-14T23:02:37.743026+00:00",
+  "date": "15 November 2026",
+  "snapshot_utc": "2026-11-15T23:02:25.316723+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -54,10 +54,10 @@
   },
   "leaderboard": {
     "score": 0.693,
-    "rank": 228,
-    "teams": 5887,
-    "leader": 0.771,
-    "asof": "2026-11-14 18:00 EST",
+    "rank": 464,
+    "teams": 6004,
+    "leader": 0.774,
+    "asof": "2026-11-15 18:01 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -106,7 +106,7 @@
       }
     ],
     "pending": "Team board now verifies 0.693; individual scoring receipt not requested. The saved public 0.689-title recipe-copy submission remains individually unverified; no attribution inferred.",
-    "asof_short": "2026-11-14 18:00 EST"
+    "asof_short": "2026-11-15 18:01 EST"
   },
   "results": [
     {
@@ -212,13 +212,13 @@
     "New saved receipts reviewed 11 Nov: Qwen campaign $18.961 posted by instance, replacing (not adding to) prior $8.047 campaign snapshot; separate GLM $0.538 cached 10 Nov. Selected rental subtotal $19.499; Qwen cap $24, GLM cap $10. Not all-time spend or settled invoice.",
     "Creative wave two summary adds $2.727149 usage-or-reserve to wave one $6.226423, combined $8.953572 under $10 cap. New itemized actual/reserve split was not reconciled; preserve wave-one actual $6.051409 and reserve $0.175014 as cached 10 Nov, not a new total.",
     "Padding-dependent creative results superseded: corrected joint specialists gained 0.001111 on older reference; validation only, not a leaderboard gain.",
-    "Current status and submission ledger lag newer original receipts: best remains 0.682, board rank and completed three-pass model use the dated receipts linked here.",
     "12 Nov community coverage: newest-topic listing and two title-only threads read; three changed threads deferred. Public notebook listing remains cached 11 Nov 20:32 EST. Four Kaggle read requests total; no retries, experiments or paid calls.",
     "12 Nov scheduled review at 18:01 EST: no matching local expansion watcher or research rsync process observed in the process list; remote training state and current provider billing unverified. Earlier board and community reads retained; no new Kaggle requests.",
     "13 Nov review: matched pilot 570 saved receipts total $6.4604236554; release 900 saved receipts total $7.1901436959 includes 178 reused pilot answers. Deduplicated additional release charges $5.6567308050; combined $12.1171544604, no unknown-charge reserve in these saved receipts. Usage returned by provider, not settled invoice. Separate pilot cap $8 and release cap $10.",
     "13 Nov 18:02 EST: no matching local matched-data collector, expansion watcher or research rsync process observed (excluding the inspection command). Remote training state and live billing unverified.",
     "13 Nov community: four Kaggle requests total (board, newest topics, two new thread snapshots), no retries or notebook fetch. Other new/changed bodies deferred; notebooks remain cached 11 Nov 20:32 EST.",
-    "14 Nov daily review 2026-11-14 18:02 EST: four sequential Kaggle reads; board score 0.693 verified, individual attribution not fetched. Other new/changed forum bodies deferred; notebook listing cached 11 Nov. Saved costs rechecked, no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote process state unverified."
+    "14 Nov daily review 2026-11-14 18:02 EST: four sequential Kaggle reads; board score 0.693 verified, individual attribution not fetched. Other new/changed forum bodies deferred; notebook listing cached 11 Nov. Saved costs rechecked, no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote process state unverified.",
+    "15 Nov daily review: four sequential Kaggle reads, no retry or rate limit. Team score unchanged 0.693; individual entry attribution not fetched. Two new topic snapshots contain only titles, no body/comments; remaining changed bodies deferred, notebook listing cached 11 Nov 20:32 EST. All saved matched-data receipts and itemized rental rows rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -228,12 +228,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-14.json",
+    "board": "reports/scorecard/board/2026-11-15.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Team board improved from 0.682 to 0.693; rank 228 of 5887 at 2026-11-14 18:00 EST. Individual submission attribution unverified. Costs unchanged/cached.",
+  "status_line": "Team best unchanged at 0.693; rank 464 of 6004 at 2026-11-15 18:01 EST. Individual entry attribution unverified. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [

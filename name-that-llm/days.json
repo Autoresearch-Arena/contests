@@ -1,6 +1,30 @@
 {
  "days": [
   {
+   "date": "2026-11-15",
+   "headline": "Best unchanged at 0.693; field moves ahead. Spending remains cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best 0.693 unchanged; rank 464 of 6004, leader 0.774. Individual entry attribution unverified.",
+     "verdict": "no gain",
+     "evidence": "reports/scorecard/board/2026-11-15.json"
+    },
+    {
+     "tried": "Rechecked saved rental charges and every matched-data usage receipt.",
+     "outcome": "Rentals $19.499 cached; matched-data unique usage $12.117154. No fresh invoice; later charges unknown.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-15-scorecard.md"
+    },
+    {
+     "tried": "Read new forum snapshots and inspected local process state.",
+     "outcome": "Four bounded reads; new threads title-only. Other bodies deferred; remote jobs unverified. No research started.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-15-scorecard.md"
+    }
+   ]
+  },
+  {
    "date": "2026-11-14",
    "headline": "Team board improves to 0.693; individual entry attribution unverified, spending cached.",
    "items": [
