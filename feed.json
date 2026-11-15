@@ -178,8 +178,8 @@
         "contest": "gemma-4-developer-agent",
         "title": "Gemma 4 Developer Agent",
         "state": "live",
-        "updated": "2026-11-13",
-        "headline": "Best verified public score remains 0.18. Latest team entry completed at 0.13; public prompt changes remain unverified. Daily review made no submissions or compute changes.",
+        "updated": "2026-11-15",
+        "headline": "Unchanged public 0.22-source control accepted as entry 58399018; no returned status or score yet. Previous 0031 entry completed at 0.10. Next submission changes either the adapter or the harness, not both.",
         "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
         "deadline": "2026-12-02",
         "board": {
@@ -192,15 +192,15 @@
           "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
         },
         "entries": {
-          "used_today": null,
+          "used_today": 1,
           "daily_limit": 1,
-          "total": 13,
-          "observed": "2026-11-09",
-          "note": "Previous ledger count retained, not a current total; latest returned team entries are complete as of the November 13 review."
+          "total": 23,
+          "observed": "2026-11-15",
+          "note": "Live pre-upload limit reported 22 total, zero today; one accepted upload added afterward. Next allowance not queried."
         },
         "running": [],
         "next": [
-          "Read official queue updates and verify public Patchsmith score evidence before further evaluation"
+          "Read the control result; choose one adapter OR harness improvement against it, not both"
         ]
       },
       "note": null
