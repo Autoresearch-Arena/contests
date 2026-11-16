@@ -1,6 +1,24 @@
 {
  "days": [
   {
+   "date": "2026-11-16",
+   "headline": "Best unchanged at 0.693; field moves further ahead. Spending remains cached.",
+   "items": [
+    {
+     "tried": "Reviewed public team leaderboard.",
+     "outcome": "Best unchanged; rank 765 of 6121; leader 0.776, observed 2026-11-16 18:01 EST. Individual entry attribution unverified.",
+     "verdict": "no gain",
+     "evidence": "reports/scorecard/board/2026-11-16.json"
+    },
+    {
+     "tried": "Rechecked saved costs and refreshed an encoder-method discussion.",
+     "outcome": "Selected rentals $19.499 cached; matched-data unique usage $12.117154, separate. No fresh invoice. Encoder scores are community claims, not our measured gains.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-16-scorecard.md"
+    }
+   ]
+  },
+  {
    "date": "2026-11-15",
    "headline": "Best unchanged at 0.693; field moves ahead. Spending remains cached.",
    "items": [
