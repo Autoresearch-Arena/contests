@@ -1,9 +1,9 @@
 {
   "schema": "gemma-iterations/1",
-  "source_revision": "2154971dc8650e30fd6c02a2d3b7ee9bc65e543b",
+  "source_revision": "a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae",
   "observed": "2026-11-14 12:35:09 EST",
-  "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/paper/recomputed.json",
-  "protocol_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/README.md",
+  "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/paper/recomputed.json",
+  "protocol_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/README.md",
   "bars": {
     "ctrl_margin": 5.0,
     "s1_harmful": -6.0,
@@ -32,7 +32,7 @@
       "title": "Deep-thought gate (dose 0.1) plus the model s own end-of-thought neurons at 9 times their write",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0007-claude-deep-gate-b01-end-neurons-x9.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0007-claude-deep-gate-b01-end-neurons-x9.md",
       "results": [
         {
           "batch": "x005",
@@ -60,7 +60,7 @@
       "title": "Deep-thought gate: one neuron per layer 30-48 detects depth >= 800 inside a thought and writes the end-of-thought state (dose 0.3)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0008-claude-deep-thought-gate-g3-b03.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0008-claude-deep-thought-gate-g3-b03.md",
       "results": [
         {
           "batch": "b002",
@@ -90,7 +90,7 @@
       "title": "Own end-of-thought neurons x25: scale the write of the 20 late-layer MLP neurons whose write lens is the end-of-thought token (weights only)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0009-claude-end-neurons-x25.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0009-claude-end-neurons-x25.md",
       "results": [
         {
           "batch": "x005",
@@ -118,7 +118,7 @@
       "title": "Early deep-thought gate (fitted on depth >= 400, dose 0.1) plus own end-of-thought neurons x9: the strong dose of the gated family",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0010-claude-early-gate-b01-end-neurons-x9.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0010-claude-early-gate-b01-end-neurons-x9.md",
       "results": [],
       "batches": []
     },
@@ -129,7 +129,7 @@
       "title": "Amplify natural thought-ending writes across all layers at 0.33 percent",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0011-gpt-writer-close-amplify-033.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0011-gpt-writer-close-amplify-033.md",
       "results": [
         {
           "batch": "b002",
@@ -159,7 +159,7 @@
       "title": "Amplify natural thought-ending writes across all layers at 0.50 percent",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0012-gpt-writer-close-amplify-050.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0012-gpt-writer-close-amplify-050.md",
       "results": [
         {
           "batch": "b003",
@@ -189,7 +189,7 @@
       "title": "Shift common writer output toward thought endings across all layers at 0.11 percent",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0013-gpt-writer-close-shift-011.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0013-gpt-writer-close-shift-011.md",
       "results": [],
       "batches": []
     },
@@ -200,7 +200,7 @@
       "title": "Spectral rank-4 exact-context within-call thought-close writer subspace across all 60 layers (0.38%)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0015-gemini-exact-close-r4-subspace.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0015-gemini-exact-close-r4-subspace.md",
       "results": [
         {
           "batch": "b003",
@@ -247,7 +247,7 @@
       "title": "Subtractive rank-2 deep-rumination attractor damping across all 280 mid-to-late modules (0.36%)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0016-gemini-rumination-damp-r2-net.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0016-gemini-rumination-damp-r2-net.md",
       "results": [
         {
           "batch": "x002",
@@ -275,7 +275,7 @@
       "title": "Coordinate-whitened GeGLU late pre-edit commit gate across 13 high-signal layers (dose 1.20)",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0017-gemini-late-preedit-commit-gate.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0017-gemini-late-preedit-commit-gate.md",
       "results": [],
       "batches": []
     },
@@ -286,7 +286,7 @@
       "title": "Dual-cap rescue stack: rank-4 exact-close writer subspace (0.38%) plus 13-layer late pre-edit commit gate",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0018-gemini-dual-budget-rescue-r5.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0018-gemini-dual-budget-rescue-r5.md",
       "results": [],
       "batches": []
     },
@@ -297,7 +297,7 @@
       "title": "Deep-thought gate in all 60 layers: one neuron per layer detects depth >= 800 in a thought and writes the end-of-thought state (per-layer do",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0020-claude-net-deep-gate-close-b05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0020-claude-net-deep-gate-close-b05.md",
       "results": [
         {
           "batch": "b004",
@@ -327,7 +327,7 @@
       "title": "Deep-thought gate in all 60 layers: one neuron per layer detects depth >= 800 in a thought and writes the end-of-thought state (per-layer do",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0021-claude-net-deep-gate-close-b12.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0021-claude-net-deep-gate-close-b12.md",
       "results": [
         {
           "batch": "b004",
@@ -357,7 +357,7 @@
       "title": "Pre-edit commit gate in all 60 layers: deep in a thought with no edit made yet, write the first-edit thought state only (per-layer dose 0.12",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0022-claude-net-preedit-commit-b12.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0022-claude-net-preedit-commit-b12.md",
       "results": [],
       "batches": []
     },
@@ -368,7 +368,7 @@
       "title": "Pre-edit rumination gate in all 60 layers: deep in a thought with no edit made yet, write end-of-thought plus first-edit state (per-layer do",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0023-claude-net-preedit-commit-close-b05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0023-claude-net-preedit-commit-close-b05.md",
       "results": [],
       "batches": []
     },
@@ -379,7 +379,7 @@
       "title": "Damp the code-versus-prose style contrast in writers in all layers at 0.33 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0025-gpt-code-writer-damp-r4-033.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0025-gpt-code-writer-damp-r4-033.md",
       "results": [
         {
           "batch": "b007",
@@ -409,7 +409,7 @@
       "title": "Damp the code-versus-prose style contrast in writers in all layers at 0.11 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0026-gpt-code-writer-damp-r4-011.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0026-gpt-code-writer-damp-r4-011.md",
       "results": [
         {
           "batch": "b007",
@@ -439,7 +439,7 @@
       "title": "Damp the code-versus-prose style contrast in readers in all layers at 0.33 percent",
       "status": "parked",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0027-gpt-code-reader-damp-r4-033.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0027-gpt-code-reader-damp-r4-033.md",
       "results": [],
       "batches": [
         "b012"
@@ -452,7 +452,7 @@
       "title": "Protocol-nullspace rank-4 exact thought-close writer subspace across L10-59 (0.48%)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0028-gemini-nullspace-close-r4-midlate.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0028-gemini-nullspace-close-r4-midlate.md",
       "results": [
         {
           "batch": "x002",
@@ -480,7 +480,7 @@
       "title": "Instruction vector, think briefly: an always-on neuron per layer writes the stream shift of a 'keep your thinking short' paragraph (dose 2)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0031-claude-icv-brief-b20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0031-claude-icv-brief-b20.md",
       "results": [
         {
           "batch": "b008",
@@ -526,7 +526,7 @@
       "title": "Instruction vector, think briefly: an always-on neuron per layer writes the stream shift of a 'keep your thinking short' paragraph (dose 4)",
       "status": "done",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0032-claude-icv-brief-b40.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0032-claude-icv-brief-b40.md",
       "results": [
         {
           "batch": "b009",
@@ -572,7 +572,7 @@
       "title": "Source-grounding instruction contrast across all 60 layers at dose 3",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0035-gpt-source-grounding-icv-b3.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0035-gpt-source-grounding-icv-b3.md",
       "results": [
         {
           "batch": "x003",
@@ -600,7 +600,7 @@
       "title": "Source-grounding instruction contrast across all 60 layers at dose 1",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0036-gpt-source-grounding-icv-b1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0036-gpt-source-grounding-icv-b1.md",
       "results": [
         {
           "batch": "x003",
@@ -628,7 +628,7 @@
       "title": "Think-briefly instruction vector, self-consistent compile (dose 2): each layer writes only what the paragraph's mean shift still lacks",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0038-claude-fcv-brief-b20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0038-claude-fcv-brief-b20.md",
       "results": [
         {
           "batch": "x004",
@@ -656,7 +656,7 @@
       "title": "Instruction pair vector: think briefly + be exact about what the issue asks, compiled self-consistently into one neuron per layer (dose 2)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0039-claude-fcv-brief-exact-b20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0039-claude-fcv-brief-exact-b20.md",
       "results": [
         {
           "batch": "x004",
@@ -684,7 +684,7 @@
       "title": "Thought-gated reliability-shrunk Problem Statement spec-audit steering across all 60 MLP layers",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0043-gemini-spec-audit-thought-gate.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0043-gemini-spec-audit-thought-gate.md",
       "results": [
         {
           "batch": "x006",
@@ -712,7 +712,7 @@
       "title": "Stateful two-neuron post-edit spec-audit boost with thought and edit-history gating over 180 MLP matrices",
       "status": "queued_s2",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0044-gemini-dual-audit-postedit-boost.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0044-gemini-dual-audit-postedit-boost.md",
       "results": [
         {
           "batch": "x006",
@@ -742,7 +742,7 @@
       "title": "Paired outcome writer map across all 60 layers at 1 percent",
       "status": "running_s1",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0047-gpt-paired-outcome-writers-r4-100.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0047-gpt-paired-outcome-writers-r4-100.md",
       "results": [],
       "batches": [
         "b010"
@@ -755,7 +755,7 @@
       "title": "Paired outcome writer map across all 60 layers at 0.33 percent",
       "status": "running_s1",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0048-gpt-paired-outcome-writers-r4-033.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0048-gpt-paired-outcome-writers-r4-033.md",
       "results": [],
       "batches": [
         "b010"
@@ -768,7 +768,7 @@
       "title": "Think-briefly + be-exact prompt compiled where a prompt enters: many-key rank-8 down_proj maps in 7 global-attention layers, dose 2",
       "status": "running_s1",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0049-claude-mk-pair-global-b20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0049-claude-mk-pair-global-b20.md",
       "results": [],
       "batches": []
     },
@@ -779,7 +779,7 @@
       "title": "Instruction pair vector, 'be exact about what the issue asks' part written three times in layers 6 to 24, think-briefly part at dose 2",
       "status": "running_s1",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0050-claude-fcv-brief-exact3-b20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0050-claude-fcv-brief-exact3-b20.md",
       "results": [],
       "batches": []
     },
@@ -790,7 +790,7 @@
       "title": "OOF-shrunk rank-8 multi-key phase teachers across 108 RoPE-free o_proj and down_proj matrices",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0055-gemini-sc-multikey-spec-writers-r8.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0055-gemini-sc-multikey-spec-writers-r8.md",
       "results": [],
       "batches": []
     },
@@ -801,7 +801,7 @@
       "title": "Capacity-regularized three-phase GeGLU controller for concise thoughts, post-edit spec audit, and pre-submit veto",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0056-gemini-tri-phase-concise-audit-veto.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0056-gemini-tri-phase-concise-audit-veto.md",
       "results": [],
       "batches": []
     },
@@ -812,7 +812,7 @@
       "title": "'Wait' contrast removed from every writer: no block output in any layer can prefer 'Wait' to the other words that open a sentence",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0061-claude-wait-contrast-full.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0061-claude-wait-contrast-full.md",
       "results": [],
       "batches": [
         "b013"
@@ -825,7 +825,7 @@
       "title": "'Wait' contrast at one third: every writer in every layer keeps two thirds of its preference for 'Wait' over other sentence starters",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0062-claude-wait-contrast-third.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0062-claude-wait-contrast-third.md",
       "results": [],
       "batches": [
         "b013"
@@ -838,7 +838,7 @@
       "title": "Damp the code-versus-prose style contrast in readers across all 60 layers at 0.66 percent",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0063-gpt-code-reader-damp-r4-066.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0063-gpt-code-reader-damp-r4-066.md",
       "results": [],
       "batches": [
         "b012"
@@ -851,7 +851,7 @@
       "title": "Stateful two-neuron post-edit spec-audit boost with thought and edit-history gating over 180 MLP matrices - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0064-gemini-dual-audit-postedit-boost-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0064-gemini-dual-audit-postedit-boost-g1.md",
       "results": [],
       "batches": [
         "b014"
@@ -864,7 +864,7 @@
       "title": "Instruction pair vector, 'be exact about what the issue asks' part written three times in layers 6 to 24, think-briefly part at dose 2 - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0065-claude-fcv-brief-exact3-b20-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0065-claude-fcv-brief-exact3-b20-g1.md",
       "results": [],
       "batches": [
         "b015"
@@ -877,7 +877,7 @@
       "title": "Paired outcome writer map across all 60 layers at 0.33 percent - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0066-gpt-paired-outcome-writers-r4-033-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0066-gpt-paired-outcome-writers-r4-033-g1.md",
       "results": [],
       "batches": [
         "b017"
@@ -890,7 +890,7 @@
       "title": "Instruction vector, think briefly: an always-on neuron per layer writes the stream shift of a 'keep your thinking short' paragraph (dose 4) - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0067-claude-icv-brief-b40-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0067-claude-icv-brief-b40-g1.md",
       "results": [],
       "batches": [
         "b017"
@@ -903,7 +903,7 @@
       "title": "Thought-gated reliability-shrunk Problem Statement spec-audit steering across all 60 MLP layers - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0068-gemini-spec-audit-thought-gate-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0068-gemini-spec-audit-thought-gate-g1.md",
       "results": [],
       "batches": [
         "b017"
@@ -916,7 +916,7 @@
       "title": "Instruction pair vector: think briefly + be exact about what the issue asks, compiled self-consistently into one neuron per layer (dose 2) - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0069-claude-fcv-brief-exact-b20-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0069-claude-fcv-brief-exact-b20-g1.md",
       "results": [],
       "batches": []
     },
@@ -927,7 +927,7 @@
       "title": "Spectral rank-4 exact-context within-call thought-close writer subspace across all 60 layers (0.38%) - re-entered on champion generation 1 (0031)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0070-gemini-exact-close-r4-subspace-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0070-gemini-exact-close-r4-subspace-g1.md",
       "results": [],
       "batches": []
     },
@@ -938,7 +938,7 @@
       "title": "One-third tool_act plus on a fresh neuron, added on top of 0031",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0074-grok-toolact-plus-007-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0074-grok-toolact-plus-007-g1.md",
       "results": [],
       "batches": []
     },
@@ -949,7 +949,7 @@
       "title": "Always-on MLP bake of the tool_act plus direction at 2% of mean stream norm",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0075-grok-toolact-plus-020.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0075-grok-toolact-plus-020.md",
       "results": [],
       "batches": [
         "b016"
@@ -962,7 +962,7 @@
       "title": "Damp four secondary writer modes while protecting leading modes and protocol readouts on unedited",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0076-gpt-protected-spectrum-r4-033.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0076-gpt-protected-spectrum-r4-033.md",
       "results": [],
       "batches": [
         "b016"
@@ -975,7 +975,7 @@
       "title": "Ban the thought-paragraph openers \"Wait\" and \"Actually\" by removing their logit direction from all 120 writers (rank 2, 0.85% of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0077-claude-fresh-wait-ban.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0077-claude-fresh-wait-ban.md",
       "results": [],
       "batches": [
         "b016"
@@ -988,7 +988,7 @@
       "title": "Ban the thought-paragraph openers \"Wait\" and \"Actually\" and move half of the Wait logit onto \"Let\" in the 40 writers of layers 40-59, with t",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0078-claude-fresh-wait-to-let.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0078-claude-fresh-wait-to-let.md",
       "results": [],
       "batches": [
         "b016"
@@ -1001,7 +1001,7 @@
       "title": "Tool-neutral concise-thought, Problem-Statement audit, post-edit check, and submit-veto GeGLU controller",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0079-gemini-concise-explore-audit-veto-r3.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0079-gemini-concise-explore-audit-veto-r3.md",
       "results": [],
       "batches": []
     },
@@ -1012,7 +1012,7 @@
       "title": "Collision-free 0031-orthogonal Problem-Statement audit, post-edit boundary check, and submit-veto GeGLU controller",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0080-gemini-g1-orth-postaudit-veto-r3.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0080-gemini-g1-orth-postaudit-veto-r3.md",
       "results": [],
       "batches": [
         "b018"
@@ -1025,7 +1025,7 @@
       "title": "Gated MLP bake of tool_act plus at tool-name positions only, 1 percent of stream norm, rho cap 0.08",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0084-grok-toolact-gate-010.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0084-grok-toolact-gate-010.md",
       "results": [],
       "batches": []
     },
@@ -1036,7 +1036,7 @@
       "title": "No code fence in thoughts: the fence logit of the 40 writers of layers 40-59 is moved onto \"Let\", so copied code leaves the thought",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0088-claude-fence-to-let-late.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0088-claude-fence-to-let-late.md",
       "results": [],
       "batches": []
     },
@@ -1047,7 +1047,7 @@
       "title": "No code fence in thoughts, on 0031: fence logit removed from all 120 writers, half of it moved onto \"Let\" (rank 3, 0.77% of the network)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0089-claude-fence-to-let-net-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0089-claude-fence-to-let-net-g1.md",
       "results": [],
       "batches": [
         "b020"
@@ -1060,7 +1060,7 @@
       "title": "Move long deliberation toward the first source edit",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0090-gpt-fresh-t0023-deliberation.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0090-gpt-fresh-t0023-deliberation.md",
       "results": [],
       "batches": []
     },
@@ -1071,7 +1071,7 @@
       "title": "Reference-teacher lane - closed-form edits fitted toward the task reference fix at the first source edit of failed runs",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0091-teacher-ref-lane.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0091-teacher-ref-lane.md",
       "results": [],
       "batches": []
     },
@@ -1082,7 +1082,7 @@
       "title": "Dual-zone thought conciseness and spec grounding (L6-35) with Gram-optimal Wait/Actually-to-Let redirect (L36-59)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0092-gemini-dual-zone-concise-wait2let-r2.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0092-gemini-dual-zone-concise-wait2let-r2.md",
       "results": [],
       "batches": []
     },
@@ -1093,7 +1093,7 @@
       "title": "Suppress the thought-end embedding in every writer",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0093-grok-fresh-endthought-neg.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0093-grok-fresh-endthought-neg.md",
       "results": [],
       "batches": [
         "b021"
@@ -1106,7 +1106,7 @@
       "title": "Tri-zone 0031 stack: L6-27 spec and module-test steering, L28-45 GeGLU TACT excess damper, L38-59 Wait-to-Let Gram",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0094-gemini-g1-trizone-spec-tact-waitdamp.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0094-gemini-g1-trizone-spec-tact-waitdamp.md",
       "results": [],
       "batches": []
     },
@@ -1117,7 +1117,7 @@
       "title": "Compile full-rule coverage into existing writers on 0031",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0095-gpt-rule-coverage-transport-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0095-gpt-rule-coverage-transport-g1.md",
       "results": [],
       "batches": []
     },
@@ -1128,7 +1128,7 @@
       "title": "Ellipsoid-projected multi-key attention and MLP writer edit (L8-59, r=8) with TACT overthinking-excess conditioning",
       "status": "done",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0096-gemini-ellipsoid-manykey-tact-r8.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0096-gemini-ellipsoid-manykey-tact-r8.md",
       "results": [],
       "batches": [
         "b022"
@@ -1141,7 +1141,7 @@
       "title": "Tool-call syntax repair: half the logit of the backtick-comma that wrongly closes a tool string is added to the string delimiter",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0097-claude-toolcall-close-redirect.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0097-claude-toolcall-close-redirect.md",
       "results": [],
       "batches": [
         "b022"
@@ -1154,7 +1154,7 @@
       "title": "Instruction vector \"run the module's own tests and fix every case the bug reaches\" on 0031, always-on neuron per layer (dose 6, write size m",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0098-failures-fm-own-tests-all-cases-b60.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0098-failures-fm-own-tests-all-cases-b60.md",
       "results": [],
       "batches": []
     },
@@ -1165,7 +1165,7 @@
       "title": "Instruction vector \"submit once a check passes, no re-reading, short thoughts\" on 0031, always-on neuron per layer (dose 6, write size match",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0099-failures-fm-submit-when-verified-b60.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0099-failures-fm-submit-when-verified-b60.md",
       "results": [],
       "batches": []
     },
@@ -1176,7 +1176,7 @@
       "title": "Add each writer's submit-token logit onto the edit token, leaving submit itself in place",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0101-grok-submit-keep-g10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0101-grok-submit-keep-g10.md",
       "results": [],
       "batches": [
         "b023"
@@ -1189,7 +1189,7 @@
       "title": "One-third submit-to-edit logit add, designed on the 0031 champion",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0102-grok-submit-keep-g03-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0102-grok-submit-keep-g03-g1.md",
       "results": [],
       "batches": []
     },
@@ -1200,7 +1200,7 @@
       "title": "Add each writer's python-token logit onto pytest, leaving python itself in place",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0103-grok-py-to-pytest-g10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0103-grok-py-to-pytest-g10.md",
       "results": [],
       "batches": [
         "b024"
@@ -1213,7 +1213,7 @@
       "title": "Instruction vector \"run the module's own tests and fix every case the bug reaches\" on 0031, always-on neuron per layer (dose 4; dose sibling",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0104-failures-fm-own-tests-b40.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0104-failures-fm-own-tests-b40.md",
       "results": [],
       "batches": [
         "b025"
@@ -1226,7 +1226,7 @@
       "title": "Instruction vector \"run the module's own tests and fix every case the bug reaches\" on the unedited model, always-on neuron per layer (dose 6",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0105-failures-fm-own-tests-b60-unedited.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0105-failures-fm-own-tests-b60-unedited.md",
       "results": [],
       "batches": [
         "b024"
@@ -1239,7 +1239,7 @@
       "title": "Instruction vector \"run the module's own tests and fix every case the bug reaches\" on 0031, always-on neuron per layer (dose 9; dose sibling",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0106-failures-fm-own-tests-b90.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0106-failures-fm-own-tests-b90.md",
       "results": [],
       "batches": [
         "b025"
@@ -1252,7 +1252,7 @@
       "title": "One-third read-to-run logit add, designed on the 0031 champion",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0107-grok-read-to-run-g03-g1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0107-grok-read-to-run-g03-g1.md",
       "results": [],
       "batches": [
         "b025"
@@ -1265,7 +1265,7 @@
       "title": "Reference-fitted edit on 0031: closed-form down_proj solve L42-55 toward the task reference fix at the first source edit of failed runs, fit",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0108-teacher-ref-fix-l42-half-c.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0108-teacher-ref-fix-l42-half-c.md",
       "results": [],
       "batches": [
         "b025"
@@ -1278,7 +1278,7 @@
       "title": "Reference-fitted edit (unedited base): closed-form down_proj solve L42-55 toward the task reference fix at the first source edit of failed r",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0109-teacher-ref-fix-l42-half-u.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0109-teacher-ref-fix-l42-half-u.md",
       "results": [],
       "batches": [
         "b026"
@@ -1291,7 +1291,7 @@
       "title": "Wait-to-act - every writer of layers 10-59 stops pushing 'Wait'/'Actually' and writes that push onto the thought-closing token instead (weig",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0110-claude-fresh-wait-to-act.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0110-claude-fresh-wait-to-act.md",
       "results": [],
       "batches": [
         "b026"
@@ -1304,7 +1304,7 @@
       "title": "Wait-to-act at one third dose - writers of layers 10-59 push 'Wait'/'Actually' one third less and write that third toward the thought-closin",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0111-claude-fresh-wait-to-act-third.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0111-claude-fresh-wait-to-act-third.md",
       "results": [],
       "batches": [
         "b026"
@@ -1317,7 +1317,7 @@
       "title": "Closed-form 160-matrix deliberation-depth reader and ellipsoid-projected spiral-closing writer network edit (0.65% network dose)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0112-gemini-fresh-depth-close-065.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0112-gemini-fresh-depth-close-065.md",
       "results": [],
       "batches": [
         "b026"
@@ -1330,7 +1330,7 @@
       "title": "Closed-form 160-matrix deliberation-depth reader and ellipsoid-projected spiral-closing writer network edit (1.20% bold sibling dose)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0113-gemini-fresh-depth-close-120.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0113-gemini-fresh-depth-close-120.md",
       "results": [],
       "batches": [
         "b026"
@@ -1343,7 +1343,7 @@
       "title": "Remove writer components of wrong fixes while preserving other states",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0114-gpt-finished-patch-null-r8-300.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0114-gpt-finished-patch-null-r8-300.md",
       "results": [],
       "batches": [
         "b026"
@@ -1356,7 +1356,7 @@
       "title": "Commit to edit, 0.5 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0115-grok-fresh-editrun-05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0115-grok-fresh-editrun-05.md",
       "results": [],
       "batches": [
         "b029"
@@ -1369,7 +1369,7 @@
       "title": "Commit to edit, 1 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0116-grok-fresh-editrun-10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0116-grok-fresh-editrun-10.md",
       "results": [],
       "batches": [
         "b029"
@@ -1382,7 +1382,7 @@
       "title": "Commit to edit, 2 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0117-grok-fresh-editrun-20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0117-grok-fresh-editrun-20.md",
       "results": [],
       "batches": [
         "b029"
@@ -1395,7 +1395,7 @@
       "title": "Tool-call syntax pair, dose 0.1: 0097's string-close redirect plus 0.1 of the quote-colon logit added to the colon after argument names",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0118-claude-syntax-pair-q010.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0118-claude-syntax-pair-q010.md",
       "results": [],
       "batches": [
         "b028"
@@ -1408,7 +1408,7 @@
       "title": "Tool-call syntax pair, dose 0.25: 0097's string-close redirect plus 0.25 of the quote-colon logit added to the colon after argument names",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0119-claude-syntax-pair-q025.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0119-claude-syntax-pair-q025.md",
       "results": [],
       "batches": [
         "b028"
@@ -1421,7 +1421,7 @@
       "title": "Tool-call syntax pair, dose 0.5: 0097's string-close redirect plus 0.5 of the quote-colon logit added to the colon after argument names",
       "status": "done",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0120-claude-syntax-pair-q050.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0120-claude-syntax-pair-q050.md",
       "results": [],
       "batches": [
         "b028"
@@ -1434,7 +1434,7 @@
       "title": "Full-depth module-test and sibling-case MLP + ellipsoid TACT writer edit (0.65x dose, L6-59, r=9)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0121-gemini-ellipsoid-owntests-tact-065.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0121-gemini-ellipsoid-owntests-tact-065.md",
       "results": [],
       "batches": [
         "b030"
@@ -1447,7 +1447,7 @@
       "title": "Full-depth module-test and sibling-case MLP + ellipsoid TACT writer edit (1.00x dose, L6-59, r=9)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0122-gemini-ellipsoid-owntests-tact-100.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0122-gemini-ellipsoid-owntests-tact-100.md",
       "results": [],
       "batches": [
         "b030"
@@ -1460,7 +1460,7 @@
       "title": "Full-depth module-test and sibling-case MLP + ellipsoid TACT writer edit (1.40x dose, L6-59, r=9)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0123-gemini-ellipsoid-owntests-tact-140.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0123-gemini-ellipsoid-owntests-tact-140.md",
       "results": [],
       "batches": [
         "b030"
@@ -1473,7 +1473,7 @@
       "title": "Reconsideration-to-action writer rotation at 0.32% network dose",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0124-gpt-fresh-action-rotation-032-t0037.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0124-gpt-fresh-action-rotation-032-t0037.md",
       "results": [],
       "batches": [
         "b027"
@@ -1486,7 +1486,7 @@
       "title": "Reconsideration-to-action writer rotation at 0.64% network dose",
       "status": "running",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0125-gpt-fresh-action-rotation-064-t0037.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0125-gpt-fresh-action-rotation-064-t0037.md",
       "results": [],
       "batches": [
         "b027"
@@ -1499,7 +1499,7 @@
       "title": "Reconsideration-to-action writer rotation at 1.28% network dose",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0126-gpt-fresh-action-rotation-128-t0037.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0126-gpt-fresh-action-rotation-128-t0037.md",
       "results": [],
       "batches": [
         "b027"
@@ -1512,7 +1512,7 @@
       "title": "Remove 50 percent of the self-thought attention-read component on 0031",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0127-gpt-thought-qk-source-a050-g1-t43.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0127-gpt-thought-qk-source-a050-g1-t43.md",
       "results": [],
       "batches": []
     },
@@ -1523,7 +1523,7 @@
       "title": "Issue-content transport with a length-matched neutral contrast (council r002, writers of all 60 layers, rank 32)",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0128-grok-council-r002-issue-transport.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0128-grok-council-r002-issue-transport.md",
       "results": [],
       "batches": []
     },
@@ -1534,7 +1534,7 @@
       "title": "Remove 25 percent of the self-thought attention-read component on 0031",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0129-gpt-thought-qk-source-a025-g1-t43.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0129-gpt-thought-qk-source-a025-g1-t43.md",
       "results": [],
       "batches": []
     },
@@ -1545,7 +1545,7 @@
       "title": "Champion dose curve, total dose 1: a second always-on neuron per layer takes back half of 0031's think-briefly write (on 0031)",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0130-claude-brief-dose-g1-d10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0130-claude-brief-dose-g1-d10.md",
       "results": [],
       "batches": []
     },
@@ -1556,7 +1556,7 @@
       "title": "Champion dose curve, total dose 3: a second always-on neuron per layer adds half of 0031's think-briefly write again (on 0031)",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0131-claude-brief-dose-g1-d30.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0131-claude-brief-dose-g1-d30.md",
       "results": [],
       "batches": []
     },
@@ -1567,7 +1567,7 @@
       "title": "Champion dose curve, total dose 4: a second always-on neuron per layer writes 0031's think-briefly vector once more (on 0031)",
       "status": "parked",
       "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0132-claude-brief-dose-g1-d40.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0132-claude-brief-dose-g1-d40.md",
       "results": [],
       "batches": []
     },
@@ -1578,7 +1578,7 @@
       "title": "Dose curve of the think-briefly instruction vector, dose 1: half of 0031's always-on write per layer (unedited base)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0133-claude-brief-dose-u-d10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0133-claude-brief-dose-u-d10.md",
       "results": [],
       "batches": [
         "b032"
@@ -1591,7 +1591,7 @@
       "title": "Dose curve of the think-briefly instruction vector, dose 3: one and a half times 0031's always-on write per layer (unedited base)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0134-claude-brief-dose-u-d30.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0134-claude-brief-dose-u-d30.md",
       "results": [],
       "batches": [
         "b032"
@@ -1604,7 +1604,7 @@
       "title": "Cover-the-other-cases neuron gain at 0.6 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0135-grok-casecover-n06.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0135-grok-casecover-n06.md",
       "results": [],
       "batches": [
         "b033"
@@ -1617,7 +1617,7 @@
       "title": "Cover-the-other-cases neuron gain at 1.2 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0136-grok-casecover-n12.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0136-grok-casecover-n12.md",
       "results": [],
       "batches": [
         "b033"
@@ -1630,7 +1630,7 @@
       "title": "Cover-the-other-cases neuron gain at 2.4 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0137-grok-casecover-n24.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0137-grok-casecover-n24.md",
       "results": [],
       "batches": [
         "b033"
@@ -1643,7 +1643,7 @@
       "title": "Instruction vector \"think in short steps, edit as soon as the function is read, run the module's one test file\" on the unedited model, 0.18-",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0138-failures-fm018-act-test-b60.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0138-failures-fm018-act-test-b60.md",
       "results": [],
       "batches": [
         "b031"
@@ -1656,7 +1656,7 @@
       "title": "Instruction vector \"think in short steps, edit as soon as the function is read, run the module's one test file\" on the unedited model, 0.18-",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0139-failures-fm018-act-test-b90.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0139-failures-fm018-act-test-b90.md",
       "results": [],
       "batches": [
         "b031"
@@ -1669,7 +1669,7 @@
       "title": "Instruction vector \"run the module's own tests and fix every case the bug reaches\" refitted on the unedited model with the 0.18-harness prom",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0140-failures-fm018-own-tests-b90.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0140-failures-fm018-own-tests-b90.md",
       "results": [],
       "batches": [
         "b031"
@@ -1682,7 +1682,7 @@
       "title": "Issue-content transport, length-matched neutral contrast (council r002, unedited, 120 writers, rank 32)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0142-claude-council-r002u-issue-transport.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0142-claude-council-r002u-issue-transport.md",
       "results": [],
       "batches": [
         "b032"
@@ -1695,7 +1695,7 @@
       "title": "Protect protocol readouts while rotating reconsideration toward action at 0.35 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0143-gpt-orth-action-035-t48.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0143-gpt-orth-action-035-t48.md",
       "results": [],
       "batches": [
         "b036"
@@ -1708,7 +1708,7 @@
       "title": "Protect protocol readouts while rotating reconsideration toward action at 0.70 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0144-gpt-orth-action-070-t48.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0144-gpt-orth-action-070-t48.md",
       "results": [],
       "batches": [
         "b036"
@@ -1721,7 +1721,7 @@
       "title": "Kaggle-0.18 thought-gated pytest execution innovation, rank-2 overthinking damper, and 19-token 6-ray one-way Gram operator (0.60x dose)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0145-gemini-k018-gram-act-verify-060.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0145-gemini-k018-gram-act-verify-060.md",
       "results": [],
       "batches": [
         "b033"
@@ -1734,7 +1734,7 @@
       "title": "Protect protocol readouts while rotating reconsideration toward action at 1.05 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0146-gpt-orth-action-105-t48.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0146-gpt-orth-action-105-t48.md",
       "results": [],
       "batches": [
         "b036"
@@ -1747,7 +1747,7 @@
       "title": "Kaggle-0.18 thought-gated pytest execution innovation, rank-2 overthinking damper, and 19-token 6-ray one-way Gram operator (1.00x dose)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0147-gemini-k018-gram-act-verify-100.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0147-gemini-k018-gram-act-verify-100.md",
       "results": [],
       "batches": [
         "b033"
@@ -1760,7 +1760,7 @@
       "title": "Kaggle-0.18 thought-gated pytest execution innovation, rank-2 overthinking damper, and 19-token 6-ray one-way Gram operator (1.45x dose)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0148-gemini-k018-gram-act-verify-145.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0148-gemini-k018-gram-act-verify-145.md",
       "results": [],
       "batches": [
         "b033"
@@ -1773,7 +1773,7 @@
       "title": "Scope contrast vector - audit-the-whole-function minus minimal-fix, one always-on neuron per layer, brevity projected out (dose 3)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0149-grok-council-r001-scope-b30.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0149-grok-council-r001-scope-b30.md",
       "results": [],
       "batches": [
         "b033"
@@ -1786,7 +1786,7 @@
       "title": "Local-window act neurons at 2.0 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0150-grok-window-act-d20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0150-grok-window-act-d20.md",
       "results": [],
       "batches": []
     },
@@ -1797,7 +1797,7 @@
       "title": "Local-window act neurons at 1.0 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0151-grok-window-act-d10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0151-grok-window-act-d10.md",
       "results": [],
       "batches": []
     },
@@ -1808,7 +1808,7 @@
       "title": "Local-window act neurons at 0.5 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0152-grok-window-act-d05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0152-grok-window-act-d05.md",
       "results": [],
       "batches": []
     },
@@ -1819,7 +1819,7 @@
       "title": "thought-close lens amplifier, writers of layers 10-59, 3% per matrix (weakest sibling, just below the measured flip threshold)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0153-claude-fresh-close-lens-x3.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0153-claude-fresh-close-lens-x3.md",
       "results": [],
       "batches": []
     },
@@ -1830,7 +1830,7 @@
       "title": "thought-close lens amplifier, writers of layers 10-59, 3.5% per matrix (middle sibling, at the measured flip threshold)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0154-claude-fresh-close-lens-x35.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0154-claude-fresh-close-lens-x35.md",
       "results": [],
       "batches": []
     },
@@ -1841,7 +1841,7 @@
       "title": "thought-close lens amplifier, writers of layers 10-59, 4% per matrix (strong sibling, above the flip threshold and at the edge of breaking t",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0155-claude-fresh-close-lens-x4.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0155-claude-fresh-close-lens-x4.md",
       "results": [],
       "batches": []
     },
@@ -1852,7 +1852,7 @@
       "title": "Reference-fitted edit, bigger sibling of 0109 (unedited base): 26 layers (L30-55) instead of 14, rank 128 instead of 32, dose 0.5 as in 0109",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0156-teacher-ref-fix-l30-r128-x50.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0156-teacher-ref-fix-l30-r128-x50.md",
       "results": [],
       "batches": [
         "b035"
@@ -1865,7 +1865,7 @@
       "title": "Reference-fitted edit, bigger sibling of 0109 (unedited base): 26 layers (L30-55), rank 128, dose 0.5, fitted on twice the data (119 calls i",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0157-teacher-ref-fix-l30-r128-x50-2x.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0157-teacher-ref-fix-l30-r128-x50-2x.md",
       "results": [],
       "batches": [
         "b035"
@@ -1878,7 +1878,7 @@
       "title": "Reference-fitted edit, bigger sibling of 0109 (unedited base): same band as 0109 (L42-55), rank 128 instead of 32, dose 0.75 instead of 0.5",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0158-teacher-ref-fix-l42-r128-x75.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0158-teacher-ref-fix-l42-r128-x75.md",
       "results": [],
       "batches": [
         "b035"
@@ -1891,7 +1891,7 @@
       "title": "Pre-edit commit gate, 0.18 budget, dose 0.12: deep in a pre-edit thought one neuron per layer writes the first-edit thought state",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0160-claude-preedit-commit-k18-d012.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0160-claude-preedit-commit-k18-d012.md",
       "results": [],
       "batches": [
         "b036"
@@ -1904,7 +1904,7 @@
       "title": "Pre-edit commit gate, 0.18 budget, dose 0.18: deep in a pre-edit thought one neuron per layer writes the first-edit thought state",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0161-claude-preedit-commit-k18-d018.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0161-claude-preedit-commit-k18-d018.md",
       "results": [],
       "batches": [
         "b036"
@@ -1917,7 +1917,7 @@
       "title": "Depth-gated thought-commitment circuit across L28-58 (144 matrices, rank 16, 0.60x dose)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0162-gemini-fresh-depth-commit-06x.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0162-gemini-fresh-depth-commit-06x.md",
       "results": [],
       "batches": []
     },
@@ -1928,7 +1928,7 @@
       "title": "Depth-gated thought-commitment circuit across L28-58 (144 matrices, rank 16, 0.85x anchor dose)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0163-gemini-fresh-depth-commit-085x.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0163-gemini-fresh-depth-commit-085x.md",
       "results": [],
       "batches": []
     },
@@ -1939,7 +1939,7 @@
       "title": "Depth-gated thought-commitment circuit across L28-58 (144 matrices, rank 16, 1.15x strong dose)",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0164-gemini-fresh-depth-commit-115x.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0164-gemini-fresh-depth-commit-115x.md",
       "results": [],
       "batches": []
     },
@@ -1950,7 +1950,7 @@
       "title": "Pre-edit commit gate, 0.18 budget, dose 0.08: deep in a pre-edit thought one neuron per layer writes the first-edit thought state",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0166-claude-preedit-commit-k18-d008.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0166-claude-preedit-commit-k18-d008.md",
       "results": [],
       "batches": []
     },
@@ -1961,7 +1961,7 @@
       "title": "Big edit - think-briefly paragraph compiled position by position into all 60 MLP writers at rank 512, dose 0.25",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0167-bigedit-cc-brief-r512-s025.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0167-bigedit-cc-brief-r512-s025.md",
       "results": [],
       "batches": []
     },
@@ -1972,7 +1972,7 @@
       "title": "Big edit - think-briefly paragraph compiled position by position into all 60 MLP writers at rank 512, dose 0.5",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0168-bigedit-cc-brief-r512-s05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0168-bigedit-cc-brief-r512-s05.md",
       "results": [],
       "batches": []
     },
@@ -1983,7 +1983,7 @@
       "title": "Big edit - think-briefly paragraph compiled position by position into all 60 MLP writers at rank 512, dose 1",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0169-bigedit-cc-brief-r512-s1.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0169-bigedit-cc-brief-r512-s1.md",
       "results": [],
       "batches": []
     },
@@ -1994,7 +1994,7 @@
       "title": "Paired concise reasoning contrast at 0.35 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0171-gpt-fresh-t0057-concise-035.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0171-gpt-fresh-t0057-concise-035.md",
       "results": [],
       "batches": [
         "b037"
@@ -2007,7 +2007,7 @@
       "title": "Paired concise reasoning contrast at 0.7 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0172-gpt-fresh-t0057-concise-070.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0172-gpt-fresh-t0057-concise-070.md",
       "results": [],
       "batches": [
         "b037"
@@ -2020,7 +2020,7 @@
       "title": "Paired concise reasoning contrast at 1.4 percent",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0173-gpt-fresh-t0057-concise-140.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0173-gpt-fresh-t0057-concise-140.md",
       "results": [],
       "batches": [
         "b037"
@@ -2033,7 +2033,7 @@
       "title": "Pytest and unittest writer boost at 0.5 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0174-grok-modtest-d05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0174-grok-modtest-d05.md",
       "results": [],
       "batches": [
         "b037"
@@ -2046,7 +2046,7 @@
       "title": "Pytest and unittest writer boost at 1.0 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0175-grok-modtest-d10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0175-grok-modtest-d10.md",
       "results": [],
       "batches": [
         "b037"
@@ -2059,7 +2059,7 @@
       "title": "Pytest and unittest writer boost at 2.0 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0176-grok-modtest-d20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0176-grok-modtest-d20.md",
       "results": [],
       "batches": [
         "b037"
@@ -2072,7 +2072,7 @@
       "title": "0138's \"think in short steps, edit as soon as the function is read\" vector at dose 4.5, unedited model, 0.18-harness prompt",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0177-failures-fm018-act-b45.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0177-failures-fm018-act-b45.md",
       "results": [],
       "batches": []
     },
@@ -2083,7 +2083,7 @@
       "title": "0138 plus a weak (dose 2) \"run the module's own tests, fix every case\" shift in the same neuron, unedited model, 0.18-harness prompt",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0178-failures-fm018-act-mix62.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0178-failures-fm018-act-mix62.md",
       "results": [],
       "batches": []
     },
@@ -2094,7 +2094,7 @@
       "title": "0138 plus a third-strength \"run the module's own tests, fix every case\" shift in the same neuron, unedited model, 0.18-harness prompt",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0179-failures-fm018-act-mix63.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0179-failures-fm018-act-mix63.md",
       "results": [],
       "batches": []
     },
@@ -2105,7 +2105,7 @@
       "title": "String-close repair under the 0.18 harness, dose 0.125: four backtick-comma closers add 0.125 of their centred logit to the string delimiter",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0180-claude-k18-close-centred-q012.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0180-claude-k18-close-centred-q012.md",
       "results": [],
       "batches": []
     },
@@ -2116,7 +2116,7 @@
       "title": "String-close repair under the 0.18 harness, dose 0.25: four backtick-comma closers add 0.25 of their centred logit to the string delimiter",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0181-claude-k18-close-centred-q025.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0181-claude-k18-close-centred-q025.md",
       "results": [],
       "batches": []
     },
@@ -2127,7 +2127,7 @@
       "title": "String-close repair under the 0.18 harness, dose 0.5: four backtick-comma closers add 0.5 of their centred logit to the string delimiter",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0182-claude-k18-close-centred-q050.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0182-claude-k18-close-centred-q050.md",
       "results": [],
       "batches": []
     },
@@ -2138,7 +2138,7 @@
       "title": "Remove each local layer's strongest copy direction at 0.5 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0183-grok-local-copy-d05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0183-grok-local-copy-d05.md",
       "results": [],
       "batches": []
     },
@@ -2149,7 +2149,7 @@
       "title": "Remove each local layer's strongest copy direction at 1.0 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0184-grok-local-copy-d10.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0184-grok-local-copy-d10.md",
       "results": [],
       "batches": []
     },
@@ -2160,7 +2160,7 @@
       "title": "Remove each local layer's strongest copy direction at 2.0 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0185-grok-local-copy-d20.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0185-grok-local-copy-d20.md",
       "results": [],
       "batches": []
     },
@@ -2171,7 +2171,7 @@
       "title": "Sign-corrected rank-2 overthinking wrap-up, token-matched Kaggle-0.18 clean-pytest MLP channel, and 19-token 6-ray Gram operator (0.75x dose",
       "status": "done",
       "verdict": "not confirmed",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0186-gemini-k18-clockfix-gram-pytest-075.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0186-gemini-k18-clockfix-gram-pytest-075.md",
       "results": [],
       "batches": []
     },
@@ -2182,7 +2182,7 @@
       "title": "Sign-corrected rank-2 overthinking wrap-up, token-matched Kaggle-0.18 clean-pytest MLP channel, and 19-token 6-ray Gram operator (1.05x dose",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0187-gemini-k18-clockfix-gram-pytest-105.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0187-gemini-k18-clockfix-gram-pytest-105.md",
       "results": [],
       "batches": []
     },
@@ -2193,7 +2193,7 @@
       "title": "Sign-corrected rank-2 overthinking wrap-up, token-matched Kaggle-0.18 clean-pytest MLP channel, and 19-token 6-ray Gram operator (1.40x dose",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0188-gemini-k18-clockfix-gram-pytest-140.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0188-gemini-k18-clockfix-gram-pytest-140.md",
       "results": [],
       "batches": []
     },
@@ -2204,7 +2204,7 @@
       "title": "Keyed repro-to-pytest neuron at 0.5 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0190-grok-reprogate-d05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0190-grok-reprogate-d05.md",
       "results": [],
       "batches": [
         "b038"
@@ -2217,7 +2217,7 @@
       "title": "Keyed repro-to-pytest neuron at 1.5 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0191-grok-reprogate-d15.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0191-grok-reprogate-d15.md",
       "results": [],
       "batches": [
         "b039"
@@ -2230,7 +2230,7 @@
       "title": "Keyed repro-to-pytest neuron at 3 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0192-grok-reprogate-d30.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0192-grok-reprogate-d30.md",
       "results": [],
       "batches": [
         "b039"
@@ -2243,7 +2243,7 @@
       "title": "Stateful 2-neuron pre-post Kaggle-0.18 MLP controller, sign-corrected r2 wrap-up, and mean-centered 4-closer Cholesky-Gram operator (1.00x d",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0194-gemini-k18-dualphase-cgram-100.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0194-gemini-k18-dualphase-cgram-100.md",
       "results": [],
       "batches": [
         "b040"
@@ -2256,7 +2256,7 @@
       "title": "Stateful 2-neuron pre-post Kaggle-0.18 MLP controller, sign-corrected r2 wrap-up, and mean-centered 4-closer Cholesky-Gram operator (0.70x d",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0195-gemini-k18-dualphase-cgram-070.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0195-gemini-k18-dualphase-cgram-070.md",
       "results": [],
       "batches": [
         "b040"
@@ -2269,7 +2269,7 @@
       "title": "Stateful 2-neuron pre-post Kaggle-0.18 MLP controller, sign-corrected r2 wrap-up, and mean-centered 4-closer Cholesky-Gram operator (1.35x d",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0196-gemini-k18-dualphase-cgram-135.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0196-gemini-k18-dualphase-cgram-135.md",
       "results": [],
       "batches": [
         "b040"
@@ -2282,7 +2282,7 @@
       "title": "Keyed read-loop to edit neuron at 0.5 percent of the network",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0197-grok-readloop-d05.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0197-grok-readloop-d05.md",
       "results": [],
       "batches": [
         "b040"
@@ -2295,7 +2295,7 @@
       "title": "Keyed read-loop to edit neuron at 1.5 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0198-grok-readloop-d15.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0198-grok-readloop-d15.md",
       "results": [],
       "batches": [
         "b040"
@@ -2308,7 +2308,7 @@
       "title": "Keyed read-loop to edit neuron at 3 percent of the network",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0199-grok-readloop-d30.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0199-grok-readloop-d30.md",
       "results": [],
       "batches": [
         "b040"
@@ -2321,7 +2321,7 @@
       "title": "Context-keyed tool string repair at 0.35 percent",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0200-gpt-context-delimiter-035-t69.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0200-gpt-context-delimiter-035-t69.md",
       "results": [],
       "batches": [
         "b041"
@@ -2334,7 +2334,7 @@
       "title": "Reference-fitted edit refit on 0.18-harness contexts (unedited base): L42-55 down_proj, rank 32, 0.75% of the network (half of 0109's size)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0201-teacher-ref18-l42-r32-n075.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0201-teacher-ref18-l42-r32-n075.md",
       "results": [],
       "batches": [
         "b042"
@@ -2347,7 +2347,7 @@
       "title": "Reference-fitted edit refit on 0.18-harness contexts (unedited base): L42-55 down_proj, rank 32, 1.10% of the network (a lower dose than 010",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0202-teacher-ref18-l42-r32-n110.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0202-teacher-ref18-l42-r32-n110.md",
       "results": [],
       "batches": [
         "b042"
@@ -2360,7 +2360,7 @@
       "title": "Reference-fitted edit refit on 0.18-harness contexts (unedited base): L42-55 down_proj, rank 32, 1.55% of the network (0109's own size)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0203-teacher-ref18-l42-r32-n155.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0203-teacher-ref18-l42-r32-n155.md",
       "results": [],
       "batches": [
         "b042"
@@ -2373,7 +2373,7 @@
       "title": "Readers see the stream as if the thought were ending (close-minus-cont shift on q/k/v/gate/up, thought-gated), dose s=0.12",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0205-claude-fresh-endread-s012.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0205-claude-fresh-endread-s012.md",
       "results": [],
       "batches": [
         "b045"
@@ -2386,7 +2386,7 @@
       "title": "Readers see the stream as if the thought were ending (close-minus-cont shift on q/k/v/gate/up, thought-gated), dose s=0.25",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0206-claude-fresh-endread-s025.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0206-claude-fresh-endread-s025.md",
       "results": [],
       "batches": [
         "b045"
@@ -2399,7 +2399,7 @@
       "title": "Readers see the stream as if the thought were ending (close-minus-cont shift on q/k/v/gate/up, thought-gated), dose s=0.5",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0207-claude-fresh-endread-s050.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0207-claude-fresh-endread-s050.md",
       "results": [],
       "batches": [
         "b045"
@@ -2412,7 +2412,7 @@
       "title": "Strengthen native tool-result evidence in MLP readers at 0.9 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0208-gpt-result-readers-090-t75.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0208-gpt-result-readers-090-t75.md",
       "results": [],
       "batches": [
         "b043"
@@ -2425,7 +2425,7 @@
       "title": "Phase-conditioned 60-layer causal-Jacobian dual-writer closed-form edit (0.57x cautious dose, 0.24% network over 104 matrices)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0209-gemini-fresh-aj-dualwriter-d024.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0209-gemini-fresh-aj-dualwriter-d024.md",
       "results": [],
       "batches": [
         "b043"
@@ -2438,7 +2438,7 @@
       "title": "Phase-conditioned 60-layer causal-Jacobian dual-writer closed-form edit (1.00x training-sized dose, 0.42% network over 104 matrices)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0210-gemini-fresh-aj-dualwriter-d042.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0210-gemini-fresh-aj-dualwriter-d042.md",
       "results": [],
       "batches": [
         "b043"
@@ -2451,7 +2451,7 @@
       "title": "Phase-conditioned 60-layer causal-Jacobian dual-writer closed-form edit (1.62x strong dose, 0.68% network over 104 matrices)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0211-gemini-fresh-aj-dualwriter-d068.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0211-gemini-fresh-aj-dualwriter-d068.md",
       "results": [],
       "batches": [
         "b043"
@@ -2464,7 +2464,7 @@
       "title": "Thought-gated close bias, dose 0.06: one neuron per layer 22-55 fires only in thoughts and writes the thought-closing token's direction",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0212-claude-think-close-bias-r006.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0212-claude-think-close-bias-r006.md",
       "results": [],
       "batches": [
         "b044"
@@ -2477,7 +2477,7 @@
       "title": "Thought-gated close bias, dose 0.12 (strong): one neuron per layer 22-55 fires only in thoughts and writes the thought-closing direction",
       "status": "done",
       "verdict": "harmful",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0213-claude-think-close-bias-r012.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0213-claude-think-close-bias-r012.md",
       "results": [],
       "batches": [
         "b044"
@@ -2490,7 +2490,7 @@
       "title": "Thought-gated close bias, dose 0.045: one neuron per layer 22-55 fires only in thoughts and writes the thought-closing token's direction",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0214-claude-think-close-bias-r0045.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0214-claude-think-close-bias-r0045.md",
       "results": [],
       "batches": [
         "b044"
@@ -2503,7 +2503,7 @@
       "title": "Self-limiting Kaggle-0.22 post-edit pytest controller and idempotent dual-writer transition map (0.45x calibrated anchor dose, r=6, 0.874% o",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0216-gemini-k22-idemp-verify-d045.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0216-gemini-k22-idemp-verify-d045.md",
       "results": [],
       "batches": [
         "b047"
@@ -2516,7 +2516,7 @@
       "title": "Self-limiting Kaggle-0.22 post-edit pytest controller and idempotent dual-writer transition map (0.25x mild dose, r=6, 0.812% over 216 matri",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0217-gemini-k22-idemp-verify-d025.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0217-gemini-k22-idemp-verify-d025.md",
       "results": [],
       "batches": [
         "b047"
@@ -2529,7 +2529,7 @@
       "title": "Self-limiting Kaggle-0.22 post-edit pytest controller and idempotent dual-writer transition map (0.72x strong dose lowered from 1.65x per br",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0218-gemini-k22-idemp-verify-d072.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0218-gemini-k22-idemp-verify-d072.md",
       "results": [],
       "batches": [
         "b047"
@@ -2542,7 +2542,7 @@
       "title": "Paired successful-thought transport at 0.6 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0220-gpt-fresh-t0080-paired-060.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0220-gpt-fresh-t0080-paired-060.md",
       "results": [],
       "batches": [
         "b049"
@@ -2555,7 +2555,7 @@
       "title": "Paired successful-thought transport at 1.2 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0221-gpt-fresh-t0080-paired-120.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0221-gpt-fresh-t0080-paired-120.md",
       "results": [],
       "batches": [
         "b049"
@@ -2568,7 +2568,7 @@
       "title": "Paired successful-thought transport at 1.8 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0222-gpt-fresh-t0080-paired-240.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0222-gpt-fresh-t0080-paired-240.md",
       "results": [],
       "batches": [
         "b049"
@@ -2581,7 +2581,7 @@
       "title": "Native Kaggle-0.22 60-layer causal-Jacobian dual-writer and rank-2 Gram-centred delimiter repair (1.45x-calibrated-anchor-dose, r=8, 0.851%",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0223-gemini-k22-aj-gram-r8-d145.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0223-gemini-k22-aj-gram-r8-d145.md",
       "results": [],
       "batches": [
         "b051"
@@ -2594,7 +2594,7 @@
       "title": "Native Kaggle-0.22 60-layer causal-Jacobian dual-writer and rank-2 Gram-centred delimiter repair (1.00x-cautious-sibling-dose, r=8, 0.587% o",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0224-gemini-k22-aj-gram-r8-d100.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0224-gemini-k22-aj-gram-r8-d100.md",
       "results": [],
       "batches": [
         "b052"
@@ -2607,7 +2607,7 @@
       "title": "Native Kaggle-0.22 60-layer causal-Jacobian dual-writer and rank-2 Gram-centred delimiter repair (1.80x-strong-sibling-dose, r=8, 1.057% ove",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0225-gemini-k22-aj-gram-r8-d180.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0225-gemini-k22-aj-gram-r8-d180.md",
       "results": [],
       "batches": [
         "b052"
@@ -2620,7 +2620,7 @@
       "title": "Centered content-only tool-result writer sensitivity, o_proj and down_proj of L4-58, rank 4, dose 0.60% (council r006)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0226-claude-council-r006-toolres-content-d060.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0226-claude-council-r006-toolres-content-d060.md",
       "results": [],
       "batches": [
         "b053"
@@ -2633,7 +2633,7 @@
       "title": "Centered content-only tool-result writer sensitivity, o_proj and down_proj of L4-58, rank 4, dose 0.90% (council r006)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0227-claude-council-r006-toolres-content-d090.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0227-claude-council-r006-toolres-content-d090.md",
       "results": [],
       "batches": [
         "b053"
@@ -2646,7 +2646,7 @@
       "title": "Rank-8 420-matrix nullspace-anchored state-policy RRR and bad-habit damping (0.60x dose, 0.324% net)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0228-gemini-fresh-nullrrr-r8-d060.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0228-gemini-fresh-nullrrr-r8-d060.md",
       "results": [],
       "batches": [
         "b055"
@@ -2659,7 +2659,7 @@
       "title": "Rank-8 420-matrix nullspace-anchored state-policy RRR and bad-habit damping (1.00x dose, 0.540% net)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0229-gemini-fresh-nullrrr-r8-d100.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0229-gemini-fresh-nullrrr-r8-d100.md",
       "results": [],
       "batches": [
         "b055"
@@ -2672,7 +2672,7 @@
       "title": "Rank-8 420-matrix nullspace-anchored state-policy RRR and bad-habit damping (1.60x dose, 0.864% net)",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0230-gemini-fresh-nullrrr-r8-d160.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0230-gemini-fresh-nullrrr-r8-d160.md",
       "results": [],
       "batches": [
         "b055"
@@ -2685,7 +2685,7 @@
       "title": "Paired successful-state transport at 0.15 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0231-gpt-fresh-paired-state-0015-t0087.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0231-gpt-fresh-paired-state-0015-t0087.md",
       "results": [],
       "batches": [
         "b056"
@@ -2698,7 +2698,7 @@
       "title": "Paired successful-state transport at 0.3 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0232-gpt-fresh-paired-state-003-t0087.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0232-gpt-fresh-paired-state-003-t0087.md",
       "results": [],
       "batches": [
         "b056"
@@ -2711,7 +2711,7 @@
       "title": "Paired successful-state transport at 0.6 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0233-gpt-fresh-paired-state-006-t0087.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0233-gpt-fresh-paired-state-006-t0087.md",
       "results": [],
       "batches": [
         "b056"
@@ -2724,7 +2724,7 @@
       "title": "Self-limiting paired-phase transport, denoised causal-Jacobian router, and BPE-split Gram delimiter repair (1.15x-calibrated-anchor-dose, r=",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0234-gemini-k22-paired-aj-bpe-r8-d115.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0234-gemini-k22-paired-aj-bpe-r8-d115.md",
       "results": [],
       "batches": [
         "b058"
@@ -2737,7 +2737,7 @@
       "title": "Self-limiting paired-phase transport, denoised causal-Jacobian router, and BPE-split Gram delimiter repair (0.75x-cautious-sibling-dose, r=8",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0235-gemini-k22-paired-aj-bpe-r8-d075.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0235-gemini-k22-paired-aj-bpe-r8-d075.md",
       "results": [],
       "batches": [
         "b059"
@@ -2750,7 +2750,7 @@
       "title": "Self-limiting paired-phase transport, denoised causal-Jacobian router, and BPE-split Gram delimiter repair (1.60x-strong-sibling-lowered-fro",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0236-gemini-k22-paired-aj-bpe-r8-d160.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0236-gemini-k22-paired-aj-bpe-r8-d160.md",
       "results": [],
       "batches": [
         "b059"
@@ -2763,7 +2763,7 @@
       "title": "Keep replacement code in tool arguments at 0.7 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0237-gpt-no-duplicate-code-r4-a-t89.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0237-gpt-no-duplicate-code-r4-a-t89.md",
       "results": [],
       "batches": [
         "b059"
@@ -2776,7 +2776,7 @@
       "title": "Keep replacement code in tool arguments at 1.4 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0238-gpt-no-duplicate-code-r4-b-t89.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0238-gpt-no-duplicate-code-r4-b-t89.md",
       "results": [],
       "batches": [
         "b059"
@@ -2789,7 +2789,7 @@
       "title": "Short exact source replacements at 0.7 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0239-gpt-short-source-replace-r4-t91.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0239-gpt-short-source-replace-r4-t91.md",
       "results": [],
       "batches": [
         "b061"
@@ -2802,7 +2802,7 @@
       "title": "Prior-thought exclusion after the first edit at 0.90 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0240-gpt-council-r007-prior-mask-d090.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0240-gpt-council-r007-prior-mask-d090.md",
       "results": [],
       "batches": [
         "b062"
@@ -2815,7 +2815,7 @@
       "title": "Prior-thought exclusion after the first edit at 1.20 percent",
       "status": "done",
       "verdict": "null",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0241-gpt-council-r007-prior-mask-d120.md",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0241-gpt-council-r007-prior-mask-d120.md",
       "results": [],
       "batches": [
         "b062"
@@ -2826,12 +2826,103 @@
       "date": "2026-11-16",
       "author": "gemini",
       "title": "Local-window spiral closer, existing-test verification, and orthogonal BPE-Gram repair (1.55x-anchor, r=8, 1.12% net)",
-      "status": "running",
-      "verdict": "-",
-      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/2154971dc8650e30fd6c02a2d3b7ee9bc65e543b/research/wsp31/ledger/0242-gemini-k22-spiral-verify-bpe-r8-d155.md",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0242-gemini-k22-spiral-verify-bpe-r8-d155.md",
       "results": [],
       "batches": [
         "b064"
+      ]
+    },
+    {
+      "id": "0243",
+      "date": "2026-11-16",
+      "author": "gpt",
+      "title": "Paired successful-state transport at 0.35 percent network size",
+      "status": "running",
+      "verdict": "-",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0243-gpt-fresh-t0094-transport-035.md",
+      "results": [],
+      "batches": [
+        "b065"
+      ]
+    },
+    {
+      "id": "0244",
+      "date": "2026-11-16",
+      "author": "gpt",
+      "title": "Paired successful-state transport at 0.7 percent network size",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0244-gpt-fresh-t0094-transport-070.md",
+      "results": [],
+      "batches": [
+        "b065"
+      ]
+    },
+    {
+      "id": "0245",
+      "date": "2026-11-16",
+      "author": "gpt",
+      "title": "Paired successful-state transport at 1.3 percent network size",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0245-gpt-fresh-t0094-transport-130.md",
+      "results": [],
+      "batches": [
+        "b066"
+      ]
+    },
+    {
+      "id": "0246",
+      "date": "2026-11-16",
+      "author": "gpt",
+      "title": "Read existing tests before the first source edit at 0.70 percent",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0246-gpt-test-first-read-r4-070-t96.md",
+      "results": [],
+      "batches": [
+        "b068"
+      ]
+    },
+    {
+      "id": "0247",
+      "date": "2026-11-16",
+      "author": "gpt",
+      "title": "Read existing tests before the first source edit at 0.35 percent",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0247-gpt-test-first-read-r4-035-t96.md",
+      "results": [],
+      "batches": [
+        "b069"
+      ]
+    },
+    {
+      "id": "0248",
+      "date": "2026-11-16",
+      "author": "claude",
+      "title": "Evidence-conditioned first-edit decisions, instruction-minus-neutral ridge, o_proj and down_proj L4-58, rank 4, dose 0.60% (council r008)",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0248-claude-council-r008-evidence-edit-d060.md",
+      "results": [],
+      "batches": [
+        "b070"
+      ]
+    },
+    {
+      "id": "0249",
+      "date": "2026-11-16",
+      "author": "claude",
+      "title": "Evidence-conditioned first-edit decisions, instruction-minus-neutral ridge, o_proj and down_proj L4-58, rank 4, dose 0.90% (council r008)",
+      "status": "done",
+      "verdict": "null",
+      "source_url": "https://github.com/Autoresearch-Arena/gemma-4-developer-agent/blob/a2be4b1d60fa4dd67fb28d6ea111bce70ffcb6ae/research/wsp31/ledger/0249-claude-council-r008-evidence-edit-d090.md",
+      "results": [],
+      "batches": [
+        "b070"
       ]
     }
   ]
