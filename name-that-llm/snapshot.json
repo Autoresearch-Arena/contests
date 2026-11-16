@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "15 November 2026",
-  "snapshot_utc": "2026-11-15T23:02:25.316723+00:00",
+  "date": "16 November 2026",
+  "snapshot_utc": "2026-11-16T23:02:14.545450+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -54,10 +54,10 @@
   },
   "leaderboard": {
     "score": 0.693,
-    "rank": 464,
-    "teams": 6004,
-    "leader": 0.774,
-    "asof": "2026-11-15 18:01 EST",
+    "rank": 765,
+    "teams": 6121,
+    "leader": 0.776,
+    "asof": "2026-11-16 18:01 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -106,7 +106,7 @@
       }
     ],
     "pending": "Team board now verifies 0.693; individual scoring receipt not requested. The saved public 0.689-title recipe-copy submission remains individually unverified; no attribution inferred.",
-    "asof_short": "2026-11-15 18:01 EST"
+    "asof_short": "2026-11-16 18:01 EST"
   },
   "results": [
     {
@@ -218,7 +218,8 @@
     "13 Nov 18:02 EST: no matching local matched-data collector, expansion watcher or research rsync process observed (excluding the inspection command). Remote training state and live billing unverified.",
     "13 Nov community: four Kaggle requests total (board, newest topics, two new thread snapshots), no retries or notebook fetch. Other new/changed bodies deferred; notebooks remain cached 11 Nov 20:32 EST.",
     "14 Nov daily review 2026-11-14 18:02 EST: four sequential Kaggle reads; board score 0.693 verified, individual attribution not fetched. Other new/changed forum bodies deferred; notebook listing cached 11 Nov. Saved costs rechecked, no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote process state unverified.",
-    "15 Nov daily review: four sequential Kaggle reads, no retry or rate limit. Team score unchanged 0.693; individual entry attribution not fetched. Two new topic snapshots contain only titles, no body/comments; remaining changed bodies deferred, notebook listing cached 11 Nov 20:32 EST. All saved matched-data receipts and itemized rental rows rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified."
+    "15 Nov daily review: four sequential Kaggle reads, no retry or rate limit. Team score unchanged 0.693; individual entry attribution not fetched. Two new topic snapshots contain only titles, no body/comments; remaining changed bodies deferred, notebook listing cached 11 Nov 20:32 EST. All saved matched-data receipts and itemized rental rows rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified.",
+    "16 Nov daily review: five attempted Kaggle reads including one duplicate listing and repeated successful thread read after a local wrapper error; no HTTP rate limit. Team best unchanged 0.693; rank 765 of 6121. Updated thread 759103 reports encoder baselines, attributed not independently verified. Other changed bodies deferred; notebook listing cached 11 Nov 20:32 EST. Itemized rentals and matched-data receipts rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -228,12 +229,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-15.json",
+    "board": "reports/scorecard/board/2026-11-16.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Team best unchanged at 0.693; rank 464 of 6004 at 2026-11-15 18:01 EST. Individual entry attribution unverified. Costs unchanged/cached.",
+  "status_line": "Team best unchanged at 0.693; rank 765 of 6121 at 2026-11-16 18:01 EST. Individual entry attribution unverified. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
