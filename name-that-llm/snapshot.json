@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "16 November 2026",
-  "snapshot_utc": "2026-11-16T23:02:14.545450+00:00",
+  "date": "17 November 2026",
+  "snapshot_utc": "2026-11-17T23:02:20.258656+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -53,11 +53,11 @@
     "observed_date": "2026-11-10"
   },
   "leaderboard": {
-    "score": 0.693,
-    "rank": 765,
-    "teams": 6121,
+    "score": 0.702,
+    "rank": 168,
+    "teams": 6229,
     "leader": 0.776,
-    "asof": "2026-11-16 18:01 EST",
+    "asof": "2026-11-17 18:01 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,8 +105,8 @@
         "delta": -0.004
       }
     ],
-    "pending": "Team board now verifies 0.693; individual scoring receipt not requested. The saved public 0.689-title recipe-copy submission remains individually unverified; no attribution inferred.",
-    "asof_short": "2026-11-16 18:01 EST"
+    "pending": "Team board verifies 0.702; individual scoring receipt not requested. No winning-entry attribution inferred; historical status/submission receipts retain their dates.",
+    "asof_short": "2026-11-17 18:01 EST"
   },
   "results": [
     {
@@ -199,7 +199,7 @@
     }
   ],
   "next_bets": [
-    "Reconcile the individual scored submission receipt with the verified team 0.693 under separate research review; do not infer the entry from the board alone.",
+    "Reconcile individual scored entry with verified team 0.702 under separate research review; do not infer attribution from team board.",
     "Compare the prepared matched passages in a controlled trained-member test only under separate research authorization.",
     "Real GLM author-model features remain a proposed gated plan, not a completed run."
   ],
@@ -219,7 +219,8 @@
     "13 Nov community: four Kaggle requests total (board, newest topics, two new thread snapshots), no retries or notebook fetch. Other new/changed bodies deferred; notebooks remain cached 11 Nov 20:32 EST.",
     "14 Nov daily review 2026-11-14 18:02 EST: four sequential Kaggle reads; board score 0.693 verified, individual attribution not fetched. Other new/changed forum bodies deferred; notebook listing cached 11 Nov. Saved costs rechecked, no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote process state unverified.",
     "15 Nov daily review: four sequential Kaggle reads, no retry or rate limit. Team score unchanged 0.693; individual entry attribution not fetched. Two new topic snapshots contain only titles, no body/comments; remaining changed bodies deferred, notebook listing cached 11 Nov 20:32 EST. All saved matched-data receipts and itemized rental rows rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified.",
-    "16 Nov daily review: five attempted Kaggle reads including one duplicate listing and repeated successful thread read after a local wrapper error; no HTTP rate limit. Team best unchanged 0.693; rank 765 of 6121. Updated thread 759103 reports encoder baselines, attributed not independently verified. Other changed bodies deferred; notebook listing cached 11 Nov 20:32 EST. Itemized rentals and matched-data receipts rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified."
+    "16 Nov daily review: five attempted Kaggle reads including one duplicate listing and repeated successful thread read after a local wrapper error; no HTTP rate limit. Team best unchanged 0.693; rank 765 of 6121. Updated thread 759103 reports encoder baselines, attributed not independently verified. Other changed bodies deferred; notebook listing cached 11 Nov 20:32 EST. Itemized rentals and matched-data receipts rechecked; no newer billing receipt. No matching local collector/watcher/research sync observed excluding inspection; remote jobs and live billing unverified.",
+    "17 Nov daily review: four sequential Kaggle reads (board, newest topics, two changed threads), no retries or rate limit. Team best 0.702, rank 168 of 6229. Individual attribution unverified; no new original research report on current main. Community author reports 0.616 encoder blend and punctuation signals, not our measurements; recruitment comment reports trimming without receipts. Notebook listing cached 11 Nov 20:32 EST; other bodies deferred. Original itemized rentals and 1470 saved matched-data receipts rechecked; no fresh billing invoice. Local process list at 18:01 EST showed no matching collector/watcher/research sync excluding inspection; remote jobs/live billing unverified."
   ],
   "evidence": {
     "leaderboard": "status.json",
@@ -229,12 +230,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-16.json",
+    "board": "reports/scorecard/board/2026-11-17.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Team best unchanged at 0.693; rank 765 of 6121 at 2026-11-16 18:01 EST. Individual entry attribution unverified. Costs unchanged/cached.",
+  "status_line": "Team best rises from 0.693 to 0.702; rank 168 of 6229 at 2026-11-17 18:01 EST. Winning-entry attribution unverified. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [

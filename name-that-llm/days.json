@@ -1,6 +1,24 @@
 {
  "days": [
   {
+   "date": "2026-11-17",
+   "headline": "Team best improves to 0.702; spending unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best rises from 0.693 to 0.702; rank 168 of 6229, leader 0.776 at 2026-11-17 18:01 EST. Winning entry unverified.",
+     "verdict": "worked",
+     "evidence": "reports/scorecard/board/2026-11-17.json"
+    },
+    {
+     "tried": "Rechecked original costs, failed attempts and changed community discussions.",
+     "outcome": "Rentals $19.499 cached Nov 10\u201311; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-17-scorecard.md"
+    }
+   ]
+  },
+  {
    "date": "2026-11-16",
    "headline": "Best unchanged at 0.693; field moves further ahead. Spending remains cached.",
    "items": [
