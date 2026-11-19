@@ -3,23 +3,23 @@
   "contest": "name-that-llm",
   "title": "Name That LLM",
   "state": "live",
-  "updated": "2026-11-17",
-  "headline": "Team best rises from 0.693 to 0.702; rank 168 of 6229 at 2026-11-17 18:01 EST. Winning-entry attribution unverified. Costs unchanged/cached.",
+  "updated": "2026-11-19",
+  "headline": "Best unchanged at 0.702; rank falls to 300 of 6474 (was 168 of 6229) as the field climbs, leader 0.776, at 2026-11-19 18:00 EST. Winning-entry attribution unverified. Costs unchanged/cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 168,
-    "of": 6229,
+    "rank": 300,
+    "of": 6474,
     "best_score": 0.702,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-17"
+    "observed": "2026-11-19"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 14,
-    "observed": "2026-11-17",
+    "total": 15,
+    "observed": "2026-11-19",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {

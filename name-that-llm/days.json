@@ -12,7 +12,7 @@
     },
     {
      "tried": "Rechecked original costs, failed attempts and changed community discussions.",
-     "outcome": "Rentals $19.499 cached Nov 10\u201311; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
+     "outcome": "Rentals $19.499 cached Nov 10–11; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
      "verdict": "built",
      "evidence": "reports/2026-11-17-scorecard.md"
     }
@@ -107,7 +107,7 @@
      "evidence": "SUBMISSIONS.md"
     },
     {
-     "tried": "Reviewed today\u2019s public board.",
+     "tried": "Reviewed today’s public board.",
      "outcome": "Our best still 0.682; rank 802 of 5792. No scored improvement.",
      "verdict": "no gain",
      "evidence": "reports/scorecard/board/2026-11-13.json"
@@ -537,6 +537,30 @@
      "outcome": "The setup checks pass on the real training data.",
      "verdict": "built",
      "evidence": "reports/2026-10-26-standalone-check.json"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "headline": "Board grew and we slid to rank 300; best still 0.702, costs unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best stays 0.702 but rank falls from 168 of 6229 to 300 of 6474 as the field climbs; leader 0.776, top-10 cutoff 0.761, top-5% line 0.702 at 2026-11-19 18:00 EST. Our last board submission was 2026-11-18 23:35 UTC (15 total); scoring receipt for it not read, so no attribution.",
+     "verdict": "no gain",
+     "evidence": "reports/scorecard/board/2026-11-19.json"
+    },
+    {
+     "tried": "Re-read forum and public notebooks (41 topics, 24 new to the snapshot, 58 notebooks).",
+     "outcome": "A newly posted pipeline claims convergence to 0.702 with native GLM likelihood and calibrated priors, which matches the public-recipe plateau. No post reports a verified gain above it. Claims are the authors', not our measurements.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/community/2026-11-19.json"
+    },
+    {
+     "tried": "Rechecked saved itemized costs and local processes.",
+     "outcome": "Rentals $19.499 cached 10-11 Nov and matched-data usage $12.117 cached 13 Nov, separate; no fresh billing receipt. No name-that-llm job or collector running on this Mac at 18:00 EST; remote jobs unverified.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-19-scorecard.md"
     }
    ]
   }
