@@ -4,7 +4,7 @@
   "title": "Gemma 4 Developer Agent",
   "state": "live",
   "updated": "2026-11-20",
-  "headline": "Best public score is still 0.18. A conditional LoRA that pushes the 31B to start editing once an episode stalls raised local solves from 55.5 to 60.5 of 75 tasks; next we test it only on the stuck-episode stage so it costs no speed elsewhere.",
+  "headline": "Best public score is still 0.18. Local tests show the 31B stall adapter only helps prompts that stall often; on our two strongest harnesses it gives no gain, so we are not sending it.",
   "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
   "deadline": "2026-12-02",
   "board": {
@@ -22,10 +22,8 @@
     "total": 27,
     "observed": "2026-11-20"
   },
-  "running": [
-    "Local test of the stall adapter on the harness's rescue stage only"
-  ],
+  "running": [],
   "next": [
-    "Send the stall adapter on the best harness if it wins locally"
+    "Choose the next research line: small model or selection between attempts"
   ]
 }
