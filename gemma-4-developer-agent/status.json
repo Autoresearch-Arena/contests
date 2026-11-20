@@ -3,8 +3,8 @@
   "contest": "gemma-4-developer-agent",
   "title": "Gemma 4 Developer Agent",
   "state": "live",
-  "updated": "2026-11-15",
-  "headline": "Unchanged public 0.22-source control accepted as entry 58399018; no returned status or score yet. Previous 0031 entry completed at 0.10. Next submission changes either the adapter or the harness, not both.",
+  "updated": "2026-11-20",
+  "headline": "Best public score is still 0.18. A conditional LoRA that pushes the 31B to start editing once an episode stalls raised local solves from 55.5 to 60.5 of 75 tasks; next we test it only on the stuck-episode stage so it costs no speed elsewhere.",
   "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
   "deadline": "2026-12-02",
   "board": {
@@ -13,18 +13,19 @@
     "best_score": 0.18,
     "metric": "Public score (share of issues fixed)",
     "higher_is_better": true,
-    "observed": "2026-11-13",
+    "observed": "2026-11-20",
     "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
   },
   "entries": {
-    "used_today": 1,
+    "used_today": 0,
     "daily_limit": 1,
-    "total": 23,
-    "observed": "2026-11-15",
-    "note": "Live pre-upload limit reported 22 total, zero today; one accepted upload added afterward. Next allowance not queried."
+    "total": 27,
+    "observed": "2026-11-20"
   },
-  "running": [],
+  "running": [
+    "Local test of the stall adapter on the harness's rescue stage only"
+  ],
   "next": [
-    "Read the control result; choose one adapter OR harness improvement against it, not both"
+    "Send the stall adapter on the best harness if it wins locally"
   ]
 }
