@@ -3,23 +3,23 @@
   "contest": "name-that-llm",
   "title": "Name That LLM",
   "state": "live",
-  "updated": "2026-11-19",
-  "headline": "Best unchanged at 0.702; rank falls to 300 of 6474 (was 168 of 6229) as the field climbs, leader 0.776, at 2026-11-19 18:00 EST. Winning-entry attribution unverified. Costs unchanged/cached.",
+  "updated": "2026-11-20",
+  "headline": "Best 0.703 (was 0.702); rank slides to 450 of 6569 (was 300 of 6474) as the field climbs, leader 0.776, at 2026-11-20 18:00 EST. Which entry made 0.703 is unattributed. Costs unchanged/cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 300,
-    "of": 6474,
-    "best_score": 0.702,
+    "rank": 450,
+    "of": 6569,
+    "best_score": 0.703,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-19"
+    "observed": "2026-11-20"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 15,
-    "observed": "2026-11-19",
+    "total": 25,
+    "observed": "2026-11-20",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
@@ -32,8 +32,8 @@
   },
   "running": [],
   "next": [
-    "Reconcile individual scored entry with verified team 0.702 under separate research review; do not infer attribution from team board.",
-    "Compare the prepared matched passages in a controlled trained-member test only under separate research authorization.",
-    "Real GLM author-model features remain a proposed gated plan, not a completed run."
+    "Read the scores of the ten entries submitted 19-20 Nov and stack any that beat 0.702 (handoff queue item 1); attribution of 0.703 pending that read.",
+    "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
+    "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run."
   ]
 }

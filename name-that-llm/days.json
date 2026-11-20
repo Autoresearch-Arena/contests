@@ -563,6 +563,36 @@
      "evidence": "reports/2026-11-19-scorecard.md"
     }
    ]
+  },
+  {
+   "date": "2026-11-20",
+   "headline": "Best nudged to 0.703 (from 0.702) but rank slid to 450 of 6569 as the field climbed; costs unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best 0.703 (was 0.702), 25 total submissions (was 15); rank 450 of 6569 (was 300 of 6474); leader 0.776, top-10 cutoff 0.766, top-5% line 0.706 at 2026-11-20 18:00 EST. Our last board submission was 2026-11-20 03:39 UTC. The board shows only the best score, so which entry made 0.703 is not attributed here.",
+     "verdict": "worked",
+     "evidence": "reports/scorecard/board/2026-11-20.json"
+    },
+    {
+     "tried": "Read the 20 Nov handoff for the ten new submissions.",
+     "outcome": "Handoff written 01:40 UTC lists seven variants pending then (stacked tweaks, overlap, all-in, balancing, sibling strength, and two public forks, Hungarian and gold). Individual scoring receipts were not read in this run, so per-variant results and any losses stay unreported rather than guessed.",
+     "verdict": "running",
+     "evidence": "HANDOFF-2026-11-20.md"
+    },
+    {
+     "tried": "Re-read forum and public notebooks (41 topics, 1 new, 58 notebooks).",
+     "outcome": "New staff rules-clarification thread; a forum author argues sibling-model pairs, not data volume, limit accuracy and recommends token-likelihood features. Claims are the authors', not our measurements.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/community/2026-11-20.json"
+    },
+    {
+     "tried": "Rechecked saved itemized costs and local processes.",
+     "outcome": "Rentals $19.499 cached 10-11 Nov and matched-data usage $12.117 cached 13 Nov, separate; no fresh billing receipt, so later charges are unbilled/unknown. No name-that-llm job on this Mac at 18:00 EST; remote jobs on Cletus and Jethro unverified.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-20-scorecard.md"
+    }
+   ]
   }
  ]
 }

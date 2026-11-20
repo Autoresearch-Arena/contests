@@ -129,6 +129,17 @@
    "rank": 300,
    "teams": 6474,
    "evidence": "reports/scorecard/board/2026-11-19.json"
+  },
+  {
+   "when": "2026-11-20 18:00",
+   "leader": 0.776,
+   "leader_team": "Meni David Gottesman",
+   "top10": 0.766,
+   "top1pct": 0.723,
+   "top10pct": 0.702,
+   "rank": 450,
+   "teams": 6569,
+   "evidence": "reports/scorecard/board/2026-11-20.json"
   }
  ]
 }

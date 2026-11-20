@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "19 November 2026",
-  "snapshot_utc": "2026-11-19T23:10:00+00:00",
+  "date": "20 November 2026",
+  "snapshot_utc": "2026-11-20T23:10:00+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -53,11 +53,11 @@
     "observed_date": "2026-11-10"
   },
   "leaderboard": {
-    "score": 0.702,
-    "rank": 300,
-    "teams": 6474,
+    "score": 0.703,
+    "rank": 450,
+    "teams": 6569,
     "leader": 0.776,
-    "asof": "2026-11-19 18:00 EST",
+    "asof": "2026-11-20 18:00 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,8 +105,8 @@
         "delta": -0.004
       }
     ],
-    "pending": "Team board verifies 0.702; individual scoring receipt not requested. No winning-entry attribution inferred; historical status/submission receipts retain their dates.",
-    "asof_short": "2026-11-19 18:00 EST"
+    "pending": "Team board verifies 0.703 with 25 submissions (15 on 19 Nov). Individual scoring receipts for the ten new entries were not read; no attribution inferred.",
+    "asof_short": "2026-11-20 18:00 EST"
   },
   "results": [
     {
@@ -199,9 +199,9 @@
     }
   ],
   "next_bets": [
-    "Reconcile individual scored entry with verified team 0.702 under separate research review; do not infer attribution from team board.",
-    "Compare the prepared matched passages in a controlled trained-member test only under separate research authorization.",
-    "Real GLM author-model features remain a proposed gated plan, not a completed run."
+    "Read the scores of the ten entries submitted 19-20 Nov and stack any that beat 0.702 (handoff queue item 1); attribution of 0.703 pending that read.",
+    "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
+    "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -230,12 +230,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-19.json",
+    "board": "reports/scorecard/board/2026-11-20.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best unchanged at 0.702; rank falls to 300 of 6474 (was 168 of 6229) as the field climbs, leader 0.776, at 2026-11-19 18:00 EST. Winning-entry attribution unverified. Costs unchanged/cached.",
+  "status_line": "Best 0.703 (was 0.702); rank slides to 450 of 6569 (was 300 of 6474) as the field climbs, leader 0.776, at 2026-11-20 18:00 EST. Which entry made 0.703 is unattributed. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
