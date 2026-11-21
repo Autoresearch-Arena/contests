@@ -140,6 +140,17 @@
    "rank": 450,
    "teams": 6569,
    "evidence": "reports/scorecard/board/2026-11-20.json"
+  },
+  {
+   "when": "2026-11-21 18:00",
+   "leader": 0.791,
+   "leader_team": "Hod Carriers",
+   "top10": 0.769,
+   "top1pct": 0.726,
+   "top10pct": 0.705,
+   "rank": 715,
+   "teams": 6656,
+   "evidence": "reports/scorecard/board/2026-11-21.json"
   }
  ]
 }

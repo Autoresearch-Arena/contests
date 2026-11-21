@@ -593,6 +593,30 @@
      "evidence": "reports/2026-11-20-scorecard.md"
     }
    ]
+  },
+  {
+   "date": "2026-11-21",
+   "headline": "Best holds at 0.703 but rank slides to 715 of 6656 as the field climbs (leader 0.791); no new submission; costs unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best 0.703, 25 submissions (both unchanged); rank 715 of 6656 (was 450 of 6569); leader 0.791 (was 0.776), top-10 cutoff 0.769, top-5% line 0.711 at 2026-11-21 18:00 EST. Our last board submission remains 2026-11-20 03:39 UTC. The top-5% line is now above our score: the field passed us while we stood still.",
+     "verdict": "lost",
+     "evidence": "reports/scorecard/board/2026-11-21.json"
+    },
+    {
+     "tried": "Re-read forum and public notebooks (41 topics, 0 new, 58 notebooks).",
+     "outcome": "No new topics. Three threads gained comments: a forum author says Gemini 3.6/3.7/3.8 siblings are the hardest to tell apart (author's claim, not our measurement), a data-volume thread added a reply that mixed and staged training were both tried, and a complaint thread added low-signal comments.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/community/2026-11-21.json"
+    },
+    {
+     "tried": "Rechecked saved itemized costs and local processes.",
+     "outcome": "Rentals $19.499 cached 10-11 Nov and matched-data usage $12.117 cached 13 Nov, separate; no fresh billing receipt, so later charges are unbilled/unknown. No name-that-llm training process found on this Mac at 18:00 EST; remote jobs on Cletus and Jethro unverified.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-21-scorecard.md"
+    }
+   ]
   }
  ]
 }
