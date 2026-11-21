@@ -13,14 +13,14 @@
     "best_score": 0.18,
     "metric": "Public score (share of issues fixed)",
     "higher_is_better": true,
-    "observed": "2026-11-20",
+    "observed": "2026-11-21",
     "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
   },
   "entries": {
-    "used_today": 1,
+    "used_today": 0,
     "daily_limit": 1,
     "total": 28,
-    "observed": "2026-11-20"
+    "observed": "2026-11-21"
   },
   "running": [
     "Kaggle entry: Budget-Fit V5 plus the stall adapter, waiting for its score",
