@@ -73,16 +73,16 @@
           "observed": "2026-11-20"
         },
         "entries": {
-          "used_today": 1,
+          "used_today": 5,
           "daily_limit": 5,
-          "total": 59,
+          "total": 68,
           "observed": "2026-11-20"
         },
         "running": [
-          "One new CASMI submission is scoring. Four other notebook runs are in progress."
+          "Fox plus MSnLib scored 0.149. All five scored submissions are complete. The Engine 1 control and feasible-parent variant have visible saves running."
         ],
         "next": [
-          "Test spectral-neighbour reranking on stronger candidate lists built with documented inputs."
+          "Check both Engine 1 saves and compare the standard generator against the feasible-parent generator after the quota resets."
         ]
       },
       "note": null
@@ -191,12 +191,14 @@
           "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
         },
         "entries": {
-          "used_today": 0,
+          "used_today": 1,
           "daily_limit": 1,
-          "total": 27,
+          "total": 28,
           "observed": "2026-11-20"
         },
-        "running": [],
+        "running": [
+          "Kaggle entry: Budget-Fit V5 plus the stall adapter v2, sent 20 Nov, waiting for its score"
+        ],
         "next": [
           "Choose the next research line: small model or selection between attempts"
         ]

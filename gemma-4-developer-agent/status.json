@@ -17,12 +17,14 @@
     "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
   },
   "entries": {
-    "used_today": 0,
+    "used_today": 1,
     "daily_limit": 1,
-    "total": 27,
+    "total": 28,
     "observed": "2026-11-20"
   },
-  "running": [],
+  "running": [
+    "Kaggle entry: Budget-Fit V5 plus the stall adapter v2, sent 20 Nov, waiting for its score"
+  ],
   "next": [
     "Choose the next research line: small model or selection between attempts"
   ]
