@@ -177,7 +177,7 @@
         "contest": "gemma-4-developer-agent",
         "title": "Gemma 4 Developer Agent",
         "state": "live",
-        "updated": "2026-11-20",
+        "updated": "2026-11-21",
         "headline": "Best public score is still 0.18. Local tests show the 31B stall adapter only helps prompts that stall often; on our two strongest harnesses it gives no gain, so we are not sending it.",
         "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
         "deadline": "2026-12-02",
@@ -197,10 +197,11 @@
           "observed": "2026-11-20"
         },
         "running": [
-          "Kaggle entry: Budget-Fit V5 plus the stall adapter v2, sent 20 Nov, waiting for its score"
+          "Kaggle entry: Budget-Fit V5 plus the stall adapter, waiting for its score",
+          "Next entry queued to send when that one finishes: Budget-Aware v2+ plus the stall adapter, which won locally by about 4 of 75 tasks"
         ],
         "next": [
-          "Choose the next research line: small model or selection between attempts"
+          "Read both stall-adapter scores against the 0.18 the same harnesses scored without it"
         ]
       },
       "note": null
