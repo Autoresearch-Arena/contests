@@ -617,6 +617,30 @@
      "evidence": "reports/2026-11-21-scorecard.md"
     }
    ]
+  },
+  {
+   "date": "2026-11-22",
+   "headline": "Best rises to 0.709 (from 0.703) on five new board submissions, but rank slips to 745 of 6765 as the leader reaches 0.807; costs unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best 0.709 with 30 submissions (was 0.703 with 25); last submission 2026-11-22 01:42 UTC. Rank 745 of 6765 (was 715 of 6656); leader 0.807 (was 0.791); top-10 cutoff 0.769, top-5% 0.717, top-10% 0.711 at 2026-11-22 18:00 EST. Our score rose, yet the field rose faster. Which entry made 0.709 is not attributed: per-entry receipts were not read.",
+     "verdict": "worked",
+     "evidence": "reports/scorecard/board/2026-11-22.json"
+    },
+    {
+     "tried": "Re-read forum and public notebooks (41 topics, 3 new, 57 notebooks).",
+     "outcome": "One new topic is our own: free dataset of 597 matched passages from four models (760950, no comments yet). One thread (755224) gained comments, low-signal complaints. Nothing new on method.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/community/2026-11-22.json"
+    },
+    {
+     "tried": "Rechecked saved itemized costs and local processes.",
+     "outcome": "Rentals $19.499 cached 10-11 Nov and matched-data usage $12.117 cached 13 Nov, separate; no fresh billing receipt, so later charges are unbilled/unknown. A local survey script (finish_cn1) was in the process list at 18:00 EST; its contents and result were not verified. Remote jobs on Cletus and Jethro unverified.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-22-scorecard.md"
+    }
+   ]
   }
  ]
 }

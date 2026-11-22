@@ -3,23 +3,23 @@
   "contest": "name-that-llm",
   "title": "Name That LLM",
   "state": "live",
-  "updated": "2026-11-21",
-  "headline": "Best still 0.703 (unchanged); rank slides to 715 of 6656 (was 450 of 6569) as the field climbs, leader 0.791 (was 0.776), at 2026-11-21 18:00 EST. No new board submission since 2026-11-20 03:39 UTC. Costs unchanged/cached.",
+  "updated": "2026-11-22",
+  "headline": "Best 0.709 (was 0.703; five new board submissions, last 2026-11-22 01:42 UTC); rank 745 of 6765 (was 715 of 6656), leader 0.807 (was 0.791), at 2026-11-22 18:00 EST. Which entry made 0.709 is unattributed. Costs unchanged/cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 715,
-    "of": 6656,
-    "best_score": 0.703,
+    "rank": 745,
+    "of": 6765,
+    "best_score": 0.709,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-21"
+    "observed": "2026-11-22"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 25,
-    "observed": "2026-11-21",
+    "total": 30,
+    "observed": "2026-11-22",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
@@ -32,7 +32,7 @@
   },
   "running": [],
   "next": [
-    "Read the scores of the ten entries submitted 19-20 Nov and stack any that beat 0.702 (handoff queue item 1); the board has not moved since, so nothing newly scored is visible.",
+    "Read the scores of the entries behind the 0.703 to 0.709 move (five new board submissions, last 22 Nov 01:42 UTC) and attribute the gain before stacking; handoff queue item 1.",
     "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
     "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run.",
     "Forum thread 749447 (21 Nov): sibling Gemini versions are the hardest to separate; consistent with the likelihood-feature bet above, not a measurement of ours."

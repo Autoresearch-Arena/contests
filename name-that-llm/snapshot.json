@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "21 November 2026",
-  "snapshot_utc": "2026-11-21T23:10:00+00:00",
+  "date": "22 November 2026",
+  "snapshot_utc": "2026-11-22T23:10:00+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -53,11 +53,11 @@
     "observed_date": "2026-11-10"
   },
   "leaderboard": {
-    "score": 0.703,
-    "rank": 715,
-    "teams": 6656,
-    "leader": 0.791,
-    "asof": "2026-11-21 18:00 EST",
+    "score": 0.709,
+    "rank": 745,
+    "teams": 6765,
+    "leader": 0.807,
+    "asof": "2026-11-22 18:00 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,8 +105,8 @@
         "delta": -0.004
       }
     ],
-    "pending": "Team board verifies 0.703 with 25 submissions (unchanged from 20 Nov); top-10 cutoff now 0.769, top-5% 0.711, top-10% 0.705. Individual scoring receipts for the ten entries of 19-20 Nov were still not read (no Kaggle requests beyond the board and forum snapshots); no attribution inferred.",
-    "asof_short": "2026-11-21 18:00 EST"
+    "pending": "Team board verifies 0.709 with 30 submissions (was 0.703 with 25); our last board submission 2026-11-22 01:42 UTC (20:42 EST on 21 Nov). Top-10 cutoff 0.769, top-1% 0.727, top-5% 0.717, top-10% 0.711. Individual scoring receipts were not read (no Kaggle requests beyond the board and forum snapshots), so which entry made 0.709 is unattributed; no attribution inferred.",
+    "asof_short": "2026-11-22 18:00 EST"
   },
   "results": [
     {
@@ -199,10 +199,11 @@
     }
   ],
   "next_bets": [
-    "Read the scores of the ten entries submitted 19-20 Nov and stack any that beat 0.702 (handoff queue item 1); the board has not moved since, so nothing newly scored is visible.",
+    "Read the scores of the entries behind the 0.703 to 0.709 move (five new board submissions, last 22 Nov 01:42 UTC) and attribute the gain before stacking; handoff queue item 1.",
     "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
     "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run.",
-    "Forum thread 749447 (21 Nov): sibling Gemini versions are the hardest to separate; consistent with the likelihood-feature bet above, not a measurement of ours."
+    "Forum thread 749447 (21 Nov): sibling Gemini versions are the hardest to separate; consistent with the likelihood-feature bet above, not a measurement of ours.",
+    "Our own forum post 760950 (22 Nov, 00:05 ET): free dataset of 597 matched passages from four models, no comments yet; watch for use by others."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -231,12 +232,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-21.json",
+    "board": "reports/scorecard/board/2026-11-22.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best still 0.703 (unchanged); rank slides to 715 of 6656 (was 450 of 6569) as the field climbs, leader 0.791 (was 0.776), at 2026-11-21 18:00 EST. No new board submission since 2026-11-20 03:39 UTC. Costs unchanged/cached.",
+  "status_line": "Best 0.709 (was 0.703; five new board submissions, last 2026-11-22 01:42 UTC); rank 745 of 6765 (was 715 of 6656), leader 0.807 (was 0.791), at 2026-11-22 18:00 EST. Which entry made 0.709 is unattributed. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [

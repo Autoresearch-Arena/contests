@@ -151,6 +151,17 @@
    "rank": 715,
    "teams": 6656,
    "evidence": "reports/scorecard/board/2026-11-21.json"
+  },
+  {
+   "when": "2026-11-22 18:00",
+   "leader": 0.807,
+   "leader_team": "YK",
+   "top10": 0.769,
+   "top1pct": 0.727,
+   "top10pct": 0.711,
+   "rank": 745,
+   "teams": 6765,
+   "evidence": "reports/scorecard/board/2026-11-22.json"
   }
  ]
 }
