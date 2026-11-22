@@ -8,12 +8,12 @@
   "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
   "deadline": "2026-12-14",
   "board": {
-    "rank": 1411,
-    "of": 5726,
+    "rank": 1481,
+    "of": 5784,
     "best_score": 0.487,
     "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
     "higher_is_better": true,
-    "observed": "2026-11-21"
+    "observed": "2026-11-22"
   },
   "entries": {
     "used_today": 4,
@@ -22,9 +22,9 @@
     "observed": "2026-11-22"
   },
   "running": [
-    "Kaggle accepted the corrected Helios submission and is scoring it."
+    "Kaggle is scoring Helios. The exact public 0.500 notebook is queued for its save."
   ],
   "next": [
-    "Compare the Helios score with the 0.487 account best and the 0.450 full-stack result."
+    "Submit the exact public baseline when it is ready. Compare rebuilt tables and candidate recovery on held-out molecules."
   ]
 }

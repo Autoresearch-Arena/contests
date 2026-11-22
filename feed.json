@@ -66,12 +66,12 @@
         "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
         "deadline": "2026-12-14",
         "board": {
-          "rank": 1411,
-          "of": 5726,
+          "rank": 1481,
+          "of": 5784,
           "best_score": 0.487,
           "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
           "higher_is_better": true,
-          "observed": "2026-11-21"
+          "observed": "2026-11-22"
         },
         "entries": {
           "used_today": 4,
@@ -80,10 +80,10 @@
           "observed": "2026-11-22"
         },
         "running": [
-          "Kaggle accepted the corrected Helios submission and is scoring it."
+          "Kaggle is scoring Helios. The exact public 0.500 notebook is queued for its save."
         ],
         "next": [
-          "Compare the Helios score with the 0.487 account best and the 0.450 full-stack result."
+          "Submit the exact public baseline when it is ready. Compare rebuilt tables and candidate recovery on held-out molecules."
         ]
       },
       "note": null
@@ -100,29 +100,29 @@
         "title": "Google Quantum AI: Verifiable Quantum Circuit Compilation",
         "state": "live",
         "updated": "2026-11-22",
-        "headline": "Our best graded entry scored 31.69 on 21 November, about 836th; most teams above us copied a newer public entry at about 33.17, and the leader is at 33.74. A 22 November plan sets out the catch-up and our own ideas to pass it.",
+        "headline": "Our best graded entry scored 33.17 on 22 November, 123rd of 3,583; it is the best public entry, shared by many teams, and the leader is at 33.74. We are now testing our own ideas to pass it.",
         "kaggle_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation",
         "deadline": "2027-01-20",
         "board": {
-          "rank": 836,
-          "of": 3567,
-          "best_score": 31.69066,
+          "rank": 123,
+          "of": 3583,
+          "best_score": 33.17029,
           "metric": "Public score (higher means cheaper circuits)",
           "higher_is_better": true,
           "observed": "2026-11-22",
-          "note": "Place and score read from the public board CSV on 22 November 2026 at 15:03 UTC. Our score is Kaggle's graded result for the 21 November entry."
+          "note": "Read from the public board CSV on 22 November 2026 at 18:24 UTC, after our 22 November entry was graded. 96 teams share this score; ties go to whoever sent it first."
         },
         "entries": {
-          "used_today": 0,
+          "used_today": 1,
           "daily_limit": 5,
-          "total": 47,
+          "total": 48,
           "observed": "2026-11-22",
-          "note": "Read from Kaggle on 22 November 2026: 46 entries in all before 21 November plus that day's one entry; none used yet on 22 November."
+          "note": "Read from Kaggle on 22 November 2026: one entry sent that day (the catch-up), 48 in all."
         },
         "running": [],
         "next": [
-          "Catch up to the best public entry (about 33.17) the same day it is approved.",
-          "Run the first one-day tests on the ranked new ideas: a narrower chemistry table shape, fewer qubits for the inverse square root, wider chemistry loader batches.",
+          "Test a smaller chemistry table shape and fewer, wider chemistry loaders on our own machines.",
+          "Look for a way to cut one qubit from the inverse square root circuit.",
           "Check every kept entry on several random draws before it can be one of the two final picks."
         ]
       },
