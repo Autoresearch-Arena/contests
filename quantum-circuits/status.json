@@ -3,30 +3,30 @@
   "contest": "quantum-circuits",
   "title": "Google Quantum AI: Verifiable Quantum Circuit Compilation",
   "state": "live",
-  "updated": "2026-11-12",
-  "headline": "We are building the cheapest quantum circuits we can for three tasks, and our best graded entry so far scored 24.77234 on 5 November. We are now checking public ideas for further savings and have not sent a newer entry since.",
+  "updated": "2026-11-22",
+  "headline": "Our best graded entry scored 31.69 on 21 November, about 836th; most teams above us copied a newer public entry at about 33.17, and the leader is at 33.74. A 22 November plan sets out the catch-up and our own ideas to pass it.",
   "kaggle_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation",
   "deadline": "2027-01-20",
   "board": {
-    "rank": null,
-    "of": null,
-    "best_score": 24.77234,
+    "rank": 836,
+    "of": 3567,
+    "best_score": 31.69066,
     "metric": "Public score (higher means cheaper circuits)",
     "higher_is_better": true,
-    "observed": "2026-11-05",
-    "note": "Score is Kaggle's graded result for our 5 November entry. No board place has been read since 24 October, when we were 56th of 723 teams at a score of 8.87, so the current place is not known."
+    "observed": "2026-11-22",
+    "note": "Place and score read from the public board CSV on 22 November 2026 at 15:03 UTC. Our score is Kaggle's graded result for the 21 November entry."
   },
   "entries": {
-    "used_today": 3,
+    "used_today": 0,
     "daily_limit": 5,
-    "total": 42,
-    "observed": "2026-11-05",
-    "note": "Counts read from Kaggle just before our 5 November entry (2 used that day, 41 in all, 3 still allowed) plus that one entry. Nothing newer is recorded."
+    "total": 47,
+    "observed": "2026-11-22",
+    "note": "Read from Kaggle on 22 November 2026: 46 entries in all before 21 November plus that day's one entry; none used yet on 22 November."
   },
   "running": [],
   "next": [
-    "Keep reading the public discussions and notebooks for cheaper circuit ideas.",
-    "Test any promising idea against the contest's own checking programs before sending it.",
-    "Close the open safety checks on our best entry before choosing the two final entries."
+    "Catch up to the best public entry (about 33.17) the same day it is approved.",
+    "Run the first one-day tests on the ranked new ideas: a narrower chemistry table shape, fewer qubits for the inverse square root, wider chemistry loader batches.",
+    "Check every kept entry on several random draws before it can be one of the two final picks."
   ]
 }

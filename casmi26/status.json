@@ -16,15 +16,15 @@
     "observed": "2026-11-21"
   },
   "entries": {
-    "used_today": 3,
+    "used_today": 4,
     "daily_limit": 5,
-    "total": 71,
+    "total": 72,
     "observed": "2026-11-22"
   },
   "running": [
-    "Kaggle has accepted the corrected Helios notebook save. The main stack has finished scoring."
+    "Kaggle accepted the corrected Helios submission and is scoring it."
   ],
   "next": [
-    "Submit the verified Helios version and compare its hidden-test score with 0.487."
+    "Compare the Helios score with the 0.487 account best and the 0.450 full-stack result."
   ]
 }
