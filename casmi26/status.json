@@ -16,15 +16,15 @@
     "observed": "2026-11-22"
   },
   "entries": {
-    "used_today": 4,
+    "used_today": 5,
     "daily_limit": 5,
-    "total": 72,
+    "total": 73,
     "observed": "2026-11-22"
   },
   "running": [
-    "Kaggle is scoring Helios. The exact public 0.500 notebook is queued for its save."
+    "Kaggle is scoring Helios and the exact public 0.500 copy. The new rebuild is queued for a full notebook save."
   ],
   "next": [
-    "Submit the exact public baseline when it is ready. Compare rebuilt tables and candidate recovery on held-out molecules."
+    "Submit the new rebuild once Kaggle verifies the save and a submission slot opens."
   ]
 }
