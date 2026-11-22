@@ -1,6 +1,6 @@
 {
   "schema": "contest-feed/1",
-  "built": "2026-11-21",
+  "built": "2026-11-22",
   "contests": [
     {
       "slug": "name-that-llm",
@@ -61,7 +61,7 @@
         "contest": "casmi26",
         "title": "CASMI 2026: Molecule ID From Mass Spectra",
         "state": "live",
-        "updated": "2026-11-21",
+        "updated": "2026-11-22",
         "headline": "Our best is 0.487, up from 0.480 on November 10. The two latest entries each scored 0.354.",
         "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
         "deadline": "2026-12-14",
@@ -74,16 +74,16 @@
           "observed": "2026-11-21"
         },
         "entries": {
-          "used_today": 2,
+          "used_today": 3,
           "daily_limit": 5,
-          "total": 70,
-          "observed": "2026-11-21"
+          "total": 71,
+          "observed": "2026-11-22"
         },
         "running": [
-          "Kaggle is running both full methods with our rebuilt training files on GPUs."
+          "Kaggle is scoring the full public stack with our rebuilt files. The Helios visible run continues."
         ],
         "next": [
-          "Check both full outputs and submit each verified notebook for a leaderboard score."
+          "Verify the Helios output and compare both official scores with 0.487."
         ]
       },
       "note": null
@@ -140,12 +140,12 @@
         "title": "Predicting Credit Card Fraud",
         "state": "live",
         "updated": "2026-11-21",
-        "headline": "Our best public ROC AUC is 0.95557, up from 0.95337. Kaggle ranked us 18th of 2,614 teams after the first ten experiments.",
+        "headline": "Our verified public ROC AUC is 0.95557, up from 0.95337. The latest Kaggle snapshot placed us 26th of 2,628 teams.",
         "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
         "deadline": "2026-11-30",
         "board": {
-          "rank": 18,
-          "of": 2614,
+          "rank": 26,
+          "of": 2628,
           "best_score": 0.95557,
           "metric": "AUC (area under the ROC curve)",
           "higher_is_better": true,
