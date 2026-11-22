@@ -61,29 +61,29 @@
         "contest": "casmi26",
         "title": "CASMI 2026: Molecule ID From Mass Spectra",
         "state": "live",
-        "updated": "2026-11-20",
-        "headline": "Our public score is 0.487, at rank 1,326 of 5,672. The strongest public notebooks we reviewed rely on inputs whose production we could not verify.",
+        "updated": "2026-11-21",
+        "headline": "Our best is 0.487, up from 0.480 on November 10. The two latest entries each scored 0.354.",
         "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
         "deadline": "2026-12-14",
         "board": {
-          "rank": 1326,
-          "of": 5672,
+          "rank": 1411,
+          "of": 5726,
           "best_score": 0.487,
           "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
           "higher_is_better": true,
-          "observed": "2026-11-20"
+          "observed": "2026-11-21"
         },
         "entries": {
-          "used_today": 5,
+          "used_today": 2,
           "daily_limit": 5,
-          "total": 68,
-          "observed": "2026-11-20"
+          "total": 70,
+          "observed": "2026-11-21"
         },
         "running": [
-          "Fox plus MSnLib scored 0.149. All five scored submissions are complete. The Engine 1 control and feasible-parent variant have visible saves running."
+          "Kaggle is running both full methods with our rebuilt training files on GPUs."
         ],
         "next": [
-          "Verify both Engine 1 visible saves before the next scored comparison. Masking close references erased the local natural-product gain and left a smaller RIKEN gain."
+          "Check both full outputs and submit each verified notebook for a leaderboard score."
         ]
       },
       "note": null
@@ -139,30 +139,27 @@
         "contest": "credit-card-fraud",
         "title": "Predicting Credit Card Fraud",
         "state": "live",
-        "updated": "2026-11-12",
-        "headline": "We are in the top few hundred of about a thousand teams on the public board and our best entry scores about as well as the leaders. We are widening the set of models we blend and have until the end of November to send final entries.",
+        "updated": "2026-11-21",
+        "headline": "Our best public ROC AUC is 0.95557, up from 0.95337. Kaggle ranked us 18th of 2,614 teams after the first ten experiments.",
         "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
         "deadline": "2026-11-30",
         "board": {
-          "rank": 219,
-          "of": 960,
-          "best_score": 0.95267,
+          "rank": 18,
+          "of": 2614,
+          "best_score": 0.95557,
           "metric": "AUC (area under the ROC curve)",
           "higher_is_better": true,
-          "observed": "2026-11-07",
-          "note": "The place was read on 7 November before our later entries; the best score is from our ninth entry the same day, so today's place is likely better than the one shown."
+          "observed": "2026-11-21"
         },
         "entries": {
-          "used_today": null,
+          "used_today": 10,
           "daily_limit": 10,
-          "total": 9,
-          "observed": "2026-11-07",
-          "note": "Count is the entries logged in the ledger on main as of 7 November; entries used today are not recorded there. The daily limit of ten is from the contest rules page read on 1 November."
+          "total": 33,
+          "observed": "2026-11-21"
         },
         "running": [],
         "next": [
-          "Run the full-recipe language-model member on one fold of rented cards to see if it adds to the blend.",
-          "Keep scouting public notebooks and prediction banks and blend in any that check out on our own validation split."
+          "Test which transaction features and areas of model disagreement can improve the public ranking."
         ]
       },
       "note": null

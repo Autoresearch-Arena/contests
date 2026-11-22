@@ -3,28 +3,28 @@
   "contest": "casmi26",
   "title": "CASMI 2026: Molecule ID From Mass Spectra",
   "state": "live",
-  "updated": "2026-11-20",
-  "headline": "Our public score is 0.487, at rank 1,326 of 5,672. The strongest public notebooks we reviewed rely on inputs whose production we could not verify.",
+  "updated": "2026-11-21",
+  "headline": "Our best is 0.487, up from 0.480 on November 10. The two latest entries each scored 0.354.",
   "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
   "deadline": "2026-12-14",
   "board": {
-    "rank": 1326,
-    "of": 5672,
+    "rank": 1411,
+    "of": 5726,
     "best_score": 0.487,
     "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
     "higher_is_better": true,
-    "observed": "2026-11-20"
+    "observed": "2026-11-21"
   },
   "entries": {
-    "used_today": 5,
+    "used_today": 2,
     "daily_limit": 5,
-    "total": 68,
-    "observed": "2026-11-20"
+    "total": 70,
+    "observed": "2026-11-21"
   },
   "running": [
-    "Fox plus MSnLib scored 0.149. All five scored submissions are complete. The Engine 1 control and feasible-parent variant have visible saves running."
+    "Kaggle is running both full methods with our rebuilt training files on GPUs."
   ],
   "next": [
-    "Verify both Engine 1 visible saves before the next scored comparison. Masking close references erased the local natural-product gain and left a smaller RIKEN gain."
+    "Check both full outputs and submit each verified notebook for a leaderboard score."
   ]
 }
