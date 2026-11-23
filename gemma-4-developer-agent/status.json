@@ -3,8 +3,8 @@
   "contest": "gemma-4-developer-agent",
   "title": "Gemma 4 Developer Agent",
   "state": "live",
-  "updated": "2026-11-22",
-  "headline": "Best public score is still 0.18. The 31B stall adapter scored 0.15 on Kaggle and gives no gain on our strongest harness, so we are turning to the small model (E4B), where the same method worked better.",
+  "updated": "2026-11-23",
+  "headline": "Best public score is still 0.18. The newest 31B entry ran without an adapter and is marked complete, but its receipt shows no public score.",
   "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
   "deadline": "2026-12-02",
   "board": {
@@ -13,19 +13,18 @@
     "best_score": 0.18,
     "metric": "Public score (share of issues fixed)",
     "higher_is_better": true,
-    "observed": "2026-11-22",
+    "observed": "2026-11-23",
     "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
   },
   "entries": {
-    "used_today": 1,
+    "used_today": 0,
     "daily_limit": 1,
     "total": 29,
-    "observed": "2026-11-22"
+    "observed": "2026-11-23"
   },
   "running": [
     "Speed test of the small model against the 31B",
-    "Small-model baseline on our 75 practice tasks",
-    "Kaggle entry from Keith (g130 harness), waiting for its score"
+    "Small-model baseline on our 75 practice tasks"
   ],
   "next": [
     "If the small model stalls often, train a stall adapter for it on half the practice repos and test it on the other half"
