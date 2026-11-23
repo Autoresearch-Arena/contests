@@ -12,7 +12,7 @@
     },
     {
      "tried": "Rechecked original costs, failed attempts and changed community discussions.",
-     "outcome": "Rentals $19.499 cached Nov 10–11; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
+     "outcome": "Rentals $19.499 cached Nov 10\u201311; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
      "verdict": "built",
      "evidence": "reports/2026-11-17-scorecard.md"
     }
@@ -107,7 +107,7 @@
      "evidence": "SUBMISSIONS.md"
     },
     {
-     "tried": "Reviewed today’s public board.",
+     "tried": "Reviewed today\u2019s public board.",
      "outcome": "Our best still 0.682; rank 802 of 5792. No scored improvement.",
      "verdict": "no gain",
      "evidence": "reports/scorecard/board/2026-11-13.json"
@@ -639,6 +639,30 @@
      "outcome": "Rentals $19.499 cached 10-11 Nov and matched-data usage $12.117 cached 13 Nov, separate; no fresh billing receipt, so later charges are unbilled/unknown. A local survey script (finish_cn1) was in the process list at 18:00 EST; its contents and result were not verified. Remote jobs on Cletus and Jethro unverified.",
      "verdict": "built",
      "evidence": "reports/2026-11-22-scorecard.md"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "headline": "Best rises to 0.719 (from 0.709) on six new board submissions; rank jumps to 346 of 6876 (from 745) while the leader reaches 0.809; costs unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best 0.719 with 36 submissions (was 0.709 with 30); last submission 2026-11-23 03:38 UTC. Rank 346 of 6876 (was 745 of 6765); leader 0.809 (was 0.807); top-10 cutoff 0.774, top-5% 0.719, top-10% 0.717 at 2026-11-23 18:00 EST. Which entries made 0.719 is not attributed: per-entry receipts were not read.",
+     "verdict": "worked",
+     "evidence": "reports/scorecard/board/2026-11-23.json"
+    },
+    {
+     "tried": "Re-read forum and public notebooks (40 topics, 4 new, 57 notebooks).",
+     "outcome": "Two new topics, a notebook-queue complaint (761312) and a vague data question (761368); no method content. New comments on 749447, 755224, 759103 and our own 760950; one asks whether our matched passages duplicate the competition training prompts. Nothing new on method.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/community/2026-11-23.json"
+    },
+    {
+     "tried": "Rechecked saved itemized costs and local processes.",
+     "outcome": "Rentals $19.499 cached 10-11 Nov and matched-data usage $12.117 cached 13 Nov, separate; no fresh billing receipt, so later charges are unbilled/unknown. No Name That LLM training or rental process was identified in the local process list; remote jobs on Cletus and Jethro were not checked.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-23-scorecard.md"
     }
    ]
   }
