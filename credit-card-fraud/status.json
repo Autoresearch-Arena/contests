@@ -4,25 +4,25 @@
   "title": "Predicting Credit Card Fraud",
   "state": "live",
   "updated": "2026-11-22",
-  "headline": "Our verified public ROC AUC is 0.95557, up from 0.95337. The latest Kaggle snapshot placed us 104th of 2,756 teams.",
+  "headline": "Our verified public ROC AUC is 0.95558, up from 0.95337. The latest Kaggle snapshot placed us 88th of 2,756 teams.",
   "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
   "deadline": "2026-11-30",
   "board": {
-    "rank": 104,
+    "rank": 88,
     "of": 2756,
-    "best_score": 0.95557,
+    "best_score": 0.95558,
     "metric": "AUC (area under the ROC curve)",
     "higher_is_better": true,
     "observed": "2026-11-22"
   },
   "entries": {
-    "used_today": 4,
+    "used_today": 10,
     "daily_limit": 10,
-    "total": 37,
+    "total": 43,
     "observed": "2026-11-22"
   },
   "running": [],
   "next": [
-    "Test which transaction features and areas of model disagreement can improve the public ranking."
+    "Compare full-data refits with fold-averaged inference against the new best submission."
   ]
 }
