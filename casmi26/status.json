@@ -4,7 +4,7 @@
   "title": "CASMI 2026: Molecule ID From Mass Spectra",
   "state": "live",
   "updated": "2026-11-22",
-  "headline": "The full public stack scored 0.450 with our rebuilt files. Our best remains 0.487.",
+  "headline": "Helios with public demo weights scored 0.375. Our best remains 0.487.",
   "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
   "deadline": "2026-12-14",
   "board": {
@@ -16,15 +16,15 @@
     "observed": "2026-11-22"
   },
   "entries": {
-    "used_today": 5,
+    "used_today": 1,
     "daily_limit": 5,
-    "total": 73,
+    "total": 74,
     "observed": "2026-11-22"
   },
   "running": [
-    "Kaggle is scoring Helios and the exact public 0.500 copy. The new rebuild is queued for a full notebook save."
+    "Kaggle is scoring the exact 0.500 public copy and the new ranker rebuild."
   ],
   "next": [
-    "Submit the new rebuild once Kaggle verifies the save and a submission slot opens."
+    "Compare the two pending scores with the 0.487 account best."
   ]
 }
