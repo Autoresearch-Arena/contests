@@ -3,23 +3,23 @@
   "contest": "name-that-llm",
   "title": "Name That LLM",
   "state": "live",
-  "updated": "2026-11-23",
-  "headline": "Best 0.719 (was 0.709; six new board submissions, last 2026-11-23 03:38 UTC); rank 346 of 6876 (was 745 of 6765), leader 0.809 (was 0.807), at 2026-11-23 18:00 EST. Which entries made 0.719 are unattributed. Costs unchanged/cached.",
+  "updated": "2026-11-24",
+  "headline": "Best 0.72 (was 0.719; five new board submissions, last 2026-11-24 03:55 UTC); rank 368 of 6997 (was 346 of 6876), leader 0.813 (was 0.809), at 2026-11-24 18:00 EST. Which entries made 0.72 are unattributed. Costs unchanged/cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 346,
-    "of": 6876,
-    "best_score": 0.719,
+    "rank": 368,
+    "of": 6997,
+    "best_score": 0.72,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-23"
+    "observed": "2026-11-24"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 36,
-    "observed": "2026-11-23",
+    "total": 41,
+    "observed": "2026-11-24",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
@@ -32,7 +32,7 @@
   },
   "running": [],
   "next": [
-    "Read the scores of the entries behind the 0.703 to 0.719 climb (eleven new board submissions since 21 Nov, last 23 Nov 03:38 UTC) and attribute the gain before stacking; handoff queue item 1.",
+    "Read the scores of the entries behind the 0.703 to 0.72 climb (sixteen new board submissions since 21 Nov, last 24 Nov 03:55 UTC) and attribute the gain before stacking; handoff queue item 1.",
     "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
     "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run.",
     "Forum thread 749447 (21 Nov): sibling Gemini versions are the hardest to separate; consistent with the likelihood-feature bet above, not a measurement of ours."

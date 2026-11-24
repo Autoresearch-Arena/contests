@@ -1,7 +1,7 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "23 November 2026",
-  "snapshot_utc": "2026-11-23T23:10:00+00:00",
+  "date": "24 November 2026",
+  "snapshot_utc": "2026-11-24T23:10:00+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
@@ -53,11 +53,11 @@
     "observed_date": "2026-11-10"
   },
   "leaderboard": {
-    "score": 0.719,
-    "rank": 346,
-    "teams": 6876,
-    "leader": 0.809,
-    "asof": "2026-11-23 18:00 EST",
+    "score": 0.72,
+    "rank": 368,
+    "teams": 6997,
+    "leader": 0.813,
+    "asof": "2026-11-24 18:00 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -105,8 +105,8 @@
         "delta": -0.004
       }
     ],
-    "pending": "Team board verifies 0.719 with 36 submissions (was 0.709 with 30); our last board submission 2026-11-23 03:38 UTC (22:38 EST on 22 Nov). Top-10 cutoff 0.774, top-1% 0.728, top-5% 0.719, top-10% 0.717. Individual scoring receipts were not read (no Kaggle requests beyond the board and forum snapshots), so which entries made 0.719 are unattributed; no attribution inferred.",
-    "asof_short": "2026-11-23 18:00 EST"
+    "pending": "Team board verifies 0.72 with 41 submissions (was 0.719 with 36); our last board submission 2026-11-24 03:55 UTC (22:55 EST on 23 Nov). Top-10 cutoff 0.774, top-1% 0.73, top-5% 0.72, top-10% 0.718. Individual scoring receipts were not read (no Kaggle requests beyond the board and forum snapshots), so which entries made 0.72 are unattributed; no attribution inferred.",
+    "asof_short": "2026-11-24 18:00 EST"
   },
   "results": [
     {
@@ -199,11 +199,12 @@
     }
   ],
   "next_bets": [
-    "Read the scores of the entries behind the 0.703 to 0.719 climb (eleven new board submissions since 21 Nov, last 23 Nov 03:38 UTC) and attribute the gain before stacking; handoff queue item 1.",
+    "Read the scores of the entries behind the 0.703 to 0.72 climb (sixteen new board submissions since 21 Nov, last 24 Nov 03:55 UTC) and attribute the gain before stacking; handoff queue item 1.",
     "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
     "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run.",
     "Forum thread 749447 (21 Nov): sibling Gemini versions are the hardest to separate; consistent with the likelihood-feature bet above, not a measurement of ours.",
-    "Our own forum post 760950 (22 Nov, 00:05 ET): free dataset of 597 matched passages from four models, no comments yet; watch for use by others."
+    "Our own forum post 760950: free dataset of 597 matched passages from four models, now four comments; our reply (24 Nov) confirms zero text overlap with the 2,699 training passages and says to keep each prompt's answers in one fold.",
+    "Forum thread 761533 (24 Nov): Qwen3 Base on Kaggle Models ends text with a different end-of-sequence token than on Hugging Face; check it before any Qwen run."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -237,7 +238,7 @@
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best 0.719 (was 0.709; six new board submissions, last 2026-11-23 03:38 UTC); rank 346 of 6876 (was 745 of 6765), leader 0.809 (was 0.807), at 2026-11-23 18:00 EST. Which entries made 0.719 are unattributed. Costs unchanged/cached.",
+  "status_line": "Best 0.72 (was 0.719; five new board submissions, last 2026-11-24 03:55 UTC); rank 368 of 6997 (was 346 of 6876), leader 0.813 (was 0.809), at 2026-11-24 18:00 EST. Which entries made 0.72 are unattributed. Costs unchanged/cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [

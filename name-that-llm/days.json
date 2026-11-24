@@ -1,6 +1,30 @@
 {
  "days": [
   {
+   "date": "2026-11-24",
+   "headline": "Team best edges to 0.72; rank 368 of 6997. Spending unchanged and cached.",
+   "items": [
+    {
+     "tried": "Reviewed the public team leaderboard.",
+     "outcome": "Best 0.72, up 0.001; five new board submissions (41 total), rank 368 of 6997, leader 0.813 at 2026-11-24 18:00 EST. Entry attribution unverified.",
+     "verdict": "worked",
+     "evidence": "reports/scorecard/board/2026-11-24.json"
+    },
+    {
+     "tried": "Rechecked saved costs and read changed forum threads (40 topics, 5 new).",
+     "outcome": "Rentals $19.499 cached Nov 10-11; matched-data usage $12.117154 cached Nov 13, separate. No fresh bill. Community claims on overfitting and Qwen3 end-token are not our measurements.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-24-scorecard.md"
+    },
+    {
+     "tried": "Checked local process state.",
+     "outcome": "No Name That LLM training, rental or GPU process found on this machine; Cletus and Jethro not checked. Nothing started.",
+     "verdict": "no gain",
+     "evidence": "reports/2026-11-24-scorecard.md"
+    }
+   ]
+  },
+  {
    "date": "2026-11-17",
    "headline": "Team best improves to 0.702; spending unchanged and cached.",
    "items": [
@@ -12,7 +36,7 @@
     },
     {
      "tried": "Rechecked original costs, failed attempts and changed community discussions.",
-     "outcome": "Rentals $19.499 cached Nov 10\u201311; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
+     "outcome": "Rentals $19.499 cached Nov 10–11; unique matched-data usage $12.117154 cached Nov 13, separate. No fresh bill.",
      "verdict": "built",
      "evidence": "reports/2026-11-17-scorecard.md"
     }
@@ -107,7 +131,7 @@
      "evidence": "SUBMISSIONS.md"
     },
     {
-     "tried": "Reviewed today\u2019s public board.",
+     "tried": "Reviewed today’s public board.",
      "outcome": "Our best still 0.682; rank 802 of 5792. No scored improvement.",
      "verdict": "no gain",
      "evidence": "reports/scorecard/board/2026-11-13.json"
