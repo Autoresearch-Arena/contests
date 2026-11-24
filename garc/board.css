@@ -1,0 +1,38 @@
+/*
+Author: Claude Sonnet 5.5
+Date: 24-November-2026
+PURPOSE: Look of the GARC leaderboard board: warm paper, dark ink, serif headings, tabular numerals, medal bands as a
+  coloured edge on the row (not pills), our own rows marked with a heavier edge.
+SRP/DRY check: Pass - the only stylesheet for this page; colours are variables at the top.
+*/
+:root { --paper:#f6f2e9; --ink:#1f1d19; --mute:#6b655a; --rule:#d6cfbf; --gold:#b08d1e; --silver:#8b8f94; --bronze:#9a5f33; --ours:#1d4d3b; --warn:#8a2a1c; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 Georgia,"Times New Roman",serif; }
+header, main, footer { max-width:60rem; margin:0 auto; padding:0 1rem; }
+header { padding-top:1.6rem; }
+h1 { font-size:1.7rem; font-weight:normal; margin:0 0 .3rem; letter-spacing:-.01em; }
+h2 { font-size:1.25rem; font-weight:normal; border-bottom:1px solid var(--rule); padding-bottom:.2rem; margin:2rem 0 .6rem; }
+.stamp { margin:0; font-weight:bold; }
+.note { color:var(--mute); font-size:.9rem; margin:.3rem 0; }
+.warn { color:var(--warn); }
+.scroll { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:.93rem; }
+th, td { padding:.28rem .5rem; text-align:left; border-bottom:1px solid var(--rule); white-space:nowrap; }
+td.wrap { white-space:normal; }
+th { font-weight:normal; color:var(--mute); font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; }
+td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; font-family:"SF Mono",Menlo,Consolas,monospace; font-size:.88rem; }
+tr.gold td:first-child { box-shadow:inset 4px 0 var(--gold); }
+tr.silver td:first-child { box-shadow:inset 4px 0 var(--silver); }
+tr.bronze td:first-child { box-shadow:inset 4px 0 var(--bronze); }
+tr.ours { background:rgba(29,77,59,.09); font-weight:bold; }
+tr.line td { border-bottom:2px solid var(--ink); }
+.up { color:var(--ours); } .down { color:var(--warn); }
+.filter { display:block; margin:.4rem 0; font-size:.9rem; color:var(--mute); }
+select { font:inherit; padding:.1rem .3rem; border:1px solid var(--rule); background:#fffdf7; }
+.panel { border-left:4px solid var(--ours); padding:.2rem 0 .2rem .8rem; margin:.6rem 0 1rem; }
+.kv { display:grid; grid-template-columns:max-content 1fr; gap:.1rem 1rem; margin:.3rem 0; }
+.kv dt { color:var(--mute); } .kv dd { margin:0; }
+#chart svg { width:100%; height:auto; display:block; background:#fffdf7; border:1px solid var(--rule); }
+#chart text { font:11px "SF Mono",Menlo,Consolas,monospace; fill:var(--mute); }
+footer { color:var(--mute); font-size:.85rem; padding-bottom:2rem; margin-top:2rem; }
+@media (max-width:40rem) { h1 { font-size:1.4rem; } }

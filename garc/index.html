@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+Author: Claude Sonnet 5.5
+Date: 24-November-2026
+PURPOSE: Static shell for the GARC leaderboard and turnaround board. board.js fills every section from data/board.json.
+SRP/DRY check: Pass - markup only; data comes from tools/leaderboard/board.py, drawing from board.js, look from board.css.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generalist Gaming Agent: leaderboard and turnaround</title>
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<header>
+  <h1>Generalist Gaming Agent: leaderboard and turnaround</h1>
+  <p id="stamp" class="stamp">Loading the snapshot...</p>
+  <p id="live-note" class="note"></p>
+</header>
+<main>
+  <section id="team"><h2>Our team</h2><div id="team-body"></div></section>
+  <section id="standings"><h2>Standings</h2>
+    <p id="medal-note" class="note"></p>
+    <label class="filter">Show <select id="rows"><option value="25">top 25</option><option value="0">all teams</option></select></label>
+    <div class="scroll"><table id="standings-table"></table></div>
+  </section>
+  <section id="history"><h2>Best score over time</h2>
+    <p class="note">Each step is the first entry that beat every earlier entry on the board, placed at the time it was submitted. It covers only the entry each team's row shows, so it is a floor on the real history, not all of it.</p>
+    <div id="chart" role="img" aria-label="Best public score by entry submit time"></div>
+    <div class="scroll"><table id="frontier-table"></table></div>
+  </section>
+  <section id="turnaround"><h2>Turnaround: submit to first seen scored</h2><div id="turnaround-body"></div></section>
+</main>
+<footer><p id="footer"></p></footer>
+<script src="board.js"></script>
+</body>
+</html>

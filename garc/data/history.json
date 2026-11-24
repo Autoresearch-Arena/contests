@@ -1,0 +1,3518 @@
+{
+ "schema": "garc-leaderboard-history/1",
+ "competition": "generalist-gaming-agent",
+ "snapshots": [
+  {
+   "taken_at": "2026-11-24T16:12:46Z",
+   "teams": 108,
+   "top_score": 0.269,
+   "median_score": 0.087,
+   "baseline": true
+  },
+  {
+   "taken_at": "2026-11-24T17:00:46Z",
+   "teams": 117,
+   "top_score": 0.269,
+   "median_score": 0.087,
+   "baseline": false
+  }
+ ],
+ "teams": {
+  "17430290": {
+   "name": "Tong Hui Kang",
+   "members": [
+    "huikang"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:25:18",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.269,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     1,
+     0.269,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     1,
+     0.269,
+     4
+    ]
+   ]
+  },
+  "17431730": {
+   "name": "Malyshev Danil",
+   "members": [
+    "malyshevdanil"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:53:16",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.202,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     2,
+     0.202,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     2,
+     0.202,
+     2
+    ]
+   ]
+  },
+  "17431944": {
+   "name": "Mark Barney",
+   "members": [
+    "markbarney"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 03:39:05",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.187,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     3,
+     0.187,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     4,
+     0.187,
+     1
+    ]
+   ]
+  },
+  "17434377": {
+   "name": "LAHOUCINE BOUSMENE",
+   "members": [
+    "fadmadahouz"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:21:43",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.142,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     4,
+     0.142,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     6,
+     0.142,
+     1
+    ]
+   ]
+  },
+  "17431668": {
+   "name": "Jack Cole",
+   "members": [
+    "jcole75"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:50:49",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.14,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     5,
+     0.14,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     7,
+     0.14,
+     2
+    ]
+   ]
+  },
+  "17430323": {
+   "name": "alex chilton",
+   "members": [
+    "alexchilton"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:00:09",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.138,
+     "count_at_seen": 5,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     6,
+     0.138,
+     5
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     8,
+     0.138,
+     5
+    ]
+   ]
+  },
+  "17431897": {
+   "name": "Clark Kitchen",
+   "members": [
+    "clarkkitchen"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:25:53",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.136,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     7,
+     0.136,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     10,
+     0.136,
+     4
+    ]
+   ]
+  },
+  "17432807": {
+   "name": "Tanaka Ai24",
+   "members": [
+    "tanakaai24"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:34:25",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.127,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     8,
+     0.127,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     11,
+     0.127,
+     1
+    ]
+   ]
+  },
+  "17430387": {
+   "name": "Kudo",
+   "members": [
+    "nguyenchicuong"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:49:30",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.122,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     9,
+     0.122,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     12,
+     0.122,
+     3
+    ]
+   ]
+  },
+  "17430718": {
+   "name": "Ali",
+   "members": [
+    "asalhi"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:22:14",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.122,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     10,
+     0.122,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     13,
+     0.122,
+     4
+    ]
+   ]
+  },
+  "17433193": {
+   "name": "R Arjun Thilak",
+   "members": [
+    "rarjunthilak"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:22:22",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.122,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     11,
+     0.122,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     14,
+     0.122,
+     2
+    ]
+   ]
+  },
+  "17431393": {
+   "name": "hwe owe",
+   "members": [
+    "hweowe"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:51:00",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.12,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     12,
+     0.12,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     15,
+     0.12,
+     3
+    ]
+   ]
+  },
+  "17431361": {
+   "name": "occhan",
+   "members": [
+    "occhancode"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:03:38",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.119,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     13,
+     0.119,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     16,
+     0.119,
+     3
+    ]
+   ]
+  },
+  "17430957": {
+   "name": "Siddhesh Sathe",
+   "members": [
+    "sidcodegg"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 03:42:16",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.118,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     14,
+     0.118,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     17,
+     0.118,
+     3
+    ]
+   ]
+  },
+  "17431711": {
+   "name": "Hengrui Guo",
+   "members": [
+    "hengruiguo"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:55:11",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.116,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     15,
+     0.116,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     18,
+     0.116,
+     3
+    ]
+   ]
+  },
+  "17433681": {
+   "name": "Mizero Lucky Gall",
+   "members": [
+    "mizeroluckygall"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:33:59",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.114,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     16,
+     0.114,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     19,
+     0.114,
+     2
+    ]
+   ]
+  },
+  "17432149": {
+   "name": "ryos",
+   "members": [
+    "tttgazerttt"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:48:39",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.114,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    },
+    {
+     "sub_at": "2026-11-24 10:39:35",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.114,
+     "count_at_seen": 2,
+     "baseline": false,
+     "turnaround_min": 381
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     17,
+     0.114,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     20,
+     0.114,
+     2
+    ]
+   ]
+  },
+  "17432748": {
+   "name": "SIDHAARTH SHREE",
+   "members": [
+    "sidhaarthshree"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:11:05",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.113,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    },
+    {
+     "sub_at": "2026-11-24 10:26:09",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.113,
+     "count_at_seen": 2,
+     "baseline": false,
+     "turnaround_min": 394
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     18,
+     0.113,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     21,
+     0.113,
+     2
+    ]
+   ]
+  },
+  "17431085": {
+   "name": "rishavsaigal",
+   "members": [
+    "rishavsaigal"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:02:14",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.113,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     19,
+     0.113,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     22,
+     0.113,
+     1
+    ]
+   ]
+  },
+  "17430262": {
+   "name": "Jame Time",
+   "members": [
+    "madarshbb"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 05:58:00",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.109,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     20,
+     0.109,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     23,
+     0.109,
+     4
+    ]
+   ]
+  },
+  "17430273": {
+   "name": "parthenos",
+   "members": [
+    "nihilisticneuralnet"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:06:16",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.106,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     21,
+     0.106,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     24,
+     0.106,
+     3
+    ]
+   ]
+  },
+  "17431754": {
+   "name": "PARK HYUNSIK",
+   "members": [
+    "hyunsikpark"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:42:24",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.105,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     22,
+     0.105,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     25,
+     0.105,
+     4
+    ]
+   ]
+  },
+  "17434623": {
+   "name": "THIRUPATHI KANNAN K",
+   "members": [
+    "thirupathikannank"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:36:33",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.104,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     23,
+     0.104,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     26,
+     0.104,
+     1
+    ]
+   ]
+  },
+  "17434534": {
+   "name": "Nikhil",
+   "members": [
+    "nikhilkhetan"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:42:33",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.102,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     24,
+     0.102,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     27,
+     0.102,
+     1
+    ]
+   ]
+  },
+  "17430811": {
+   "name": "Salah Ibrahiemu",
+   "members": [
+    "salahibrahiemu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 21:21:16",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.101,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     25,
+     0.101,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     28,
+     0.101,
+     2
+    ]
+   ]
+  },
+  "17432943": {
+   "name": "nasubiman",
+   "members": [
+    "yousukenakamura"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:00:58",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.099,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     26,
+     0.099,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     29,
+     0.099,
+     1
+    ]
+   ]
+  },
+  "17430910": {
+   "name": "Menachem Kornreich",
+   "members": [
+    "menachemkornreich"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:55:07",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.098,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    },
+    {
+     "sub_at": "2026-11-24 10:25:51",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.098,
+     "count_at_seen": 5,
+     "baseline": false,
+     "turnaround_min": 394
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     27,
+     0.098,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     30,
+     0.098,
+     5
+    ]
+   ]
+  },
+  "17434598": {
+   "name": "Nick Styles",
+   "members": [
+    "styles"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:32:44",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.098,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     28,
+     0.098,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     31,
+     0.098,
+     1
+    ]
+   ]
+  },
+  "17434064": {
+   "name": "theredbluepill",
+   "members": [
+    "poonszesen"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:40:10",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.097,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     29,
+     0.097,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     32,
+     0.097,
+     2
+    ]
+   ]
+  },
+  "17433707": {
+   "name": "Quan Vu",
+   "members": [
+    "quan0095"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:25:56",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.096,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     30,
+     0.096,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     33,
+     0.096,
+     1
+    ]
+   ]
+  },
+  "17431121": {
+   "name": "tammamalasha",
+   "members": [
+    "tammamalasha"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:05:29",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.096,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     31,
+     0.096,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     34,
+     0.096,
+     3
+    ]
+   ]
+  },
+  "17431774": {
+   "name": "Parabellum",
+   "members": [
+    "abdrah"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 02:42:13",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.095,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     32,
+     0.095,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     35,
+     0.095,
+     1
+    ]
+   ]
+  },
+  "17430258": {
+   "name": "GARC_Expert",
+   "members": [
+    "vaibhav486"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 19:00:20",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     33,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     36,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17430299": {
+   "name": "Kohei",
+   "members": [
+    "confirm"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 19:06:29",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     34,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     37,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17430496": {
+   "name": "Sukhendu Sain",
+   "members": [
+    "ssain18"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 20:04:04",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     35,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     38,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17431007": {
+   "name": "Shoko",
+   "members": [
+    "abreyton"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:09:15",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     36,
+     0.093,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     39,
+     0.093,
+     4
+    ]
+   ]
+  },
+  "17431039": {
+   "name": "Pai",
+   "members": [
+    "rajathrpai"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 22:03:11",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     37,
+     0.093,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     40,
+     0.093,
+     2
+    ]
+   ]
+  },
+  "17431025": {
+   "name": "Asterios Panoras",
+   "members": [
+    "asteriospanoras"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 22:16:05",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     38,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     41,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17431424": {
+   "name": "Kunal Aarse",
+   "members": [
+    "kunalinfinite"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:14:43",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     39,
+     0.093,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     42,
+     0.093,
+     3
+    ]
+   ]
+  },
+  "17431471": {
+   "name": "Tony Li",
+   "members": [
+    "tonylica"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 01:36:07",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     40,
+     0.093,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     43,
+     0.093,
+     2
+    ]
+   ]
+  },
+  "17431086": {
+   "name": "Fidel Escalona",
+   "members": [
+    "fbescalo"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 01:40:59",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     41,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     44,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17431951": {
+   "name": "smbu-zengyu",
+   "members": [
+    "smbuzengyu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 02:13:44",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     42,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     45,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17430816": {
+   "name": "ISAKA Tsuyoshi",
+   "members": [
+    "isakatsuyoshi"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:35:39",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     43,
+     0.093,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     46,
+     0.093,
+     4
+    ]
+   ]
+  },
+  "17432400": {
+   "name": "OsakanaTeishoku",
+   "members": [
+    "osakanateishoku"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:06:54",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     44,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     47,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17431416": {
+   "name": "ONODERA",
+   "members": [
+    "onodera"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:56:24",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     45,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     48,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17433109": {
+   "name": "waterrbq",
+   "members": [
+    "waterrbq"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:12:51",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.093,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     46,
+     0.093,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     50,
+     0.093,
+     1
+    ]
+   ]
+  },
+  "17430337": {
+   "name": "Faycal Zouine",
+   "members": [
+    "zfayfay"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 20:27:32",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.092,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     47,
+     0.092,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     51,
+     0.092,
+     1
+    ]
+   ]
+  },
+  "17430953": {
+   "name": "Cindyl789",
+   "members": [
+    "cindyl789"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 21:38:34",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.092,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     48,
+     0.092,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     52,
+     0.092,
+     2
+    ]
+   ]
+  },
+  "17431480": {
+   "name": "johnny",
+   "members": [
+    "jonykarki"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:30:51",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.092,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     49,
+     0.092,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     53,
+     0.092,
+     2
+    ]
+   ]
+  },
+  "17432700": {
+   "name": "Twil3akine",
+   "members": [
+    "twileakine"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:49:28",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.092,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     50,
+     0.092,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     54,
+     0.092,
+     2
+    ]
+   ]
+  },
+  "17431072": {
+   "name": "StanleyJacob",
+   "members": [
+    "stanleyj"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:32:55",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.089,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     51,
+     0.089,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     56,
+     0.089,
+     1
+    ]
+   ]
+  },
+  "17430738": {
+   "name": "OrDant",
+   "members": [
+    "iztanmaymohan"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:46:32",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.089,
+     "count_at_seen": 3,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     52,
+     0.089,
+     3
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     57,
+     0.089,
+     3
+    ]
+   ]
+  },
+  "17433675": {
+   "name": "Aditya Goyal",
+   "members": [
+    "synthreaper"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:20:15",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.088,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     53,
+     0.088,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     58,
+     0.088,
+     1
+    ]
+   ]
+  },
+  "17433207": {
+   "name": "Galaxy A55",
+   "members": [
+    "galaxya55"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:29:45",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.087,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     54,
+     0.087,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     59,
+     0.087,
+     2
+    ]
+   ]
+  },
+  "17432357": {
+   "name": "AbhilashVJ",
+   "members": [
+    "abh001"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 03:48:31",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.087,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     55,
+     0.087,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     60,
+     0.087,
+     2
+    ]
+   ]
+  },
+  "17430594": {
+   "name": "SWARNA SEKHAR DHAR",
+   "members": [
+    "swarnasekhardhar"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 21:28:48",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.087,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     56,
+     0.087,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     61,
+     0.087,
+     2
+    ]
+   ]
+  },
+  "17431129": {
+   "name": "Game2Player",
+   "members": [
+    "xiruijiang"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:40:56",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.087,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     57,
+     0.087,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     62,
+     0.087,
+     4
+    ]
+   ]
+  },
+  "17431788": {
+   "name": "Christian Kent Bayani",
+   "members": [
+    "kent0170"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:35:53",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.085,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     58,
+     0.085,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     63,
+     0.085,
+     1
+    ]
+   ]
+  },
+  "17433807": {
+   "name": "Pham Hoa Anh Nam",
+   "members": [
+    "anhnamphamhoa"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:36:50",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.082,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    },
+    {
+     "sub_at": "2026-11-24 10:21:40",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.082,
+     "count_at_seen": 2,
+     "baseline": false,
+     "turnaround_min": 399
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     59,
+     0.082,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     64,
+     0.082,
+     2
+    ]
+   ]
+  },
+  "17430346": {
+   "name": "alekh",
+   "members": [
+    "aleksanderhan"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:00:53",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.081,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     60,
+     0.081,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     65,
+     0.081,
+     1
+    ]
+   ]
+  },
+  "17434233": {
+   "name": "Meet Mendapara",
+   "members": [
+    "mendaparameet"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:13:40",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.077,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     61,
+     0.077,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     66,
+     0.077,
+     2
+    ]
+   ]
+  },
+  "17431327": {
+   "name": "Vladislav Lavrentev",
+   "members": [
+    "lightningv08"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 23:35:00",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.076,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     62,
+     0.076,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     67,
+     0.076,
+     2
+    ]
+   ]
+  },
+  "17430384": {
+   "name": "Yaromir_Ko",
+   "members": [
+    "ronanndex"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:36:43",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.075,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     63,
+     0.075,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     68,
+     0.075,
+     1
+    ]
+   ]
+  },
+  "17430224": {
+   "name": "Josh Pirvu",
+   "members": [
+    "joshpirvu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 19:55:55",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.073,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     64,
+     0.073,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     69,
+     0.073,
+     1
+    ]
+   ]
+  },
+  "17431308": {
+   "name": "Sargis Khachatryan",
+   "members": [
+    "avazaku"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 23:28:52",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.072,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     65,
+     0.072,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     70,
+     0.072,
+     1
+    ]
+   ]
+  },
+  "17431582": {
+   "name": "BobtheBot369",
+   "members": [
+    "bobthebot369"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:41:45",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.072,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     66,
+     0.072,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     71,
+     0.072,
+     1
+    ]
+   ]
+  },
+  "17431655": {
+   "name": "Zero",
+   "members": [
+    "zeroepochs"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 05:34:38",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.072,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     67,
+     0.072,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     73,
+     0.072,
+     2
+    ]
+   ]
+  },
+  "17430354": {
+   "name": "john",
+   "members": [
+    "jaejohn"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:35:50",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.07,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     68,
+     0.07,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     74,
+     0.07,
+     2
+    ]
+   ]
+  },
+  "17430441": {
+   "name": "Doraking",
+   "members": [
+    "dorakingx"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:09:53",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.07,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     69,
+     0.07,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     75,
+     0.07,
+     2
+    ]
+   ]
+  },
+  "17432521": {
+   "name": "OBSTACLE DEVELOPER",
+   "members": [
+    "obstacledeveloper"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:38:59",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.068,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     70,
+     0.068,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     76,
+     0.068,
+     1
+    ]
+   ]
+  },
+  "17431548": {
+   "name": "Riku Okawa",
+   "members": [
+    "rikuokawa"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:42:42",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.065,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     71,
+     0.065,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     77,
+     0.065,
+     2
+    ]
+   ]
+  },
+  "17430927": {
+   "name": "Khalid LEMOUDEN",
+   "members": [
+    "khalidlemoude"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:45:26",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.063,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     72,
+     0.063,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     78,
+     0.063,
+     2
+    ]
+   ]
+  },
+  "17431322": {
+   "name": "honjousetuna",
+   "members": [
+    "honjousetuna"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:31:22",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.062,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     73,
+     0.062,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     79,
+     0.062,
+     1
+    ]
+   ]
+  },
+  "17431391": {
+   "name": "3as6Bl",
+   "members": [
+    "segusegu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:48:56",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.062,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     74,
+     0.062,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     80,
+     0.062,
+     1
+    ]
+   ]
+  },
+  "17430185": {
+   "name": "lmnhgF",
+   "members": [
+    "lmnhgf"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 05:32:18",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.062,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     75,
+     0.062,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     81,
+     0.062,
+     1
+    ]
+   ]
+  },
+  "17431292": {
+   "name": "jorge fabian avila",
+   "members": [
+    "jorgefabianavila"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 23:16:29",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.058,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     76,
+     0.058,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     82,
+     0.058,
+     1
+    ]
+   ]
+  },
+  "17430934": {
+   "name": "Francisco MEP",
+   "members": [
+    "franciscomep"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 01:18:36",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.058,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     77,
+     0.058,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     83,
+     0.058,
+     2
+    ]
+   ]
+  },
+  "17431214": {
+   "name": "Arsen Zakaryan",
+   "members": [
+    "arsen123"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:46:12",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.058,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     78,
+     0.058,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     84,
+     0.058,
+     2
+    ]
+   ]
+  },
+  "17432387": {
+   "name": "mp",
+   "members": [
+    "notnitsuj"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:18:41",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.056,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     79,
+     0.056,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     85,
+     0.056,
+     1
+    ]
+   ]
+  },
+  "17430355": {
+   "name": "mentria.ai",
+   "members": [
+    "mentriaai"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 19:28:13",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.056,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     80,
+     0.056,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     86,
+     0.056,
+     1
+    ]
+   ]
+  },
+  "17431973": {
+   "name": "yuki16",
+   "members": [
+    "yuki16"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 02:13:09",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.056,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     81,
+     0.056,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     87,
+     0.056,
+     1
+    ]
+   ]
+  },
+  "17431390": {
+   "name": "Taro_pan",
+   "members": [
+    "stgkrtua"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:52:30",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.056,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     82,
+     0.056,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     88,
+     0.056,
+     1
+    ]
+   ]
+  },
+  "17431237": {
+   "name": "Ancha pramudia Saja",
+   "members": [
+    "anchapramudiasaja"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 01:37:33",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.054,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     83,
+     0.054,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     90,
+     0.054,
+     1
+    ]
+   ]
+  },
+  "17433401": {
+   "name": "Prashant Rawat",
+   "members": [
+    "prashantrawatmailbox"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:42:16",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.051,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     84,
+     0.051,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     91,
+     0.051,
+     1
+    ]
+   ]
+  },
+  "17433390": {
+   "name": "Yuxiao Wang",
+   "members": [
+    "yuxiaowangx"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:08:42",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.05,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     85,
+     0.05,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     93,
+     0.05,
+     1
+    ]
+   ]
+  },
+  "17433474": {
+   "name": "Saheb",
+   "members": [
+    "sahebm"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:23:21",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.05,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     86,
+     0.05,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     95,
+     0.05,
+     2
+    ]
+   ]
+  },
+  "17431000": {
+   "name": "Taylor S. Amarel",
+   "members": [
+    "taylorsamarel"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:08:11",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.047,
+     "count_at_seen": 4,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     87,
+     0.047,
+     4
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     96,
+     0.047,
+     4
+    ]
+   ]
+  },
+  "17431696": {
+   "name": "Priyanshu Kumar",
+   "members": [
+    "kpriyanshu256"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:57:49",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.045,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     88,
+     0.045,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     97,
+     0.045,
+     1
+    ]
+   ]
+  },
+  "17433538": {
+   "name": "Giridharan R",
+   "members": [
+    "girigd26"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:15:30",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.044,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     89,
+     0.044,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     98,
+     0.044,
+     2
+    ]
+   ]
+  },
+  "17431406": {
+   "name": "kakuteki",
+   "members": [
+    "kakuteki"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:07:37",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.044,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     90,
+     0.044,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     99,
+     0.044,
+     1
+    ]
+   ]
+  },
+  "17430367": {
+   "name": "justsamyyyy",
+   "members": [
+    "justsamyyyy"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 21:17:28",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.042,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     91,
+     0.042,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     100,
+     0.042,
+     2
+    ]
+   ]
+  },
+  "17431717": {
+   "name": "e-toppo",
+   "members": [
+    "masatomatsui"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:23:35",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.042,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     92,
+     0.042,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     101,
+     0.042,
+     1
+    ]
+   ]
+  },
+  "17433441": {
+   "name": "Samer Tallauze",
+   "members": [
+    "samertallauze"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:10:35",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.04,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     93,
+     0.04,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     103,
+     0.04,
+     1
+    ]
+   ]
+  },
+  "17430596": {
+   "name": "Adaptive Agent Systems",
+   "members": [
+    "lucifer19"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 22:02:09",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.038,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     94,
+     0.038,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     104,
+     0.038,
+     1
+    ]
+   ]
+  },
+  "17430477": {
+   "name": "Rainyy",
+   "members": [
+    "rainyy66"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 23:17:43",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.031,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     95,
+     0.031,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     105,
+     0.031,
+     1
+    ]
+   ]
+  },
+  "17430216": {
+   "name": "James Mills",
+   "members": [
+    "jamesmills1975"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:13:10",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.026,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     96,
+     0.026,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     106,
+     0.026,
+     1
+    ]
+   ]
+  },
+  "17432339": {
+   "name": "DECEM",
+   "members": [
+    "zy1343930734"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:12:11",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.026,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    },
+    {
+     "sub_at": "2026-11-24 10:43:13",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.15,
+     "count_at_seen": 2,
+     "baseline": false,
+     "turnaround_min": 377
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     97,
+     0.026,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     5,
+     0.15,
+     2
+    ]
+   ]
+  },
+  "17430236": {
+   "name": "Will",
+   "members": [
+    "wguesdon"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-23 19:23:30",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.024,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     98,
+     0.024,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     107,
+     0.024,
+     1
+    ]
+   ]
+  },
+  "17434104": {
+   "name": "LUV BILONIYA",
+   "members": [
+    "luvbiloniya"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:08:42",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.024,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     99,
+     0.024,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     108,
+     0.024,
+     1
+    ]
+   ]
+  },
+  "17432607": {
+   "name": "sedhupathi vishnu",
+   "members": [
+    "sedhupathivishnu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 04:33:14",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.021,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     100,
+     0.021,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     109,
+     0.021,
+     2
+    ]
+   ]
+  },
+  "17431685": {
+   "name": "gezi",
+   "members": [
+    "goldenlock"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 01:12:27",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.019,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     101,
+     0.019,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     110,
+     0.019,
+     1
+    ]
+   ]
+  },
+  "17433283": {
+   "name": "JIAWEILI0001",
+   "members": [
+    "jiaweili0001"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 06:33:42",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.01,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     102,
+     0.01,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     111,
+     0.01,
+     1
+    ]
+   ]
+  },
+  "17433927": {
+   "name": "koheip",
+   "members": [
+    "kohei4649"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:59:10",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.009,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     103,
+     0.009,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     112,
+     0.009,
+     1
+    ]
+   ]
+  },
+  "17433924": {
+   "name": "Chovy",
+   "members": [
+    "chovyxu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:08:02",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.009,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     104,
+     0.009,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     113,
+     0.009,
+     1
+    ]
+   ]
+  },
+  "17430193": {
+   "name": "Md. Ismiel Hossen Abir",
+   "members": [
+    "mdismielhossenabir"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 14:12:52",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.008,
+     "count_at_seen": 2,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     105,
+     0.008,
+     2
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     114,
+     0.008,
+     2
+    ]
+   ]
+  },
+  "17432064": {
+   "name": "Takayuki Michishita",
+   "members": [
+    "takayukimichishita"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 08:07:41",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.007,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     106,
+     0.007,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     115,
+     0.007,
+     1
+    ]
+   ]
+  },
+  "17431517": {
+   "name": "優斗",
+   "members": [
+    "yutodesu"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 00:17:56",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.001,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     107,
+     0.001,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     116,
+     0.001,
+     1
+    ]
+   ]
+  },
+  "17433650": {
+   "name": "Kazuki Igeta",
+   "members": [
+    "kazukiigeta"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 07:57:24",
+     "first_seen": "2026-11-24T16:12:46Z",
+     "score": 0.001,
+     "count_at_seen": 1,
+     "baseline": true,
+     "turnaround_min": null
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T16:12:46Z",
+     108,
+     0.001,
+     1
+    ],
+    [
+     "2026-11-24T17:00:46Z",
+     117,
+     0.001,
+     1
+    ]
+   ]
+  },
+  "17432755": {
+   "name": "wsc-MISX",
+   "members": [
+    "wscmisx"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:02:00",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.188,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 418
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     3,
+     0.188,
+     1
+    ]
+   ]
+  },
+  "17433008": {
+   "name": "tanadai",
+   "members": [
+    "da0516"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:59:35",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.136,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 361
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     9,
+     0.136,
+     1
+    ]
+   ]
+  },
+  "17436506": {
+   "name": "Akmal Azzam o'g'li",
+   "members": [
+    "akmalmir"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:58:07",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.093,
+     "count_at_seen": 2,
+     "baseline": false,
+     "turnaround_min": 362
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     49,
+     0.093,
+     2
+    ]
+   ]
+  },
+  "17434721": {
+   "name": "dustin liang",
+   "members": [
+    "dustinliang2026"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:28:20",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.09,
+     "count_at_seen": 2,
+     "baseline": false,
+     "turnaround_min": 392
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     55,
+     0.09,
+     2
+    ]
+   ]
+  },
+  "17433379": {
+   "name": "minhduynguyen1505",
+   "members": [
+    "userkd7wc1zo6p"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:45:22",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.072,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 375
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     72,
+     0.072,
+     1
+    ]
+   ]
+  },
+  "17434925": {
+   "name": "ooi jed",
+   "members": [
+    "ooijed"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:59:47",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.056,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 360
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     89,
+     0.056,
+     1
+    ]
+   ]
+  },
+  "17431031": {
+   "name": "hengck23",
+   "members": [
+    "hengck23"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:39:42",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.051,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 441
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     92,
+     0.051,
+     1
+    ]
+   ]
+  },
+  "17433680": {
+   "name": "Aqil Contractor",
+   "members": [
+    "aqilmc"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 09:57:31",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.05,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 423
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     94,
+     0.05,
+     1
+    ]
+   ]
+  },
+  "17432193": {
+   "name": "seven",
+   "members": [
+    "morikawatakeshi"
+   ],
+   "events": [
+    {
+     "sub_at": "2026-11-24 10:55:57",
+     "first_seen": "2026-11-24T17:00:46Z",
+     "score": 0.042,
+     "count_at_seen": 1,
+     "baseline": false,
+     "turnaround_min": 364
+    }
+   ],
+   "ranks": [
+    [
+     "2026-11-24T17:00:46Z",
+     102,
+     0.042,
+     1
+    ]
+   ]
+  }
+ }
+}
