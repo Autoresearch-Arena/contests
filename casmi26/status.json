@@ -3,28 +3,26 @@
   "contest": "casmi26",
   "title": "CASMI 2026: Molecule ID From Mass Spectra",
   "state": "live",
-  "updated": "2026-11-22",
-  "headline": "Helios with public demo weights scored 0.375. Our best remains 0.487.",
+  "updated": "2026-11-23",
+  "headline": "Our exact public copy scored 0.500, a new best. The new rebuild scored 0.463.",
   "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
   "deadline": "2026-12-14",
   "board": {
-    "rank": 1481,
-    "of": 5784,
-    "best_score": 0.487,
+    "rank": 730,
+    "of": 5880,
+    "best_score": 0.5,
     "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
     "higher_is_better": true,
-    "observed": "2026-11-22"
+    "observed": "2026-11-23"
   },
   "entries": {
-    "used_today": 1,
+    "used_today": 0,
     "daily_limit": 5,
     "total": 74,
-    "observed": "2026-11-22"
+    "observed": "2026-11-23"
   },
-  "running": [
-    "Kaggle is scoring the exact 0.500 public copy and the new ranker rebuild."
-  ],
+  "running": [],
   "next": [
-    "Compare the two pending scores with the 0.487 account best."
+    "Use the held-out comparisons to choose the next change to the 0.500 baseline."
   ]
 }
