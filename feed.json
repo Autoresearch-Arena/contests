@@ -206,7 +206,7 @@
       "slug": "garc",
       "title": "Generalist Gaming Agent (GARC)",
       "state": "live",
-      "source": "fresh",
+      "source": "kept",
       "page": "garc/",
       "status": {
         "schema": "contest-status/1",
