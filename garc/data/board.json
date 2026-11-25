@@ -2,7 +2,7 @@
  "schema": "garc-leaderboard-board/1",
  "competition": "generalist-gaming-agent",
  "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
- "built_for": "2026-11-25T23:00:02Z",
+ "built_for": "2026-11-25T23:30:05Z",
  "snapshots": [
   {
    "taken_at": "2026-11-24T16:12:46Z",
@@ -381,6 +381,13 @@
    "top_score": 0.408,
    "median_score": 0.1105,
    "baseline": false
+  },
+  {
+   "taken_at": "2026-11-25T23:30:05Z",
+   "teams": 322,
+   "top_score": 0.408,
+   "median_score": 0.1095,
+   "baseline": false
   }
  ],
  "live": true,
@@ -388,10 +395,10 @@
  "medals": {
   "bands": {
    "gold": 10,
-   "silver": 64,
-   "bronze": 128
+   "silver": 65,
+   "bronze": 129
   },
-  "teams": 320,
+  "teams": 322,
   "verified": false,
   "note": "Assumed from Kaggle's usual medal rule for 100 to 249 teams (gold top 10, silver top 20%, bronze top 40%, rounded up). The competition's own rules were not read for medals and may award none; treat these lines as a guide only."
  },
@@ -442,6 +449,20 @@
   },
   {
    "rank": 4,
+   "team_id": "17434623",
+   "team": "THIRUPATHI KANNAN K",
+   "members": [
+    "thirupathikannank"
+   ],
+   "score": 0.34,
+   "entries": 5,
+   "last_entry": "2026-11-25 17:01:55",
+   "moved": 4,
+   "new_since_prev": false,
+   "band": "gold"
+  },
+  {
+   "rank": 5,
    "team_id": "17430811",
    "team": "Salah Ibrahiemu",
    "members": [
@@ -450,26 +471,26 @@
    "score": 0.339,
    "entries": 5,
    "last_entry": "2026-11-25 10:27:31",
-   "moved": 0,
+   "moved": -1,
    "new_since_prev": false,
    "band": "gold"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "team_id": "17443123",
    "team": "Lebxgue.",
    "members": [
     "yukieja"
    ],
    "score": 0.339,
-   "entries": 4,
-   "last_entry": "2026-11-25 10:55:14",
-   "moved": 0,
+   "entries": 5,
+   "last_entry": "2026-11-25 17:03:09",
+   "moved": -1,
    "new_since_prev": false,
    "band": "gold"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "team_id": "17430185",
    "team": "lmnhgF",
    "members": [
@@ -478,12 +499,12 @@
    "score": 0.338,
    "entries": 2,
    "last_entry": "2026-11-25 14:26:09",
-   "moved": 0,
+   "moved": -1,
    "new_since_prev": false,
    "band": "gold"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "team_id": "17436506",
    "team": "Akmal Azzam o'g'li",
    "members": [
@@ -492,21 +513,7 @@
    "score": 0.337,
    "entries": 4,
    "last_entry": "2026-11-25 11:47:53",
-   "moved": 0,
-   "new_since_prev": false,
-   "band": "gold"
-  },
-  {
-   "rank": 8,
-   "team_id": "17434623",
-   "team": "THIRUPATHI KANNAN K",
-   "members": [
-    "thirupathikannank"
-   ],
-   "score": 0.337,
-   "entries": 4,
-   "last_entry": "2026-11-25 10:55:48",
-   "moved": 0,
+   "moved": -1,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -746,8 +753,8 @@
     "gloriachen0816"
    ],
    "score": 0.327,
-   "entries": 5,
-   "last_entry": "2026-11-25 13:38:21",
+   "entries": 6,
+   "last_entry": "2026-11-25 17:02:02",
    "moved": 0,
    "new_since_prev": false,
    "band": "silver"
@@ -846,8 +853,8 @@
    "score": 0.324,
    "entries": 1,
    "last_entry": "2026-11-25 16:39:36",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": 0,
+   "new_since_prev": false,
    "band": "silver"
   },
   {
@@ -860,7 +867,7 @@
    "score": 0.323,
    "entries": 1,
    "last_entry": "2026-11-25 14:25:27",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -874,7 +881,7 @@
    "score": 0.322,
    "entries": 9,
    "last_entry": "2026-11-25 14:34:55",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -888,7 +895,7 @@
    "score": 0.322,
    "entries": 4,
    "last_entry": "2026-11-25 14:59:26",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -902,7 +909,7 @@
    "score": 0.321,
    "entries": 6,
    "last_entry": "2026-11-25 16:43:37",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -916,7 +923,7 @@
    "score": 0.321,
    "entries": 2,
    "last_entry": "2026-11-25 09:13:18",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -930,7 +937,7 @@
    "score": 0.321,
    "entries": 1,
    "last_entry": "2026-11-25 11:37:40",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -944,7 +951,7 @@
    "score": 0.321,
    "entries": 7,
    "last_entry": "2026-11-25 09:51:42",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -958,7 +965,7 @@
    "score": 0.32,
    "entries": 4,
    "last_entry": "2026-11-25 15:03:33",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -972,7 +979,7 @@
    "score": 0.32,
    "entries": 1,
    "last_entry": "2026-11-25 13:15:02",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -986,7 +993,7 @@
    "score": 0.319,
    "entries": 4,
    "last_entry": "2026-11-25 11:03:31",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1000,7 +1007,7 @@
    "score": 0.318,
    "entries": 7,
    "last_entry": "2026-11-25 12:32:25",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1014,7 +1021,7 @@
    "score": 0.318,
    "entries": 1,
    "last_entry": "2026-11-25 16:19:50",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1028,7 +1035,7 @@
    "score": 0.318,
    "entries": 2,
    "last_entry": "2026-11-25 10:57:38",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1042,7 +1049,7 @@
    "score": 0.317,
    "entries": 3,
    "last_entry": "2026-11-25 14:05:29",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1056,7 +1063,7 @@
    "score": 0.317,
    "entries": 2,
    "last_entry": "2026-11-25 15:59:16",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1070,7 +1077,7 @@
    "score": 0.315,
    "entries": 4,
    "last_entry": "2026-11-25 09:49:36",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1084,7 +1091,7 @@
    "score": 0.315,
    "entries": 2,
    "last_entry": "2026-11-25 15:16:25",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1098,7 +1105,7 @@
    "score": 0.315,
    "entries": 8,
    "last_entry": "2026-11-25 15:39:45",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1112,7 +1119,7 @@
    "score": 0.314,
    "entries": 8,
    "last_entry": "2026-11-25 15:04:08",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1126,7 +1133,7 @@
    "score": 0.314,
    "entries": 3,
    "last_entry": "2026-11-25 02:17:53",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1140,7 +1147,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-25 03:54:21",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1154,7 +1161,7 @@
    "score": 0.314,
    "entries": 9,
    "last_entry": "2026-11-25 12:38:36",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1168,7 +1175,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-25 05:30:35",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1182,7 +1189,7 @@
    "score": 0.314,
    "entries": 2,
    "last_entry": "2026-11-25 07:03:40",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1196,7 +1203,7 @@
    "score": 0.314,
    "entries": 2,
    "last_entry": "2026-11-25 09:55:04",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1210,7 +1217,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-25 12:17:44",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1224,7 +1231,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-25 14:58:37",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1238,7 +1245,7 @@
    "score": 0.313,
    "entries": 1,
    "last_entry": "2026-11-25 13:28:35",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1252,7 +1259,7 @@
    "score": 0.313,
    "entries": 8,
    "last_entry": "2026-11-25 15:08:39",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1266,7 +1273,7 @@
    "score": 0.313,
    "entries": 2,
    "last_entry": "2026-11-25 09:35:07",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1280,7 +1287,7 @@
    "score": 0.313,
    "entries": 3,
    "last_entry": "2026-11-25 14:47:06",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1294,7 +1301,7 @@
    "score": 0.312,
    "entries": 6,
    "last_entry": "2026-11-25 14:35:04",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1308,9 +1315,9 @@
    "score": 0.312,
    "entries": 1,
    "last_entry": "2026-11-25 12:45:31",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
-   "band": "bronze"
+   "band": "silver"
   },
   {
    "rank": 66,
@@ -1322,7 +1329,7 @@
    "score": 0.312,
    "entries": 1,
    "last_entry": "2026-11-25 10:08:14",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1336,7 +1343,7 @@
    "score": 0.311,
    "entries": 7,
    "last_entry": "2026-11-25 10:30:07",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1350,12 +1357,26 @@
    "score": 0.31,
    "entries": 3,
    "last_entry": "2026-11-25 10:54:28",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
    "rank": 69,
+   "team_id": "17450015",
+   "team": "Igor Zharov",
+   "members": [
+    "flexonafft"
+   ],
+   "score": 0.308,
+   "entries": 2,
+   "last_entry": "2026-11-25 17:20:02",
+   "moved": 5,
+   "new_since_prev": false,
+   "band": "bronze"
+  },
+  {
+   "rank": 70,
    "team_id": "17446247",
    "team": "APS Team",
    "members": [
@@ -1369,7 +1390,7 @@
    "band": "bronze"
   },
   {
-   "rank": 70,
+   "rank": 71,
    "team_id": "17444068",
    "team": "Oleg Sher",
    "members": [
@@ -1383,7 +1404,7 @@
    "band": "bronze"
   },
   {
-   "rank": 71,
+   "rank": 72,
    "team_id": "17431663",
    "team": "Anyanwu Promise",
    "members": [
@@ -1397,7 +1418,7 @@
    "band": "bronze"
   },
   {
-   "rank": 72,
+   "rank": 73,
    "team_id": "17439569",
    "team": "rodolfo fonseca acuña",
    "members": [
@@ -1411,7 +1432,7 @@
    "band": "bronze"
   },
   {
-   "rank": 73,
+   "rank": 74,
    "team_id": "17433109",
    "team": "waterrbq",
    "members": [
@@ -1425,20 +1446,6 @@
    "band": "bronze"
   },
   {
-   "rank": 74,
-   "team_id": "17450015",
-   "team": "Igor Zharov",
-   "members": [
-    "flexonafft"
-   ],
-   "score": 0.298,
-   "entries": 1,
-   "last_entry": "2026-11-25 16:41:46",
-   "moved": null,
-   "new_since_prev": true,
-   "band": "bronze"
-  },
-  {
    "rank": 75,
    "team_id": "17431214",
    "team": "Arsen Zakaryan",
@@ -1448,7 +1455,7 @@
    "score": 0.296,
    "entries": 6,
    "last_entry": "2026-11-25 09:24:37",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1462,7 +1469,7 @@
    "score": 0.294,
    "entries": 11,
    "last_entry": "2026-11-25 15:39:08",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1476,7 +1483,7 @@
    "score": 0.294,
    "entries": 2,
    "last_entry": "2026-11-25 04:21:10",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1490,7 +1497,7 @@
    "score": 0.293,
    "entries": 1,
    "last_entry": "2026-11-25 07:33:35",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1504,7 +1511,7 @@
    "score": 0.292,
    "entries": 1,
    "last_entry": "2026-11-25 06:49:52",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1518,7 +1525,7 @@
    "score": 0.289,
    "entries": 3,
    "last_entry": "2026-11-24 23:46:52",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1532,7 +1539,7 @@
    "score": 0.286,
    "entries": 2,
    "last_entry": "2026-11-25 01:53:55",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1546,7 +1553,7 @@
    "score": 0.285,
    "entries": 5,
    "last_entry": "2026-11-25 12:24:05",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1560,7 +1567,7 @@
    "score": 0.281,
    "entries": 2,
    "last_entry": "2026-11-25 15:26:49",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1575,7 +1582,7 @@
    "score": 0.278,
    "entries": 3,
    "last_entry": "2026-11-24 23:58:01",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1589,7 +1596,7 @@
    "score": 0.276,
    "entries": 3,
    "last_entry": "2026-11-25 08:35:40",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1603,7 +1610,7 @@
    "score": 0.274,
    "entries": 3,
    "last_entry": "2026-11-25 10:45:52",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1617,7 +1624,7 @@
    "score": 0.272,
    "entries": 5,
    "last_entry": "2026-11-25 05:37:58",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1631,7 +1638,7 @@
    "score": 0.258,
    "entries": 2,
    "last_entry": "2026-11-25 07:19:54",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1645,7 +1652,7 @@
    "score": 0.258,
    "entries": 6,
    "last_entry": "2026-11-25 14:30:39",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1659,7 +1666,7 @@
    "score": 0.258,
    "entries": 5,
    "last_entry": "2026-11-25 15:20:23",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1673,7 +1680,7 @@
    "score": 0.253,
    "entries": 3,
    "last_entry": "2026-11-25 15:31:34",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1687,7 +1694,7 @@
    "score": 0.252,
    "entries": 4,
    "last_entry": "2026-11-25 02:57:30",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1701,12 +1708,26 @@
    "score": 0.246,
    "entries": 10,
    "last_entry": "2026-11-25 13:51:46",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
    "rank": 94,
+   "team_id": "17431897",
+   "team": "Clark Kitchen",
+   "members": [
+    "clarkkitchen"
+   ],
+   "score": 0.239,
+   "entries": 10,
+   "last_entry": "2026-11-25 17:08:45",
+   "moved": 1,
+   "new_since_prev": false,
+   "band": "bronze"
+  },
+  {
+   "rank": 95,
    "team_id": "17431393",
    "team": "hwe owe",
    "members": [
@@ -1715,21 +1736,7 @@
    "score": 0.238,
    "entries": 7,
    "last_entry": "2026-11-25 08:04:07",
-   "moved": -2,
-   "new_since_prev": false,
-   "band": "bronze"
-  },
-  {
-   "rank": 95,
-   "team_id": "17431897",
-   "team": "Clark Kitchen",
-   "members": [
-    "clarkkitchen"
-   ],
-   "score": 0.236,
-   "entries": 9,
-   "last_entry": "2026-11-25 12:09:02",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1743,7 +1750,7 @@
    "score": 0.215,
    "entries": 2,
    "last_entry": "2026-11-25 14:33:06",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1756,9 +1763,9 @@
     "wscmisx"
    ],
    "score": 0.208,
-   "entries": 4,
-   "last_entry": "2026-11-24 23:28:06",
-   "moved": -2,
+   "entries": 5,
+   "last_entry": "2026-11-25 17:18:56",
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1772,7 +1779,7 @@
    "score": 0.201,
    "entries": 1,
    "last_entry": "2026-11-25 13:05:28",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1783,10 +1790,10 @@
    "members": [
     "ruijiezhao666"
    ],
-   "score": 0.193,
-   "entries": 3,
-   "last_entry": "2026-11-25 15:16:17",
-   "moved": -2,
+   "score": 0.199,
+   "entries": 4,
+   "last_entry": "2026-11-25 16:02:53",
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1802,7 +1809,7 @@
    "score": 0.175,
    "entries": 3,
    "last_entry": "2026-11-25 14:58:21",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1816,7 +1823,7 @@
    "score": 0.17,
    "entries": 5,
    "last_entry": "2026-11-25 13:25:42",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1830,7 +1837,7 @@
    "score": 0.167,
    "entries": 2,
    "last_entry": "2026-11-24 20:13:06",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1844,7 +1851,7 @@
    "score": 0.164,
    "entries": 8,
    "last_entry": "2026-11-25 12:45:11",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1858,7 +1865,7 @@
    "score": 0.157,
    "entries": 2,
    "last_entry": "2026-11-24 16:30:15",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1872,7 +1879,7 @@
    "score": 0.157,
    "entries": 4,
    "last_entry": "2026-11-25 15:27:03",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1886,7 +1893,7 @@
    "score": 0.153,
    "entries": 7,
    "last_entry": "2026-11-25 12:00:46",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1900,7 +1907,7 @@
    "score": 0.153,
    "entries": 9,
    "last_entry": "2026-11-25 11:53:55",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1914,7 +1921,7 @@
    "score": 0.151,
    "entries": 10,
    "last_entry": "2026-11-25 13:24:40",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1926,9 +1933,9 @@
     "primalhost"
    ],
    "score": 0.147,
-   "entries": 2,
-   "last_entry": "2026-11-25 01:25:23",
-   "moved": -2,
+   "entries": 3,
+   "last_entry": "2026-11-25 17:08:43",
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1942,7 +1949,7 @@
    "score": 0.146,
    "entries": 2,
    "last_entry": "2026-11-25 02:21:15",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1956,7 +1963,7 @@
    "score": 0.146,
    "entries": 1,
    "last_entry": "2026-11-25 13:49:29",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1970,7 +1977,7 @@
    "score": 0.146,
    "entries": 2,
    "last_entry": "2026-11-25 14:39:52",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1984,7 +1991,7 @@
    "score": 0.144,
    "entries": 8,
    "last_entry": "2026-11-25 14:42:41",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1998,7 +2005,7 @@
    "score": 0.144,
    "entries": 2,
    "last_entry": "2026-11-25 16:06:29",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2012,7 +2019,7 @@
    "score": 0.142,
    "entries": 10,
    "last_entry": "2026-11-25 15:55:35",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2026,7 +2033,7 @@
    "score": 0.142,
    "entries": 6,
    "last_entry": "2026-11-25 11:44:43",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2040,7 +2047,7 @@
    "score": 0.142,
    "entries": 4,
    "last_entry": "2026-11-25 16:33:15",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2054,7 +2061,7 @@
    "score": 0.141,
    "entries": 2,
    "last_entry": "2026-11-24 18:56:13",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2068,7 +2075,7 @@
    "score": 0.141,
    "entries": 5,
    "last_entry": "2026-11-25 02:34:03",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2082,7 +2089,7 @@
    "score": 0.141,
    "entries": 2,
    "last_entry": "2026-11-25 00:36:41",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2096,7 +2103,7 @@
    "score": 0.141,
    "entries": 8,
    "last_entry": "2026-11-25 10:35:15",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2110,7 +2117,7 @@
    "score": 0.137,
    "entries": 5,
    "last_entry": "2026-11-25 12:29:53",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2124,7 +2131,7 @@
    "score": 0.137,
    "entries": 6,
    "last_entry": "2026-11-25 13:58:40",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2138,7 +2145,7 @@
    "score": 0.137,
    "entries": 6,
    "last_entry": "2026-11-25 12:29:45",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2152,7 +2159,7 @@
    "score": 0.136,
    "entries": 6,
    "last_entry": "2026-11-24 20:54:32",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2166,7 +2173,7 @@
    "score": 0.136,
    "entries": 6,
    "last_entry": "2026-11-25 14:02:10",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2180,7 +2187,7 @@
    "score": 0.136,
    "entries": 6,
    "last_entry": "2026-11-25 02:58:20",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2194,7 +2201,7 @@
    "score": 0.135,
    "entries": 4,
    "last_entry": "2026-11-25 15:26:21",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2208,9 +2215,9 @@
    "score": 0.133,
    "entries": 6,
    "last_entry": "2026-11-25 15:09:12",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
-   "band": null
+   "band": "bronze"
   },
   {
    "rank": 130,
@@ -2222,7 +2229,7 @@
    "score": 0.132,
    "entries": 2,
    "last_entry": "2026-11-25 16:40:06",
-   "moved": 70,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2236,7 +2243,7 @@
    "score": 0.13,
    "entries": 2,
    "last_entry": "2026-11-25 07:31:25",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2250,7 +2257,7 @@
    "score": 0.13,
    "entries": 5,
    "last_entry": "2026-11-25 15:00:16",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2264,7 +2271,7 @@
    "score": 0.127,
    "entries": 3,
    "last_entry": "2026-11-25 08:50:05",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2278,7 +2285,7 @@
    "score": 0.123,
    "entries": 1,
    "last_entry": "2026-11-24 16:37:22",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2292,7 +2299,7 @@
    "score": 0.123,
    "entries": 4,
    "last_entry": "2026-11-25 12:53:12",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2306,7 +2313,7 @@
    "score": 0.123,
    "entries": 2,
    "last_entry": "2026-11-24 20:24:10",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2320,7 +2327,7 @@
    "score": 0.122,
    "entries": 5,
    "last_entry": "2026-11-25 16:11:40",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2334,7 +2341,7 @@
    "score": 0.122,
    "entries": 9,
    "last_entry": "2026-11-25 12:21:57",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2348,7 +2355,7 @@
    "score": 0.122,
    "entries": 7,
    "last_entry": "2026-11-25 12:45:38",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2362,7 +2369,7 @@
    "score": 0.121,
    "entries": 5,
    "last_entry": "2026-11-24 20:33:33",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2376,7 +2383,7 @@
    "score": 0.12,
    "entries": 4,
    "last_entry": "2026-11-25 14:02:10",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2390,7 +2397,7 @@
    "score": 0.118,
    "entries": 6,
    "last_entry": "2026-11-25 13:32:21",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2404,7 +2411,7 @@
    "score": 0.118,
    "entries": 6,
    "last_entry": "2026-11-24 18:30:58",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2418,7 +2425,7 @@
    "score": 0.117,
    "entries": 1,
    "last_entry": "2026-11-25 11:36:57",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2432,7 +2439,7 @@
    "score": 0.117,
    "entries": 2,
    "last_entry": "2026-11-25 13:58:24",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2444,9 +2451,9 @@
     "fbescalo"
    ],
    "score": 0.117,
-   "entries": 3,
-   "last_entry": "2026-11-25 16:04:07",
-   "moved": -3,
+   "entries": 4,
+   "last_entry": "2026-11-25 17:14:56",
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2460,7 +2467,7 @@
    "score": 0.117,
    "entries": 1,
    "last_entry": "2026-11-24 18:53:48",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2474,7 +2481,7 @@
    "score": 0.116,
    "entries": 1,
    "last_entry": "2026-11-24 17:16:41",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2488,7 +2495,7 @@
    "score": 0.115,
    "entries": 1,
    "last_entry": "2026-11-24 19:59:16",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2502,7 +2509,7 @@
    "score": 0.115,
    "entries": 2,
    "last_entry": "2026-11-25 14:36:21",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2516,7 +2523,7 @@
    "score": 0.114,
    "entries": 3,
    "last_entry": "2026-11-24 14:24:04",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2528,9 +2535,9 @@
     "cakpovital"
    ],
    "score": 0.114,
-   "entries": 7,
-   "last_entry": "2026-11-25 11:00:00",
-   "moved": -3,
+   "entries": 8,
+   "last_entry": "2026-11-25 17:02:07",
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2544,7 +2551,7 @@
    "score": 0.114,
    "entries": 8,
    "last_entry": "2026-11-25 14:00:22",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2558,7 +2565,7 @@
    "score": 0.114,
    "entries": 4,
    "last_entry": "2026-11-25 15:09:10",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2572,7 +2579,7 @@
    "score": 0.113,
    "entries": 2,
    "last_entry": "2026-11-25 12:52:00",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2586,7 +2593,7 @@
    "score": 0.113,
    "entries": 9,
    "last_entry": "2026-11-25 08:02:57",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2600,7 +2607,7 @@
    "score": 0.113,
    "entries": 5,
    "last_entry": "2026-11-25 16:18:08",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2614,7 +2621,7 @@
    "score": 0.113,
    "entries": 1,
    "last_entry": "2026-11-24 00:02:14",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2628,7 +2635,7 @@
    "score": 0.112,
    "entries": 1,
    "last_entry": "2026-11-24 13:57:59",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2642,8 +2649,8 @@
    "score": 0.111,
    "entries": 1,
    "last_entry": "2026-11-25 17:06:42",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": 0,
+   "new_since_prev": false,
    "band": null
   },
   {
@@ -2656,7 +2663,7 @@
    "score": 0.11,
    "entries": 2,
    "last_entry": "2026-11-25 15:10:31",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2670,7 +2677,7 @@
    "score": 0.109,
    "entries": 2,
    "last_entry": "2026-11-25 14:42:57",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2684,7 +2691,7 @@
    "score": 0.109,
    "entries": 4,
    "last_entry": "2026-11-24 05:58:00",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2698,7 +2705,7 @@
    "score": 0.108,
    "entries": 11,
    "last_entry": "2026-11-25 15:13:50",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2712,7 +2719,7 @@
    "score": 0.108,
    "entries": 1,
    "last_entry": "2026-11-24 16:40:55",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2726,7 +2733,7 @@
    "score": 0.108,
    "entries": 1,
    "last_entry": "2026-11-24 23:16:18",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2740,7 +2747,7 @@
    "score": 0.107,
    "entries": 2,
    "last_entry": "2026-11-24 12:31:24",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2754,7 +2761,7 @@
    "score": 0.105,
    "entries": 3,
    "last_entry": "2026-11-25 00:27:42",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2768,7 +2775,7 @@
    "score": 0.105,
    "entries": 1,
    "last_entry": "2026-11-24 14:12:36",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2782,7 +2789,7 @@
    "score": 0.104,
    "entries": 1,
    "last_entry": "2026-11-25 01:15:20",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2796,7 +2803,7 @@
    "score": 0.104,
    "entries": 3,
    "last_entry": "2026-11-25 03:17:42",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2810,7 +2817,7 @@
    "score": 0.104,
    "entries": 2,
    "last_entry": "2026-11-24 19:09:06",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2824,7 +2831,7 @@
    "score": 0.104,
    "entries": 3,
    "last_entry": "2026-11-25 16:57:21",
-   "moved": 34,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2838,7 +2845,7 @@
    "score": 0.103,
    "entries": 1,
    "last_entry": "2026-11-24 19:06:08",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2852,7 +2859,7 @@
    "score": 0.102,
    "entries": 1,
    "last_entry": "2026-11-24 09:42:33",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2866,7 +2873,7 @@
    "score": 0.102,
    "entries": 1,
    "last_entry": "2026-11-25 02:03:37",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2880,7 +2887,7 @@
    "score": 0.102,
    "entries": 6,
    "last_entry": "2026-11-25 02:08:16",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2894,7 +2901,7 @@
    "score": 0.101,
    "entries": 3,
    "last_entry": "2026-11-25 07:53:07",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2908,7 +2915,7 @@
    "score": 0.099,
    "entries": 3,
    "last_entry": "2026-11-25 13:02:16",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2922,7 +2929,7 @@
    "score": 0.099,
    "entries": 1,
    "last_entry": "2026-11-24 07:00:58",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2936,7 +2943,7 @@
    "score": 0.098,
    "entries": 5,
    "last_entry": "2026-11-25 08:21:27",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2950,7 +2957,7 @@
    "score": 0.098,
    "entries": 8,
    "last_entry": "2026-11-25 13:43:42",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2964,7 +2971,7 @@
    "score": 0.098,
    "entries": 2,
    "last_entry": "2026-11-25 10:49:13",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2978,7 +2985,7 @@
    "score": 0.098,
    "entries": 1,
    "last_entry": "2026-11-24 09:32:44",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -2992,7 +2999,7 @@
    "score": 0.097,
    "entries": 7,
    "last_entry": "2026-11-25 15:38:56",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3006,7 +3013,7 @@
    "score": 0.095,
    "entries": 3,
    "last_entry": "2026-11-25 00:57:49",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3020,7 +3027,7 @@
    "score": 0.094,
    "entries": 10,
    "last_entry": "2026-11-25 14:02:20",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3034,7 +3041,7 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-25 09:06:01",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3048,7 +3055,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-23 19:06:29",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3062,7 +3069,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-23 20:04:04",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3076,7 +3083,7 @@
    "score": 0.093,
    "entries": 4,
    "last_entry": "2026-11-24 04:09:15",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3090,7 +3097,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-24 02:13:44",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3104,7 +3111,7 @@
    "score": 0.093,
    "entries": 5,
    "last_entry": "2026-11-24 14:31:27",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3118,7 +3125,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-24 09:56:24",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3132,7 +3139,7 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-24 11:33:21",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3146,7 +3153,7 @@
    "score": 0.093,
    "entries": 3,
    "last_entry": "2026-11-25 10:53:33",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3160,7 +3167,7 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-24 21:26:28",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3174,7 +3181,7 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-25 16:20:21",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3188,7 +3195,7 @@
    "score": 0.093,
    "entries": 5,
    "last_entry": "2026-11-25 14:42:37",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3202,7 +3209,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-25 01:41:31",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3216,7 +3223,7 @@
    "score": 0.093,
    "entries": 3,
    "last_entry": "2026-11-25 16:26:07",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3230,7 +3237,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-25 10:47:53",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3244,7 +3251,7 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-25 13:08:02",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3258,7 +3265,7 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-25 15:06:41",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3272,7 +3279,7 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-24 17:34:28",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3286,7 +3293,7 @@
    "score": 0.093,
    "entries": 6,
    "last_entry": "2026-11-25 15:47:28",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3300,7 +3307,7 @@
    "score": 0.092,
    "entries": 1,
    "last_entry": "2026-11-23 20:27:32",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3314,7 +3321,7 @@
    "score": 0.092,
    "entries": 2,
    "last_entry": "2026-11-23 21:38:34",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3328,7 +3335,7 @@
    "score": 0.092,
    "entries": 2,
    "last_entry": "2026-11-24 00:30:51",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3342,7 +3349,7 @@
    "score": 0.092,
    "entries": 3,
    "last_entry": "2026-11-25 08:36:06",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3356,7 +3363,7 @@
    "score": 0.092,
    "entries": 5,
    "last_entry": "2026-11-25 13:29:03",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3370,7 +3377,7 @@
    "score": 0.092,
    "entries": 1,
    "last_entry": "2026-11-25 13:26:16",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3384,7 +3391,7 @@
    "score": 0.092,
    "entries": 2,
    "last_entry": "2026-11-24 22:05:42",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3398,7 +3405,7 @@
    "score": 0.091,
    "entries": 1,
    "last_entry": "2026-11-24 10:39:35",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3412,7 +3419,7 @@
    "score": 0.09,
    "entries": 6,
    "last_entry": "2026-11-25 14:49:30",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3426,7 +3433,7 @@
    "score": 0.089,
    "entries": 1,
    "last_entry": "2026-11-24 06:32:55",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3440,7 +3447,7 @@
    "score": 0.089,
    "entries": 1,
    "last_entry": "2026-11-25 13:29:32",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3454,7 +3461,7 @@
    "score": 0.088,
    "entries": 4,
    "last_entry": "2026-11-25 16:57:14",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3468,7 +3475,7 @@
    "score": 0.087,
    "entries": 2,
    "last_entry": "2026-11-24 03:48:31",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3482,7 +3489,7 @@
    "score": 0.087,
    "entries": 4,
    "last_entry": "2026-11-25 14:57:27",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3496,7 +3503,7 @@
    "score": 0.084,
    "entries": 4,
    "last_entry": "2026-11-25 15:51:53",
-   "moved": 40,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3510,7 +3517,7 @@
    "score": 0.084,
    "entries": 9,
    "last_entry": "2026-11-25 18:39:39",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3524,7 +3531,7 @@
    "score": 0.084,
    "entries": 2,
    "last_entry": "2026-11-25 16:07:16",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3538,7 +3545,7 @@
    "score": 0.082,
    "entries": 2,
    "last_entry": "2026-11-25 08:13:38",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3552,7 +3559,7 @@
    "score": 0.082,
    "entries": 6,
    "last_entry": "2026-11-25 12:01:02",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3566,7 +3573,7 @@
    "score": 0.081,
    "entries": 2,
    "last_entry": "2026-11-25 14:50:27",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3580,7 +3587,7 @@
    "score": 0.081,
    "entries": 4,
    "last_entry": "2026-11-25 00:01:26",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3594,7 +3601,7 @@
    "score": 0.078,
    "entries": 5,
    "last_entry": "2026-11-25 07:53:39",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3608,7 +3615,7 @@
    "score": 0.077,
    "entries": 1,
    "last_entry": "2026-11-24 21:19:42",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3622,7 +3629,7 @@
    "score": 0.076,
    "entries": 2,
    "last_entry": "2026-11-25 09:08:13",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3636,7 +3643,7 @@
    "score": 0.075,
    "entries": 4,
    "last_entry": "2026-11-24 20:25:02",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3650,7 +3657,7 @@
    "score": 0.075,
    "entries": 2,
    "last_entry": "2026-11-25 13:54:25",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3664,7 +3671,7 @@
    "score": 0.075,
    "entries": 2,
    "last_entry": "2026-11-25 03:03:30",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3678,7 +3685,7 @@
    "score": 0.074,
    "entries": 4,
    "last_entry": "2026-11-25 09:04:28",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3692,7 +3699,7 @@
    "score": 0.074,
    "entries": 3,
    "last_entry": "2026-11-25 10:09:56",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3706,7 +3713,7 @@
    "score": 0.072,
    "entries": 2,
    "last_entry": "2026-11-24 05:34:38",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3720,7 +3727,7 @@
    "score": 0.07,
    "entries": 1,
    "last_entry": "2026-11-25 06:21:14",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3734,7 +3741,7 @@
    "score": 0.068,
    "entries": 4,
    "last_entry": "2026-11-25 14:50:32",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3748,7 +3755,7 @@
    "score": 0.067,
    "entries": 2,
    "last_entry": "2026-11-25 14:53:22",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3762,7 +3769,7 @@
    "score": 0.067,
    "entries": 2,
    "last_entry": "2026-11-25 12:32:06",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3776,7 +3783,7 @@
    "score": 0.067,
    "entries": 6,
    "last_entry": "2026-11-25 15:09:04",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3790,7 +3797,7 @@
    "score": 0.067,
    "entries": 2,
    "last_entry": "2026-11-25 06:43:05",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3804,7 +3811,7 @@
    "score": 0.066,
    "entries": 3,
    "last_entry": "2026-11-24 18:40:15",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3818,7 +3825,7 @@
    "score": 0.065,
    "entries": 1,
    "last_entry": "2026-11-24 16:40:49",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3832,7 +3839,7 @@
    "score": 0.064,
    "entries": 1,
    "last_entry": "2026-11-25 11:05:26",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3846,7 +3853,7 @@
    "score": 0.062,
    "entries": 1,
    "last_entry": "2026-11-24 04:48:56",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3860,7 +3867,7 @@
    "score": 0.061,
    "entries": 2,
    "last_entry": "2026-11-25 15:21:13",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3874,7 +3881,7 @@
    "score": 0.06,
    "entries": 1,
    "last_entry": "2026-11-25 10:37:21",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3888,7 +3895,7 @@
    "score": 0.058,
    "entries": 2,
    "last_entry": "2026-11-25 13:01:28",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3902,7 +3909,7 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-23 23:16:29",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3916,7 +3923,7 @@
    "score": 0.058,
    "entries": 4,
    "last_entry": "2026-11-24 16:57:17",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3930,7 +3937,7 @@
    "score": 0.058,
    "entries": 2,
    "last_entry": "2026-11-24 20:25:43",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3944,7 +3951,7 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-24 22:27:02",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3958,7 +3965,7 @@
    "score": 0.058,
    "entries": 2,
    "last_entry": "2026-11-25 12:39:50",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -3972,8 +3979,8 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-25 16:55:42",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": 0,
+   "new_since_prev": false,
    "band": null
   },
   {
@@ -3986,7 +3993,7 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-23 19:28:13",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4000,7 +4007,7 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-24 02:13:09",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4014,7 +4021,7 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-24 04:52:30",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4028,7 +4035,7 @@
    "score": 0.056,
    "entries": 3,
    "last_entry": "2026-11-25 10:21:01",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4042,7 +4049,7 @@
    "score": 0.055,
    "entries": 6,
    "last_entry": "2026-11-25 10:09:45",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4056,7 +4063,7 @@
    "score": 0.054,
    "entries": 1,
    "last_entry": "2026-11-24 01:37:33",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4070,7 +4077,7 @@
    "score": 0.053,
    "entries": 1,
    "last_entry": "2026-11-24 15:43:11",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4084,7 +4091,7 @@
    "score": 0.052,
    "entries": 3,
    "last_entry": "2026-11-25 02:40:56",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4098,7 +4105,7 @@
    "score": 0.052,
    "entries": 2,
    "last_entry": "2026-11-25 15:13:22",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4112,7 +4119,7 @@
    "score": 0.051,
    "entries": 1,
    "last_entry": "2026-11-24 06:42:16",
-   "moved": -5,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4126,7 +4133,7 @@
    "score": 0.051,
    "entries": 1,
    "last_entry": "2026-11-24 09:39:42",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4140,7 +4147,7 @@
    "score": 0.05,
    "entries": 2,
    "last_entry": "2026-11-24 18:02:15",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4154,7 +4161,7 @@
    "score": 0.047,
    "entries": 6,
    "last_entry": "2026-11-24 23:26:10",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4168,7 +4175,7 @@
    "score": 0.047,
    "entries": 1,
    "last_entry": "2026-11-24 18:08:20",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4182,7 +4189,7 @@
    "score": 0.046,
    "entries": 2,
    "last_entry": "2026-11-24 20:26:44",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4196,7 +4203,7 @@
    "score": 0.046,
    "entries": 8,
    "last_entry": "2026-11-25 12:49:55",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4210,7 +4217,7 @@
    "score": 0.044,
    "entries": 1,
    "last_entry": "2026-11-24 00:07:37",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4224,7 +4231,7 @@
    "score": 0.042,
    "entries": 1,
    "last_entry": "2026-11-25 01:38:37",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4238,7 +4245,7 @@
    "score": 0.042,
    "entries": 1,
    "last_entry": "2026-11-24 08:23:35",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4252,7 +4259,7 @@
    "score": 0.041,
    "entries": 1,
    "last_entry": "2026-11-25 06:15:00",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4266,7 +4273,7 @@
    "score": 0.041,
    "entries": 2,
    "last_entry": "2026-11-25 08:37:59",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4280,7 +4287,7 @@
    "score": 0.04,
    "entries": 1,
    "last_entry": "2026-11-24 08:10:35",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4294,7 +4301,7 @@
    "score": 0.04,
    "entries": 2,
    "last_entry": "2026-11-24 17:46:59",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4308,7 +4315,7 @@
    "score": 0.04,
    "entries": 1,
    "last_entry": "2026-11-25 08:19:39",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4322,7 +4329,7 @@
    "score": 0.037,
    "entries": 2,
    "last_entry": "2026-11-25 10:12:39",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4336,7 +4343,7 @@
    "score": 0.034,
    "entries": 4,
    "last_entry": "2026-11-24 23:34:13",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4350,7 +4357,7 @@
    "score": 0.033,
    "entries": 2,
    "last_entry": "2026-11-25 15:09:35",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4364,7 +4371,7 @@
    "score": 0.033,
    "entries": 1,
    "last_entry": "2026-11-25 03:46:11",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4378,7 +4385,7 @@
    "score": 0.031,
    "entries": 1,
    "last_entry": "2026-11-25 02:56:43",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4392,7 +4399,7 @@
    "score": 0.031,
    "entries": 2,
    "last_entry": "2026-11-25 13:06:42",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4406,7 +4413,7 @@
    "score": 0.031,
    "entries": 1,
    "last_entry": "2026-11-23 23:17:43",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4420,7 +4427,7 @@
    "score": 0.03,
    "entries": 1,
    "last_entry": "2026-11-25 05:46:58",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4434,7 +4441,7 @@
    "score": 0.03,
    "entries": 2,
    "last_entry": "2026-11-24 17:41:35",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4448,7 +4455,7 @@
    "score": 0.029,
    "entries": 2,
    "last_entry": "2026-11-25 03:48:12",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4463,7 +4470,7 @@
    "score": 0.029,
    "entries": 1,
    "last_entry": "2026-11-24 16:49:25",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4477,7 +4484,7 @@
    "score": 0.028,
    "entries": 1,
    "last_entry": "2026-11-24 16:51:17",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4491,7 +4498,7 @@
    "score": 0.026,
    "entries": 1,
    "last_entry": "2026-11-25 14:32:05",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4505,7 +4512,7 @@
    "score": 0.026,
    "entries": 1,
    "last_entry": "2026-11-24 07:13:10",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4519,7 +4526,7 @@
    "score": 0.024,
    "entries": 1,
    "last_entry": "2026-11-23 19:23:30",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4533,7 +4540,7 @@
    "score": 0.024,
    "entries": 3,
    "last_entry": "2026-11-25 07:54:52",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4547,7 +4554,7 @@
    "score": 0.023,
    "entries": 1,
    "last_entry": "2026-11-25 11:07:19",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4561,7 +4568,7 @@
    "score": 0.022,
    "entries": 1,
    "last_entry": "2026-11-24 15:49:19",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4575,7 +4582,7 @@
    "score": 0.021,
    "entries": 2,
    "last_entry": "2026-11-24 04:33:14",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4589,7 +4596,7 @@
    "score": 0.019,
    "entries": 3,
    "last_entry": "2026-11-25 08:48:22",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4603,7 +4610,7 @@
    "score": 0.019,
    "entries": 1,
    "last_entry": "2026-11-24 01:12:27",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
@@ -4617,12 +4624,26 @@
    "score": 0.013,
    "entries": 1,
    "last_entry": "2026-11-25 14:51:08",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": null
   },
   {
    "rank": 302,
+   "team_id": "17433202",
+   "team": "LouisEchard",
+   "members": [
+    "louisechard"
+   ],
+   "score": 0.013,
+   "entries": 1,
+   "last_entry": "2026-11-25 16:07:52",
+   "moved": null,
+   "new_since_prev": true,
+   "band": null
+  },
+  {
+   "rank": 303,
    "team_id": "17433609",
    "team": "Minghao Xia",
    "members": [
@@ -4631,12 +4652,12 @@
    "score": 0.012,
    "entries": 1,
    "last_entry": "2026-11-25 07:07:05",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 303,
+   "rank": 304,
    "team_id": "17430193",
    "team": "Md. Ismiel Hossen Abir",
    "members": [
@@ -4645,12 +4666,12 @@
    "score": 0.012,
    "entries": 4,
    "last_entry": "2026-11-25 07:11:26",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 304,
+   "rank": 305,
    "team_id": "17444157",
    "team": "magicalcats",
    "members": [
@@ -4659,12 +4680,12 @@
    "score": 0.01,
    "entries": 1,
    "last_entry": "2026-11-25 06:11:44",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 305,
+   "rank": 306,
    "team_id": "17437241",
    "team": "Nguyễn Đăng Khoa",
    "members": [
@@ -4673,12 +4694,12 @@
    "score": 0.01,
    "entries": 4,
    "last_entry": "2026-11-25 04:00:27",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 306,
+   "rank": 307,
    "team_id": "17433283",
    "team": "JIAWEILI0001",
    "members": [
@@ -4687,12 +4708,12 @@
    "score": 0.01,
    "entries": 3,
    "last_entry": "2026-11-25 13:19:55",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 307,
+   "rank": 308,
    "team_id": "17433927",
    "team": "koheip",
    "members": [
@@ -4701,12 +4722,12 @@
    "score": 0.009,
    "entries": 1,
    "last_entry": "2026-11-24 08:59:10",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 308,
+   "rank": 309,
    "team_id": "17433924",
    "team": "Chovy",
    "members": [
@@ -4715,12 +4736,12 @@
    "score": 0.009,
    "entries": 1,
    "last_entry": "2026-11-24 08:08:02",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 309,
+   "rank": 310,
    "team_id": "17437555",
    "team": "SoulofCinder_4396",
    "members": [
@@ -4729,12 +4750,12 @@
    "score": 0.007,
    "entries": 1,
    "last_entry": "2026-11-24 11:47:04",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 310,
+   "rank": 311,
    "team_id": "17431757",
    "team": "Avik Das",
    "members": [
@@ -4743,12 +4764,12 @@
    "score": 0.006,
    "entries": 2,
    "last_entry": "2026-11-24 06:44:30",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 311,
+   "rank": 312,
    "team_id": "17443954",
    "team": "bill123987",
    "members": [
@@ -4757,12 +4778,12 @@
    "score": 0.006,
    "entries": 1,
    "last_entry": "2026-11-25 12:51:39",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 312,
+   "rank": 313,
    "team_id": "17438605",
    "team": "Cheung Yee Yan",
    "members": [
@@ -4771,12 +4792,12 @@
    "score": 0.004,
    "entries": 1,
    "last_entry": "2026-11-24 13:40:11",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 313,
+   "rank": 314,
    "team_id": "17431517",
    "team": "優斗",
    "members": [
@@ -4785,12 +4806,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 00:17:56",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 314,
+   "rank": 315,
    "team_id": "17433650",
    "team": "Kazuki Igeta",
    "members": [
@@ -4799,12 +4820,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 07:57:24",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 315,
+   "rank": 316,
    "team_id": "17430122",
    "team": "Sameh Ben Houria",
    "members": [
@@ -4813,12 +4834,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 11:44:12",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 316,
+   "rank": 317,
    "team_id": "17438726",
    "team": "okkoj bjj",
    "members": [
@@ -4827,12 +4848,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 15:15:28",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 317,
+   "rank": 318,
    "team_id": "17440209",
    "team": "Spynel KOUTON",
    "members": [
@@ -4841,12 +4862,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 17:23:27",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 318,
+   "rank": 319,
    "team_id": "17435016",
    "team": "prvsiyan",
    "members": [
@@ -4855,12 +4876,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 19:50:09",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 319,
+   "rank": 320,
    "team_id": "17431689",
    "team": "Daniel Wu",
    "members": [
@@ -4869,12 +4890,26 @@
    "score": 0.001,
    "entries": 2,
    "last_entry": "2026-11-25 07:27:44",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 320,
+   "rank": 321,
+   "team_id": "17449812",
+   "team": "YangYanXue",
+   "members": [
+    "yangyanxue"
+   ],
+   "score": 0.001,
+   "entries": 1,
+   "last_entry": "2026-11-25 16:06:36",
+   "moved": null,
+   "new_since_prev": true,
+   "band": null
+  },
+  {
+   "rank": 322,
    "team_id": "17430666",
    "team": "Oleg Zholobov",
    "members": [
@@ -4883,7 +4918,7 @@
    "score": 0.0,
    "entries": 1,
    "last_entry": "2026-11-24 13:22:09",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   }
@@ -4967,6 +5002,90 @@
  ],
  "turnaround": {
   "measured": [
+   {
+    "team": "Clark Kitchen",
+    "sub_at": "2026-11-25 17:08:45",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.239,
+    "minutes": 381
+   },
+   {
+    "team": "THIRUPATHI KANNAN K",
+    "sub_at": "2026-11-25 17:01:55",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.34,
+    "minutes": 388
+   },
+   {
+    "team": "Fidel Escalona",
+    "sub_at": "2026-11-25 17:14:56",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.117,
+    "minutes": 375
+   },
+   {
+    "team": "M.J.",
+    "sub_at": "2026-11-25 17:18:56",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.208,
+    "minutes": 371
+   },
+   {
+    "team": "Cakpo Vital",
+    "sub_at": "2026-11-25 17:02:07",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.114,
+    "minutes": 387
+   },
+   {
+    "team": "邓紫棋牛逼",
+    "sub_at": "2026-11-25 17:02:02",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.327,
+    "minutes": 388
+   },
+   {
+    "team": "kerai",
+    "sub_at": "2026-11-25 17:08:43",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.147,
+    "minutes": 381
+   },
+   {
+    "team": "Lebxgue.",
+    "sub_at": "2026-11-25 17:03:09",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.339,
+    "minutes": 386
+   },
+   {
+    "team": "Ruijie Zhao666",
+    "sub_at": "2026-11-25 16:02:53",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.199,
+    "minutes": 447
+   },
+   {
+    "team": "Igor Zharov",
+    "sub_at": "2026-11-25 17:20:02",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.308,
+    "minutes": 370
+   },
+   {
+    "team": "LouisEchard",
+    "sub_at": "2026-11-25 16:07:52",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.013,
+    "minutes": 442
+   },
+   {
+    "team": "YangYanXue",
+    "sub_at": "2026-11-25 16:06:36",
+    "first_seen": "2026-11-25T23:30:05Z",
+    "score": 0.001,
+    "minutes": 443
+   },
    {
     "team": "Quan Vu",
     "sub_at": "2026-11-25 16:33:25",
@@ -10141,7 +10260,7 @@
     "left_today": 5
    }
   ],
-  "minutes_left_today": 60,
+  "minutes_left_today": 30,
   "team_used": 3,
   "allowance": 15,
   "room_under_merge_line": 12,
