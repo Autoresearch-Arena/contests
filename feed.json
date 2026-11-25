@@ -61,27 +61,31 @@
         "contest": "casmi26",
         "title": "CASMI 2026: Molecule ID From Mass Spectra",
         "state": "live",
-        "updated": "2026-11-23",
-        "headline": "Our exact public copy scored 0.500, a new best. The new rebuild scored 0.463.",
+        "updated": "2026-11-25",
+        "headline": "Our exact copy of the public 0.509 notebook is in and waiting for its score, with four entries that measure the hidden set.",
         "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
         "deadline": "2026-12-14",
         "board": {
-          "rank": 730,
-          "of": 5880,
+          "rank": 1131,
+          "of": 6004,
           "best_score": 0.5,
           "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
           "higher_is_better": true,
-          "observed": "2026-11-23"
+          "observed": "2026-11-25"
         },
         "entries": {
-          "used_today": 0,
+          "used_today": 5,
           "daily_limit": 5,
-          "total": 74,
-          "observed": "2026-11-23"
+          "total": 79,
+          "observed": "2026-11-25"
         },
-        "running": [],
+        "running": [
+          "Five entries waiting for Kaggle scores, due overnight"
+        ],
         "next": [
-          "Use the held-out comparisons to choose the next change to the 0.500 baseline."
+          "Read the five scores and work out where the remaining points are",
+          "Send five entries every day: two that measure, three that test a change",
+          "Build generated answers for the molecules nobody has in their list"
         ]
       },
       "note": null
@@ -214,17 +218,17 @@
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
         "updated": "2026-11-25",
-        "headline": "As of 2026-11-25T22:00:03Z: our best is 80th of 315 teams at 0.278, the leader is at 0.408. Updated by a poller.",
+        "headline": "As of 2026-11-25T22:30:06Z: our best is 82nd of 316 teams at 0.278, the leader is at 0.408. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
-          "rank": 80,
-          "of": 315,
+          "rank": 82,
+          "of": 316,
           "best_score": 0.278,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
           "observed": "2026-11-25",
-          "note": "Read from the public leaderboard download at 2026-11-25T22:00:03Z."
+          "note": "Read from the public leaderboard download at 2026-11-25T22:30:06Z."
         },
         "entries": {
           "used_today": 0,
