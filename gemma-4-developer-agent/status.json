@@ -3,8 +3,8 @@
   "contest": "gemma-4-developer-agent",
   "title": "Gemma 4 Developer Agent",
   "state": "live",
-  "updated": "2026-11-24",
-  "headline": "Best public score is still 0.18. Two newest 31B no-adapter entries show no public score yet: one complete with a blank score, one pending.",
+  "updated": "2026-11-25",
+  "headline": "Best public score is still 0.18. The latest 31B no-adapter entry scored 0.13. A small-model retry entry is pending with no score.",
   "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
   "deadline": "2026-12-02",
   "board": {
@@ -17,10 +17,10 @@
     "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
   },
   "entries": {
-    "used_today": 0,
+    "used_today": 1,
     "daily_limit": 1,
-    "total": 30,
-    "observed": "2026-11-24"
+    "total": 31,
+    "observed": "2026-11-25"
   },
   "running": [
     "Speed test of the small model against the 31B",
