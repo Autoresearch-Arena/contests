@@ -1,6 +1,42 @@
 {
  "days": [
   {
+   "date": "2026-11-25",
+   "headline": "New best 0.724, rank 156 of 7105. Two blends fell to 0.684. GLM synthetic-data batch under way.",
+   "items": [
+    {
+     "tried": "Reproduced the public Lumibee PB115 recipe with wider native GLM coverage.",
+     "outcome": "0.724, our best (entry 58883560).",
+     "verdict": "worked",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Reproduced the public Lightning recipe; added Open13 cross-family votes to the 0.720 entry.",
+     "outcome": "Both 0.721.",
+     "verdict": "no gain",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Topic agreement and shape vote, alone and with Open13, on a rewritten ensemble script.",
+     "outcome": "Both 0.684, down 0.037 from the parent. Source comparison points at the untested rewritten script.",
+     "verdict": "lost",
+     "evidence": "reports/2026-11-25-why-0684-comparison.md"
+    },
+    {
+     "tried": "Inventoried synthetic data and started the pair-fill batch for the GLM pair (1000 public prompts each).",
+     "outcome": "$1.32 provisional of a $6 cap at 18:00 EST; Kimi, Qwen and Gemini 3.7 Flash wait on a top-up.",
+     "verdict": "running",
+     "evidence": "reports/2026-11-25-synthetic-data-inventory.md"
+    },
+    {
+     "tried": "Reviewed the public board and forum (42 topics, 4 new).",
+     "outcome": "Rank 156 of 7105, leader 0.813, top-10 cutoff 0.777 at 18:00 EST. Rental costs unchanged and cached.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/board/2026-11-25.json"
+    }
+   ]
+  },
+  {
    "date": "2026-11-24",
    "headline": "Team best edges to 0.72; rank 368 of 6997. Spending unchanged and cached.",
    "items": [

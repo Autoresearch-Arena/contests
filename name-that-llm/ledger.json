@@ -108,16 +108,242 @@
    "what": "The first try at the public 0.651 notebook, with our extra wrapper code. It crashed on the hidden test and earned no score.",
    "score": null,
    "evidence": "reports/2026-10-26-submissions.json"
+  },
+  {
+   "id": "58580967",
+   "date": "2026-11-19",
+   "label": "Balancing step strength 0.30 to 0.45 on the 0.702 recipe",
+   "what": "Balancing step strength 0.30 to 0.45 on the 0.702 recipe.",
+   "score": 0.699,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58581736",
+   "date": "2026-11-19",
+   "label": "Sibling correction strength 0.10 to 0.20 on the 0.702 recipe",
+   "what": "Sibling correction strength 0.10 to 0.20 on the 0.702 recipe.",
+   "score": 0.697,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58585396",
+   "date": "2026-11-20",
+   "label": "Public Hungarian Apex notebook run as-is",
+   "what": "Public Hungarian Apex notebook run as-is.",
+   "score": 0.69,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58585733",
+   "date": "2026-11-20",
+   "label": "Public gold 0716 Apex notebook run as-is",
+   "what": "Public gold 0716 Apex notebook run as-is.",
+   "score": 0.697,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58590803",
+   "date": "2026-11-20",
+   "label": "Fable routing and 0.15 typography",
+   "what": "Fable routing and 0.15 typography, Apex v15.",
+   "score": 0.702,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58591987",
+   "date": "2026-11-20",
+   "label": "Matched-prompt rerank on Fable routing",
+   "what": "Matched-prompt rerank on Fable routing, Apex v16.",
+   "score": 0.697,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58593072",
+   "date": "2026-11-20",
+   "label": "Stronger native GLM likelihood",
+   "what": "Stronger native GLM likelihood, Apex v17.",
+   "score": 0.703,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58691898",
+   "date": "2026-11-21",
+   "label": "Public 0.706 GLM and Fable 256-token likelihood copy",
+   "what": "Public 0.706 GLM and Fable 256-token likelihood copy.",
+   "score": 0.706,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696182",
+   "date": "2026-11-22",
+   "label": "320-token GLM with Open13 on non-native close calls",
+   "what": "320-token GLM with Open13 on non-native close calls.",
+   "score": 0.709,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696190",
+   "date": "2026-11-22",
+   "label": "320-token public GLM control without Open13",
+   "what": "320-token public GLM control without Open13.",
+   "score": 0.709,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696448",
+   "date": "2026-11-22",
+   "label": "Open13 check on weak native GLM calls",
+   "what": "Open13 check on weak native GLM calls.",
+   "score": 0.709,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696612",
+   "date": "2026-11-22",
+   "label": "Wider 256-token native GLM coverage and protected Open13 route",
+   "what": "Wider 256-token native GLM coverage and protected Open13 route.",
+   "score": 0.702,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58734533",
+   "date": "2026-11-22",
+   "label": "Paired-token GLM likelihood with selective return to Fable",
+   "what": "Paired-token GLM likelihood with selective return to Fable.",
+   "score": 0.714,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58754746",
+   "date": "2026-11-23",
+   "label": "Public 0.719 parent reproduced",
+   "what": "Public 0.719 parent reproduced, Apex v29.",
+   "score": 0.719,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58754752",
+   "date": "2026-11-23",
+   "label": "Native GLM user-prefix likelihood with calibrated",
+   "what": "Native GLM user-prefix likelihood with calibrated ambiguous-case queue.",
+   "score": 0.717,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58754772",
+   "date": "2026-11-23",
+   "label": "Original GLM user-prefix scorer without the Fable guard",
+   "what": "Original GLM user-prefix scorer without the Fable guard (control).",
+   "score": 0.715,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58756502",
+   "date": "2026-11-23",
+   "label": "Paired-token GLM likelihood without the Fable return",
+   "what": "Paired-token GLM likelihood without the Fable return (control).",
+   "score": 0.711,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58756508",
+   "date": "2026-11-23",
+   "label": "Native GLM cross-check plus Claude sibling classifier",
+   "what": "Native GLM cross-check plus Claude sibling classifier, Apex v30.",
+   "score": 0.708,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58805913",
+   "date": "2026-11-24",
+   "label": "Sibling Odds on the 0.719 Fable-guarded entry",
+   "what": "Sibling Odds on the 0.719 Fable-guarded entry, Apex v32.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58807246",
+   "date": "2026-11-24",
+   "label": "512-token native GLM readout on Sibling Odds",
+   "what": "512-token native GLM readout on Sibling Odds.",
+   "score": 0.715,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58807248",
+   "date": "2026-11-24",
+   "label": "Fable kept on near-tied native GLM calls",
+   "what": "Fable kept on near-tied native GLM calls, Apex v33.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58808497",
+   "date": "2026-11-24",
+   "label": "Adaptive 96/160 GLM scoring under a tight token budget",
+   "what": "Adaptive 96/160 GLM scoring under a tight token budget.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58809766",
+   "date": "2026-11-24",
+   "label": "Sparse Gemini/Claude agreement on unprotected close calls",
+   "what": "Sparse Gemini/Claude agreement on unprotected close calls.",
+   "score": 0.718,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58867111",
+   "date": "2026-11-25",
+   "label": "Open13 cross-family close calls on the 0.720 Sibling Odds entry",
+   "what": "Open13 cross-family close calls on the 0.720 Sibling Odds entry.",
+   "score": 0.721,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58883534",
+   "date": "2026-11-25",
+   "label": "Apex v40",
+   "what": "Apex v40: standalone v3 plus the Open13 cross-family vote. Parent 0.721 entry was the control; the drop is most likely the rewritten ensemble script.",
+   "score": 0.684,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.037
+  },
+  {
+   "id": "58883550",
+   "date": "2026-11-25",
+   "label": "Standalone v3",
+   "what": "Standalone v3, PB115 with Sibling Odds, topic agreement and shape vote. Parent 0.721 entry was the control; the drop is most likely the rewritten ensemble script.",
+   "score": 0.684,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.037
+  },
+  {
+   "id": "58883554",
+   "date": "2026-11-25",
+   "label": "Lightning public recipe reproduced",
+   "what": "Lightning public recipe reproduced (PB115, Sibling Odds, Qwen3.8-27B).",
+   "score": 0.721,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58883560",
+   "date": "2026-11-25",
+   "label": "Lumibee public recipe reproduced",
+   "what": "Lumibee public recipe reproduced, PB115 with wider native GLM coverage, kernel markbarney/ntl-public-pb115-coverage-reproduction version 2.",
+   "score": 0.724,
+   "evidence": "SUBMISSIONS.md"
   }
  ],
  "headline": {
-  "best": 0.702,
-  "rank": 300,
-  "teams": 6474,
-  "leader": 0.776,
-  "leader_name": "Meni David Gottesman",
-  "as_of": "2026-11-19 18:00 EST",
-  "source": "reports/scorecard/board/2026-11-19.json",
-  "best_evidence": "reports/scorecard/board/2026-11-19.json"
+  "best": 0.724,
+  "rank": 156,
+  "teams": 7105,
+  "leader": 0.813,
+  "leader_name": "NguyenThanhNhan",
+  "as_of": "2026-11-25 18:00 EST",
+  "source": "reports/scorecard/board/2026-11-25.json",
+  "best_evidence": "SUBMISSIONS.md"
  }
 }

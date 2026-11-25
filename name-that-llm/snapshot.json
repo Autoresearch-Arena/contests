@@ -1,13 +1,13 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "24 November 2026",
-  "snapshot_utc": "2026-11-24T23:10:00+00:00",
+  "date": "25 November 2026",
+  "snapshot_utc": "2026-11-25T23:10:00+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
     "qwen_cap_usd": 24,
     "glm_cap_usd": 10,
-    "unbilled": "Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt.",
+    "unbilled": "Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt. Pair-fill GLM data batch $1.323 is provisional, summed from its own per-call usage receipts at 2026-11-25 18:00 EST while still running under a $6 cap; not a bill.",
     "items": [
       {
         "title": "Qwen one-pass model",
@@ -53,11 +53,11 @@
     "observed_date": "2026-11-10"
   },
   "leaderboard": {
-    "score": 0.72,
-    "rank": 368,
-    "teams": 6997,
+    "score": 0.724,
+    "rank": 156,
+    "teams": 7105,
     "leader": 0.813,
-    "asof": "2026-11-24 18:00 EST",
+    "asof": "2026-11-25 18:00 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -76,6 +76,12 @@
         "score": 0.682,
         "date": "10 Nov",
         "evidence": "reports/2026-11-10-scored-0682-control.md"
+      },
+      {
+        "label": "Lumibee recipe reproduced",
+        "score": 0.724,
+        "date": "25 Nov",
+        "evidence": "SUBMISSIONS.md"
       }
     ],
     "comparisons": [
@@ -103,10 +109,15 @@
         "label": "+10% full-pool Qwen",
         "score": 0.675,
         "delta": -0.004
+      },
+      {
+        "label": "Topic + shape, rewritten script",
+        "score": 0.684,
+        "delta": -0.037
       }
     ],
-    "pending": "Team board verifies 0.72 with 41 submissions (was 0.719 with 36); our last board submission 2026-11-24 03:55 UTC (22:55 EST on 23 Nov). Top-10 cutoff 0.774, top-1% 0.73, top-5% 0.72, top-10% 0.718. Individual scoring receipts were not read (no Kaggle requests beyond the board and forum snapshots), so which entries made 0.72 are unattributed; no attribution inferred.",
-    "asof_short": "2026-11-24 18:00 EST"
+    "pending": "Team board 0.724 with 46 submissions (was 0.72 with 41), rank 156 of 7105, leader 0.813, at 2026-11-25 18:00 EST. Top-10 cutoff 0.777, top-1% 0.73, top-5% 0.722, top-10% 0.72. The 0.724 is entry 58883560 (Lumibee PB115 recipe reproduced), attributed from the Kaggle history another session read at 20:20 UTC and itemised in SUBMISSIONS.md. All five 25 Nov slots used: 0.724, 0.721, 0.721, 0.684, 0.684.",
+    "asof_short": "2026-11-25 18:00 EST"
   },
   "results": [
     {
@@ -199,12 +210,11 @@
     }
   ],
   "next_bets": [
-    "Read the scores of the entries behind the 0.703 to 0.72 climb (sixteen new board submissions since 21 Nov, last 24 Nov 03:55 UTC) and attribute the gain before stacking; handoff queue item 1.",
-    "Contrastive member, hard-example loss and test-time augmentation results from Cletus and Jethro, then test the stack with and without them.",
-    "Likelihood under a bigger open model (Kimi or Qwen-Max) is blocked on a loader for the ggml tensor type; real GLM author-model features remain a gated plan, not a completed run.",
-    "Forum thread 749447 (21 Nov): sibling Gemini versions are the hardest to separate; consistent with the likelihood-feature bet above, not a measurement of ours.",
-    "Our own forum post 760950: free dataset of 597 matched passages from four models, now four comments; our reply (24 Nov) confirms zero text overlap with the 2,699 training passages and says to keep each prompt's answers in one fold.",
-    "Forum thread 761533 (24 Nov): Qwen3 Base on Kaggle Models ends text with a different end-of-sequence token than on Hugging Face; check it before any Qwen run."
+    "Next slot: Lumibee WeMM v1 on the 0.724 parent first; the other four slots wait for its score (SUBMISSIONS.md, 25 Nov).",
+    "Split the 0.684 drop: topic and shape on the parent's original ensemble script; if it scores near 0.721 the rewritten script is the cause (reports/2026-11-25-why-0684-comparison.md).",
+    "Pair-fill synthetic data: GLM 5.3 done (1000 calls), GLM 5.3 Flash about half done at 18:00 EST. Kimi K3, Qwen 3.8 Max and Gemini 3.7 Flash need about $34 and an OpenRouter top-up first.",
+    "Forum 752084 (25 Nov): edteoh asks staff whether the contest gemini-3.7-flash text predates Google rerouting 3.7 to 3.8 on 8 Oct; unanswered, and it bears on our Gemini 3.7 route.",
+    "Forum 761857 (25 Nov): 0.735 locally vs 0.460 on the board; the same lesson as our 0.684 drop, score what actually runs."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -233,12 +243,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-23.json",
+    "board": "reports/scorecard/board/2026-11-25.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best 0.72 (was 0.719; five new board submissions, last 2026-11-24 03:55 UTC); rank 368 of 6997 (was 346 of 6876), leader 0.813 (was 0.809), at 2026-11-24 18:00 EST. Which entries made 0.72 are unattributed. Costs unchanged/cached.",
+  "status_line": "Best 0.724 (was 0.72; Lumibee recipe reproduced, entry 58883560); rank 156 of 7105 (was 368 of 6997), leader 0.813, at 2026-11-25 18:00 EST. Two blends on a rewritten ensemble script fell to 0.684. GLM pair-fill data batch running, $1.32 provisional of a $6 cap; rental costs cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
@@ -297,6 +307,13 @@
       "kind": "Data generation",
       "usd": 5.656730805,
       "evidence": "reports/2026-11-13-scorecard.md"
+    },
+    {
+      "date": "2026-11-25",
+      "what": "Pair-fill data, GLM 5.3 and GLM 5.3 Flash, running ($6 cap); provisional from call receipts",
+      "kind": "Data generation",
+      "usd": 1.323,
+      "evidence": "reports/2026-11-25-synthetic-data-inventory.md"
     }
   ],
   "chapters": [
@@ -347,6 +364,11 @@
       "name": "Matched release usage (includes reused pilot)",
       "used": 7.1901436959,
       "cap": 10
+    },
+    {
+      "name": "Pair-fill GLM usage (running)",
+      "used": 1.323,
+      "cap": 6
     }
   ]
 }
