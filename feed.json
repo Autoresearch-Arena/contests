@@ -177,8 +177,8 @@
         "contest": "gemma-4-developer-agent",
         "title": "Gemma 4 Developer Agent",
         "state": "live",
-        "updated": "2026-11-25",
-        "headline": "Best public score is still 0.18. The latest 31B no-adapter entry scored 0.13. A small-model retry entry is pending with no score.",
+        "updated": "2026-11-26",
+        "headline": "Best public score is still 0.18. The small-model retry entry has been pending about a day with no score.",
         "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
         "deadline": "2026-12-02",
         "board": {
@@ -191,10 +191,10 @@
           "note": "Best public score verified from current team submission receipts; rank and leader score not checked."
         },
         "entries": {
-          "used_today": 1,
+          "used_today": 0,
           "daily_limit": 1,
           "total": 31,
-          "observed": "2026-11-25"
+          "observed": "2026-11-26"
         },
         "running": [
           "Speed test of the small model against the 31B",
@@ -218,7 +218,7 @@
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
         "updated": "2026-11-26",
-        "headline": "As of 2026-11-26T13:30:04Z: our best is 123rd of 378 teams at 0.278, the leader is at 0.408. Updated by a poller.",
+        "headline": "As of 2026-11-26T14:00:05Z: our best is 123rd of 378 teams at 0.278, the leader is at 0.408. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
@@ -228,7 +228,7 @@
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
           "observed": "2026-11-26",
-          "note": "Read from the public leaderboard download at 2026-11-26T13:30:04Z."
+          "note": "Read from the public leaderboard download at 2026-11-26T14:00:05Z."
         },
         "entries": {
           "used_today": 0,
