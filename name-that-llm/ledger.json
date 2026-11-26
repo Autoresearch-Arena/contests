@@ -334,16 +334,61 @@
    "what": "Lumibee public recipe reproduced, PB115 with wider native GLM coverage, kernel markbarney/ntl-public-pb115-coverage-reproduction version 2.",
    "score": 0.724,
    "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58930224",
+   "date": "2026-11-26",
+   "label": "Lumibee WeMM v1",
+   "what": "Lumibee WeMM v1 on the 0.724 parent.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.004
+  },
+  {
+   "id": "58930231",
+   "date": "2026-11-26",
+   "label": "Lumibee authorship v2",
+   "what": "Lumibee contrastive authorship v2 on the 0.724 parent.",
+   "score": 0.721,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.003
+  },
+  {
+   "id": "58932357",
+   "date": "2026-11-26",
+   "label": "Five-model data, no dashed Gemini",
+   "what": "0.724 parent with its svc4 head refit on our five-model passages, dashed Gemini 3.7 Flash passages left out.",
+   "score": 0.719,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.005
+  },
+  {
+   "id": "58933210",
+   "date": "2026-11-26",
+   "label": "Five-model data in svc4 head",
+   "what": "0.724 parent with its svc4 head refit on all 4,964 of our five-model passages; control refit reproduced the shipped head exactly.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.004
+  },
+  {
+   "id": "58952824",
+   "date": "2026-11-26",
+   "label": "Unchanged parent rerun (wasted slot)",
+   "what": "Unchanged 0.724 parent resubmitted; a wasted slot that tested no idea (Boss, 26 Nov).",
+   "score": 0.723,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.001
   }
  ],
  "headline": {
   "best": 0.724,
-  "rank": 156,
-  "teams": 7105,
+  "rank": 460,
+  "teams": 7195,
   "leader": 0.813,
   "leader_name": "NguyenThanhNhan",
-  "as_of": "2026-11-25 18:00 EST",
-  "source": "reports/scorecard/board/2026-11-25.json",
+  "as_of": "2026-11-26 18:01 EST",
+  "source": "reports/scorecard/board/2026-11-26.json",
   "best_evidence": "SUBMISSIONS.md"
  }
 }

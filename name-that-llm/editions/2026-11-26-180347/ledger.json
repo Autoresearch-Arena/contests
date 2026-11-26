@@ -1,0 +1,394 @@
+{
+ "entries": [
+  {
+   "id": "58315347",
+   "date": "2026-11-13 11:37 EST",
+   "label": "Public 0.689 recipe copy",
+   "what": "Unchanged public recipe, mount paths repaired after failed first preview. Submitted; saved status pending, no score receipt.",
+   "score": null,
+   "evidence": "SUBMISSIONS.md",
+   "state": "pending"
+  },
+  {
+   "id": "58217579",
+   "date": "2026-11-10 19:00 EST",
+   "label": "Full-pool Qwen added to the 0.683 recipe",
+   "what": "The public 0.683 recipe with our new full-pool Qwen model mixed in at ten percent. It lost to the same recipe without it.",
+   "score": 0.675,
+   "vs_control": -0.004,
+   "evidence": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json"
+  },
+  {
+   "id": "58217555",
+   "date": "2026-11-10 19:00 EST",
+   "label": "Public 0.683 recipe, control",
+   "what": "The public 0.683 recipe run unchanged on our account. The author reported 0.683 and we got 0.679, 0.003 under our best.",
+   "score": 0.679,
+   "evidence": "research/comparison-2026-11-03/submission-58217555-scored-20261111.json"
+  },
+  {
+   "id": "58200564",
+   "date": "2026-11-10 07:21 EST",
+   "label": "Tokenizer and byte models on the 0.682 recipe",
+   "what": "The public 0.682 recipe with ten percent tokenizer models and twenty percent raw-byte models mixed in. It lost.",
+   "score": 0.669,
+   "vs_control": -0.013,
+   "evidence": "research/comparison-2026-11-03/submission-58200564-result-20261110.json"
+  },
+  {
+   "id": "58197287",
+   "date": "2026-11-10 05:35 EST",
+   "label": "Public 0.682 recipe, control",
+   "what": "The public 0.682 recipe run unchanged on our account. It matched the author's score and was our best verified entry before the 14 Nov team-board observation.",
+   "score": 0.682,
+   "evidence": "reports/2026-11-10-scored-0682-control.md"
+  },
+  {
+   "id": "58194318",
+   "date": "2026-11-10 03:54 EST",
+   "label": "Earlier Qwen added to the 0.682 recipe",
+   "what": "The public 0.682 recipe with ten percent of our earlier Qwen3-8B model mixed in. It lost.",
+   "score": 0.678,
+   "vs_control": -0.004,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58192462",
+   "date": "2026-11-10 02:58 EST",
+   "label": "Tokenizer model added to the 0.682 recipe",
+   "what": "The public 0.682 recipe with ten percent of our tokenizer model mixed in. It lost.",
+   "score": 0.675,
+   "vs_control": -0.007,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58185216",
+   "date": "2026-11-09 22:51 EST",
+   "label": "Public 0.681 ensemble run",
+   "what": "A full run of the public 0.681 ensemble on our account. It beat our old best of 0.651 by 0.030.",
+   "score": 0.681,
+   "evidence": "reports/2026-11-10-scored-0681-reproduction.md"
+  },
+  {
+   "id": "57828218",
+   "date": "2026-10-31 01:47 EDT",
+   "label": "Our own Qwen model alone",
+   "what": "Our own trained Qwen3-8B model submitted by itself to test the pipeline end to end. It scored 0.585, close to its 0.588 local score and well below the public ensemble.",
+   "score": 0.585,
+   "evidence": "reports/2026-10-31-own-scored.json"
+  },
+  {
+   "id": "57707993",
+   "date": "2026-10-27 12:58 EDT",
+   "label": "First public neural ensemble",
+   "what": "The public neural ensemble, the 0.651 recipe, run in full on our account. Our first strong board score.",
+   "score": 0.651,
+   "evidence": "reports/2026-10-29-live-review.json"
+  },
+  {
+   "id": "57702972",
+   "date": "2026-10-27 09:47 EDT",
+   "label": "Our own CPU classifier",
+   "what": "Our own character, word and style classifier, trained on the official labels, to prove an entry of ours runs on the hidden test.",
+   "score": 0.348,
+   "evidence": "reports/2026-10-27-scored-cpu.json"
+  },
+  {
+   "id": "57663783",
+   "date": "2026-10-26 06:59 EDT",
+   "label": "Public baseline, second try",
+   "what": "A second try at the public 0.651 notebook, still with our extra wrapper code. It crashed on the hidden test and earned no score.",
+   "score": null,
+   "evidence": "reports/2026-10-26-submissions.json"
+  },
+  {
+   "id": "57653024",
+   "date": "2026-10-26 00:07 EDT",
+   "label": "Public baseline, first try",
+   "what": "The first try at the public 0.651 notebook, with our extra wrapper code. It crashed on the hidden test and earned no score.",
+   "score": null,
+   "evidence": "reports/2026-10-26-submissions.json"
+  },
+  {
+   "id": "58580967",
+   "date": "2026-11-19",
+   "label": "Balancing step strength 0.30 to 0.45 on the 0.702 recipe",
+   "what": "Balancing step strength 0.30 to 0.45 on the 0.702 recipe.",
+   "score": 0.699,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58581736",
+   "date": "2026-11-19",
+   "label": "Sibling correction strength 0.10 to 0.20 on the 0.702 recipe",
+   "what": "Sibling correction strength 0.10 to 0.20 on the 0.702 recipe.",
+   "score": 0.697,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58585396",
+   "date": "2026-11-20",
+   "label": "Public Hungarian Apex notebook run as-is",
+   "what": "Public Hungarian Apex notebook run as-is.",
+   "score": 0.69,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58585733",
+   "date": "2026-11-20",
+   "label": "Public gold 0716 Apex notebook run as-is",
+   "what": "Public gold 0716 Apex notebook run as-is.",
+   "score": 0.697,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58590803",
+   "date": "2026-11-20",
+   "label": "Fable routing and 0.15 typography",
+   "what": "Fable routing and 0.15 typography, Apex v15.",
+   "score": 0.702,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58591987",
+   "date": "2026-11-20",
+   "label": "Matched-prompt rerank on Fable routing",
+   "what": "Matched-prompt rerank on Fable routing, Apex v16.",
+   "score": 0.697,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58593072",
+   "date": "2026-11-20",
+   "label": "Stronger native GLM likelihood",
+   "what": "Stronger native GLM likelihood, Apex v17.",
+   "score": 0.703,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58691898",
+   "date": "2026-11-21",
+   "label": "Public 0.706 GLM and Fable 256-token likelihood copy",
+   "what": "Public 0.706 GLM and Fable 256-token likelihood copy.",
+   "score": 0.706,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696182",
+   "date": "2026-11-22",
+   "label": "320-token GLM with Open13 on non-native close calls",
+   "what": "320-token GLM with Open13 on non-native close calls.",
+   "score": 0.709,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696190",
+   "date": "2026-11-22",
+   "label": "320-token public GLM control without Open13",
+   "what": "320-token public GLM control without Open13.",
+   "score": 0.709,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696448",
+   "date": "2026-11-22",
+   "label": "Open13 check on weak native GLM calls",
+   "what": "Open13 check on weak native GLM calls.",
+   "score": 0.709,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58696612",
+   "date": "2026-11-22",
+   "label": "Wider 256-token native GLM coverage and protected Open13 route",
+   "what": "Wider 256-token native GLM coverage and protected Open13 route.",
+   "score": 0.702,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58734533",
+   "date": "2026-11-22",
+   "label": "Paired-token GLM likelihood with selective return to Fable",
+   "what": "Paired-token GLM likelihood with selective return to Fable.",
+   "score": 0.714,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58754746",
+   "date": "2026-11-23",
+   "label": "Public 0.719 parent reproduced",
+   "what": "Public 0.719 parent reproduced, Apex v29.",
+   "score": 0.719,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58754752",
+   "date": "2026-11-23",
+   "label": "Native GLM user-prefix likelihood with calibrated",
+   "what": "Native GLM user-prefix likelihood with calibrated ambiguous-case queue.",
+   "score": 0.717,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58754772",
+   "date": "2026-11-23",
+   "label": "Original GLM user-prefix scorer without the Fable guard",
+   "what": "Original GLM user-prefix scorer without the Fable guard (control).",
+   "score": 0.715,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58756502",
+   "date": "2026-11-23",
+   "label": "Paired-token GLM likelihood without the Fable return",
+   "what": "Paired-token GLM likelihood without the Fable return (control).",
+   "score": 0.711,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58756508",
+   "date": "2026-11-23",
+   "label": "Native GLM cross-check plus Claude sibling classifier",
+   "what": "Native GLM cross-check plus Claude sibling classifier, Apex v30.",
+   "score": 0.708,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58805913",
+   "date": "2026-11-24",
+   "label": "Sibling Odds on the 0.719 Fable-guarded entry",
+   "what": "Sibling Odds on the 0.719 Fable-guarded entry, Apex v32.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58807246",
+   "date": "2026-11-24",
+   "label": "512-token native GLM readout on Sibling Odds",
+   "what": "512-token native GLM readout on Sibling Odds.",
+   "score": 0.715,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58807248",
+   "date": "2026-11-24",
+   "label": "Fable kept on near-tied native GLM calls",
+   "what": "Fable kept on near-tied native GLM calls, Apex v33.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58808497",
+   "date": "2026-11-24",
+   "label": "Adaptive 96/160 GLM scoring under a tight token budget",
+   "what": "Adaptive 96/160 GLM scoring under a tight token budget.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58809766",
+   "date": "2026-11-24",
+   "label": "Sparse Gemini/Claude agreement on unprotected close calls",
+   "what": "Sparse Gemini/Claude agreement on unprotected close calls.",
+   "score": 0.718,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58867111",
+   "date": "2026-11-25",
+   "label": "Open13 cross-family close calls on the 0.720 Sibling Odds entry",
+   "what": "Open13 cross-family close calls on the 0.720 Sibling Odds entry.",
+   "score": 0.721,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58883534",
+   "date": "2026-11-25",
+   "label": "Apex v40",
+   "what": "Apex v40: standalone v3 plus the Open13 cross-family vote. Parent 0.721 entry was the control; the drop is most likely the rewritten ensemble script.",
+   "score": 0.684,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.037
+  },
+  {
+   "id": "58883550",
+   "date": "2026-11-25",
+   "label": "Standalone v3",
+   "what": "Standalone v3, PB115 with Sibling Odds, topic agreement and shape vote. Parent 0.721 entry was the control; the drop is most likely the rewritten ensemble script.",
+   "score": 0.684,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.037
+  },
+  {
+   "id": "58883554",
+   "date": "2026-11-25",
+   "label": "Lightning public recipe reproduced",
+   "what": "Lightning public recipe reproduced (PB115, Sibling Odds, Qwen3.8-27B).",
+   "score": 0.721,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58883560",
+   "date": "2026-11-25",
+   "label": "Lumibee public recipe reproduced",
+   "what": "Lumibee public recipe reproduced, PB115 with wider native GLM coverage, kernel markbarney/ntl-public-pb115-coverage-reproduction version 2.",
+   "score": 0.724,
+   "evidence": "SUBMISSIONS.md"
+  },
+  {
+   "id": "58930224",
+   "date": "2026-11-26",
+   "label": "Lumibee WeMM v1",
+   "what": "Lumibee WeMM v1 on the 0.724 parent.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.004
+  },
+  {
+   "id": "58930231",
+   "date": "2026-11-26",
+   "label": "Lumibee authorship v2",
+   "what": "Lumibee contrastive authorship v2 on the 0.724 parent.",
+   "score": 0.721,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.003
+  },
+  {
+   "id": "58932357",
+   "date": "2026-11-26",
+   "label": "Five-model data, no dashed Gemini",
+   "what": "0.724 parent with its svc4 head refit on our five-model passages, dashed Gemini 3.7 Flash passages left out.",
+   "score": 0.719,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.005
+  },
+  {
+   "id": "58933210",
+   "date": "2026-11-26",
+   "label": "Five-model data in svc4 head",
+   "what": "0.724 parent with its svc4 head refit on all 4,964 of our five-model passages; control refit reproduced the shipped head exactly.",
+   "score": 0.72,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.004
+  },
+  {
+   "id": "58952824",
+   "date": "2026-11-26",
+   "label": "Unchanged parent rerun (wasted slot)",
+   "what": "Unchanged 0.724 parent resubmitted; a wasted slot that tested no idea (Boss, 26 Nov).",
+   "score": 0.723,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.001
+  }
+ ],
+ "headline": {
+  "best": 0.724,
+  "rank": 460,
+  "teams": 7195,
+  "leader": 0.813,
+  "leader_name": "NguyenThanhNhan",
+  "as_of": "2026-11-26 18:01 EST",
+  "source": "reports/scorecard/board/2026-11-26.json",
+  "best_evidence": "SUBMISSIONS.md"
+ }
+}

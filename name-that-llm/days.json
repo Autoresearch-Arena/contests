@@ -1,6 +1,60 @@
 {
  "days": [
   {
+   "date": "2026-11-26",
+   "headline": "Best holds at 0.724 but rank slides to 460 of 7195. Five-model data flat on the board, up on a strong reader. Data batches done.",
+   "items": [
+    {
+     "tried": "Put our five-model passages into the 0.724 notebook's svc4 text head (all, and without dashed Gemini 3.7 Flash).",
+     "outcome": "0.720 and 0.719 vs the 0.724 parent; control refit was exact, so no board gain via svc4.",
+     "verdict": "no gain",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Lumibee WeMM v1 and contrastive authorship v2 on the 0.724 parent.",
+     "outcome": "0.720 and 0.721.",
+     "verdict": "no gain",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Resubmitted the unchanged 0.724 parent.",
+     "outcome": "0.723. A wasted slot; the Boss banned safe no-idea entries the same day.",
+     "verdict": "dead end",
+     "evidence": "CLAUDE.md"
+    },
+    {
+     "tried": "Fed our passages to a ModernBERT reader on Jethro, three seeds per arm.",
+     "outcome": "Stage one only: flat. Mixed into per-fold training: 0.527 vs 0.522, our five up every seed.",
+     "verdict": "worked",
+     "evidence": "reports/2026-11-26-matched5-followups.md"
+    },
+    {
+     "tried": "Finished the five-model pair-fill and GLM five-thousand batches.",
+     "outcome": "4,964 and 19,557 usable passages; $36.40 and $20.52 provisional from call receipts. Version 2 uploaded as a private dataset.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-25-synthetic-data-inventory.md"
+    },
+    {
+     "tried": "Probed Claude Fable 5 with 500 answers.",
+     "outcome": "Fable is hard to name because of how it writes, not bad public data: host Fable named right 8.7%, ours 7.4%.",
+     "verdict": "dead end",
+     "evidence": "research/fable-probe-20261126/probe-scores.json"
+    },
+    {
+     "tried": "Mixing at twice the share (0.8) on Jethro; GLM five-thousand on the reader queued.",
+     "outcome": "Running at 18:00 EST (seed 1 of the treatment arm).",
+     "verdict": "running",
+     "evidence": "QUEUE.md"
+    },
+    {
+     "tried": "Reviewed the public board and forum (41 topics, 4 new, 59 notebooks).",
+     "outcome": "Rank 460 of 7195, leader 0.813, top-10 cutoff 0.781, top-5% 0.725 at 18:01 EST. Rental costs unchanged and cached.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/board/2026-11-26.json"
+    }
+   ]
+  },
+  {
    "date": "2026-11-25",
    "headline": "New best 0.724, rank 156 of 7105. Two blends fell to 0.684. GLM synthetic-data batch under way.",
    "items": [

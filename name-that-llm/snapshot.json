@@ -1,13 +1,13 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "25 November 2026",
-  "snapshot_utc": "2026-11-25T23:10:00+00:00",
+  "date": "26 November 2026",
+  "snapshot_utc": "2026-11-26T23:10:00+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
     "qwen_cap_usd": 24,
     "glm_cap_usd": 10,
-    "unbilled": "Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt. Pair-fill GLM data batch $1.323 is provisional, summed from its own per-call usage receipts at 2026-11-25 18:00 EST while still running under a $6 cap; not a bill.",
+    "unbilled": "Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional from call receipts 26 Nov 18:00 EST. Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine.",
     "items": [
       {
         "title": "Qwen one-pass model",
@@ -54,10 +54,10 @@
   },
   "leaderboard": {
     "score": 0.724,
-    "rank": 156,
-    "teams": 7105,
+    "rank": 460,
+    "teams": 7195,
     "leader": 0.813,
-    "asof": "2026-11-25 18:00 EST",
+    "asof": "2026-11-26 18:01 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -114,10 +114,15 @@
         "label": "Topic + shape, rewritten script",
         "score": 0.684,
         "delta": -0.037
+      },
+      {
+        "label": "Five-model data in svc4 head",
+        "score": 0.72,
+        "delta": -0.004
       }
     ],
-    "pending": "Team board 0.724 with 46 submissions (was 0.72 with 41), rank 156 of 7105, leader 0.813, at 2026-11-25 18:00 EST. Top-10 cutoff 0.777, top-1% 0.73, top-5% 0.722, top-10% 0.72. The 0.724 is entry 58883560 (Lumibee PB115 recipe reproduced), attributed from the Kaggle history another session read at 20:20 UTC and itemised in SUBMISSIONS.md. All five 25 Nov slots used: 0.724, 0.721, 0.721, 0.684, 0.684.",
-    "asof_short": "2026-11-25 18:00 EST"
+    "pending": "Team board 0.724 with 51 submissions (was 0.724 with 46), rank 460 of 7195 (was 156 of 7105), leader 0.813, at 2026-11-26 18:01 EST. Top-10 cutoff 0.781, top-1% 0.731, top-5% 0.725, top-10% 0.721. Best is still entry 58883560 from 25 Nov. All five 26 Nov slots scored 0.719 to 0.723, none above the parent (SUBMISSIONS.md).",
+    "asof_short": "2026-11-26 18:01 EST"
   },
   "results": [
     {
@@ -207,14 +212,25 @@
       "delta": 0.0014814814814814816,
       "detail": "Saved 11 Nov proxy: combined Qwen/GPT and byte corrections, complete layout; interval spans zero. CPU replay ready; exact dual-T4 and board pending. Paired-source style also replayed, no board score.",
       "evidence": "research/comparison-2026-11-03/qwen-gpt-disjoint-replay-20261111.json"
+    },
+    {
+      "title": "Our passages mixed into a strong reader",
+      "kind": "validation",
+      "value": "+0.55 pp",
+      "baseline": 0.5216,
+      "score": 0.5271,
+      "delta": 0.0055,
+      "detail": "ModernBERT-base two-stage reader on Jethro, three seeds averaged into one reader, all 18 writers; our five writers up in every seed (mean +3.1 pp), Gemini 3.8 Flash down. Not on the board yet.",
+      "evidence": "reports/2026-11-26-matched5-followups.md",
+      "brief": "Own reader \u00b7 three seeds; our five up every seed"
     }
   ],
   "next_bets": [
-    "Next slot: Lumibee WeMM v1 on the 0.724 parent first; the other four slots wait for its score (SUBMISSIONS.md, 25 Nov).",
-    "Split the 0.684 drop: topic and shape on the parent's original ensemble script; if it scores near 0.721 the rewritten script is the cause (reports/2026-11-25-why-0684-comparison.md).",
-    "Pair-fill synthetic data: GLM 5.3 done (1000 calls), GLM 5.3 Flash about half done at 18:00 EST. Kimi K3, Qwen 3.8 Max and Gemini 3.7 Flash need about $34 and an OpenRouter top-up first.",
-    "Forum 752084 (25 Nov): edteoh asks staff whether the contest gemini-3.7-flash text predates Google rerouting 3.7 to 3.8 on 8 Oct; unanswered, and it bears on our Gemini 3.7 route.",
-    "Forum 761857 (25 Nov): 0.735 locally vs 0.460 on the board; the same lesson as our 0.684 drop, score what actually runs."
+    "Running on Jethro: our passages mixed in at twice the share (0.8), three seeds; then the 19,557 GLM five-thousand passages on the same reader, queued behind it (QUEUE.md).",
+    "Build a board entry from the best strong reader (all our passages mixed) as a new member of the 0.724 notebook, not another svc4-pool refit, which scored flat (0.719 to 0.720).",
+    "Decisions for the Boss: push dataset version 2 public (prepared, not run), and whether to buy about 2,000 more Gemini 3.7 Flash answers (about $21); neither is started.",
+    "Claude Fable 5 probe: Fable is hard to name because of how it writes (host Fable named right 8.7%, ours 7.4%), so more Fable text is not the fix.",
+    "Forum 762094 and 762099 (26 Nov, CodeWithUtkarsh): reweighting the Open Pool toward host style hurt in a leak-free test, and a simulated-noise post on how big a board gain must be to be real; titles only in our snapshot."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -243,12 +259,12 @@
     "mistral": "reports/2026-11-10-public-mistral-olmo-oof.md",
     "creative": "research/comparison-2026-11-03/creative-glm-kimi-matched-result-20261110.json",
     "creative_cost": "reports/scorecard/creative-usage.json",
-    "board": "reports/scorecard/board/2026-11-25.json",
+    "board": "reports/scorecard/board/2026-11-26.json",
     "scored_pair": "research/comparison-2026-11-03/submissions-58217555-58217579-scored-20261111.json",
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best 0.724 (was 0.72; Lumibee recipe reproduced, entry 58883560); rank 156 of 7105 (was 368 of 6997), leader 0.813, at 2026-11-25 18:00 EST. Two blends on a rewritten ensemble script fell to 0.684. GLM pair-fill data batch running, $1.32 provisional of a $6 cap; rental costs cached.",
+  "status_line": "Best 0.724 unchanged; rank 460 of 7195 (was 156) at 2026-11-26 18:01 EST. Five-model data gave no board gain (0.719 to 0.720) but lifted a strong reader +0.55 pp in validation. Data batches $57.71 provisional; rentals cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [
@@ -310,10 +326,31 @@
     },
     {
       "date": "2026-11-25",
-      "what": "Pair-fill data, GLM 5.3 and GLM 5.3 Flash, running ($6 cap); provisional from call receipts",
+      "what": "Pair-fill data, GLM 5.3 and GLM 5.3 Flash, 1,000 prompts ($6 cap); provisional from call receipts",
       "kind": "Data generation",
-      "usd": 1.323,
+      "usd": 1.921,
       "evidence": "reports/2026-11-25-synthetic-data-inventory.md"
+    },
+    {
+      "date": "2026-11-25",
+      "what": "Pair-fill data, Kimi K3, Qwen 3.8 Max, Gemini 3.7 Flash ($36 cap); provisional from call receipts",
+      "kind": "Data generation",
+      "usd": 34.474,
+      "evidence": "reports/2026-11-25-synthetic-data-inventory.md"
+    },
+    {
+      "date": "2026-11-26",
+      "what": "GLM five-thousand batch, three runs ($26 caps combined); provisional from call receipts",
+      "kind": "Data generation",
+      "usd": 20.52,
+      "evidence": "reports/2026-11-25-synthetic-data-inventory.md"
+    },
+    {
+      "date": "2026-11-26",
+      "what": "Bilingual pair-fill test, 80 calls ($3 cap); provisional from call receipts, no write-up yet",
+      "kind": "Data generation",
+      "usd": 0.799,
+      "evidence": "data_prep/pair_fill/bilingual_prompts.json"
     }
   ],
   "chapters": [
@@ -366,9 +403,24 @@
       "cap": 10
     },
     {
-      "name": "Pair-fill GLM usage (running)",
-      "used": 1.323,
+      "name": "Pair-fill GLM pair usage",
+      "used": 1.921,
       "cap": 6
+    },
+    {
+      "name": "Pair-fill Kimi, Qwen, Gemini usage",
+      "used": 34.474,
+      "cap": 36
+    },
+    {
+      "name": "GLM five-thousand usage (three runs)",
+      "used": 20.52,
+      "cap": 26
+    },
+    {
+      "name": "Bilingual test usage",
+      "used": 0.799,
+      "cap": 3
     }
   ]
 }

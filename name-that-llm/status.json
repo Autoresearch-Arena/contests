@@ -3,23 +3,23 @@
   "contest": "name-that-llm",
   "title": "Name That LLM",
   "state": "live",
-  "updated": "2026-11-25",
-  "headline": "Best 0.724 (was 0.72; Lumibee recipe reproduced, entry 58883560); rank 156 of 7105 (was 368 of 6997), leader 0.813, at 2026-11-25 18:00 EST. Two blends on a rewritten ensemble script fell to 0.684. GLM pair-fill data batch running, $1.32 provisional of a $6 cap; rental costs cached.",
+  "updated": "2026-11-26",
+  "headline": "Best 0.724 unchanged; rank 460 of 7195 (was 156) at 2026-11-26 18:01 EST. Five-model data gave no board gain (0.719 to 0.720) but lifted a strong reader +0.55 pp in validation. Data batches $57.71 provisional; rentals cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 156,
-    "of": 7105,
+    "rank": 460,
+    "of": 7195,
     "best_score": 0.724,
     "metric": "balanced accuracy",
     "higher_is_better": true,
-    "observed": "2026-11-25"
+    "observed": "2026-11-26"
   },
   "entries": {
     "used_today": null,
     "daily_limit": null,
-    "total": 46,
-    "observed": "2026-11-25",
+    "total": 51,
+    "observed": "2026-11-26",
     "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
@@ -28,13 +28,13 @@
     "currency": "USD",
     "kind": "provisional",
     "observed": "2026-11-10",
-    "note": "Selected rental subtotal only; Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST. Later/unbilled charges and settlement unknown; no fresh billing receipt. Pair-fill GLM data batch $1.323 is provisional, summed from its own per-call usage receipts at 2026-11-25 18:00 EST while still running under a $6 cap; not a bill. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative usage + reserve exposure 8.953572 of 10; Matched pilot usage (separate cap) 6.4604236554 of 8; Matched release usage (includes reused pilot) 7.1901436959 of 10; Pair-fill GLM usage (running) 1.323 of 6. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
+    "note": "Selected rental subtotal only; Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional from call receipts 26 Nov 18:00 EST. Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative usage + reserve exposure 8.953572 of 10; Matched pilot usage (separate cap) 6.4604236554 of 8; Matched release usage (includes reused pilot) 7.1901436959 of 10; Pair-fill GLM pair usage 1.921 of 6; Pair-fill Kimi, Qwen, Gemini usage 34.474 of 36; GLM five-thousand usage (three runs) 20.52 of 26; Bilingual test usage 0.799 of 3. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
   },
   "running": [],
   "next": [
-    "Next slot: Lumibee WeMM v1 on the 0.724 parent first; the other four slots wait for its score (SUBMISSIONS.md, 25 Nov).",
-    "Split the 0.684 drop: topic and shape on the parent's original ensemble script; if it scores near 0.721 the rewritten script is the cause (reports/2026-11-25-why-0684-comparison.md).",
-    "Pair-fill synthetic data: GLM 5.3 done (1000 calls), GLM 5.3 Flash about half done at 18:00 EST. Kimi K3, Qwen 3.8 Max and Gemini 3.7 Flash need about $34 and an OpenRouter top-up first.",
-    "Forum 752084 (25 Nov): edteoh asks staff whether the contest gemini-3.7-flash text predates Google rerouting 3.7 to 3.8 on 8 Oct; unanswered, and it bears on our Gemini 3.7 route."
+    "Running on Jethro: our passages mixed in at twice the share (0.8), three seeds; then the 19,557 GLM five-thousand passages on the same reader, queued behind it (QUEUE.md).",
+    "Build a board entry from the best strong reader (all our passages mixed) as a new member of the 0.724 notebook, not another svc4-pool refit, which scored flat (0.719 to 0.720).",
+    "Decisions for the Boss: push dataset version 2 public (prepared, not run), and whether to buy about 2,000 more Gemini 3.7 Flash answers (about $21); neither is started.",
+    "Claude Fable 5 probe: Fable is hard to name because of how it writes (host Fable named right 8.7%, ours 7.4%), so more Fable text is not the fix."
   ]
 }
