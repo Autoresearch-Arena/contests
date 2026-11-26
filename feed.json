@@ -61,31 +61,32 @@
         "contest": "casmi26",
         "title": "CASMI 2026: Molecule ID From Mass Spectra",
         "state": "live",
-        "updated": "2026-11-25",
-        "headline": "Our exact copy of the public 0.509 notebook is in and waiting for its score, with four entries that measure the hidden set.",
+        "updated": "2026-11-26",
+        "headline": "Level with the public notebook at 0.509. The hidden set is now measured: 58 of 125 public molecules right at first place, 9 at second, about 48 with no right answer, and a third or more of hidden molecules outside the mass range the public models were built on.",
         "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
         "deadline": "2026-12-14",
         "board": {
-          "rank": 1131,
-          "of": 6004,
-          "best_score": 0.5,
+          "rank": 796,
+          "of": 6027,
+          "best_score": 0.509,
           "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
           "higher_is_better": true,
-          "observed": "2026-11-25"
+          "observed": "2026-11-26"
         },
         "entries": {
-          "used_today": 5,
+          "used_today": 0,
           "daily_limit": 5,
           "total": 79,
-          "observed": "2026-11-25"
+          "observed": "2026-11-26"
         },
         "running": [
-          "Five entries waiting for Kaggle scores, due overnight"
+          "Two one-line arms on the 0.509 base (virtual-tier margin)",
+          "Three measuring entries for heavy and light molecules"
         ],
         "next": [
-          "Read the five scores and work out where the remaining points are",
-          "Send five entries every day: two that measure, three that test a change",
-          "Build generated answers for the molecules nobody has in their list"
+          "Submit all five before the 7 p.m. Eastern reset",
+          "Gated second-to-first swaps: nine molecules, +0.036 ceiling",
+          "Candidates for molecules heavier than 460 and lighter than 245"
         ]
       },
       "note": null
@@ -218,17 +219,17 @@
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
         "updated": "2026-11-26",
-        "headline": "As of 2026-11-26T05:00:02Z: our best is 97th of 343 teams at 0.278, the leader is at 0.408. Updated by a poller.",
+        "headline": "As of 2026-11-26T06:00:06Z: our best is 100th of 350 teams at 0.278, the leader is at 0.408. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
-          "rank": 97,
-          "of": 343,
+          "rank": 100,
+          "of": 350,
           "best_score": 0.278,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
           "observed": "2026-11-26",
-          "note": "Read from the public leaderboard download at 2026-11-26T05:00:02Z."
+          "note": "Read from the public leaderboard download at 2026-11-26T06:00:06Z."
         },
         "entries": {
           "used_today": 0,
