@@ -3,26 +3,26 @@
   "contest": "credit-card-fraud",
   "title": "Predicting Credit Card Fraud",
   "state": "live",
-  "updated": "2026-11-25",
-  "headline": "Our verified public ROC AUC is 0.95577, up from 0.95337. The latest Kaggle snapshot placed us 69th of 3,034 teams.",
+  "updated": "2026-11-26",
+  "headline": "Our verified public ROC AUC is 0.95578, up from 0.95337. The latest Kaggle snapshot placed us 171st of 3,248 teams.",
   "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
   "deadline": "2026-11-30",
   "board": {
-    "rank": 69,
-    "of": 3034,
-    "best_score": 0.95577,
+    "rank": 171,
+    "of": 3248,
+    "best_score": 0.95578,
     "metric": "AUC (area under the ROC curve)",
     "higher_is_better": true,
-    "observed": "2026-11-25"
+    "observed": "2026-11-26"
   },
   "entries": {
-    "used_today": 10,
+    "used_today": 6,
     "daily_limit": 10,
-    "total": 63,
-    "observed": "2026-11-25"
+    "total": 69,
+    "observed": "2026-11-26"
   },
   "running": [],
   "next": [
-    "At the next quota reset, score and assess the merchant-risk by authentication interaction on the verified 0.95577 baseline."
+    "Test partial restoration of prior ranks inside the four low-risk zones."
   ]
 }
