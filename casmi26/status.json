@@ -4,12 +4,12 @@
   "title": "CASMI 2026: Molecule ID From Mass Spectra",
   "state": "live",
   "updated": "2026-11-26",
-  "headline": "Level with the public notebook at 0.509. The hidden set is now measured: 58 of 125 public molecules right at first place, 9 at second, about 48 with no right answer, and a third or more of hidden molecules outside the mass range the public models were built on.",
+  "headline": "Our best is 0.509. Lowering the promotion margin tied it. Lowering it further and widening candidate insertion scored 0.503.",
   "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
   "deadline": "2026-12-14",
   "board": {
-    "rank": 796,
-    "of": 6027,
+    "rank": 847,
+    "of": 6055,
     "best_score": 0.509,
     "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
     "higher_is_better": true,
@@ -21,12 +21,9 @@
     "total": 84,
     "observed": "2026-11-26"
   },
-  "running": [
-    "Five entries waiting for scores: two one-line arms on the 0.509 base, three measuring entries for heavy and light molecules"
-  ],
+  "running": [],
   "next": [
-    "Submit all five before the 7 p.m. Eastern reset",
-    "Gated second-to-first swaps: nine molecules, +0.036 ceiling",
-    "Candidates for molecules heavier than 460 and lighter than 245"
+    "Check the scored versions of Raja\u2019s adduct gate and Exp338\u2019s candidate generator",
+    "Reconcile the public-set denominator before converting score contributions into molecule counts"
   ]
 }
