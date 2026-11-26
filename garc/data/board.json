@@ -2,7 +2,7 @@
  "schema": "garc-leaderboard-board/1",
  "competition": "generalist-gaming-agent",
  "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
- "built_for": "2026-11-26T23:00:06Z",
+ "built_for": "2026-11-26T23:30:06Z",
  "snapshots": [
   {
    "taken_at": "2026-11-24T16:12:46Z",
@@ -661,6 +661,13 @@
    "top_score": 0.408,
    "median_score": 0.122,
    "baseline": false
+  },
+  {
+   "taken_at": "2026-11-26T23:30:06Z",
+   "teams": 438,
+   "top_score": 0.408,
+   "median_score": 0.122,
+   "baseline": false
   }
  ],
  "live": true,
@@ -668,10 +675,10 @@
  "medals": {
   "bands": {
    "gold": 10,
-   "silver": 87,
-   "bronze": 174
+   "silver": 88,
+   "bronze": 176
   },
-  "teams": 435,
+  "teams": 438,
   "verified": false,
   "note": "Assumed from Kaggle's usual medal rule for 100 to 249 teams (gold top 10, silver top 20%, bronze top 40%, rounded up). The competition's own rules were not read for medals and may award none; treat these lines as a guide only."
  },
@@ -744,7 +751,7 @@
    "score": 0.343,
    "entries": 14,
    "last_entry": "2026-11-26 16:34:10",
-   "moved": 105,
+   "moved": 0,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -758,7 +765,7 @@
    "score": 0.342,
    "entries": 6,
    "last_entry": "2026-11-26 15:45:12",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -772,7 +779,7 @@
    "score": 0.34,
    "entries": 3,
    "last_entry": "2026-11-26 13:58:02",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -786,7 +793,7 @@
    "score": 0.34,
    "entries": 8,
    "last_entry": "2026-11-26 10:38:39",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -800,7 +807,7 @@
    "score": 0.339,
    "entries": 4,
    "last_entry": "2026-11-26 16:25:24",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -814,7 +821,7 @@
    "score": 0.339,
    "entries": 9,
    "last_entry": "2026-11-26 10:57:59",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "gold"
   },
@@ -828,7 +835,7 @@
    "score": 0.339,
    "entries": 5,
    "last_entry": "2026-11-25 10:27:31",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -842,7 +849,7 @@
    "score": 0.339,
    "entries": 10,
    "last_entry": "2026-11-26 14:37:42",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -856,7 +863,7 @@
    "score": 0.338,
    "entries": 15,
    "last_entry": "2026-11-26 14:39:45",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -870,7 +877,7 @@
    "score": 0.338,
    "entries": 4,
    "last_entry": "2026-11-26 11:35:45",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -884,7 +891,7 @@
    "score": 0.338,
    "entries": 2,
    "last_entry": "2026-11-25 14:26:09",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -898,7 +905,7 @@
    "score": 0.338,
    "entries": 10,
    "last_entry": "2026-11-26 15:53:25",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -910,9 +917,9 @@
     "ajnalkarismailsab"
    ],
    "score": 0.338,
-   "entries": 5,
-   "last_entry": "2026-11-25 18:51:00",
-   "moved": -1,
+   "entries": 6,
+   "last_entry": "2026-11-26 17:20:06",
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -926,7 +933,7 @@
    "score": 0.338,
    "entries": 12,
    "last_entry": "2026-11-26 14:06:06",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -940,7 +947,7 @@
    "score": 0.337,
    "entries": 11,
    "last_entry": "2026-11-26 08:23:29",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -954,7 +961,7 @@
    "score": 0.337,
    "entries": 3,
    "last_entry": "2026-11-26 16:49:04",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -968,7 +975,7 @@
    "score": 0.337,
    "entries": 4,
    "last_entry": "2026-11-26 07:01:35",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -982,7 +989,7 @@
    "score": 0.337,
    "entries": 5,
    "last_entry": "2026-11-26 10:47:43",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -996,7 +1003,7 @@
    "score": 0.336,
    "entries": 10,
    "last_entry": "2026-11-25 22:39:10",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1010,7 +1017,7 @@
    "score": 0.336,
    "entries": 7,
    "last_entry": "2026-11-26 12:55:22",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1024,12 +1031,26 @@
    "score": 0.336,
    "entries": 2,
    "last_entry": "2026-11-26 06:38:26",
-   "moved": -1,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
   {
    "rank": 26,
+   "team_id": "17431424",
+   "team": "Kunal Aarse",
+   "members": [
+    "kunalinfinite"
+   ],
+   "score": 0.335,
+   "entries": 9,
+   "last_entry": "2026-11-26 17:08:28",
+   "moved": 48,
+   "new_since_prev": false,
+   "band": "silver"
+  },
+  {
+   "rank": 27,
    "team_id": "17439842",
    "team": "hotaq",
    "members": [
@@ -1043,7 +1064,7 @@
    "band": "silver"
   },
   {
-   "rank": 27,
+   "rank": 28,
    "team_id": "17438825",
    "team": "SUJAL DWIVEDI",
    "members": [
@@ -1057,7 +1078,7 @@
    "band": "silver"
   },
   {
-   "rank": 28,
+   "rank": 29,
    "team_id": "17443121",
    "team": "吃白饭的大肥鱼",
    "members": [
@@ -1075,7 +1096,7 @@
    "band": "silver"
   },
   {
-   "rank": 29,
+   "rank": 30,
    "team_id": "17449404",
    "team": "yphacker",
    "members": [
@@ -1089,7 +1110,7 @@
    "band": "silver"
   },
   {
-   "rank": 30,
+   "rank": 31,
    "team_id": "17453109",
    "team": "MustafaA",
    "members": [
@@ -1103,7 +1124,7 @@
    "band": "silver"
   },
   {
-   "rank": 31,
+   "rank": 32,
    "team_id": "17455246",
    "team": "Sahil Yadav",
    "members": [
@@ -1117,7 +1138,7 @@
    "band": "silver"
   },
   {
-   "rank": 32,
+   "rank": 33,
    "team_id": "17440352",
    "team": "Bohdan Somriakov",
    "members": [
@@ -1131,7 +1152,7 @@
    "band": "silver"
   },
   {
-   "rank": 33,
+   "rank": 34,
    "team_id": "17434298",
    "team": "sanyul",
    "members": [
@@ -1145,7 +1166,7 @@
    "band": "silver"
   },
   {
-   "rank": 34,
+   "rank": 35,
    "team_id": "17446721",
    "team": "Prince AJ CUYOS",
    "members": [
@@ -1159,7 +1180,7 @@
    "band": "silver"
   },
   {
-   "rank": 35,
+   "rank": 36,
    "team_id": "17439768",
    "team": "Staratnyte",
    "members": [
@@ -1173,7 +1194,7 @@
    "band": "silver"
   },
   {
-   "rank": 36,
+   "rank": 37,
    "team_id": "17438629",
    "team": "cm391",
    "members": [
@@ -1187,7 +1208,7 @@
    "band": "silver"
   },
   {
-   "rank": 37,
+   "rank": 38,
    "team_id": "17458870",
    "team": "jiangnanxn",
    "members": [
@@ -1196,12 +1217,12 @@
    "score": 0.332,
    "entries": 2,
    "last_entry": "2026-11-26 16:26:43",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": -1,
+   "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 38,
+   "rank": 39,
    "team_id": "17433390",
    "team": "Yuxiao Wang",
    "members": [
@@ -1210,12 +1231,12 @@
    "score": 0.332,
    "entries": 3,
    "last_entry": "2026-11-25 11:19:53",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 39,
+   "rank": 40,
    "team_id": "17440877",
    "team": "Elie",
    "members": [
@@ -1224,12 +1245,12 @@
    "score": 0.332,
    "entries": 5,
    "last_entry": "2026-11-26 10:19:55",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 40,
+   "rank": 41,
    "team_id": "17446624",
    "team": "Jules",
    "members": [
@@ -1238,12 +1259,12 @@
    "score": 0.332,
    "entries": 3,
    "last_entry": "2026-11-26 10:59:33",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 41,
+   "rank": 42,
    "team_id": "17447728",
    "team": "xiao-xiao",
    "members": [
@@ -1252,12 +1273,12 @@
    "score": 0.332,
    "entries": 2,
    "last_entry": "2026-11-26 11:31:16",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 42,
+   "rank": 43,
    "team_id": "17433707",
    "team": "Quan Vu",
    "members": [
@@ -1266,12 +1287,12 @@
    "score": 0.331,
    "entries": 7,
    "last_entry": "2026-11-26 12:29:47",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 43,
+   "rank": 44,
    "team_id": "17452799",
    "team": "Saeed Sabzeh",
    "members": [
@@ -1280,12 +1301,12 @@
    "score": 0.331,
    "entries": 5,
    "last_entry": "2026-11-26 12:36:19",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 44,
+   "rank": 45,
    "team_id": "17442766",
    "team": "Ronit Agarwal",
    "members": [
@@ -1294,12 +1315,12 @@
    "score": 0.33,
    "entries": 3,
    "last_entry": "2026-11-25 21:20:36",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 45,
+   "rank": 46,
    "team_id": "17447967",
    "team": "三天",
    "members": [
@@ -1308,12 +1329,12 @@
    "score": 0.33,
    "entries": 1,
    "last_entry": "2026-11-25 13:14:11",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 46,
+   "rank": 47,
    "team_id": "17443954",
    "team": "bill123987",
    "members": [
@@ -1322,12 +1343,12 @@
    "score": 0.33,
    "entries": 3,
    "last_entry": "2026-11-26 09:42:37",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 47,
+   "rank": 48,
    "team_id": "17433807",
    "team": "hackwall aimbot to win",
    "members": [
@@ -1336,12 +1357,12 @@
    "score": 0.33,
    "entries": 14,
    "last_entry": "2026-11-26 14:20:19",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 48,
+   "rank": 49,
    "team_id": "17435784",
    "team": "Generalistic RoyelBengalTiger",
    "members": [
@@ -1350,12 +1371,12 @@
    "score": 0.329,
    "entries": 1,
    "last_entry": "2026-11-26 15:26:32",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 49,
+   "rank": 50,
    "team_id": "17433207",
    "team": "Galaxy A55",
    "members": [
@@ -1364,12 +1385,12 @@
    "score": 0.329,
    "entries": 10,
    "last_entry": "2026-11-25 14:18:58",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 50,
+   "rank": 51,
    "team_id": "17432000",
    "team": "Md. Hamid Hosen",
    "members": [
@@ -1378,12 +1399,12 @@
    "score": 0.329,
    "entries": 2,
    "last_entry": "2026-11-26 03:43:06",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 51,
+   "rank": 52,
    "team_id": "17448222",
    "team": "Nguyễn Trần Thanh Bình",
    "members": [
@@ -1392,12 +1413,12 @@
    "score": 0.329,
    "entries": 1,
    "last_entry": "2026-11-25 13:34:17",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 52,
+   "rank": 53,
    "team_id": "17435059",
    "team": "Hiroyasu Okuno",
    "members": [
@@ -1406,12 +1427,12 @@
    "score": 0.329,
    "entries": 5,
    "last_entry": "2026-11-26 15:05:30",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 53,
+   "rank": 54,
    "team_id": "17447578",
    "team": "add_oils",
    "members": [
@@ -1420,12 +1441,12 @@
    "score": 0.329,
    "entries": 1,
    "last_entry": "2026-11-25 12:25:04",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 54,
+   "rank": 55,
    "team_id": "17459062",
    "team": "Ikeda0516",
    "members": [
@@ -1434,12 +1455,12 @@
    "score": 0.328,
    "entries": 1,
    "last_entry": "2026-11-26 16:16:31",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 55,
+   "rank": 56,
    "team_id": "17431730",
    "team": "Malyshev Danil",
    "members": [
@@ -1448,12 +1469,12 @@
    "score": 0.328,
    "entries": 10,
    "last_entry": "2026-11-26 02:07:02",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 56,
+   "rank": 57,
    "team_id": "17438099",
    "team": "handsomeyangz",
    "members": [
@@ -1462,12 +1483,12 @@
    "score": 0.328,
    "entries": 13,
    "last_entry": "2026-11-26 10:59:01",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 57,
+   "rank": 58,
    "team_id": "17431873",
    "team": "Lonnie",
    "members": [
@@ -1476,12 +1497,12 @@
    "score": 0.328,
    "entries": 9,
    "last_entry": "2026-11-26 10:24:23",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 58,
+   "rank": 59,
    "team_id": "17434534",
    "team": "Nikhil",
    "members": [
@@ -1490,12 +1511,12 @@
    "score": 0.328,
    "entries": 3,
    "last_entry": "2026-11-26 04:49:53",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 59,
+   "rank": 60,
    "team_id": "17438091",
    "team": "Ravindra",
    "members": [
@@ -1504,12 +1525,12 @@
    "score": 0.328,
    "entries": 2,
    "last_entry": "2026-11-26 10:43:00",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 60,
+   "rank": 61,
    "team_id": "17430290",
    "team": "Tong Hui Kang",
    "members": [
@@ -1518,12 +1539,12 @@
    "score": 0.328,
    "entries": 13,
    "last_entry": "2026-11-26 08:03:17",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 61,
+   "rank": 62,
    "team_id": "17454689",
    "team": "sofiya maslennikova",
    "members": [
@@ -1532,12 +1553,12 @@
    "score": 0.328,
    "entries": 4,
    "last_entry": "2026-11-26 13:31:26",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 62,
+   "rank": 63,
    "team_id": "17430217",
    "team": "SeshuRaju 🧘‍♂️",
    "members": [
@@ -1546,12 +1567,12 @@
    "score": 0.328,
    "entries": 7,
    "last_entry": "2026-11-26 11:48:39",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 63,
+   "rank": 64,
    "team_id": "17430323",
    "team": "alex chilton",
    "members": [
@@ -1560,12 +1581,12 @@
    "score": 0.328,
    "entries": 16,
    "last_entry": "2026-11-26 14:20:44",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 64,
+   "rank": 65,
    "team_id": "17447300",
    "team": "taopy2",
    "members": [
@@ -1574,12 +1595,12 @@
    "score": 0.328,
    "entries": 2,
    "last_entry": "2026-11-26 09:16:31",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 65,
+   "rank": 66,
    "team_id": "17438640",
    "team": "Sangrish S",
    "members": [
@@ -1588,12 +1609,12 @@
    "score": 0.327,
    "entries": 2,
    "last_entry": "2026-11-26 09:32:24",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 66,
+   "rank": 67,
    "team_id": "17438520",
    "team": "邓紫棋牛逼",
    "members": [
@@ -1602,12 +1623,12 @@
    "score": 0.327,
    "entries": 12,
    "last_entry": "2026-11-26 12:27:44",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 67,
+   "rank": 68,
    "team_id": "17443002",
    "team": "kyuringo0312",
    "members": [
@@ -1616,12 +1637,12 @@
    "score": 0.327,
    "entries": 3,
    "last_entry": "2026-11-26 14:50:30",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 68,
+   "rank": 69,
    "team_id": "17442884",
    "team": "huangbin",
    "members": [
@@ -1630,12 +1651,12 @@
    "score": 0.327,
    "entries": 2,
    "last_entry": "2026-11-26 03:47:49",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 69,
+   "rank": 70,
    "team_id": "17445249",
    "team": "feng chen202",
    "members": [
@@ -1644,12 +1665,12 @@
    "score": 0.327,
    "entries": 3,
    "last_entry": "2026-11-26 03:38:41",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 70,
+   "rank": 71,
    "team_id": "17450204",
    "team": "Salem Ali",
    "members": [
@@ -1658,12 +1679,12 @@
    "score": 0.327,
    "entries": 2,
    "last_entry": "2026-11-26 15:01:51",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 71,
+   "rank": 72,
    "team_id": "17442246",
    "team": "samanyu1808",
    "members": [
@@ -1672,12 +1693,12 @@
    "score": 0.326,
    "entries": 1,
    "last_entry": "2026-11-25 22:12:05",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 72,
+   "rank": 73,
    "team_id": "17446522",
    "team": "Bupz Nguyen",
    "members": [
@@ -1686,12 +1707,12 @@
    "score": 0.326,
    "entries": 5,
    "last_entry": "2026-11-26 12:37:59",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
   {
-   "rank": 73,
+   "rank": 74,
    "team_id": "17448296",
    "team": "Naji",
    "members": [
@@ -1701,21 +1722,7 @@
    "score": 0.326,
    "entries": 2,
    "last_entry": "2026-11-26 14:23:33",
-   "moved": -2,
-   "new_since_prev": false,
-   "band": "silver"
-  },
-  {
-   "rank": 74,
-   "team_id": "17431424",
-   "team": "Kunal Aarse",
-   "members": [
-    "kunalinfinite"
-   ],
-   "score": 0.326,
-   "entries": 8,
-   "last_entry": "2026-11-26 08:58:31",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1729,7 +1736,7 @@
    "score": 0.326,
    "entries": 6,
    "last_entry": "2026-11-26 14:46:56",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1743,7 +1750,7 @@
    "score": 0.326,
    "entries": 6,
    "last_entry": "2026-11-26 10:32:07",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1757,7 +1764,7 @@
    "score": 0.326,
    "entries": 2,
    "last_entry": "2026-11-26 13:27:31",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1771,7 +1778,7 @@
    "score": 0.326,
    "entries": 2,
    "last_entry": "2026-11-26 12:33:36",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1785,7 +1792,7 @@
    "score": 0.326,
    "entries": 1,
    "last_entry": "2026-11-26 09:30:34",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1799,7 +1806,7 @@
    "score": 0.325,
    "entries": 3,
    "last_entry": "2026-11-26 02:40:52",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1813,7 +1820,7 @@
    "score": 0.325,
    "entries": 1,
    "last_entry": "2026-11-26 04:51:02",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1827,7 +1834,7 @@
    "score": 0.325,
    "entries": 11,
    "last_entry": "2026-11-26 13:10:56",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1841,7 +1848,7 @@
    "score": 0.324,
    "entries": 4,
    "last_entry": "2026-11-26 16:26:05",
-   "moved": 3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1855,7 +1862,7 @@
    "score": 0.324,
    "entries": 6,
    "last_entry": "2026-11-26 10:15:43",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1869,7 +1876,7 @@
    "score": 0.324,
    "entries": 2,
    "last_entry": "2026-11-26 07:56:04",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1883,7 +1890,7 @@
    "score": 0.324,
    "entries": 1,
    "last_entry": "2026-11-26 14:42:52",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1897,7 +1904,7 @@
    "score": 0.324,
    "entries": 2,
    "last_entry": "2026-11-26 15:40:14",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "silver"
   },
@@ -1912,9 +1919,9 @@
    "score": 0.323,
    "entries": 5,
    "last_entry": "2026-11-26 07:14:04",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
-   "band": "bronze"
+   "band": "silver"
   },
   {
    "rank": 89,
@@ -1926,7 +1933,7 @@
    "score": 0.323,
    "entries": 6,
    "last_entry": "2026-11-25 21:49:44",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1940,7 +1947,7 @@
    "score": 0.323,
    "entries": 4,
    "last_entry": "2026-11-26 01:56:49",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1954,7 +1961,7 @@
    "score": 0.323,
    "entries": 1,
    "last_entry": "2026-11-26 03:41:08",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1968,7 +1975,7 @@
    "score": 0.323,
    "entries": 6,
    "last_entry": "2026-11-26 11:05:02",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1982,7 +1989,7 @@
    "score": 0.322,
    "entries": 1,
    "last_entry": "2026-11-26 13:15:14",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -1996,7 +2003,7 @@
    "score": 0.322,
    "entries": 4,
    "last_entry": "2026-11-26 09:56:27",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2010,7 +2017,7 @@
    "score": 0.322,
    "entries": 2,
    "last_entry": "2026-11-26 12:53:44",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2024,7 +2031,7 @@
    "score": 0.321,
    "entries": 1,
    "last_entry": "2026-11-26 02:10:33",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2038,7 +2045,7 @@
    "score": 0.321,
    "entries": 1,
    "last_entry": "2026-11-25 11:37:40",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2052,7 +2059,7 @@
    "score": 0.321,
    "entries": 8,
    "last_entry": "2026-11-26 07:40:20",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2066,12 +2073,26 @@
    "score": 0.32,
    "entries": 1,
    "last_entry": "2026-11-26 16:25:25",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
    "rank": 100,
+   "team_id": "17455540",
+   "team": "IGpig1226",
+   "members": [
+    "igpig1226"
+   ],
+   "score": 0.32,
+   "entries": 2,
+   "last_entry": "2026-11-26 16:57:13",
+   "moved": 8,
+   "new_since_prev": false,
+   "band": "bronze"
+  },
+  {
+   "rank": 101,
    "team_id": "17439665",
    "team": "TheBlackCat",
    "members": [
@@ -2080,12 +2101,12 @@
    "score": 0.32,
    "entries": 8,
    "last_entry": "2026-11-26 11:48:15",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 101,
+   "rank": 102,
    "team_id": "17437708",
    "team": "Junior_ak",
    "members": [
@@ -2094,12 +2115,26 @@
    "score": 0.32,
    "entries": 9,
    "last_entry": "2026-11-26 16:32:08",
-   "moved": -2,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 102,
+   "rank": 103,
+   "team_id": "17431471",
+   "team": "Tony Li",
+   "members": [
+    "tonylica"
+   ],
+   "score": 0.32,
+   "entries": 9,
+   "last_entry": "2026-11-26 17:05:21",
+   "moved": 4,
+   "new_since_prev": false,
+   "band": "bronze"
+  },
+  {
+   "rank": 104,
    "team_id": "17438829",
    "team": "Anuj Saini",
    "members": [
@@ -2113,21 +2148,21 @@
    "band": "bronze"
   },
   {
-   "rank": 103,
+   "rank": 105,
    "team_id": "17456080",
    "team": "Qingdi Meng",
    "members": [
     "mengqingdi"
    ],
    "score": 0.32,
-   "entries": 2,
-   "last_entry": "2026-11-26 10:34:16",
+   "entries": 3,
+   "last_entry": "2026-11-26 17:04:40",
    "moved": -2,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 104,
+   "rank": 106,
    "team_id": "17437917",
    "team": "Master Teo",
    "members": [
@@ -2141,7 +2176,7 @@
    "band": "bronze"
   },
   {
-   "rank": 105,
+   "rank": 107,
    "team_id": "17458701",
    "team": "Karthikeya Thatipamula",
    "members": [
@@ -2155,7 +2190,7 @@
    "band": "bronze"
   },
   {
-   "rank": 106,
+   "rank": 108,
    "team_id": "17430942",
    "team": "Дворкин Евгений Владимирович",
    "members": [
@@ -2164,34 +2199,6 @@
    "score": 0.319,
    "entries": 2,
    "last_entry": "2026-11-26 12:41:55",
-   "moved": -2,
-   "new_since_prev": false,
-   "band": "bronze"
-  },
-  {
-   "rank": 107,
-   "team_id": "17431471",
-   "team": "Tony Li",
-   "members": [
-    "tonylica"
-   ],
-   "score": 0.318,
-   "entries": 8,
-   "last_entry": "2026-11-25 23:20:47",
-   "moved": -2,
-   "new_since_prev": false,
-   "band": "bronze"
-  },
-  {
-   "rank": 108,
-   "team_id": "17455540",
-   "team": "IGpig1226",
-   "members": [
-    "igpig1226"
-   ],
-   "score": 0.318,
-   "entries": 1,
-   "last_entry": "2026-11-26 08:33:33",
    "moved": -2,
    "new_since_prev": false,
    "band": "bronze"
@@ -2206,8 +2213,8 @@
    "score": 0.318,
    "entries": 2,
    "last_entry": "2026-11-26 16:49:37",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": 0,
+   "new_since_prev": false,
    "band": "bronze"
   },
   {
@@ -2220,7 +2227,7 @@
    "score": 0.318,
    "entries": 1,
    "last_entry": "2026-11-25 16:19:50",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2234,7 +2241,7 @@
    "score": 0.318,
    "entries": 2,
    "last_entry": "2026-11-25 10:57:38",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2248,7 +2255,7 @@
    "score": 0.317,
    "entries": 3,
    "last_entry": "2026-11-25 14:05:29",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2262,7 +2269,7 @@
    "score": 0.316,
    "entries": 5,
    "last_entry": "2026-11-26 13:55:13",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2276,7 +2283,7 @@
    "score": 0.316,
    "entries": 2,
    "last_entry": "2026-11-26 12:18:32",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2290,7 +2297,7 @@
    "score": 0.316,
    "entries": 1,
    "last_entry": "2026-11-26 16:21:14",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2304,7 +2311,7 @@
    "score": 0.315,
    "entries": 4,
    "last_entry": "2026-11-25 09:49:36",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2318,7 +2325,7 @@
    "score": 0.315,
    "entries": 2,
    "last_entry": "2026-11-25 15:16:25",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2332,7 +2339,7 @@
    "score": 0.315,
    "entries": 9,
    "last_entry": "2026-11-26 16:39:41",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2346,7 +2353,7 @@
    "score": 0.315,
    "entries": 2,
    "last_entry": "2026-11-26 14:20:53",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2360,7 +2367,7 @@
    "score": 0.315,
    "entries": 6,
    "last_entry": "2026-11-26 03:18:12",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2374,7 +2381,7 @@
    "score": 0.314,
    "entries": 4,
    "last_entry": "2026-11-26 13:19:26",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2388,7 +2395,7 @@
    "score": 0.314,
    "entries": 3,
    "last_entry": "2026-11-25 02:17:53",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2402,7 +2409,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-25 03:54:21",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2416,7 +2423,7 @@
    "score": 0.314,
    "entries": 9,
    "last_entry": "2026-11-25 12:38:36",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2430,7 +2437,7 @@
    "score": 0.314,
    "entries": 2,
    "last_entry": "2026-11-25 09:55:04",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2444,7 +2451,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-25 12:17:44",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2458,7 +2465,7 @@
    "score": 0.314,
    "entries": 1,
    "last_entry": "2026-11-26 13:42:19",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2472,7 +2479,7 @@
    "score": 0.314,
    "entries": 2,
    "last_entry": "2026-11-26 11:53:27",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2486,7 +2493,7 @@
    "score": 0.313,
    "entries": 1,
    "last_entry": "2026-11-26 14:04:02",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2500,7 +2507,7 @@
    "score": 0.313,
    "entries": 9,
    "last_entry": "2026-11-26 01:16:31",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2514,7 +2521,7 @@
    "score": 0.313,
    "entries": 2,
    "last_entry": "2026-11-25 09:35:07",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2528,7 +2535,7 @@
    "score": 0.313,
    "entries": 3,
    "last_entry": "2026-11-25 14:47:06",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2542,7 +2549,7 @@
    "score": 0.312,
    "entries": 5,
    "last_entry": "2026-11-25 22:52:19",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2556,7 +2563,7 @@
    "score": 0.312,
    "entries": 1,
    "last_entry": "2026-11-25 21:18:40",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2570,7 +2577,7 @@
    "score": 0.312,
    "entries": 1,
    "last_entry": "2026-11-25 12:45:31",
-   "moved": -2,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2584,8 +2591,8 @@
    "score": 0.312,
    "entries": 1,
    "last_entry": "2026-11-26 16:38:40",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": 0,
+   "new_since_prev": false,
    "band": "bronze"
   },
   {
@@ -2598,7 +2605,7 @@
    "score": 0.312,
    "entries": 4,
    "last_entry": "2026-11-26 08:01:49",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2612,7 +2619,7 @@
    "score": 0.311,
    "entries": 6,
    "last_entry": "2026-11-25 20:35:25",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2626,7 +2633,7 @@
    "score": 0.31,
    "entries": 11,
    "last_entry": "2026-11-26 14:46:59",
-   "moved": -3,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2640,7 +2647,7 @@
    "score": 0.31,
    "entries": 10,
    "last_entry": "2026-11-26 16:37:46",
-   "moved": 98,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2654,7 +2661,7 @@
    "score": 0.31,
    "entries": 9,
    "last_entry": "2026-11-26 15:28:51",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2669,7 +2676,7 @@
    "score": 0.308,
    "entries": 6,
    "last_entry": "2026-11-26 11:01:00",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2683,7 +2690,7 @@
    "score": 0.308,
    "entries": 1,
    "last_entry": "2026-11-25 12:59:56",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2697,7 +2704,7 @@
    "score": 0.307,
    "entries": 8,
    "last_entry": "2026-11-26 07:11:41",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2711,7 +2718,7 @@
    "score": 0.304,
    "entries": 2,
    "last_entry": "2026-11-25 07:07:21",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2725,7 +2732,7 @@
    "score": 0.303,
    "entries": 2,
    "last_entry": "2026-11-25 12:39:00",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2739,7 +2746,7 @@
    "score": 0.302,
    "entries": 6,
    "last_entry": "2026-11-25 18:03:09",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2753,7 +2760,7 @@
    "score": 0.301,
    "entries": 4,
    "last_entry": "2026-11-26 11:44:21",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2767,7 +2774,7 @@
    "score": 0.3,
    "entries": 2,
    "last_entry": "2026-11-25 14:18:43",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2781,7 +2788,7 @@
    "score": 0.297,
    "entries": 1,
    "last_entry": "2026-11-26 12:44:38",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2795,7 +2802,7 @@
    "score": 0.296,
    "entries": 6,
    "last_entry": "2026-11-25 09:24:37",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2809,7 +2816,7 @@
    "score": 0.294,
    "entries": 14,
    "last_entry": "2026-11-26 07:13:14",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2823,7 +2830,7 @@
    "score": 0.294,
    "entries": 2,
    "last_entry": "2026-11-25 04:21:10",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2837,7 +2844,7 @@
    "score": 0.293,
    "entries": 2,
    "last_entry": "2026-11-25 22:34:08",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2851,7 +2858,7 @@
    "score": 0.292,
    "entries": 1,
    "last_entry": "2026-11-25 06:49:52",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2865,7 +2872,7 @@
    "score": 0.291,
    "entries": 9,
    "last_entry": "2026-11-26 09:14:37",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2879,7 +2886,7 @@
    "score": 0.286,
    "entries": 2,
    "last_entry": "2026-11-25 01:53:55",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2893,7 +2900,7 @@
    "score": 0.281,
    "entries": 1,
    "last_entry": "2026-11-26 04:44:57",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2908,7 +2915,7 @@
    "score": 0.278,
    "entries": 5,
    "last_entry": "2026-11-26 04:33:25",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2922,7 +2929,7 @@
    "score": 0.277,
    "entries": 4,
    "last_entry": "2026-11-26 10:09:16",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2936,7 +2943,7 @@
    "score": 0.276,
    "entries": 3,
    "last_entry": "2026-11-25 08:35:40",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2950,7 +2957,7 @@
    "score": 0.258,
    "entries": 2,
    "last_entry": "2026-11-25 07:19:54",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2964,7 +2971,7 @@
    "score": 0.258,
    "entries": 6,
    "last_entry": "2026-11-25 14:30:39",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2978,7 +2985,7 @@
    "score": 0.253,
    "entries": 5,
    "last_entry": "2026-11-25 22:57:01",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
@@ -2992,12 +2999,26 @@
    "score": 0.252,
    "entries": 4,
    "last_entry": "2026-11-25 02:57:30",
-   "moved": -4,
+   "moved": 0,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
    "rank": 166,
+   "team_id": "17454557",
+   "team": "Rohan5054",
+   "members": [
+    "rohan5054"
+   ],
+   "score": 0.251,
+   "entries": 1,
+   "last_entry": "2026-11-26 16:12:35",
+   "moved": null,
+   "new_since_prev": true,
+   "band": "bronze"
+  },
+  {
+   "rank": 167,
    "team_id": "17431754",
    "team": "PARK HYUNSIK",
    "members": [
@@ -3006,12 +3027,12 @@
    "score": 0.246,
    "entries": 15,
    "last_entry": "2026-11-26 15:35:49",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 167,
+   "rank": 168,
    "team_id": "17431897",
    "team": "Clark Kitchen",
    "members": [
@@ -3020,12 +3041,12 @@
    "score": 0.239,
    "entries": 15,
    "last_entry": "2026-11-26 16:24:09",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 168,
+   "rank": 169,
    "team_id": "17431393",
    "team": "hwe owe",
    "members": [
@@ -3034,12 +3055,12 @@
    "score": 0.238,
    "entries": 7,
    "last_entry": "2026-11-25 08:04:07",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 169,
+   "rank": 170,
    "team_id": "17441593",
    "team": "Aiden Wang",
    "members": [
@@ -3048,26 +3069,26 @@
    "score": 0.236,
    "entries": 11,
    "last_entry": "2026-11-26 14:45:35",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 170,
+   "rank": 171,
    "team_id": "17434667",
    "team": "Norwin Yu",
    "members": [
     "norwinyu"
    ],
    "score": 0.233,
-   "entries": 13,
-   "last_entry": "2026-11-26 14:47:42",
-   "moved": -4,
+   "entries": 14,
+   "last_entry": "2026-11-26 16:12:01",
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 171,
+   "rank": 172,
    "team_id": "17431000",
    "team": "Taylor S. Amarel",
    "members": [
@@ -3076,12 +3097,12 @@
    "score": 0.228,
    "entries": 9,
    "last_entry": "2026-11-26 11:57:10",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 172,
+   "rank": 173,
    "team_id": "17448791",
    "team": "da_pond",
    "members": [
@@ -3090,12 +3111,12 @@
    "score": 0.215,
    "entries": 3,
    "last_entry": "2026-11-25 22:11:32",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 173,
+   "rank": 174,
    "team_id": "17434146",
    "team": "Youssef Nader",
    "members": [
@@ -3104,12 +3125,12 @@
    "score": 0.212,
    "entries": 5,
    "last_entry": "2026-11-26 13:08:34",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 174,
+   "rank": 175,
    "team_id": "17450364",
    "team": "GK",
    "members": [
@@ -3118,12 +3139,12 @@
    "score": 0.209,
    "entries": 1,
    "last_entry": "2026-11-26 00:34:49",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": "bronze"
   },
   {
-   "rank": 175,
+   "rank": 176,
    "team_id": "17432755",
    "team": "M.J.",
    "members": [
@@ -3133,12 +3154,12 @@
    "score": 0.208,
    "entries": 6,
    "last_entry": "2026-11-26 00:02:05",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
-   "band": null
+   "band": "bronze"
   },
   {
-   "rank": 176,
+   "rank": 177,
    "team_id": "17453944",
    "team": "Peng Wang",
    "members": [
@@ -3147,12 +3168,12 @@
    "score": 0.204,
    "entries": 1,
    "last_entry": "2026-11-26 03:03:54",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 177,
+   "rank": 178,
    "team_id": "17446581",
    "team": "mohamed saafan",
    "members": [
@@ -3161,12 +3182,12 @@
    "score": 0.201,
    "entries": 1,
    "last_entry": "2026-11-25 13:05:28",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 178,
+   "rank": 179,
    "team_id": "17438894",
    "team": "Gaurav Vyas",
    "members": [
@@ -3175,12 +3196,12 @@
    "score": 0.2,
    "entries": 5,
    "last_entry": "2026-11-25 22:44:04",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 179,
+   "rank": 180,
    "team_id": "17432807",
    "team": "Tanaka Ai24",
    "members": [
@@ -3189,12 +3210,12 @@
    "score": 0.2,
    "entries": 10,
    "last_entry": "2026-11-26 14:25:28",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 180,
+   "rank": 181,
    "team_id": "17437431",
    "team": "ra1nac1d",
    "members": [
@@ -3203,12 +3224,12 @@
    "score": 0.195,
    "entries": 3,
    "last_entry": "2026-11-26 08:21:44",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 181,
+   "rank": 182,
    "team_id": "17436460",
    "team": "kaba777",
    "members": [
@@ -3217,12 +3238,12 @@
    "score": 0.19,
    "entries": 1,
    "last_entry": "2026-11-26 04:21:17",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 182,
+   "rank": 183,
    "team_id": "17442072",
    "team": "My Agent é bom",
    "members": [
@@ -3233,12 +3254,12 @@
    "score": 0.179,
    "entries": 7,
    "last_entry": "2026-11-26 16:17:42",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 183,
+   "rank": 184,
    "team_id": "17430600",
    "team": "Giba",
    "members": [
@@ -3247,12 +3268,12 @@
    "score": 0.167,
    "entries": 2,
    "last_entry": "2026-11-24 20:13:06",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 184,
+   "rank": 185,
    "team_id": "17434389",
    "team": "Marco Lodi",
    "members": [
@@ -3261,12 +3282,12 @@
    "score": 0.157,
    "entries": 2,
    "last_entry": "2026-11-24 16:30:15",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 185,
+   "rank": 186,
    "team_id": "17434064",
    "team": "theredbluepill",
    "members": [
@@ -3275,12 +3296,12 @@
    "score": 0.157,
    "entries": 12,
    "last_entry": "2026-11-26 01:53:41",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 186,
+   "rank": 187,
    "team_id": "17438183",
    "team": "ProKope",
    "members": [
@@ -3289,12 +3310,12 @@
    "score": 0.157,
    "entries": 7,
    "last_entry": "2026-11-26 11:42:07",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 187,
+   "rank": 188,
    "team_id": "17431711",
    "team": "Hengrui Guo",
    "members": [
@@ -3303,12 +3324,12 @@
    "score": 0.151,
    "entries": 14,
    "last_entry": "2026-11-26 06:48:47",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 188,
+   "rank": 189,
    "team_id": "17438785",
    "team": "Prathamesh Chavan",
    "members": [
@@ -3317,12 +3338,12 @@
    "score": 0.15,
    "entries": 7,
    "last_entry": "2026-11-26 11:40:33",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 189,
+   "rank": 190,
    "team_id": "17439259",
    "team": "Aditya Murugesh",
    "members": [
@@ -3331,12 +3352,12 @@
    "score": 0.147,
    "entries": 5,
    "last_entry": "2026-11-26 05:52:49",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 190,
+   "rank": 191,
    "team_id": "17441589",
    "team": "kerai",
    "members": [
@@ -3345,12 +3366,12 @@
    "score": 0.147,
    "entries": 3,
    "last_entry": "2026-11-25 17:08:43",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 191,
+   "rank": 192,
    "team_id": "17439455",
    "team": "Pravin Takpire",
    "members": [
@@ -3359,12 +3380,12 @@
    "score": 0.146,
    "entries": 2,
    "last_entry": "2026-11-25 14:39:52",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 192,
+   "rank": 193,
    "team_id": "17436427",
    "team": "Maniceet Sahay",
    "members": [
@@ -3373,12 +3394,12 @@
    "score": 0.144,
    "entries": 9,
    "last_entry": "2026-11-26 04:38:10",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 193,
+   "rank": 194,
    "team_id": "17432333",
    "team": "Yuki_Kaneko",
    "members": [
@@ -3387,12 +3408,12 @@
    "score": 0.144,
    "entries": 2,
    "last_entry": "2026-11-25 16:06:29",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 194,
+   "rank": 195,
    "team_id": "17430441",
    "team": "Doraking",
    "members": [
@@ -3401,12 +3422,12 @@
    "score": 0.144,
    "entries": 9,
    "last_entry": "2026-11-26 02:54:37",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 195,
+   "rank": 196,
    "team_id": "17455455",
    "team": "Jingjie Huang88",
    "members": [
@@ -3415,12 +3436,12 @@
    "score": 0.143,
    "entries": 4,
    "last_entry": "2026-11-26 13:28:00",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 196,
+   "rank": 197,
    "team_id": "17434377",
    "team": "LAHOUCINE BOUSMENE",
    "members": [
@@ -3429,12 +3450,12 @@
    "score": 0.142,
    "entries": 6,
    "last_entry": "2026-11-26 16:42:41",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 197,
+   "rank": 198,
    "team_id": "17430224",
    "team": "Josh Pirvu",
    "members": [
@@ -3443,12 +3464,12 @@
    "score": 0.141,
    "entries": 2,
    "last_entry": "2026-11-24 18:56:13",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 198,
+   "rank": 199,
    "team_id": "17452110",
    "team": "Santiago Maniches",
    "members": [
@@ -3457,12 +3478,12 @@
    "score": 0.141,
    "entries": 4,
    "last_entry": "2026-11-26 09:18:30",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 199,
+   "rank": 200,
    "team_id": "17431582",
    "team": "BobtheBot369",
    "members": [
@@ -3471,12 +3492,12 @@
    "score": 0.141,
    "entries": 2,
    "last_entry": "2026-11-25 00:36:41",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 200,
+   "rank": 201,
    "team_id": "17432387",
    "team": "mp",
    "members": [
@@ -3485,12 +3506,12 @@
    "score": 0.141,
    "entries": 11,
    "last_entry": "2026-11-26 07:50:07",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 201,
+   "rank": 202,
    "team_id": "17437665",
    "team": "Manuel Muñoz Plá",
    "members": [
@@ -3499,12 +3520,12 @@
    "score": 0.14,
    "entries": 8,
    "last_entry": "2026-11-26 02:26:25",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 202,
+   "rank": 203,
    "team_id": "17452074",
    "team": "Yusaku Muroya",
    "members": [
@@ -3513,12 +3534,12 @@
    "score": 0.139,
    "entries": 3,
    "last_entry": "2026-11-26 09:32:23",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 203,
+   "rank": 204,
    "team_id": "17447040",
    "team": "Winry",
    "members": [
@@ -3527,12 +3548,12 @@
    "score": 0.139,
    "entries": 4,
    "last_entry": "2026-11-26 12:09:38",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 204,
+   "rank": 205,
    "team_id": "17452473",
    "team": "zang",
    "members": [
@@ -3541,12 +3562,12 @@
    "score": 0.137,
    "entries": 3,
    "last_entry": "2026-11-26 13:14:21",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 205,
+   "rank": 206,
    "team_id": "17431039",
    "team": "Pai",
    "members": [
@@ -3555,12 +3576,12 @@
    "score": 0.136,
    "entries": 6,
    "last_entry": "2026-11-24 20:54:32",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 206,
+   "rank": 207,
    "team_id": "17430258",
    "team": "GARC_Expert",
    "members": [
@@ -3569,12 +3590,12 @@
    "score": 0.136,
    "entries": 7,
    "last_entry": "2026-11-25 19:34:34",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 207,
+   "rank": 208,
    "team_id": "17434721",
    "team": "dustin liang",
    "members": [
@@ -3583,12 +3604,12 @@
    "score": 0.136,
    "entries": 6,
    "last_entry": "2026-11-25 02:58:20",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 208,
+   "rank": 209,
    "team_id": "17433729",
    "team": "Jitendra_Badgoti",
    "members": [
@@ -3597,12 +3618,12 @@
    "score": 0.132,
    "entries": 4,
    "last_entry": "2026-11-26 00:42:00",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 209,
+   "rank": 210,
    "team_id": "17442450",
    "team": "Jobless Students",
    "members": [
@@ -3612,12 +3633,12 @@
    "score": 0.132,
    "entries": 5,
    "last_entry": "2026-11-26 12:21:52",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 210,
+   "rank": 211,
    "team_id": "17446635",
    "team": "sylow",
    "members": [
@@ -3626,12 +3647,12 @@
    "score": 0.13,
    "entries": 5,
    "last_entry": "2026-11-26 01:25:33",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 211,
+   "rank": 212,
    "team_id": "17439606",
    "team": "thang",
    "members": [
@@ -3640,12 +3661,12 @@
    "score": 0.13,
    "entries": 2,
    "last_entry": "2026-11-25 07:31:25",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 212,
+   "rank": 213,
    "team_id": "17434914",
    "team": "windrise",
    "members": [
@@ -3654,12 +3675,12 @@
    "score": 0.13,
    "entries": 4,
    "last_entry": "2026-11-26 08:11:07",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 213,
+   "rank": 214,
    "team_id": "17441731",
    "team": "Sofrony",
    "members": [
@@ -3668,12 +3689,12 @@
    "score": 0.127,
    "entries": 3,
    "last_entry": "2026-11-25 08:50:05",
-   "moved": -4,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 214,
+   "rank": 215,
    "team_id": "17445035",
    "team": "Preechanon Chatthai",
    "members": [
@@ -3682,12 +3703,12 @@
    "score": 0.124,
    "entries": 4,
    "last_entry": "2026-11-26 16:39:59",
-   "moved": 119,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 215,
+   "rank": 216,
    "team_id": "17432521",
    "team": "OBSTACLE DEVELOPER",
    "members": [
@@ -3696,12 +3717,12 @@
    "score": 0.123,
    "entries": 4,
    "last_entry": "2026-11-25 12:53:12",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 216,
+   "rank": 217,
    "team_id": "17439214",
    "team": "Aman Khanna",
    "members": [
@@ -3710,12 +3731,12 @@
    "score": 0.123,
    "entries": 2,
    "last_entry": "2026-11-24 20:24:10",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 217,
+   "rank": 218,
    "team_id": "17443057",
    "team": "Ni123456&",
    "members": [
@@ -3724,12 +3745,12 @@
    "score": 0.122,
    "entries": 10,
    "last_entry": "2026-11-26 14:07:15",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 218,
+   "rank": 219,
    "team_id": "17430387",
    "team": "Kudo",
    "members": [
@@ -3738,12 +3759,12 @@
    "score": 0.122,
    "entries": 10,
    "last_entry": "2026-11-26 02:51:06",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 219,
+   "rank": 220,
    "team_id": "17441297",
    "team": "Pablo Diego Pereira",
    "members": [
@@ -3752,12 +3773,26 @@
    "score": 0.122,
    "entries": 4,
    "last_entry": "2026-11-26 07:13:46",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 220,
+   "rank": 221,
+   "team_id": "17455668",
+   "team": "binhle2410",
+   "members": [
+    "binhle2410"
+   ],
+   "score": 0.121,
+   "entries": 4,
+   "last_entry": "2026-11-26 17:15:25",
+   "moved": 54,
+   "new_since_prev": false,
+   "band": null
+  },
+  {
+   "rank": 222,
    "team_id": "17430738",
    "team": "OrDant",
    "members": [
@@ -3766,12 +3801,12 @@
    "score": 0.121,
    "entries": 7,
    "last_entry": "2026-11-26 07:57:25",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 221,
+   "rank": 223,
    "team_id": "17447735",
    "team": "Chao Sun",
    "members": [
@@ -3780,12 +3815,12 @@
    "score": 0.121,
    "entries": 4,
    "last_entry": "2026-11-26 10:14:35",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 222,
+   "rank": 224,
    "team_id": "17450308",
    "team": "JImmit",
    "members": [
@@ -3794,12 +3829,12 @@
    "score": 0.12,
    "entries": 5,
    "last_entry": "2026-11-26 15:04:34",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 223,
+   "rank": 225,
    "team_id": "17430378",
    "team": "Cakpo Vital",
    "members": [
@@ -3808,12 +3843,12 @@
    "score": 0.119,
    "entries": 11,
    "last_entry": "2026-11-26 06:14:15",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 224,
+   "rank": 226,
    "team_id": "17440260",
    "team": "secury",
    "members": [
@@ -3822,12 +3857,12 @@
    "score": 0.119,
    "entries": 12,
    "last_entry": "2026-11-26 11:56:44",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 225,
+   "rank": 227,
    "team_id": "17452193",
    "team": "Antoine Masq",
    "members": [
@@ -3836,12 +3871,12 @@
    "score": 0.119,
    "entries": 2,
    "last_entry": "2026-11-25 23:30:27",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 226,
+   "rank": 228,
    "team_id": "17431845",
    "team": "Howon Kang",
    "members": [
@@ -3850,12 +3885,12 @@
    "score": 0.118,
    "entries": 6,
    "last_entry": "2026-11-25 13:32:21",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 227,
+   "rank": 229,
    "team_id": "17435897",
    "team": "Darragh",
    "members": [
@@ -3864,12 +3899,12 @@
    "score": 0.118,
    "entries": 1,
    "last_entry": "2026-11-26 10:55:07",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 228,
+   "rank": 230,
    "team_id": "17430957",
    "team": "Siddhesh Sathe",
    "members": [
@@ -3878,12 +3913,12 @@
    "score": 0.118,
    "entries": 6,
    "last_entry": "2026-11-24 18:30:58",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 229,
+   "rank": 231,
    "team_id": "17446701",
    "team": "Yanxi Teng",
    "members": [
@@ -3892,12 +3927,12 @@
    "score": 0.117,
    "entries": 3,
    "last_entry": "2026-11-26 10:43:38",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 230,
+   "rank": 232,
    "team_id": "17438934",
    "team": "aruuu",
    "members": [
@@ -3906,12 +3941,12 @@
    "score": 0.117,
    "entries": 2,
    "last_entry": "2026-11-25 13:58:24",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 231,
+   "rank": 233,
    "team_id": "17431086",
    "team": "Fidel Escalona",
    "members": [
@@ -3920,12 +3955,12 @@
    "score": 0.117,
    "entries": 7,
    "last_entry": "2026-11-26 14:44:36",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 232,
+   "rank": 234,
    "team_id": "17441080",
    "team": "Chew Kok Wah",
    "members": [
@@ -3934,12 +3969,12 @@
    "score": 0.117,
    "entries": 1,
    "last_entry": "2026-11-24 18:53:48",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 233,
+   "rank": 235,
    "team_id": "17440188",
    "team": "tukikmuse",
    "members": [
@@ -3948,12 +3983,12 @@
    "score": 0.116,
    "entries": 1,
    "last_entry": "2026-11-24 17:16:41",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 234,
+   "rank": 236,
    "team_id": "17440999",
    "team": "Ishan Karnick",
    "members": [
@@ -3962,12 +3997,12 @@
    "score": 0.115,
    "entries": 1,
    "last_entry": "2026-11-24 19:59:16",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 235,
+   "rank": 237,
    "team_id": "17432689",
    "team": "Tristan Pham",
    "members": [
@@ -3976,12 +4011,12 @@
    "score": 0.115,
    "entries": 2,
    "last_entry": "2026-11-25 14:36:21",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 236,
+   "rank": 238,
    "team_id": "17433681",
    "team": "Mizero Lucky Gall",
    "members": [
@@ -3990,12 +4025,12 @@
    "score": 0.114,
    "entries": 3,
    "last_entry": "2026-11-24 14:24:04",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 237,
+   "rank": 239,
    "team_id": "17432149",
    "team": "ryos",
    "members": [
@@ -4004,12 +4039,12 @@
    "score": 0.114,
    "entries": 12,
    "last_entry": "2026-11-26 16:15:51",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 238,
+   "rank": 240,
    "team_id": "17441234",
    "team": "sunny17347",
    "members": [
@@ -4018,12 +4053,12 @@
    "score": 0.114,
    "entries": 4,
    "last_entry": "2026-11-25 15:09:10",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 239,
+   "rank": 241,
    "team_id": "17433068",
    "team": "huifaliu",
    "members": [
@@ -4032,12 +4067,12 @@
    "score": 0.114,
    "entries": 4,
    "last_entry": "2026-11-26 14:11:11",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 240,
+   "rank": 242,
    "team_id": "17431788",
    "team": "Christian Kent Bayani",
    "members": [
@@ -4046,12 +4081,12 @@
    "score": 0.113,
    "entries": 3,
    "last_entry": "2026-11-25 21:54:03",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 241,
+   "rank": 243,
    "team_id": "17441167",
    "team": "Guru Prasaath S",
    "members": [
@@ -4060,12 +4095,12 @@
    "score": 0.113,
    "entries": 2,
    "last_entry": "2026-11-25 18:13:13",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 242,
+   "rank": 244,
    "team_id": "17433474",
    "team": "Saheb",
    "members": [
@@ -4074,12 +4109,12 @@
    "score": 0.113,
    "entries": 9,
    "last_entry": "2026-11-25 08:02:57",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 243,
+   "rank": 245,
    "team_id": "17431570",
    "team": "gurume",
    "members": [
@@ -4088,12 +4123,12 @@
    "score": 0.113,
    "entries": 3,
    "last_entry": "2026-11-26 09:14:33",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 244,
+   "rank": 246,
    "team_id": "17431085",
    "team": "rishavsaigal",
    "members": [
@@ -4102,12 +4137,12 @@
    "score": 0.113,
    "entries": 1,
    "last_entry": "2026-11-24 00:02:14",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 245,
+   "rank": 247,
    "team_id": "17450384",
    "team": "Roland Luethy",
    "members": [
@@ -4116,12 +4151,12 @@
    "score": 0.112,
    "entries": 6,
    "last_entry": "2026-11-26 08:10:02",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 246,
+   "rank": 248,
    "team_id": "17438409",
    "team": "Albheryani Agus Katik",
    "members": [
@@ -4130,12 +4165,12 @@
    "score": 0.112,
    "entries": 1,
    "last_entry": "2026-11-24 13:57:59",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 247,
+   "rank": 249,
    "team_id": "17450006",
    "team": "Bantupalli Ratna Babu",
    "members": [
@@ -4144,12 +4179,12 @@
    "score": 0.111,
    "entries": 2,
    "last_entry": "2026-11-26 16:51:53",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 248,
+   "rank": 250,
    "team_id": "17458000",
    "team": "vbookshelf",
    "members": [
@@ -4158,12 +4193,12 @@
    "score": 0.111,
    "entries": 1,
    "last_entry": "2026-11-26 14:25:10",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 249,
+   "rank": 251,
    "team_id": "17432583",
    "team": "Orest Stadnik",
    "members": [
@@ -4172,12 +4207,12 @@
    "score": 0.11,
    "entries": 2,
    "last_entry": "2026-11-25 15:10:31",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 250,
+   "rank": 252,
    "team_id": "17447848",
    "team": "hyunjunbae",
    "members": [
@@ -4186,12 +4221,12 @@
    "score": 0.109,
    "entries": 6,
    "last_entry": "2026-11-26 13:43:14",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 251,
+   "rank": 253,
    "team_id": "17431794",
    "team": "Ushimaru",
    "members": [
@@ -4200,12 +4235,12 @@
    "score": 0.109,
    "entries": 2,
    "last_entry": "2026-11-25 14:42:57",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 252,
+   "rank": 254,
    "team_id": "17430262",
    "team": "Jame Time",
    "members": [
@@ -4214,12 +4249,12 @@
    "score": 0.109,
    "entries": 4,
    "last_entry": "2026-11-24 05:58:00",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 253,
+   "rank": 255,
    "team_id": "17430910",
    "team": "Menachem Kornreich",
    "members": [
@@ -4228,12 +4263,12 @@
    "score": 0.108,
    "entries": 11,
    "last_entry": "2026-11-25 15:13:50",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 254,
+   "rank": 256,
    "team_id": "17434967",
    "team": "Loumi TRÉMAS",
    "members": [
@@ -4242,12 +4277,12 @@
    "score": 0.108,
    "entries": 2,
    "last_entry": "2026-11-25 20:52:13",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 255,
+   "rank": 257,
    "team_id": "17451275",
    "team": "LifeSuck",
    "members": [
@@ -4256,12 +4291,12 @@
    "score": 0.108,
    "entries": 3,
    "last_entry": "2026-11-26 03:52:00",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 256,
+   "rank": 258,
    "team_id": "17437614",
    "team": "Etxfdc",
    "members": [
@@ -4270,12 +4305,12 @@
    "score": 0.107,
    "entries": 2,
    "last_entry": "2026-11-24 12:31:24",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 257,
+   "rank": 259,
    "team_id": "17432700",
    "team": "Twil3akine",
    "members": [
@@ -4284,12 +4319,12 @@
    "score": 0.106,
    "entries": 5,
    "last_entry": "2026-11-26 03:15:39",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 258,
+   "rank": 260,
    "team_id": "17445978",
    "team": "Adaluvu",
    "members": [
@@ -4298,12 +4333,12 @@
    "score": 0.106,
    "entries": 4,
    "last_entry": "2026-11-26 06:48:10",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 259,
+   "rank": 261,
    "team_id": "17447331",
    "team": "Lovlace、",
    "members": [
@@ -4312,12 +4347,12 @@
    "score": 0.105,
    "entries": 7,
    "last_entry": "2026-11-26 12:49:14",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 260,
+   "rank": 262,
    "team_id": "17430367",
    "team": "justsamyyyy",
    "members": [
@@ -4326,12 +4361,12 @@
    "score": 0.105,
    "entries": 3,
    "last_entry": "2026-11-25 00:27:42",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 261,
+   "rank": 263,
    "team_id": "17430259",
    "team": "Ravi Ramakrishnan",
    "members": [
@@ -4340,12 +4375,12 @@
    "score": 0.105,
    "entries": 1,
    "last_entry": "2026-11-24 14:12:36",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 262,
+   "rank": 264,
    "team_id": "17452894",
    "team": "AnaiGuo",
    "members": [
@@ -4354,12 +4389,12 @@
    "score": 0.104,
    "entries": 3,
    "last_entry": "2026-11-26 12:28:46",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 263,
+   "rank": 265,
    "team_id": "17441415",
    "team": "Kulraj Sabharwal",
    "members": [
@@ -4368,12 +4403,12 @@
    "score": 0.104,
    "entries": 1,
    "last_entry": "2026-11-25 01:15:20",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 264,
+   "rank": 266,
    "team_id": "17431696",
    "team": "Priyanshu Kumar",
    "members": [
@@ -4382,12 +4417,12 @@
    "score": 0.104,
    "entries": 3,
    "last_entry": "2026-11-25 03:17:42",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 265,
+   "rank": 267,
    "team_id": "17442903",
    "team": "ZIRENLI-001",
    "members": [
@@ -4396,12 +4431,12 @@
    "score": 0.102,
    "entries": 1,
    "last_entry": "2026-11-25 02:03:37",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 266,
+   "rank": 268,
    "team_id": "17441469",
    "team": "Blind Playthrough",
    "members": [
@@ -4410,12 +4445,12 @@
    "score": 0.102,
    "entries": 1,
    "last_entry": "2026-11-25 21:19:33",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 267,
+   "rank": 269,
    "team_id": "17431774",
    "team": "Parabellum",
    "members": [
@@ -4424,12 +4459,12 @@
    "score": 0.102,
    "entries": 6,
    "last_entry": "2026-11-25 02:08:16",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 268,
+   "rank": 270,
    "team_id": "17432193",
    "team": "seven",
    "members": [
@@ -4438,12 +4473,12 @@
    "score": 0.102,
    "entries": 9,
    "last_entry": "2026-11-26 10:59:27",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 269,
+   "rank": 271,
    "team_id": "17431285",
    "team": "Seong-Min Park",
    "members": [
@@ -4452,12 +4487,12 @@
    "score": 0.101,
    "entries": 2,
    "last_entry": "2026-11-25 19:08:27",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 270,
+   "rank": 272,
    "team_id": "17432943",
    "team": "nasubiman",
    "members": [
@@ -4466,12 +4501,12 @@
    "score": 0.099,
    "entries": 1,
    "last_entry": "2026-11-24 07:00:58",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 271,
+   "rank": 273,
    "team_id": "17436048",
    "team": "simmons1025",
    "members": [
@@ -4480,12 +4515,12 @@
    "score": 0.098,
    "entries": 13,
    "last_entry": "2026-11-26 12:11:38",
-   "moved": -4,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 272,
+   "rank": 274,
    "team_id": "17442909",
    "team": "Patricio Martinez",
    "members": [
@@ -4494,12 +4529,12 @@
    "score": 0.098,
    "entries": 1,
    "last_entry": "2026-11-26 15:52:04",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": -2,
+   "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 273,
+   "rank": 275,
    "team_id": "17432835",
    "team": "Udit Jain",
    "members": [
@@ -4508,12 +4543,12 @@
    "score": 0.098,
    "entries": 2,
    "last_entry": "2026-11-25 10:49:13",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 274,
+   "rank": 276,
    "team_id": "17434598",
    "team": "Nick Styles",
    "members": [
@@ -4522,26 +4557,12 @@
    "score": 0.098,
    "entries": 1,
    "last_entry": "2026-11-24 09:32:44",
-   "moved": -5,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 275,
-   "team_id": "17455668",
-   "team": "binhle2410",
-   "members": [
-    "binhle2410"
-   ],
-   "score": 0.097,
-   "entries": 2,
-   "last_entry": "2026-11-26 10:41:09",
-   "moved": -5,
-   "new_since_prev": false,
-   "band": null
-  },
-  {
-   "rank": 276,
+   "rank": 277,
    "team_id": "17457558",
    "team": "Adhil V T",
    "members": [
@@ -4550,12 +4571,12 @@
    "score": 0.095,
    "entries": 2,
    "last_entry": "2026-11-26 13:40:17",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 277,
+   "rank": 278,
    "team_id": "17431129",
    "team": "xiruij",
    "members": [
@@ -4564,12 +4585,12 @@
    "score": 0.094,
    "entries": 10,
    "last_entry": "2026-11-25 14:02:20",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 278,
+   "rank": 279,
    "team_id": "17435776",
    "team": "Lennart Haupts",
    "members": [
@@ -4578,12 +4599,12 @@
    "score": 0.093,
    "entries": 4,
    "last_entry": "2026-11-26 08:15:03",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 279,
+   "rank": 280,
    "team_id": "17430299",
    "team": "Kohei",
    "members": [
@@ -4592,12 +4613,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-23 19:06:29",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 280,
+   "rank": 281,
    "team_id": "17430496",
    "team": "Sukhendu Sain",
    "members": [
@@ -4606,12 +4627,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-23 20:04:04",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 281,
+   "rank": 282,
    "team_id": "17431007",
    "team": "Shoko",
    "members": [
@@ -4620,12 +4641,12 @@
    "score": 0.093,
    "entries": 4,
    "last_entry": "2026-11-24 04:09:15",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 282,
+   "rank": 283,
    "team_id": "17431951",
    "team": "smbu-zengyu",
    "members": [
@@ -4634,12 +4655,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-24 02:13:44",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 283,
+   "rank": 284,
    "team_id": "17430816",
    "team": "ISAKA Tsuyoshi",
    "members": [
@@ -4648,12 +4669,12 @@
    "score": 0.093,
    "entries": 5,
    "last_entry": "2026-11-24 14:31:27",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 284,
+   "rank": 285,
    "team_id": "17431416",
    "team": "ONODERA",
    "members": [
@@ -4662,12 +4683,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-24 09:56:24",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 285,
+   "rank": 286,
    "team_id": "17438084",
    "team": "Mindaugas Jankauskas",
    "members": [
@@ -4676,12 +4697,12 @@
    "score": 0.093,
    "entries": 3,
    "last_entry": "2026-11-25 10:53:33",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 286,
+   "rank": 287,
    "team_id": "17434332",
    "team": "sunny114514",
    "members": [
@@ -4690,12 +4711,12 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-24 21:26:28",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 287,
+   "rank": 288,
    "team_id": "17442051",
    "team": "Khushal Gaur",
    "members": [
@@ -4704,12 +4725,12 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-25 16:20:21",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 288,
+   "rank": 289,
    "team_id": "17438612",
    "team": "Chonghao Peng",
    "members": [
@@ -4718,12 +4739,12 @@
    "score": 0.093,
    "entries": 5,
    "last_entry": "2026-11-25 14:42:37",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 289,
+   "rank": 290,
    "team_id": "17442822",
    "team": "tom sbados",
    "members": [
@@ -4732,12 +4753,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-25 01:41:31",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 290,
+   "rank": 291,
    "team_id": "17442438",
    "team": "HIDEYO CHIBA",
    "members": [
@@ -4746,12 +4767,12 @@
    "score": 0.093,
    "entries": 4,
    "last_entry": "2026-11-26 04:31:32",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 291,
+   "rank": 292,
    "team_id": "17447533",
    "team": "BoomHSB",
    "members": [
@@ -4761,12 +4782,12 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-25 15:06:41",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 292,
+   "rank": 293,
    "team_id": "17443989",
    "team": "Sakana9632",
    "members": [
@@ -4775,12 +4796,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-26 01:26:24",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 293,
+   "rank": 294,
    "team_id": "17438868",
    "team": "EndeavourRyo",
    "members": [
@@ -4789,12 +4810,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-26 01:57:17",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 294,
+   "rank": 295,
    "team_id": "17433995",
    "team": "Canon",
    "members": [
@@ -4803,12 +4824,12 @@
    "score": 0.093,
    "entries": 3,
    "last_entry": "2026-11-26 02:57:17",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 295,
+   "rank": 296,
    "team_id": "17453386",
    "team": "earthmaker",
    "members": [
@@ -4817,12 +4838,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-26 05:20:30",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 296,
+   "rank": 297,
    "team_id": "17450714",
    "team": "heychoppa",
    "members": [
@@ -4831,12 +4852,12 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-26 13:10:28",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 297,
+   "rank": 298,
    "team_id": "17452604",
    "team": "Thadeus Burgess",
    "members": [
@@ -4845,12 +4866,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-26 10:02:55",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 298,
+   "rank": 299,
    "team_id": "17458724",
    "team": "Jason-Oh",
    "members": [
@@ -4859,12 +4880,12 @@
    "score": 0.093,
    "entries": 2,
    "last_entry": "2026-11-26 16:25:28",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 299,
+   "rank": 300,
    "team_id": "17437649",
    "team": "可爱大肥鱼",
    "members": [
@@ -4874,12 +4895,12 @@
    "score": 0.093,
    "entries": 3,
    "last_entry": "2026-11-26 16:28:57",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 300,
+   "rank": 301,
    "team_id": "17459084",
    "team": "Hossein Ahmadi",
    "members": [
@@ -4888,26 +4909,26 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-26 16:28:24",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 301,
+   "rank": 302,
    "team_id": "17454615",
    "team": "Duc Nguyen",
    "members": [
     "mathormad"
    ],
    "score": 0.093,
-   "entries": 1,
+   "entries": 2,
    "last_entry": "2026-11-26 16:35:59",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 302,
+   "rank": 303,
    "team_id": "17458871",
    "team": "Conner Silverstein",
    "members": [
@@ -4916,12 +4937,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-26 16:56:06",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": -1,
+   "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 303,
+   "rank": 304,
    "team_id": "17431501",
    "team": "CHU1PC",
    "members": [
@@ -4930,12 +4951,12 @@
    "score": 0.093,
    "entries": 1,
    "last_entry": "2026-11-25 17:40:14",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 304,
+   "rank": 305,
    "team_id": "17439051",
    "team": "tomo2677",
    "members": [
@@ -4944,12 +4965,12 @@
    "score": 0.093,
    "entries": 7,
    "last_entry": "2026-11-25 22:33:35",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 305,
+   "rank": 306,
    "team_id": "17430337",
    "team": "Faycal Zouine",
    "members": [
@@ -4958,12 +4979,12 @@
    "score": 0.092,
    "entries": 1,
    "last_entry": "2026-11-23 20:27:32",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 306,
+   "rank": 307,
    "team_id": "17430953",
    "team": "Cindyl789",
    "members": [
@@ -4972,12 +4993,12 @@
    "score": 0.092,
    "entries": 2,
    "last_entry": "2026-11-23 21:38:34",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 307,
+   "rank": 308,
    "team_id": "17431480",
    "team": "johnny",
    "members": [
@@ -4986,12 +5007,12 @@
    "score": 0.092,
    "entries": 2,
    "last_entry": "2026-11-24 00:30:51",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 308,
+   "rank": 309,
    "team_id": "17439065",
    "team": "sdfaf jkjm",
    "members": [
@@ -5000,12 +5021,12 @@
    "score": 0.092,
    "entries": 3,
    "last_entry": "2026-11-25 08:36:06",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 309,
+   "rank": 310,
    "team_id": "17430594",
    "team": "SWARNA SEKHAR DHAR",
    "members": [
@@ -5014,12 +5035,12 @@
    "score": 0.092,
    "entries": 5,
    "last_entry": "2026-11-25 13:29:03",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 310,
+   "rank": 311,
    "team_id": "17438121",
    "team": "Tomotomo W",
    "members": [
@@ -5028,12 +5049,12 @@
    "score": 0.091,
    "entries": 1,
    "last_entry": "2026-11-26 12:55:06",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 311,
+   "rank": 312,
    "team_id": "17434278",
    "team": "Leeroy Jenkins",
    "members": [
@@ -5042,12 +5063,12 @@
    "score": 0.091,
    "entries": 1,
    "last_entry": "2026-11-24 10:39:35",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 312,
+   "rank": 313,
    "team_id": "17448197",
    "team": "José Padilla",
    "members": [
@@ -5056,12 +5077,12 @@
    "score": 0.09,
    "entries": 2,
    "last_entry": "2026-11-26 11:44:36",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 313,
+   "rank": 314,
    "team_id": "17433379",
    "team": "minhduynguyen1505",
    "members": [
@@ -5070,26 +5091,26 @@
    "score": 0.09,
    "entries": 14,
    "last_entry": "2026-11-26 07:25:24",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 314,
+   "rank": 315,
    "team_id": "17430384",
    "team": "Yaromir_Ko",
    "members": [
     "ronanndex"
    ],
    "score": 0.09,
-   "entries": 6,
-   "last_entry": "2026-11-25 14:49:30",
-   "moved": -6,
+   "entries": 7,
+   "last_entry": "2026-11-26 17:07:40",
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 315,
+   "rank": 316,
    "team_id": "17433181",
    "team": "20241206_yujinkim",
    "members": [
@@ -5098,12 +5119,12 @@
    "score": 0.089,
    "entries": 2,
    "last_entry": "2026-11-26 06:28:08",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 316,
+   "rank": 317,
    "team_id": "17443734",
    "team": "atlanmail",
    "members": [
@@ -5112,12 +5133,12 @@
    "score": 0.089,
    "entries": 1,
    "last_entry": "2026-11-26 10:13:05",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 317,
+   "rank": 318,
    "team_id": "17431072",
    "team": "StanleyJacob",
    "members": [
@@ -5126,12 +5147,12 @@
    "score": 0.089,
    "entries": 1,
    "last_entry": "2026-11-24 06:32:55",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 318,
+   "rank": 319,
    "team_id": "17432320",
    "team": "Team Zemo",
    "members": [
@@ -5140,12 +5161,12 @@
    "score": 0.089,
    "entries": 1,
    "last_entry": "2026-11-25 13:29:32",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 319,
+   "rank": 320,
    "team_id": "17433654",
    "team": "gga(gag)agg",
    "members": [
@@ -5154,12 +5175,12 @@
    "score": 0.088,
    "entries": 4,
    "last_entry": "2026-11-25 16:57:14",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 320,
+   "rank": 321,
    "team_id": "17446207",
    "team": "Mohammad Albaddawi",
    "members": [
@@ -5168,12 +5189,12 @@
    "score": 0.087,
    "entries": 4,
    "last_entry": "2026-11-25 14:57:27",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 321,
+   "rank": 322,
    "team_id": "17434350",
    "team": "Duong Y Nhi",
    "members": [
@@ -5182,12 +5203,12 @@
    "score": 0.084,
    "entries": 5,
    "last_entry": "2026-11-25 19:54:46",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 322,
+   "rank": 323,
    "team_id": "17434529",
    "team": "paul-1994a",
    "members": [
@@ -5196,12 +5217,12 @@
    "score": 0.082,
    "entries": 2,
    "last_entry": "2026-11-26 08:09:55",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 323,
+   "rank": 324,
    "team_id": "17444854",
    "team": "Mohammed Muzakkir",
    "members": [
@@ -5210,12 +5231,12 @@
    "score": 0.081,
    "entries": 2,
    "last_entry": "2026-11-25 14:50:27",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 324,
+   "rank": 325,
    "team_id": "17430346",
    "team": "alekh",
    "members": [
@@ -5224,12 +5245,12 @@
    "score": 0.081,
    "entries": 4,
    "last_entry": "2026-11-25 00:01:26",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 325,
+   "rank": 326,
    "team_id": "17456402",
    "team": "Tudor Marchis",
    "members": [
@@ -5238,12 +5259,12 @@
    "score": 0.078,
    "entries": 1,
    "last_entry": "2026-11-26 10:24:05",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 326,
+   "rank": 327,
    "team_id": "17432770",
    "team": "hikaggler",
    "members": [
@@ -5252,12 +5273,12 @@
    "score": 0.077,
    "entries": 5,
    "last_entry": "2026-11-26 10:10:19",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 327,
+   "rank": 328,
    "team_id": "17439601",
    "team": "Shinwonryuuuu",
    "members": [
@@ -5266,12 +5287,12 @@
    "score": 0.077,
    "entries": 3,
    "last_entry": "2026-11-25 18:32:16",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 328,
+   "rank": 329,
    "team_id": "17431212",
    "team": "Tom.",
    "members": [
@@ -5280,12 +5301,12 @@
    "score": 0.076,
    "entries": 3,
    "last_entry": "2026-11-26 07:01:21",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 329,
+   "rank": 330,
    "team_id": "17440115",
    "team": "Zefirrr",
    "members": [
@@ -5294,12 +5315,12 @@
    "score": 0.075,
    "entries": 2,
    "last_entry": "2026-11-25 03:03:30",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 330,
+   "rank": 331,
    "team_id": "17430129",
    "team": "insuperabilehart",
    "members": [
@@ -5308,12 +5329,12 @@
    "score": 0.072,
    "entries": 2,
    "last_entry": "2026-11-25 19:34:15",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 331,
+   "rank": 332,
    "team_id": "17431655",
    "team": "Zero",
    "members": [
@@ -5322,12 +5343,12 @@
    "score": 0.072,
    "entries": 3,
    "last_entry": "2026-11-25 18:32:41",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 332,
+   "rank": 333,
    "team_id": "17443883",
    "team": "pandacat-ai",
    "members": [
@@ -5336,12 +5357,12 @@
    "score": 0.07,
    "entries": 1,
    "last_entry": "2026-11-25 06:21:14",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 333,
+   "rank": 334,
    "team_id": "17449919",
    "team": "skiz Team",
    "members": [
@@ -5350,12 +5371,12 @@
    "score": 0.069,
    "entries": 2,
    "last_entry": "2026-11-26 16:05:09",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 334,
+   "rank": 335,
    "team_id": "17456726",
    "team": "aimar106",
    "members": [
@@ -5364,12 +5385,12 @@
    "score": 0.067,
    "entries": 1,
    "last_entry": "2026-11-26 15:37:46",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 335,
+   "rank": 336,
    "team_id": "17433404",
    "team": "Jacie Crown_1",
    "members": [
@@ -5378,12 +5399,12 @@
    "score": 0.067,
    "entries": 4,
    "last_entry": "2026-11-26 15:55:30",
-   "moved": 35,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 336,
+   "rank": 337,
    "team_id": "17432064",
    "team": "Takayuki Michishita",
    "members": [
@@ -5392,12 +5413,12 @@
    "score": 0.067,
    "entries": 6,
    "last_entry": "2026-11-26 11:11:48",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 337,
+   "rank": 338,
    "team_id": "17444515",
    "team": "Vaibhav Mahore",
    "members": [
@@ -5406,12 +5427,12 @@
    "score": 0.067,
    "entries": 3,
    "last_entry": "2026-11-26 07:48:27",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 338,
+   "rank": 339,
    "team_id": "17430927",
    "team": "Khalid LEMOUDEN",
    "members": [
@@ -5420,12 +5441,12 @@
    "score": 0.067,
    "entries": 6,
    "last_entry": "2026-11-25 15:09:04",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 339,
+   "rank": 340,
    "team_id": "17440806",
    "team": "Dao Huu Trong",
    "members": [
@@ -5434,12 +5455,12 @@
    "score": 0.067,
    "entries": 3,
    "last_entry": "2026-11-25 18:29:35",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 340,
+   "rank": 341,
    "team_id": "17456379",
    "team": "sansan0001",
    "members": [
@@ -5448,12 +5469,12 @@
    "score": 0.066,
    "entries": 1,
    "last_entry": "2026-11-26 11:08:27",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 341,
+   "rank": 342,
    "team_id": "17431322",
    "team": "honjousetuna",
    "members": [
@@ -5462,26 +5483,26 @@
    "score": 0.066,
    "entries": 3,
    "last_entry": "2026-11-24 18:40:15",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 342,
+   "rank": 343,
    "team_id": "17445577",
    "team": "poppy457",
    "members": [
     "poppy457"
    ],
    "score": 0.066,
-   "entries": 4,
-   "last_entry": "2026-11-25 23:57:32",
-   "moved": -6,
+   "entries": 5,
+   "last_entry": "2026-11-26 17:17:50",
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 343,
+   "rank": 344,
    "team_id": "17439977",
    "team": "Jefri Maulana",
    "members": [
@@ -5490,12 +5511,12 @@
    "score": 0.065,
    "entries": 1,
    "last_entry": "2026-11-24 16:40:49",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 344,
+   "rank": 345,
    "team_id": "17441210",
    "team": "Yash Verdhan",
    "members": [
@@ -5504,12 +5525,12 @@
    "score": 0.064,
    "entries": 2,
    "last_entry": "2026-11-25 19:20:30",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 345,
+   "rank": 346,
    "team_id": "17437624",
    "team": "Rainbow Pig",
    "members": [
@@ -5518,12 +5539,12 @@
    "score": 0.064,
    "entries": 3,
    "last_entry": "2026-11-26 15:54:33",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 346,
+   "rank": 347,
    "team_id": "17449679",
    "team": "baha",
    "members": [
@@ -5532,12 +5553,12 @@
    "score": 0.063,
    "entries": 2,
    "last_entry": "2026-11-25 22:16:06",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 347,
+   "rank": 348,
    "team_id": "17448292",
    "team": "GreedShen",
    "members": [
@@ -5546,12 +5567,12 @@
    "score": 0.063,
    "entries": 1,
    "last_entry": "2026-11-26 07:54:36",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 348,
+   "rank": 349,
    "team_id": "17442989",
    "team": "orangepolar",
    "members": [
@@ -5560,12 +5581,12 @@
    "score": 0.063,
    "entries": 2,
    "last_entry": "2026-11-25 12:30:03",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 349,
+   "rank": 350,
    "team_id": "17456469",
    "team": "jjdsukk",
    "members": [
@@ -5574,12 +5595,12 @@
    "score": 0.063,
    "entries": 2,
    "last_entry": "2026-11-26 12:01:33",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 350,
+   "rank": 351,
    "team_id": "17431391",
    "team": "3as6Bl",
    "members": [
@@ -5588,12 +5609,12 @@
    "score": 0.062,
    "entries": 1,
    "last_entry": "2026-11-24 04:48:56",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 351,
+   "rank": 352,
    "team_id": "17458376",
    "team": "Derrick Irons",
    "members": [
@@ -5602,12 +5623,12 @@
    "score": 0.062,
    "entries": 1,
    "last_entry": "2026-11-26 14:42:56",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 352,
+   "rank": 353,
    "team_id": "17443365",
    "team": "Cheng Li",
    "members": [
@@ -5616,12 +5637,12 @@
    "score": 0.06,
    "entries": 4,
    "last_entry": "2026-11-26 08:42:24",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 353,
+   "rank": 354,
    "team_id": "17440200",
    "team": "Ranjeet Kumar",
    "members": [
@@ -5630,12 +5651,12 @@
    "score": 0.058,
    "entries": 3,
    "last_entry": "2026-11-26 07:50:05",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 354,
+   "rank": 355,
    "team_id": "17454688",
    "team": "tonpia",
    "members": [
@@ -5644,12 +5665,12 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-26 05:55:15",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 355,
+   "rank": 356,
    "team_id": "17431292",
    "team": "jorge fabian avila",
    "members": [
@@ -5658,12 +5679,12 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-23 23:16:29",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 356,
+   "rank": 357,
    "team_id": "17430934",
    "team": "Francisco MEP",
    "members": [
@@ -5672,12 +5693,12 @@
    "score": 0.058,
    "entries": 4,
    "last_entry": "2026-11-24 16:57:17",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 357,
+   "rank": 358,
    "team_id": "17431024",
    "team": "imad hamz",
    "members": [
@@ -5686,12 +5707,12 @@
    "score": 0.058,
    "entries": 2,
    "last_entry": "2026-11-24 20:25:43",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 358,
+   "rank": 359,
    "team_id": "17442041",
    "team": "ye jialin",
    "members": [
@@ -5700,12 +5721,12 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-24 22:27:02",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 359,
+   "rank": 360,
    "team_id": "17453042",
    "team": "ac233ac",
    "members": [
@@ -5714,12 +5735,12 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-26 00:48:15",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 360,
+   "rank": 361,
    "team_id": "17442363",
    "team": "Amedeo Biolatti",
    "members": [
@@ -5728,12 +5749,12 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-26 10:40:03",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 361,
+   "rank": 362,
    "team_id": "17458173",
    "team": "Dmitry Dudkin",
    "members": [
@@ -5742,12 +5763,12 @@
    "score": 0.058,
    "entries": 1,
    "last_entry": "2026-11-26 14:22:02",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 362,
+   "rank": 363,
    "team_id": "17430355",
    "team": "mentria.ai",
    "members": [
@@ -5756,12 +5777,12 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-23 19:28:13",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 363,
+   "rank": 364,
    "team_id": "17431973",
    "team": "yuki16",
    "members": [
@@ -5770,12 +5791,12 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-24 02:13:09",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 364,
+   "rank": 365,
    "team_id": "17431390",
    "team": "Taro_pan",
    "members": [
@@ -5784,12 +5805,12 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-24 04:52:30",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 365,
+   "rank": 366,
    "team_id": "17434925",
    "team": "ooi jed",
    "members": [
@@ -5798,12 +5819,12 @@
    "score": 0.056,
    "entries": 3,
    "last_entry": "2026-11-25 10:21:01",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 366,
+   "rank": 367,
    "team_id": "17458480",
    "team": "Haruk1y",
    "members": [
@@ -5812,12 +5833,12 @@
    "score": 0.056,
    "entries": 1,
    "last_entry": "2026-11-26 14:47:57",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 367,
+   "rank": 368,
    "team_id": "17431237",
    "team": "Ancha pramudia Saja",
    "members": [
@@ -5826,12 +5847,12 @@
    "score": 0.054,
    "entries": 1,
    "last_entry": "2026-11-24 01:37:33",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 368,
+   "rank": 369,
    "team_id": "17438853",
    "team": "Shah Atharva Suryakant",
    "members": [
@@ -5840,12 +5861,12 @@
    "score": 0.053,
    "entries": 1,
    "last_entry": "2026-11-24 15:43:11",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 369,
+   "rank": 370,
    "team_id": "17434117",
    "team": "hemchand jajoria",
    "members": [
@@ -5854,12 +5875,12 @@
    "score": 0.052,
    "entries": 3,
    "last_entry": "2026-11-25 02:40:56",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 370,
+   "rank": 371,
    "team_id": "17433401",
    "team": "Prashant Rawat",
    "members": [
@@ -5868,12 +5889,12 @@
    "score": 0.051,
    "entries": 1,
    "last_entry": "2026-11-24 06:42:16",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 371,
+   "rank": 372,
    "team_id": "17431031",
    "team": "hengck23",
    "members": [
@@ -5882,12 +5903,12 @@
    "score": 0.051,
    "entries": 1,
    "last_entry": "2026-11-24 09:39:42",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 372,
+   "rank": 373,
    "team_id": "17433680",
    "team": "Aqil Contractor",
    "members": [
@@ -5896,12 +5917,12 @@
    "score": 0.05,
    "entries": 2,
    "last_entry": "2026-11-24 18:02:15",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 373,
+   "rank": 374,
    "team_id": "17442977",
    "team": "Vikram Tiwari",
    "members": [
@@ -5910,12 +5931,12 @@
    "score": 0.048,
    "entries": 3,
    "last_entry": "2026-11-26 09:58:51",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 374,
+   "rank": 375,
    "team_id": "17446688",
    "team": "Kendamarron",
    "members": [
@@ -5924,12 +5945,12 @@
    "score": 0.048,
    "entries": 2,
    "last_entry": "2026-11-26 16:08:57",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 375,
+   "rank": 376,
    "team_id": "17444111",
    "team": "Komil Parmar",
    "members": [
@@ -5938,12 +5959,12 @@
    "score": 0.047,
    "entries": 1,
    "last_entry": "2026-11-26 07:56:43",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 376,
+   "rank": 377,
    "team_id": "17431179",
    "team": "Ymori（盛島康徳）",
    "members": [
@@ -5952,12 +5973,12 @@
    "score": 0.046,
    "entries": 2,
    "last_entry": "2026-11-24 20:26:44",
-   "moved": -5,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 377,
+   "rank": 378,
    "team_id": "17456110",
    "team": "the99galaxy",
    "members": [
@@ -5966,12 +5987,12 @@
    "score": 0.044,
    "entries": 1,
    "last_entry": "2026-11-26 16:26:56",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": -1,
+   "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 378,
+   "rank": 379,
    "team_id": "17431406",
    "team": "kakuteki",
    "members": [
@@ -5980,12 +6001,12 @@
    "score": 0.044,
    "entries": 1,
    "last_entry": "2026-11-24 00:07:37",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 379,
+   "rank": 380,
    "team_id": "17440600",
    "team": "Addison Howard",
    "members": [
@@ -5994,12 +6015,12 @@
    "score": 0.042,
    "entries": 1,
    "last_entry": "2026-11-25 01:38:37",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 380,
+   "rank": 381,
    "team_id": "17431717",
    "team": "e-toppo",
    "members": [
@@ -6008,12 +6029,12 @@
    "score": 0.042,
    "entries": 1,
    "last_entry": "2026-11-24 08:23:35",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 381,
+   "rank": 382,
    "team_id": "17433441",
    "team": "Samer Tallauze",
    "members": [
@@ -6022,12 +6043,12 @@
    "score": 0.04,
    "entries": 1,
    "last_entry": "2026-11-24 08:10:35",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 382,
+   "rank": 383,
    "team_id": "17430596",
    "team": "Adaptive Agent Systems",
    "members": [
@@ -6036,12 +6057,12 @@
    "score": 0.04,
    "entries": 2,
    "last_entry": "2026-11-24 17:46:59",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 383,
+   "rank": 384,
    "team_id": "17444267",
    "team": "Jeroen Cottaar",
    "members": [
@@ -6050,12 +6071,12 @@
    "score": 0.04,
    "entries": 1,
    "last_entry": "2026-11-25 08:19:39",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 384,
+   "rank": 385,
    "team_id": "17445605",
    "team": "nguyenbaotri-VIETNAM",
    "members": [
@@ -6064,12 +6085,12 @@
    "score": 0.037,
    "entries": 2,
    "last_entry": "2026-11-25 10:12:39",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 385,
+   "rank": 386,
    "team_id": "17435832",
    "team": "changchun feng",
    "members": [
@@ -6078,12 +6099,12 @@
    "score": 0.036,
    "entries": 1,
    "last_entry": "2026-11-26 08:51:41",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 386,
+   "rank": 387,
    "team_id": "17443774",
    "team": "Om Jadhav.",
    "members": [
@@ -6092,12 +6113,12 @@
    "score": 0.034,
    "entries": 1,
    "last_entry": "2026-11-26 11:14:18",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 387,
+   "rank": 388,
    "team_id": "17452460",
    "team": "Sfar liz",
    "members": [
@@ -6106,12 +6127,12 @@
    "score": 0.034,
    "entries": 2,
    "last_entry": "2026-11-26 05:58:23",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 388,
+   "rank": 389,
    "team_id": "17445063",
    "team": "ShayML",
    "members": [
@@ -6120,12 +6141,12 @@
    "score": 0.033,
    "entries": 2,
    "last_entry": "2026-11-26 09:52:03",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 389,
+   "rank": 390,
    "team_id": "17439951",
    "team": "Ricardo Lu",
    "members": [
@@ -6134,12 +6155,12 @@
    "score": 0.033,
    "entries": 1,
    "last_entry": "2026-11-25 03:46:11",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 390,
+   "rank": 391,
    "team_id": "17431892",
    "team": "Rafael NDS",
    "members": [
@@ -6148,12 +6169,12 @@
    "score": 0.032,
    "entries": 1,
    "last_entry": "2026-11-26 02:00:46",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 391,
+   "rank": 392,
    "team_id": "17457678",
    "team": "kglctf",
    "members": [
@@ -6162,12 +6183,12 @@
    "score": 0.031,
    "entries": 1,
    "last_entry": "2026-11-26 12:43:33",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 392,
+   "rank": 393,
    "team_id": "17434181",
    "team": "Bao Tran",
    "members": [
@@ -6176,12 +6197,12 @@
    "score": 0.031,
    "entries": 1,
    "last_entry": "2026-11-25 02:56:43",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 393,
+   "rank": 394,
    "team_id": "17447147",
    "team": "kiyotomokuroda",
    "members": [
@@ -6190,12 +6211,12 @@
    "score": 0.031,
    "entries": 4,
    "last_entry": "2026-11-25 22:22:31",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 394,
+   "rank": 395,
    "team_id": "17438726",
    "team": "okkoj bjj",
    "members": [
@@ -6204,12 +6225,12 @@
    "score": 0.031,
    "entries": 2,
    "last_entry": "2026-11-26 08:53:16",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 395,
+   "rank": 396,
    "team_id": "17430477",
    "team": "Rainyy",
    "members": [
@@ -6218,12 +6239,12 @@
    "score": 0.031,
    "entries": 1,
    "last_entry": "2026-11-23 23:17:43",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 396,
+   "rank": 397,
    "team_id": "17440189",
    "team": "MrEvidentYew",
    "members": [
@@ -6232,12 +6253,12 @@
    "score": 0.03,
    "entries": 3,
    "last_entry": "2026-11-25 17:57:14",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 397,
+   "rank": 398,
    "team_id": "17438333",
    "team": "BI1NLM",
    "members": [
@@ -6246,12 +6267,12 @@
    "score": 0.029,
    "entries": 1,
    "last_entry": "2026-11-26 12:55:49",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 398,
+   "rank": 399,
    "team_id": "17431341",
    "team": "hmmmreally",
    "members": [
@@ -6260,12 +6281,12 @@
    "score": 0.028,
    "entries": 1,
    "last_entry": "2026-11-24 16:51:17",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 399,
+   "rank": 400,
    "team_id": "17443737",
    "team": "Soumya",
    "members": [
@@ -6274,12 +6295,12 @@
    "score": 0.026,
    "entries": 1,
    "last_entry": "2026-11-25 14:32:05",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 400,
+   "rank": 401,
    "team_id": "17430216",
    "team": "James Mills",
    "members": [
@@ -6288,12 +6309,12 @@
    "score": 0.026,
    "entries": 1,
    "last_entry": "2026-11-24 07:13:10",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 401,
+   "rank": 402,
    "team_id": "17457881",
    "team": "matterx",
    "members": [
@@ -6302,12 +6323,12 @@
    "score": 0.025,
    "entries": 1,
    "last_entry": "2026-11-26 14:40:29",
-   "moved": -6,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 402,
+   "rank": 403,
    "team_id": "17449812",
    "team": "YangYanXue",
    "members": [
@@ -6316,12 +6337,12 @@
    "score": 0.025,
    "entries": 2,
    "last_entry": "2026-11-26 16:48:05",
-   "moved": 19,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 403,
+   "rank": 404,
    "team_id": "17430236",
    "team": "Will",
    "members": [
@@ -6330,12 +6351,12 @@
    "score": 0.024,
    "entries": 1,
    "last_entry": "2026-11-23 19:23:30",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 404,
+   "rank": 405,
    "team_id": "17434104",
    "team": "LUV BILONIYA",
    "members": [
@@ -6344,12 +6365,12 @@
    "score": 0.024,
    "entries": 3,
    "last_entry": "2026-11-25 07:54:52",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 405,
+   "rank": 406,
    "team_id": "17446208",
    "team": "Deepak Saldanha",
    "members": [
@@ -6358,12 +6379,12 @@
    "score": 0.023,
    "entries": 1,
    "last_entry": "2026-11-25 11:07:19",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 406,
+   "rank": 407,
    "team_id": "17448160",
    "team": "VELVRIN",
    "members": [
@@ -6372,12 +6393,12 @@
    "score": 0.023,
    "entries": 2,
    "last_entry": "2026-11-26 14:12:15",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 407,
+   "rank": 408,
    "team_id": "17439523",
    "team": "Priyanshu RAJ",
    "members": [
@@ -6386,12 +6407,12 @@
    "score": 0.022,
    "entries": 1,
    "last_entry": "2026-11-24 15:49:19",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 408,
+   "rank": 409,
    "team_id": "17432607",
    "team": "sedhupathi vishnu",
    "members": [
@@ -6400,12 +6421,12 @@
    "score": 0.021,
    "entries": 2,
    "last_entry": "2026-11-24 04:33:14",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 409,
+   "rank": 410,
    "team_id": "17431628",
    "team": "Nicholas Hui",
    "members": [
@@ -6414,12 +6435,12 @@
    "score": 0.021,
    "entries": 2,
    "last_entry": "2026-11-26 10:20:24",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 410,
+   "rank": 411,
    "team_id": "17431685",
    "team": "gezi",
    "members": [
@@ -6428,12 +6449,12 @@
    "score": 0.019,
    "entries": 1,
    "last_entry": "2026-11-24 01:12:27",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 411,
+   "rank": 412,
    "team_id": "17433202",
    "team": "LouisEchard",
    "members": [
@@ -6442,12 +6463,12 @@
    "score": 0.013,
    "entries": 2,
    "last_entry": "2026-11-25 16:39:06",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 412,
+   "rank": 413,
    "team_id": "17433609",
    "team": "Minghao Xia",
    "members": [
@@ -6456,12 +6477,12 @@
    "score": 0.012,
    "entries": 1,
    "last_entry": "2026-11-25 07:07:05",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 413,
+   "rank": 414,
    "team_id": "17430193",
    "team": "Md. Ismiel Hossen Abir",
    "members": [
@@ -6470,12 +6491,12 @@
    "score": 0.012,
    "entries": 4,
    "last_entry": "2026-11-25 07:11:26",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 414,
+   "rank": 415,
    "team_id": "17444157",
    "team": "magicalcats",
    "members": [
@@ -6484,12 +6505,12 @@
    "score": 0.01,
    "entries": 1,
    "last_entry": "2026-11-25 06:11:44",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 415,
+   "rank": 416,
    "team_id": "17437241",
    "team": "Nguyễn Đăng Khoa",
    "members": [
@@ -6498,12 +6519,12 @@
    "score": 0.01,
    "entries": 4,
    "last_entry": "2026-11-25 04:00:27",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 416,
+   "rank": 417,
    "team_id": "17433283",
    "team": "JIAWEILI0001",
    "members": [
@@ -6512,12 +6533,12 @@
    "score": 0.01,
    "entries": 3,
    "last_entry": "2026-11-25 13:19:55",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 417,
+   "rank": 418,
    "team_id": "17433927",
    "team": "koheip",
    "members": [
@@ -6526,12 +6547,12 @@
    "score": 0.009,
    "entries": 1,
    "last_entry": "2026-11-24 08:59:10",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 418,
+   "rank": 419,
    "team_id": "17433924",
    "team": "Chovy",
    "members": [
@@ -6540,12 +6561,12 @@
    "score": 0.009,
    "entries": 1,
    "last_entry": "2026-11-24 08:08:02",
-   "moved": -7,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 419,
+   "rank": 420,
    "team_id": "17458992",
    "team": "Robina Mirbahar",
    "members": [
@@ -6554,12 +6575,12 @@
    "score": 0.008,
    "entries": 1,
    "last_entry": "2026-11-26 16:48:33",
-   "moved": null,
-   "new_since_prev": true,
+   "moved": -1,
+   "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 420,
+   "rank": 421,
    "team_id": "17437555",
    "team": "SoulofCinder_4396",
    "members": [
@@ -6568,12 +6589,26 @@
    "score": 0.007,
    "entries": 1,
    "last_entry": "2026-11-24 11:47:04",
-   "moved": -8,
+   "moved": -1,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 421,
+   "rank": 422,
+   "team_id": "17456877",
+   "team": "Kelvin Nguyen",
+   "members": [
+    "nguyenductuandat"
+   ],
+   "score": 0.006,
+   "entries": 1,
+   "last_entry": "2026-11-26 16:33:28",
+   "moved": null,
+   "new_since_prev": true,
+   "band": null
+  },
+  {
+   "rank": 423,
    "team_id": "17431757",
    "team": "Avik Das",
    "members": [
@@ -6582,12 +6617,12 @@
    "score": 0.006,
    "entries": 2,
    "last_entry": "2026-11-24 06:44:30",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 422,
+   "rank": 424,
    "team_id": "17438605",
    "team": "Cheung Yee Yan",
    "members": [
@@ -6596,12 +6631,12 @@
    "score": 0.004,
    "entries": 1,
    "last_entry": "2026-11-24 13:40:11",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 423,
+   "rank": 425,
    "team_id": "17431517",
    "team": "優斗",
    "members": [
@@ -6610,12 +6645,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 00:17:56",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 424,
+   "rank": 426,
    "team_id": "17433650",
    "team": "Kazuki Igeta",
    "members": [
@@ -6624,12 +6659,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 07:57:24",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 425,
+   "rank": 427,
    "team_id": "17430122",
    "team": "Sameh Ben Houria",
    "members": [
@@ -6638,12 +6673,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 11:44:12",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 426,
+   "rank": 428,
    "team_id": "17440209",
    "team": "Spynel KOUTON",
    "members": [
@@ -6652,12 +6687,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 17:23:27",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 427,
+   "rank": 429,
    "team_id": "17435016",
    "team": "prvsiyan",
    "members": [
@@ -6666,12 +6701,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-24 19:50:09",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 428,
+   "rank": 430,
    "team_id": "17431689",
    "team": "Daniel Wu",
    "members": [
@@ -6680,12 +6715,12 @@
    "score": 0.001,
    "entries": 2,
    "last_entry": "2026-11-25 07:27:44",
-   "moved": -8,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 429,
+   "rank": 431,
    "team_id": "17452953",
    "team": "ReaX_Xuan",
    "members": [
@@ -6694,12 +6729,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-26 00:51:52",
-   "moved": -7,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 430,
+   "rank": 432,
    "team_id": "17452972",
    "team": "BSCode",
    "members": [
@@ -6708,12 +6743,12 @@
    "score": 0.001,
    "entries": 1,
    "last_entry": "2026-11-26 02:22:40",
-   "moved": -7,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 431,
+   "rank": 433,
    "team_id": "17453363",
    "team": "齐乐",
    "members": [
@@ -6722,12 +6757,12 @@
    "score": 0.0,
    "entries": 2,
    "last_entry": "2026-11-26 03:25:36",
-   "moved": -7,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 432,
+   "rank": 434,
    "team_id": "17447259",
    "team": "Muhammad Umar Bilal",
    "members": [
@@ -6736,12 +6771,12 @@
    "score": 0.0,
    "entries": 1,
    "last_entry": "2026-11-25 23:49:14",
-   "moved": -7,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 433,
+   "rank": 435,
    "team_id": "17457322",
    "team": "KaanDu",
    "members": [
@@ -6750,12 +6785,26 @@
    "score": 0.0,
    "entries": 1,
    "last_entry": "2026-11-26 15:26:05",
-   "moved": -7,
+   "moved": -2,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 434,
+   "rank": 436,
+   "team_id": "17455904",
+   "team": "Hào Nguyễn Quang",
+   "members": [
+    "haonguyenq"
+   ],
+   "score": 0.0,
+   "entries": 1,
+   "last_entry": "2026-11-26 16:35:07",
+   "moved": null,
+   "new_since_prev": true,
+   "band": null
+  },
+  {
+   "rank": 437,
    "team_id": "17430666",
    "team": "Oleg Zholobov",
    "members": [
@@ -6764,12 +6813,12 @@
    "score": 0.0,
    "entries": 1,
    "last_entry": "2026-11-24 13:22:09",
-   "moved": -7,
+   "moved": -3,
    "new_since_prev": false,
    "band": null
   },
   {
-   "rank": 435,
+   "rank": 438,
    "team_id": "17430904",
    "team": "Yassine Elkhattam",
    "members": [
@@ -6778,7 +6827,7 @@
    "score": 0.0,
    "entries": 1,
    "last_entry": "2026-11-26 12:44:36",
-   "moved": -7,
+   "moved": -3,
    "new_since_prev": false,
    "band": null
   }
@@ -6862,6 +6911,90 @@
  ],
  "turnaround": {
   "measured": [
+   {
+    "team": "Kunal Aarse",
+    "sub_at": "2026-11-26 17:08:28",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.335,
+    "minutes": 381
+   },
+   {
+    "team": "Tony Li",
+    "sub_at": "2026-11-26 17:05:21",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.32,
+    "minutes": 384
+   },
+   {
+    "team": "Yaromir_Ko",
+    "sub_at": "2026-11-26 17:07:40",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.09,
+    "minutes": 382
+   },
+   {
+    "team": "Norwin Yu",
+    "sub_at": "2026-11-26 16:12:01",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.233,
+    "minutes": 438
+   },
+   {
+    "team": "Ismail Sab Ajnalkar",
+    "sub_at": "2026-11-26 17:20:06",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.338,
+    "minutes": 370
+   },
+   {
+    "team": "poppy457",
+    "sub_at": "2026-11-26 17:17:50",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.066,
+    "minutes": 372
+   },
+   {
+    "team": "binhle2410",
+    "sub_at": "2026-11-26 17:15:25",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.121,
+    "minutes": 374
+   },
+   {
+    "team": "IGpig1226",
+    "sub_at": "2026-11-26 16:57:13",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.32,
+    "minutes": 392
+   },
+   {
+    "team": "Qingdi Meng",
+    "sub_at": "2026-11-26 17:04:40",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.32,
+    "minutes": 385
+   },
+   {
+    "team": "Rohan5054",
+    "sub_at": "2026-11-26 16:12:35",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.251,
+    "minutes": 437
+   },
+   {
+    "team": "Kelvin Nguyen",
+    "sub_at": "2026-11-26 16:33:28",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.006,
+    "minutes": 416
+   },
+   {
+    "team": "Hào Nguyễn Quang",
+    "sub_at": "2026-11-26 16:35:07",
+    "first_seen": "2026-11-26T23:30:06Z",
+    "score": 0.0,
+    "minutes": 414
+   },
    {
     "team": "LAHOUCINE BOUSMENE",
     "sub_at": "2026-11-26 16:42:41",
@@ -15851,7 +15984,7 @@
     "left_today": 5
    }
   ],
-  "minutes_left_today": 60,
+  "minutes_left_today": 30,
   "team_used": 3,
   "allowance": 20,
   "room_under_merge_line": 17,
