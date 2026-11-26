@@ -74,14 +74,13 @@
           "observed": "2026-11-26"
         },
         "entries": {
-          "used_today": 0,
+          "used_today": 5,
           "daily_limit": 5,
-          "total": 79,
+          "total": 84,
           "observed": "2026-11-26"
         },
         "running": [
-          "Two one-line arms on the 0.509 base (virtual-tier margin)",
-          "Three measuring entries for heavy and light molecules"
+          "Five entries waiting for scores: two one-line arms on the 0.509 base, three measuring entries for heavy and light molecules"
         ],
         "next": [
           "Submit all five before the 7 p.m. Eastern reset",
