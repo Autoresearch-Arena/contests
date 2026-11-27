@@ -1,13 +1,13 @@
 {
   "title": "The research notebook, at a glance",
-  "date": "26 November 2026",
-  "snapshot_utc": "2026-11-26T23:10:00+00:00",
+  "date": "27 November 2026",
+  "snapshot_utc": "2026-11-27T23:05:00+00:00",
   "scope": "Selected current rental campaigns and research results \u2014 not an all-time account reconciliation.",
   "spending": {
     "observed_rental_usd": 19.499,
     "qwen_cap_usd": 24,
     "glm_cap_usd": 10,
-    "unbilled": "Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional from call receipts 26 Nov 18:00 EST. Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine.",
+    "unbilled": "Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional (call receipts 26 Nov); $0 new on 27 Nov. Twenty-seven November reports record $0 new spend (CPU, Jethro and free Kaggle quota). Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine.",
     "items": [
       {
         "title": "Qwen one-pass model",
@@ -54,10 +54,10 @@
   },
   "leaderboard": {
     "score": 0.724,
-    "rank": 460,
-    "teams": 7195,
+    "rank": 732,
+    "teams": 7283,
     "leader": 0.813,
-    "asof": "2026-11-26 18:01 EST",
+    "asof": "2026-11-27 18:01 EST",
     "history": [
       {
         "label": "Previous public ensemble",
@@ -119,10 +119,20 @@
         "label": "Five-model data in svc4 head",
         "score": 0.72,
         "delta": -0.004
+      },
+      {
+        "label": "Punctuation shift",
+        "score": 0.719,
+        "delta": -0.002
+      },
+      {
+        "label": "Authorship + WeMM",
+        "score": 0.716,
+        "delta": -0.005
       }
     ],
-    "pending": "Team board 0.724 with 51 submissions (was 0.724 with 46), rank 460 of 7195 (was 156 of 7105), leader 0.813, at 2026-11-26 18:01 EST. Top-10 cutoff 0.781, top-1% 0.731, top-5% 0.725, top-10% 0.721. Best is still entry 58883560 from 25 Nov. All five 26 Nov slots scored 0.719 to 0.723, none above the parent (SUBMISSIONS.md).",
-    "asof_short": "2026-11-26 18:01 EST"
+    "pending": "Team board 0.724 with 56 submissions (was 51), rank 732 of 7283 (was 460 of 7195), leader 0.813, at 2026-11-27 18:01 EST. Top-10 cutoff 0.787, top-1% 0.732, top-5% 0.728, top-10% 0.724. Best is still entry 58883560 from 25 Nov. Today's two full entries scored 0.719 and 0.716 against the 0.721 parent; three head-only CPU entries scored 0.471, 0.460 and 0.417 (SUBMISSIONS.md).",
+    "asof_short": "2026-11-27 18:01 EST"
   },
   "results": [
     {
@@ -226,11 +236,11 @@
     }
   ],
   "next_bets": [
-    "Running on Jethro: our passages mixed in at twice the share (0.8), three seeds; then the 19,557 GLM five-thousand passages on the same reader, queued behind it (QUEUE.md).",
-    "Build a board entry from the best strong reader (all our passages mixed) as a new member of the 0.724 notebook, not another svc4-pool refit, which scored flat (0.719 to 0.720).",
-    "Decisions for the Boss: push dataset version 2 public (prepared, not run), and whether to buy about 2,000 more Gemini 3.7 Flash answers (about $21); neither is started.",
-    "Claude Fable 5 probe: Fable is hard to name because of how it writes (host Fable named right 8.7%, ours 7.4%), so more Fable text is not the fix.",
-    "Forum 762094 and 762099 (26 Nov, CodeWithUtkarsh): reweighting the Open Pool toward host style hurt in a leak-free test, and a simulated-noise post on how big a board gain must be to be real; titles only in our snapshot."
+    "Testing next, at the 7 p.m. Eastern quota reset: the sealed native group punctuation package (fixed 89, lost 2 on publisher answers) on dual T4, then the paired Ramp plus e152 rehearsal on the second lane (QUEUE.md).",
+    "Then the five built full-notebook versions of our data mixes, keeping the pool weight and the Open Pool, which the head-only entries backed.",
+    "Resource constraint: zero GPU hours and zero submissions left on 27 Nov; the strongest replays (grouping-first Ramp +0.036, Ramp with e152 +0.022) are validation only until they run on T4.",
+    "Request for the Boss: the 26 Nov decisions, making dataset version 2 public and buying about 2,000 more Gemini 3.7 Flash answers (about $21), have no recorded answer yet.",
+    "Forum 751370 (Anelie, 27 Nov): dropping late Gemini 3.7 rows cost -0.017 grouped CV, so they look genuine; keep them."
   ],
   "notes": [
     "Percentage-point validation gains use different named baselines. Never add them or compare them with leaderboard gains.",
@@ -264,7 +274,7 @@
     "qwen_cost": "research/comparison-2026-11-03/full-pool-e3-shutdown-20261111.json",
     "creative_wave2": "research/comparison-2026-11-03/creative-wave2-summary-20261110.json"
   },
-  "status_line": "Best 0.724 unchanged; rank 460 of 7195 (was 156) at 2026-11-26 18:01 EST. Five-model data gave no board gain (0.719 to 0.720) but lifted a strong reader +0.55 pp in validation. Data batches $57.71 provisional; rentals cached.",
+  "status_line": "Best 0.724 unchanged; rank 732 of 7283 (was 460) at 2026-11-27 18:01 EST. Five entries, none beat their parents; the GPU allowance ran out. Replays show grouping-first Ramp up +0.036 on publisher validation. No new spend; rentals cached.",
   "history_intro": "Every day of the project, from the first Kaggle try on 26 October to today: what we tried, what happened, and what it cost.",
   "spending_line": "Cached posted rental charges; data usage is separate and provisional",
   "spend_log": [

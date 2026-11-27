@@ -379,16 +379,61 @@
    "score": 0.723,
    "evidence": "SUBMISSIONS.md",
    "vs_control": -0.001
+  },
+  {
+   "id": "58976961",
+   "date": "2026-11-27",
+   "label": "Gemini/Kimi punctuation shift",
+   "what": "Restores Gemini and Kimi answers when a batch shows a punctuation shift, on the Open13 parent.",
+   "score": 0.719,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.002
+  },
+  {
+   "id": "58977473",
+   "date": "2026-11-27",
+   "label": "Authorship + short WeMM readers",
+   "what": "Contrastive authorship and short WeMM readers together on the 0.721 Open13 parent.",
+   "score": 0.716,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.005
+  },
+  {
+   "id": "58984236",
+   "date": "2026-11-27",
+   "label": "Head-only CPU: our data at pool weight",
+   "what": "svc4 head alone (no GPU readers), all our batches at the pool weight; the base for the two below. Head-only scores sit far below the full stack.",
+   "score": 0.471,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": 0.0
+  },
+  {
+   "id": "58984238",
+   "date": "2026-11-27",
+   "label": "Head-only CPU: our data at full weight",
+   "what": "Same head, our batches weighted equal to the official passages.",
+   "score": 0.46,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.011
+  },
+  {
+   "id": "58984239",
+   "date": "2026-11-27",
+   "label": "Head-only CPU: Open Pool removed",
+   "what": "Same head, Open Pool remainder dropped, our matched data only.",
+   "score": 0.417,
+   "evidence": "SUBMISSIONS.md",
+   "vs_control": -0.054
   }
  ],
  "headline": {
   "best": 0.724,
-  "rank": 460,
-  "teams": 7195,
+  "rank": 732,
+  "teams": 7283,
   "leader": 0.813,
   "leader_name": "NguyenThanhNhan",
-  "as_of": "2026-11-26 18:01 EST",
-  "source": "reports/scorecard/board/2026-11-26.json",
+  "as_of": "2026-11-27 18:01 EST",
+  "source": "reports/scorecard/board/2026-11-27.json",
   "best_evidence": "SUBMISSIONS.md"
  }
 }

@@ -1,6 +1,66 @@
 {
  "days": [
   {
+   "date": "2026-11-27",
+   "headline": "Best holds at 0.724, rank slides to 732. No entry beat its parent; GPU allowance out.",
+   "items": [
+    {
+     "tried": "Gemini/Kimi punctuation shift on the Open13 parent.",
+     "outcome": "0.719 vs 0.721 parent.",
+     "verdict": "no gain",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Authorship and short WeMM readers together on Open13.",
+     "outcome": "0.716 vs 0.721; the combined branch is dropped.",
+     "verdict": "lost",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Three head-only CPU entries comparing how much to trust our data.",
+     "outcome": "Pool weight 0.471, full weight 0.460, no Open Pool 0.417. Pool weight is right and the Open Pool matters.",
+     "verdict": "worked",
+     "evidence": "SUBMISSIONS.md"
+    },
+    {
+     "tried": "Grouping-first Ramp with a separate 1% WeMM vote, publisher replay.",
+     "outcome": "+0.036 vs plain Ramp on 5,426 passages; WeMM itself adds +0.003 and held in all three 4,000-passage layouts. Validation only.",
+     "verdict": "worked",
+     "evidence": "reports/2026-11-27-wemm-ramp-queues.md"
+    },
+    {
+     "tried": "Ramp plus e152 reader, matched replay.",
+     "outcome": "+0.022 vs Ramp (167 fixed, 70 lost); with the typography rule +0.024. Validation only; needs a T4 run.",
+     "verdict": "worked",
+     "evidence": "reports/2026-11-27-ramp-e152-transfer.md"
+    },
+    {
+     "tried": "Full-depth Kimi relay on Jethro, 520 passages.",
+     "outcome": "Compact features fixed 22 and lost 9 in the protected replay.",
+     "verdict": "worked",
+     "evidence": "reports/2026-11-27-kimi-full-publisher-grader.md"
+    },
+    {
+     "tried": "Sibling-loss trainer on a Kaggle TPU.",
+     "outcome": "Crashed on a host memory mapping at 20:12 UTC; nothing recoverable. Repaired version 2 queued.",
+     "verdict": "dead end",
+     "evidence": "reports/2026-11-27-tpu-sibling-launch.md"
+    },
+    {
+     "tried": "Sealed the native group punctuation package as the first GPU entry at reset.",
+     "outcome": "Fixed 89, lost 2 on publisher answers; source verified on Kaggle, not yet run on T4.",
+     "verdict": "built",
+     "evidence": "reports/2026-11-27-group-punctuation.md"
+    },
+    {
+     "tried": "Reviewed the public board and forum (41 topics, 2 new, 57 notebooks).",
+     "outcome": "Rank 732 of 7283, leader 0.813, top-10 cutoff 0.787, top-10% 0.724 at 18:01 EST. Anelie's test backs keeping late Gemini 3.7 rows. Costs unchanged and cached.",
+     "verdict": "built",
+     "evidence": "reports/scorecard/board/2026-11-27.json"
+    }
+   ]
+  },
+  {
    "date": "2026-11-26",
    "headline": "Best holds at 0.724 but rank slides to 460 of 7195. Five-model data flat on the board, up on a strong reader. Data batches done.",
    "items": [

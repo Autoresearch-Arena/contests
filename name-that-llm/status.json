@@ -4,22 +4,23 @@
   "title": "Name That LLM",
   "state": "live",
   "updated": "2026-11-27",
-  "headline": "Best 0.724, rank 678 of 7,258 at 12:12 p.m. Eastern on November 27. Tenth place was 0.786. All five submissions have scored. Kaggle GPU hours and submission slots reset at 7 p.m. Eastern.",
+  "headline": "Best 0.724 unchanged; rank 732 of 7283 (was 460) at 2026-11-27 18:01 EST. Five entries, none beat their parents; the GPU allowance ran out. Replays show grouping-first Ramp up +0.036 on publisher validation. No new spend; rentals cached.",
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 678,
-    "of": 7258,
+    "rank": 732,
+    "of": 7283,
     "best_score": 0.724,
     "metric": "balanced accuracy",
     "higher_is_better": true,
     "observed": "2026-11-27"
   },
   "entries": {
-    "used_today": 5,
-    "daily_limit": 5,
+    "used_today": null,
+    "daily_limit": null,
     "total": 56,
-    "observed": "2026-11-27"
+    "observed": "2026-11-27",
+    "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
   },
   "spend": {
     "spent": 19.499,
@@ -27,14 +28,13 @@
     "currency": "USD",
     "kind": "provisional",
     "observed": "2026-11-10",
-    "note": "Selected rental subtotal only; Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional from call receipts 26 Nov 18:00 EST. Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative usage + reserve exposure 8.953572 of 10; Matched pilot usage (separate cap) 6.4604236554 of 8; Matched release usage (includes reused pilot) 7.1901436959 of 10; Pair-fill GLM pair usage 1.921 of 6; Pair-fill Kimi, Qwen, Gemini usage 34.474 of 36; GLM five-thousand usage (three runs) 20.52 of 26; Bilingual test usage 0.799 of 3. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
+    "note": "Selected rental subtotal only; Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional (call receipts 26 Nov); $0 new on 27 Nov. Twenty-seven November reports record $0 new spend (CPU, Jethro and free Kaggle quota). Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative usage + reserve exposure 8.953572 of 10; Matched pilot usage (separate cap) 6.4604236554 of 8; Matched release usage (includes reused pilot) 7.1901436959 of 10; Pair-fill GLM pair usage 1.921 of 6; Pair-fill Kimi, Qwen, Gemini usage 34.474 of 36; GLM five-thousand usage (three runs) 20.52 of 26; Bilingual test usage 0.799 of 3. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
   },
-  "running": [
-    "Jethro is reading 520 independent passages with the full Kimi model.",
-    "The Kaggle TPU sibling comparison is queued."
-  ],
+  "running": [],
   "next": [
-    "Measure the offline runtime and memory of the two prepared dual-T4 candidates.",
-    "Finish the full-depth Kimi reads and check whether they correct held-out authors."
+    "Testing next, at the 7 p.m. Eastern quota reset: the sealed native group punctuation package (fixed 89, lost 2 on publisher answers) on dual T4, then the paired Ramp plus e152 rehearsal on the second lane (QUEUE.md).",
+    "Then the five built full-notebook versions of our data mixes, keeping the pool weight and the Open Pool, which the head-only entries backed.",
+    "Resource constraint: zero GPU hours and zero submissions left on 27 Nov; the strongest replays (grouping-first Ramp +0.036, Ramp with e152 +0.022) are validation only until they run on T4.",
+    "Request for the Boss: the 26 Nov decisions, making dataset version 2 public and buying about 2,000 more Gemini 3.7 Flash answers (about $21), have no recorded answer yet."
   ]
 }
