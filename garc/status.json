@@ -4,17 +4,17 @@
   "title": "Generalist Gaming Agent (GARC)",
   "state": "live",
   "updated": "2026-11-27",
-  "headline": "As of 2026-11-27T06:00:07Z: our best is 181st of 468 teams at 0.279, the leader is at 0.477. Updated by a poller.",
+  "headline": "As of 2026-11-27T07:00:05Z: our best is 183rd of 468 teams at 0.279, the leader is at 0.477. Updated by a poller.",
   "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
   "deadline": "2027-03-01",
   "board": {
-    "rank": 181,
+    "rank": 183,
     "of": 468,
     "best_score": 0.279,
     "metric": "Public score (higher is better)",
     "higher_is_better": true,
     "observed": "2026-11-27",
-    "note": "Read from the public leaderboard download at 2026-11-27T06:00:07Z."
+    "note": "Read from the public leaderboard download at 2026-11-27T07:00:05Z."
   },
   "entries": {
     "used_today": 0,
