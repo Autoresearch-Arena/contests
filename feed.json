@@ -214,24 +214,24 @@
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
         "updated": "2026-11-27",
-        "headline": "As of 2026-11-27T22:30:05Z: our best is 224th of 534 teams at 0.279, the leader is at 0.554. Updated by a poller.",
+        "headline": "As of 2026-11-27T23:00:05Z: our best is 224th of 535 teams at 0.279, the leader is at 0.554. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
           "rank": 224,
-          "of": 534,
+          "of": 535,
           "best_score": 0.279,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
           "observed": "2026-11-27",
-          "note": "Read from the public leaderboard download at 2026-11-27T22:30:05Z."
+          "note": "Read from the public leaderboard download at 2026-11-27T23:00:05Z."
         },
         "entries": {
-          "used_today": 1,
+          "used_today": 2,
           "daily_limit": 5,
-          "total": 4,
+          "total": 5,
           "observed": "2026-11-27",
-          "note": "Today is Kaggle team Logical Arbitrage's count (4 left, lost at 23:59 UTC); the total is all entrants against the merge line. From the submission ledger."
+          "note": "Today is Kaggle team Logical Arbitrage's count (3 left, lost at 23:59 UTC); the total is all entrants against the merge line. From the submission ledger."
         },
         "running": [],
         "next": [
