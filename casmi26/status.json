@@ -4,26 +4,25 @@
   "title": "CASMI 2026: Molecule ID From Mass Spectra",
   "state": "live",
   "updated": "2026-11-26",
-  "headline": "Our best is 0.509. Lowering the promotion margin tied it. Lowering it further and widening candidate insertion scored 0.503.",
+  "headline": "Our best is 0.509 and tenth place is 0.532. Fragment Agreement moved five correct answers up and none down on a local panel.",
   "kaggle_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
   "deadline": "2026-12-14",
   "board": {
-    "rank": 847,
-    "of": 6055,
+    "rank": 876,
+    "of": 6084,
     "best_score": 0.509,
     "metric": "MRR@25 (mean reciprocal rank of the first correct molecule, top 25)",
     "higher_is_better": true,
     "observed": "2026-11-26"
   },
   "entries": {
-    "used_today": 5,
+    "used_today": 0,
     "daily_limit": 5,
     "total": 84,
     "observed": "2026-11-26"
   },
   "running": [],
   "next": [
-    "Check the scored versions of Raja\u2019s adduct gate and Exp338\u2019s candidate generator",
-    "Reconcile the public-set denominator before converting score contributions into molecule counts"
+    "Save and submit Fragment Agreement when Kaggle refreshes the GPU quota Friday at 7 p.m. Eastern"
   ]
 }

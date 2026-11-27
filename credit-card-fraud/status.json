@@ -4,25 +4,25 @@
   "title": "Predicting Credit Card Fraud",
   "state": "live",
   "updated": "2026-11-26",
-  "headline": "Our verified public ROC AUC is 0.95578, up from 0.95337. The latest Kaggle snapshot placed us 171st of 3,248 teams.",
+  "headline": "Our verified public ROC AUC is 0.95578. Davut\u2019s standalone stack scored 0.95308 and the 60% blend scored 0.95573.",
   "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
   "deadline": "2026-11-30",
   "board": {
-    "rank": 171,
-    "of": 3248,
+    "rank": 186,
+    "of": 3288,
     "best_score": 0.95578,
     "metric": "AUC (area under the ROC curve)",
     "higher_is_better": true,
     "observed": "2026-11-26"
   },
   "entries": {
-    "used_today": 10,
+    "used_today": 2,
     "daily_limit": 10,
-    "total": 73,
+    "total": 75,
     "observed": "2026-11-26"
   },
   "running": [],
   "next": [
-    "At the November 27 UTC reset, score the fixed-round lower-band specialist on 041."
+    "Use the 0.95578 baseline for the next risk-band specialist in the November 27 UTC window."
   ]
 }
