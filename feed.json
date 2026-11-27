@@ -13,24 +13,23 @@
         "contest": "name-that-llm",
         "title": "Name That LLM",
         "state": "live",
-        "updated": "2026-11-26",
-        "headline": "Best 0.724 unchanged; rank 460 of 7195 (was 156) at 2026-11-26 18:01 EST. Five-model data gave no board gain (0.719 to 0.720) but lifted a strong reader +0.55 pp in validation. Data batches $57.71 provisional; rentals cached.",
+        "updated": "2026-11-27",
+        "headline": "Best 0.724, rank 541 of 7,212 at 05:59 UTC. Tenth place was 0.781. Two entries await scores and all five daily slots have been used. The Kaggle GPU quota refreshes at 7 p.m. Eastern on November 27.",
         "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
         "deadline": "2027-01-13",
         "board": {
-          "rank": 460,
-          "of": 7195,
+          "rank": 541,
+          "of": 7212,
           "best_score": 0.724,
           "metric": "balanced accuracy",
           "higher_is_better": true,
-          "observed": "2026-11-26"
+          "observed": "2026-11-27"
         },
         "entries": {
-          "used_today": null,
-          "daily_limit": null,
-          "total": 51,
-          "observed": "2026-11-26",
-          "note": "today's count and the daily limit are not recorded in the scorecard feeds; total is the Kaggle submission count on the last board read"
+          "used_today": 5,
+          "daily_limit": 5,
+          "total": 56,
+          "observed": "2026-11-27"
         },
         "spend": {
           "spent": 19.499,
@@ -214,17 +213,17 @@
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
         "updated": "2026-11-27",
-        "headline": "As of 2026-11-27T05:00:08Z: our best is 179th of 463 teams at 0.279, the leader is at 0.477. Updated by a poller.",
+        "headline": "As of 2026-11-27T06:00:07Z: our best is 181st of 468 teams at 0.279, the leader is at 0.477. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
-          "rank": 179,
-          "of": 463,
+          "rank": 181,
+          "of": 468,
           "best_score": 0.279,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
           "observed": "2026-11-27",
-          "note": "Read from the public leaderboard download at 2026-11-27T05:00:08Z."
+          "note": "Read from the public leaderboard download at 2026-11-27T06:00:07Z."
         },
         "entries": {
           "used_today": 0,
