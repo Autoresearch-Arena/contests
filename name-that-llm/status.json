@@ -8,8 +8,8 @@
   "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
   "deadline": "2027-01-13",
   "board": {
-    "rank": 550,
-    "of": 7216,
+    "rank": 633,
+    "of": 7244,
     "best_score": 0.724,
     "metric": "balanced accuracy",
     "higher_is_better": true,
