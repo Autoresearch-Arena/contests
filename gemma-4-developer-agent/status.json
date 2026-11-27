@@ -3,8 +3,8 @@
   "contest": "gemma-4-developer-agent",
   "title": "Gemma 4 Developer Agent",
   "state": "live",
-  "updated": "2026-11-26",
-  "headline": "Best public score is still 0.18. The small-model retry entry has been pending about a day with no score.",
+  "updated": "2026-11-27",
+  "headline": "Best public score is still 0.18. The small-model retry scored 0.05; a new 31B entry is pending.",
   "kaggle_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
   "deadline": "2026-12-02",
   "board": {
@@ -19,8 +19,8 @@
   "entries": {
     "used_today": 0,
     "daily_limit": 1,
-    "total": 31,
-    "observed": "2026-11-26"
+    "total": 32,
+    "observed": "2026-11-27"
   },
   "running": [
     "Speed test of the small model against the 31B",
