@@ -14,12 +14,12 @@
         "title": "Name That LLM",
         "state": "live",
         "updated": "2026-11-27",
-        "headline": "Best 0.724, rank 550 of 7,216 at 06:27 UTC. Tenth place was 0.783. Two entries await scores and all five daily slots have been used. The Kaggle GPU quota refreshes at 7 p.m. Eastern on November 27.",
+        "headline": "Best 0.724, rank 678 of 7,258 at 12:12 p.m. Eastern on November 27. Tenth place was 0.786. All five submissions have scored. Kaggle GPU hours and submission slots reset at 7 p.m. Eastern.",
         "kaggle_url": "https://www.kaggle.com/competitions/name-that-llm",
         "deadline": "2027-01-13",
         "board": {
-          "rank": 647,
-          "of": 7246,
+          "rank": 678,
+          "of": 7258,
           "best_score": 0.724,
           "metric": "balanced accuracy",
           "higher_is_better": true,
@@ -39,12 +39,13 @@
           "observed": "2026-11-10",
           "note": "Selected rental subtotal only; Rentals cached (Qwen 11 Nov, GLM 10 Nov), no fresh bill. Data $57.71 provisional from call receipts 26 Nov 18:00 EST. Rentals: Qwen cached 11 Nov 08:58 EST; GLM cached 10 Nov 14:25 EST; no fresh billing receipt, later charges and settlement unknown. Synthetic data on OpenRouter is provisional, summed from each run's own per-call usage receipts at 2026-11-26 18:00 EST, not an invoice: five-model pair-fill $36.395 (GLM pair $1.921, Kimi/Qwen/Gemini $34.474), GLM five-thousand $20.520 over three runs, a small bilingual test $0.799. Free Claude passages came through the subscription; Jethro GPU time is our own machine. Separate caps: Qwen rental cap 18.961 of 24; GLM rental cap 0.538 of 10; Creative usage + reserve exposure 8.953572 of 10; Matched pilot usage (separate cap) 6.4604236554 of 8; Matched release usage (includes reused pilot) 7.1901436959 of 10; Pair-fill GLM pair usage 1.921 of 6; Pair-fill Kimi, Qwen, Gemini usage 34.474 of 36; GLM five-thousand usage (three runs) 20.52 of 26; Bilingual test usage 0.799 of 3. Creative wave one usage $6.051409 plus reserve $0.175014 cached 10 Nov; combined waves usage-or-reserve $8.953572 under $10 cap, not settled or itemized for wave two. Historical API separate."
         },
-        "running": [],
+        "running": [
+          "Jethro is reading 520 independent passages with the full Kimi model.",
+          "The Kaggle TPU sibling comparison is queued."
+        ],
         "next": [
-          "Running on Jethro: our passages mixed in at twice the share (0.8), three seeds; then the 19,557 GLM five-thousand passages on the same reader, queued behind it (QUEUE.md).",
-          "Build a board entry from the best strong reader (all our passages mixed) as a new member of the 0.724 notebook, not another svc4-pool refit, which scored flat (0.719 to 0.720).",
-          "Decisions for the Boss: push dataset version 2 public (prepared, not run), and whether to buy about 2,000 more Gemini 3.7 Flash answers (about $21); neither is started.",
-          "Claude Fable 5 probe: Fable is hard to name because of how it writes (host Fable named right 8.7%, ours 7.4%), so more Fable text is not the fix."
+          "Measure the offline runtime and memory of the two prepared dual-T4 candidates.",
+          "Finish the full-depth Kimi reads and check whether they correct held-out authors."
         ]
       },
       "note": null
@@ -213,17 +214,17 @@
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
         "updated": "2026-11-27",
-        "headline": "As of 2026-11-27T16:30:06Z: our best is 211th of 510 teams at 0.279, the leader is at 0.477. Updated by a poller.",
+        "headline": "As of 2026-11-27T17:00:05Z: our best is 212th of 511 teams at 0.279, the leader is at 0.477. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
-          "rank": 211,
-          "of": 510,
+          "rank": 212,
+          "of": 511,
           "best_score": 0.279,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
           "observed": "2026-11-27",
-          "note": "Read from the public leaderboard download at 2026-11-27T16:30:06Z."
+          "note": "Read from the public leaderboard download at 2026-11-27T17:00:05Z."
         },
         "entries": {
           "used_today": 1,
