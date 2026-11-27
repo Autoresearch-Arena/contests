@@ -1,6 +1,6 @@
 {
   "schema": "contest-feed/1",
-  "built": "2026-11-26",
+  "built": "2026-11-27",
   "contests": [
     {
       "slug": "name-that-llm",
@@ -137,27 +137,27 @@
         "contest": "credit-card-fraud",
         "title": "Predicting Credit Card Fraud",
         "state": "live",
-        "updated": "2026-11-26",
-        "headline": "Our verified public ROC AUC is 0.95578. Davut\u2019s standalone stack scored 0.95308 and the 60% blend scored 0.95573.",
+        "updated": "2026-11-27",
+        "headline": "Our best verified public ROC AUC is 0.95579, achieved by the merchant-risk correction in slot 059.",
         "kaggle_url": "https://www.kaggle.com/competitions/playground-series-s6e11",
         "deadline": "2026-11-30",
         "board": {
-          "rank": 186,
-          "of": 3288,
-          "best_score": 0.95578,
+          "rank": 188,
+          "of": 3295,
+          "best_score": 0.95579,
           "metric": "AUC (area under the ROC curve)",
           "higher_is_better": true,
-          "observed": "2026-11-26"
+          "observed": "2026-11-27"
         },
         "entries": {
-          "used_today": 2,
+          "used_today": 10,
           "daily_limit": 10,
-          "total": 75,
-          "observed": "2026-11-26"
+          "total": 83,
+          "observed": "2026-11-27"
         },
         "running": [],
         "next": [
-          "Use the 0.95578 baseline for the next risk-band specialist in the November 27 UTC window."
+          "A four-epoch RealMLP candidate is prepared for the November 28 UTC window."
         ]
       },
       "note": null
@@ -206,31 +206,31 @@
       "slug": "garc",
       "title": "Generalist Gaming Agent (GARC)",
       "state": "live",
-      "source": "kept",
+      "source": "fresh",
       "page": "garc/",
       "status": {
         "schema": "contest-status/1",
         "contest": "garc",
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
-        "updated": "2026-11-26",
-        "headline": "As of 2026-11-26T23:30:06Z: our best is 159th of 438 teams at 0.278, the leader is at 0.408. Updated by a poller.",
+        "updated": "2026-11-27",
+        "headline": "As of 2026-11-27T05:00:08Z: our best is 179th of 463 teams at 0.279, the leader is at 0.477. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
-          "rank": 159,
-          "of": 438,
-          "best_score": 0.278,
+          "rank": 179,
+          "of": 463,
+          "best_score": 0.279,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
-          "observed": "2026-11-26",
-          "note": "Read from the public leaderboard download at 2026-11-26T23:30:06Z."
+          "observed": "2026-11-27",
+          "note": "Read from the public leaderboard download at 2026-11-27T05:00:08Z."
         },
         "entries": {
           "used_today": 0,
           "daily_limit": 5,
           "total": 3,
-          "observed": "2026-11-26",
+          "observed": "2026-11-27",
           "note": "Today is Kaggle team Logical Arbitrage's count (5 left, lost at 23:59 UTC); the total is all entrants against the merge line. From the submission ledger."
         },
         "running": [],
