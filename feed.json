@@ -1,6 +1,6 @@
 {
   "schema": "contest-feed/1",
-  "built": "2026-11-27",
+  "built": "2026-11-28",
   "contests": [
     {
       "slug": "name-that-llm",
@@ -206,32 +206,32 @@
       "slug": "garc",
       "title": "Generalist Gaming Agent (GARC)",
       "state": "live",
-      "source": "kept",
+      "source": "fresh",
       "page": "garc/",
       "status": {
         "schema": "contest-status/1",
         "contest": "garc",
         "title": "Generalist Gaming Agent (GARC)",
         "state": "live",
-        "updated": "2026-11-27",
-        "headline": "As of 2026-11-27T23:30:06Z: our best is 225th of 539 teams at 0.279, the leader is at 0.554. Updated by a poller.",
+        "updated": "2026-11-28",
+        "headline": "As of 2026-11-28T05:00:04Z: our best is 192nd of 559 teams at 0.316, the leader is at 0.588. Updated by a poller.",
         "kaggle_url": "https://www.kaggle.com/competitions/generalist-gaming-agent",
         "deadline": "2027-03-01",
         "board": {
-          "rank": 225,
-          "of": 539,
-          "best_score": 0.279,
+          "rank": 192,
+          "of": 559,
+          "best_score": 0.316,
           "metric": "Public score (higher is better)",
           "higher_is_better": true,
-          "observed": "2026-11-27",
-          "note": "Read from the public leaderboard download at 2026-11-27T23:30:06Z."
+          "observed": "2026-11-28",
+          "note": "Read from the public leaderboard download at 2026-11-28T05:00:04Z."
         },
         "entries": {
-          "used_today": 2,
+          "used_today": 0,
           "daily_limit": 5,
-          "total": 5,
-          "observed": "2026-11-27",
-          "note": "Today is Kaggle team Logical Arbitrage's count (3 left, lost at 23:59 UTC); the total is all entrants against the merge line. From the submission ledger."
+          "total": 7,
+          "observed": "2026-11-28",
+          "note": "Today is Kaggle team Logical Arbitrage's count (5 left, lost at 23:59 UTC); the total is all entrants against the merge line. From the submission ledger."
         },
         "running": [],
         "next": [
